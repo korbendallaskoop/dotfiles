@@ -133,12 +133,20 @@ alias rsx='redshift -x'    # kill
 # via DistroTube
 
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
-alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
-alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached' # remove file or folder from repo
 
+# add a file or folder to repo:
+alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
+# or remove:
+alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached'
+
+# change and commit status:
 alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
-alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v' # show textual staged to be committed and changes in the working tree that have not yet been staged
-alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master' # list all repo'd files, or dirs only by adding -d to
+# show textual staged edits to be committed and changes in the working tree that have not yet been staged:
+alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v'
+# list all repo'd files:
+alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
+# add -d to list folders only
+# and | grep <string> to search within list
 
 alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
@@ -147,10 +155,10 @@ alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
 alias cfp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME'
 alias cfpa='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME add'
-alias cfpr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached' # remove file or folder from repo
+alias cfpr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached'
 
 alias cfps='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME status'
-alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v' # show textual staged to be committed and changes in the working tree that have not yet been staged
+alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v'
 alias cfpl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master' # list all repo'd files, or dirs only by adding -d to
 
 alias cfpc='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME commit -a'

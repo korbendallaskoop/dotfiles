@@ -129,15 +129,35 @@ https://opensource.com/article/19/3/move-your-dotfiles-version-control
 
 >git index work-tree in $HOME path preserves filesystem hierarchy which makes restore and migration as simple as re-imaging by disk. Adding files to the index on the fly is trivial. Cloud services may have limits or obscure settings for small file sizes. Github can be SSH'd.
 
+### bare borders
+
+>We recommend repositories be kept under 1GB each.
+
+>In addition, we place a strict limit of files exceeding 100 MB in size.
+
+>Git is not adequately designed to serve as a backup tool.
+
+https://help.github.com/en/articles/what-is-my-disk-quota#file-and-repository-size-limitations
+
 ### .bashrc aliases
 
-alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
-alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
-alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached' # remove file or folder from repo
+	alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
 
-alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
-alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v' # show textual staged to be committed and changes in the working tree that have not yet been staged
-alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master' # list all repo'd files, or dirs only by adding -d to
+	# add a file or folder to repo:
+	alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
+	# or remove:
+	alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached'
 
-alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
-alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
+	# change and commit status:
+	alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
+
+	# show textual staged edits to be committed and changes in the working tree that have not yet been staged:
+	alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v'
+
+	# list all repo'd files:
+	alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
+	# add -d to list folders only
+	# and | grep <string> to search within list
+
+	alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
+	alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'

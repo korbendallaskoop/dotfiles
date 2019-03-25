@@ -53,26 +53,28 @@ alias ...='cd ../..' # 2 steps back
 alias ....='cd ../../..' # 3 steps back
 
 #-------------------------------------------------------------
-# The 'ls' family (this assumes you use a recent GNU ls).
-# Add colors for filetype and  human-readable sizes by default on 'ls':
+# trimming RMS' and MacKenzies beast
 
-alias ls='ls -h --color'
-alias lx='ls -lXB'         #  Sort by extension.
-alias lk='ls -lSr'         #  Sort by size, biggest last.
-alias lt='ls -ltr'         #  Sort by date, most recent last.
-alias lc='ls -ltcr'        #  Sort by/show change time,most recent last.
-alias lu='ls -ltur'        #  Sort by/show access time,most recent last.
+alias ls='ls -h'
+alias l.='ls -lhXB'   #  Sort by extension
+alias lk='ls -hSro'   #  Sort by size, biggest last. Use du for summarized output
+alias lt='ls -lthro'  #  Sort by date, most recent last
+
+alias lc='ls -ltchr'  #  Sort by/show change time,most recent last.
+alias lu='ls -lturh'  #  Sort by/show access time,most recent last.
 
 # The ubiquitous 'll': directories first, with alphanumeric sorting:
-alias ll="ls -AlgvG --group-directories-first"
-alias lm='ls -lv --group-directories-first'
-alias lr='ll -R'           #  Recursive ls.
-alias la='ll -A'           #  Show hidden files.
+alias ll="ls -logvGh --group-directories-first"
+alias la='ll -CA'           #  Show hidden files.
+
+alias lf='ls -lv --group-directories-first'
+alias lr='ll -Rh'           #  Recursive ls.
 
 alias tree='tree -Csuh'    #  Nice alternative to 'recursive ls' ...
 
 #-------------------------------------------------------------
 
+# yes we can
 alias cm='./configure && make'    #
 alias smi='sudo make install'    #
 

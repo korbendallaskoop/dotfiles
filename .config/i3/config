@@ -46,6 +46,8 @@ assign [class="Io.elementary.terminal"] $ws3
 assign [class="Mate-terminal"] $ws3
 
 assign [class="Riot"] $ws4
+assign [class="Thunderbird"] $ws4
+assign [class="konversation"] $ws4
 
 assign [class="Rhythmbox"] $ws9
 assign [class="Com.github.needle-and-thread.vocal"] $ws9
