@@ -3,7 +3,6 @@
   |   |
 --|---|--
   |   |  
-  |   |  
 
 ### workflow gotchas
 
@@ -124,7 +123,6 @@ reload i3 config file `shift c`
 backup, redshifter, USB mounter,
 https://github.com/terminalforlife/i3config
 
-
 output of
 i3-msg -t get_marks
 because I automatically number my terminals, editor windows and browser tabs using marks.
@@ -132,12 +130,10 @@ Marks mostly avoid the need for HJKL style navigation and arrangement.
 https://www.reddit.com/r/i3wm/comments/8jpa4m/what_cool_things_do_you_guys_have_on_your/
 
 
-# Workspaces are ordered by their number if you defined one
-# otherwise new workspaces are appended to the end.
-# So if you want a specific order, prefix them with 1: etc.
-# use strip_workspace_numbers to hide the number from i3bar if you want.
-# pango markup caused this for you since now you have unnumbered workspaces.
-# So it'd have to be 1:<b>1</b>
+    Workspaces are ordered by their number if you defined one
+    otherwise new workspaces are appended to the end.
+    if you want a specific order, prefix them with 1: etc.
+    use strip_workspace_numbers to hide the number from i3bar if you want.
 
 ### Code Cast i3wm guide
 - https://www.youtube.com/watch?v=ARKIwOlazKI&
@@ -146,8 +142,6 @@ https://www.reddit.com/r/i3wm/comments/8jpa4m/what_cool_things_do_you_guys_have_
   - https://youtu.be/8-S0cWnLBKg?t=1490
   - find an app windows class with xprop
   - assign [class] workspace
-
-
 
 - dropin terminal
 - gnome terminal replace
@@ -173,9 +167,6 @@ default apps for nnn/ranger
 https://www.reddit.com/r/i3wm/comments/a3qqth/which_programms_alongside_i3/
 
 https://terminalsare.sexy
-
-
-
 
 ### maester luke sez
 

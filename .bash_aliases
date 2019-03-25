@@ -137,3 +137,11 @@ alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
 alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
 alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
+
+# .cfg_bckp.pri private dotfiles backup
+
+alias cfp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME'
+alias cfps='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME status'
+alias cfpa='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME add'
+alias cfpc='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME commit -a'
+alias cfpp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME push'

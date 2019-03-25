@@ -18,11 +18,11 @@ The bare repo is empty on the local disk. Any file within its $HOME work-tree ca
 
 init a git bare repo folder to track the backup files
 
-	git init --bare $HOME/.cfg_bckup
+	git init --bare $HOME/.cfg_bckp
 
 create an alias to use instead of the regular git to interact with repo
 
-	alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckup/ --work-tree=$HOME'
+	alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
 
 hide untracked files from cfg status and other commands
 
@@ -65,21 +65,23 @@ download dotfiles and just copy locally what's needed:
 
 		    git clone https://github.com/korbendallaskoop/dotfiles
 
-to migrate all dotfiles and folders 1:1 from bare repo to new $HOME, prep:
+or rsync all of them to new $HOME by --separate-git-dir as https://github.com/Siilwyn/my-dotfiles/tree/master/.my-dotfiles
 
-		mkdir ~/.cfg_bckup
+or git checkout all dotfiles and folders 1:1 from cloned bare repo to new $HOME:
+
+		mkdir ~/.cfg_bckp
 
 alias cfg git again and git up $HOME
 
-    alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckup/ --work-tree=$HOME'
+    alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
 
 source repo to ignore the folder where it's cloned to avoid recursions:
 
-    echo ".cfg_bckup" >> .gitignore
+    echo ".cfg_bckp" >> .gitignore
 
 bare repo clone
 
-    git clone --bare https://github.com/korbendallaskoop/dotfiles $HOME/.cfg_bckup
+    git clone --bare https://github.com/korbendallaskoop/dotfiles $HOME/.cfg_bckp
 
 checkout actual content from the bare repo to new $HOME:
 
@@ -122,3 +124,7 @@ done!
 
 >Anything that is a security risk, like files in your .ssh/ folder....double-check before publishing them online and triple-check that no API tokens are in your files.
 https://opensource.com/article/19/3/move-your-dotfiles-version-control
+
+### Why not back by any other sync/cloud method?
+
+>git index work-tree in $HOME path preserves filesystem hierarchy which makes restore and migration as simple as re-imaging by disk. Adding files to the index on the fly is trivial. Cloud services may have limits or obscure settings for small file sizes. Github can be SSH'd. 
