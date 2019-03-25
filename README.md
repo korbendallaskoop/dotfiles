@@ -35,21 +35,21 @@ any file within the $HOME folder can be versioned with normal git commands, repl
 	cfg add .bashrc
 	cfg commit -m "added bashrc"
 
-remove a file from repo with rm
+remove a file from repo with rm --cached
 
-	cfg rm .bashrc
+	cfg rm .bashrc --cached
 
 or a folder with -r
 
-	cfg rm folder -r
+	cfg rm .config/folder -r --cached
 
 ## push the bare
 
 add remote branch before first push
 
-    cfg remote add master https://github.com/korbendallaskoop/dotfiles
+    cfg remote add origin https://github.com/korbendallaskoop/dotfiles
 
-	cfg push --set-upstream master master
+	cfg push --set-upstream origin master
 
 	cfg add .anotherfile
 	cfg commit -m "on it goes"
@@ -127,4 +127,17 @@ https://opensource.com/article/19/3/move-your-dotfiles-version-control
 
 ### Why not back by any other sync/cloud method?
 
->git index work-tree in $HOME path preserves filesystem hierarchy which makes restore and migration as simple as re-imaging by disk. Adding files to the index on the fly is trivial. Cloud services may have limits or obscure settings for small file sizes. Github can be SSH'd. 
+>git index work-tree in $HOME path preserves filesystem hierarchy which makes restore and migration as simple as re-imaging by disk. Adding files to the index on the fly is trivial. Cloud services may have limits or obscure settings for small file sizes. Github can be SSH'd.
+
+### .bashrc aliases
+
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
+alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
+alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached' # remove file or folder from repo
+
+alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
+alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v' # show textual staged to be committed and changes in the working tree that have not yet been staged
+alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master' # list all repo'd files, or dirs only by adding -d to
+
+alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
+alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'

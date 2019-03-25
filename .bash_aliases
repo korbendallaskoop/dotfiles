@@ -133,15 +133,25 @@ alias rsx='redshift -x'    # kill
 # via DistroTube
 
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
-alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
 alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
+alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached' # remove file or folder from repo
+
+alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
+alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v' # show textual staged to be committed and changes in the working tree that have not yet been staged
+alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master' # list all repo'd files, or dirs only by adding -d to
+
 alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
-# .cfg_bckp.pri private dotfiles backup
+# .cfg_bckp.pri private dotfiles backup repo
 
 alias cfp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME'
-alias cfps='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME status'
 alias cfpa='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME add'
+alias cfpr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached' # remove file or folder from repo
+
+alias cfps='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME status'
+alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v' # show textual staged to be committed and changes in the working tree that have not yet been staged
+alias cfpl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master' # list all repo'd files, or dirs only by adding -d to
+
 alias cfpc='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME commit -a'
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME push'
