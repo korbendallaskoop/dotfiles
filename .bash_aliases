@@ -151,15 +151,15 @@ alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -t
 alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
-# .cfg_bckp.pri private dotfiles backup repo
+####### .cfg_bckp.pri private dotfiles backup repo
 
 alias cfp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME'
 alias cfpa='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME add'
-alias cfpr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached'
+alias cfpr='/usr/bin/git --git-dir=$HOME/cfg_bckp.pri/ --work-tree=$HOME rm -r --cached'
 
 alias cfps='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME status'
-alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v'
-alias cfpl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master' # list all repo'd files, or dirs only by adding -d to
+alias cfpsv='/usr/bin/git --git-dir=$HOME/cfg_bckp.pri/ --work-tree=$HOME status -v -v'
+alias cfpl='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
 
 alias cfpc='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME commit -a'
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME push'

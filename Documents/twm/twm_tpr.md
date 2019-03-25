@@ -9,8 +9,11 @@
 - booker sez: express intent very clearly by pinning certain apps to workspaces (as in KDE activities)
 - fwm alt tabbing and switching is mind taxing and visual noise! and probably too slow even with decent workspaces layout
 - it's also a waste of screen estate
+- ergonomics, caps-lock
 
 ## i3 kbis
+
+caps
 
 **bindsym Mod + .....:**
 
@@ -95,11 +98,13 @@ reload i3 config file `shift c`
   - https://github.com/terminalforlife/miscellaneous/blob/master/compton.conf
   - https://github.com/terminalforlife/miscellaneous/blob/master/redshifter
   -
-- AUDIO: castero, podboat (queue for newsboat)
+- AUDIO: castero, podboat (queue for newsboat, Luke brur entr)
+  - mixer elr hotkeys on app in focus 
 - VIDEO: youtube-viewer
 
 - MISSING:
   - touch click
+-
 
 ### i3 howto and 2tst/try...?
 
@@ -163,6 +168,10 @@ Newsboat
 default apps for nnn/ranger
 - vbx r i FF
 - zip vist ogsaa
+
+https://www.reddit.com/r/unixporn/comments/ayu246/oci3dmenu_simple_script_for_showing_your_i3/
+
+
 
 https://www.reddit.com/r/i3wm/comments/a3qqth/which_programms_alongside_i3/
 
