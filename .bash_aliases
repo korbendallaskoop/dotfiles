@@ -155,7 +155,7 @@ alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
 alias cfp='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME'
 alias cfpa='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME add'
-alias cfpr='/usr/bin/git --git-dir=$HOME/cfg_bckp.pri/ --work-tree=$HOME rm -r --cached'
+alias cfpr='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME rm -r --cached'
 
 alias cfps='/usr/bin/git --git-dir=$HOME/.cfg_bckp.pri/ --work-tree=$HOME status'
 alias cfpsv='/usr/bin/git --git-dir=$HOME/cfg_bckp.pri/ --work-tree=$HOME status -v -v'
