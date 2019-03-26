@@ -1,0 +1,54 @@
+{
+  "_from": "https://www.atom.io/api/packages/browser-plus-zoom/versions/0.0.2/tarball",
+  "_id": "browser-plus-zoom@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-AO2iOUWV/3wiCHL+D+oxZ6ME/NX2jeNg6gXfGkJDI5NwFmaaO/bcKiMMp40DUv0aN/7/dLvAF7ilsSFDhBGNmQ==",
+  "_location": "/browser-plus-zoom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/browser-plus-zoom/versions/0.0.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/browser-plus-zoom/versions/0.0.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/browser-plus-zoom/versions/0.0.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/browser-plus-zoom/versions/0.0.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/browser-plus-zoom/versions/0.0.2/tarball",
+  "_shasum": "d54bcfeceeec9c79cf9113fa6a0eb087c3af036d",
+  "_spec": "https://www.atom.io/api/packages/browser-plus-zoom/versions/0.0.2/tarball",
+  "_where": "/tmp/apm-install-dir-119218-5614-xqmu1k.m2hn",
+  "bugs": {
+    "url": "https://github.com/skandasoft/browser-plus-zoom/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "browser-plus": {
+      "versions": {
+        ">=0.0.0": "consumeAddPlugin"
+      }
+    }
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "zoom-in/zoom-out for Browser Plus",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/skandasoft/browser-plus-zoom#readme",
+  "keywords": [
+    "browser-plus",
+    "zoom-in",
+    "zoom-out"
+  ],
+  "license": "MIT",
+  "main": "./lib/browser-plus-zoom",
+  "name": "browser-plus-zoom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skandasoft/browser-plus-zoom.git"
+  },
+  "version": "0.0.2"
+}

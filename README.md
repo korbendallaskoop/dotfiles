@@ -81,7 +81,7 @@ source repo to ignore the folder where it's cloned to avoid recursions:
 
 bare repo clone
 
-    git clone --bare https://github.com/korbendallaskoop/dotfiles $HOME/.cfg_bckp
+    cfg clone --bare https://github.com/korbendallaskoop/dotfiles $HOME/.cfg_bckp
 
 checkout actual content from the bare repo to new $HOME:
 
@@ -94,7 +94,9 @@ might fail with a message like:
           .gitignore
       Please move or remove....
 
-$HOME folder might already have config files which would be overwritten by git
+$HOME folder might already have config files which would be overwritten by git without -f
+
+	cfg checkout -f
 
 remove them or move offending files to a backup folder:
 

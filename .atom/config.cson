@@ -1,0 +1,20 @@
+"*":
+  core:
+    audioBeep: false
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    fontSize: 17
+  "exception-reporting":
+    userId: "c776470a-0735-4da2-a3ef-df4478b2e8f0"
+  "markdown-image-assistant":
+    insertHtmlOverMarkdown: true
+  "markdown-image-paste":
+    use_subfolder: true
+  "tool-bar":
+    visible: false
+  welcome:
+    showOnStartup: false

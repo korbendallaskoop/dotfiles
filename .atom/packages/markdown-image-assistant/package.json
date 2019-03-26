@@ -1,0 +1,51 @@
+{
+  "_from": "https://www.atom.io/api/packages/markdown-image-assistant/versions/0.2.2/tarball",
+  "_id": "markdown-image-assistant@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-YclJZiXMUARHopC++oW04qmSIKpFJ5I0a7Upnz57aadbMt5/dJBr1aAx+wugMRvSaiI8cjpZxSVm3R2WJdkX8A==",
+  "_location": "/markdown-image-assistant",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/markdown-image-assistant/versions/0.2.2/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/markdown-image-assistant/versions/0.2.2/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/markdown-image-assistant/versions/0.2.2/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/markdown-image-assistant/versions/0.2.2/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/markdown-image-assistant/versions/0.2.2/tarball",
+  "_shasum": "8b17d377b0292c5876fab6bc1d9a52f07d17c456",
+  "_spec": "https://www.atom.io/api/packages/markdown-image-assistant/versions/0.2.2/tarball",
+  "_where": "/tmp/apm-install-dir-119219-12890-jxfqem.eaqn",
+  "bugs": {
+    "url": "https://github.com/tlnagy/atom-markdown-image-assistant/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Add sane drag and drop and copy/paste support for images to markdown files",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/tlnagy/atom-markdown-image-assistant#readme",
+  "keywords": [
+    "markdown",
+    "drag",
+    "drop",
+    "image",
+    "embed",
+    "copy",
+    "paste"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "markdown-image-assistant",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlnagy/atom-markdown-image-assistant.git"
+  },
+  "version": "0.2.2"
+}

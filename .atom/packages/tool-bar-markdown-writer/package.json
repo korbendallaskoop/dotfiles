@@ -1,0 +1,61 @@
+{
+  "_from": "https://www.atom.io/api/packages/tool-bar-markdown-writer/versions/0.5.0/tarball",
+  "_id": "tool-bar-markdown-writer@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-mFovGT9t5k5WYBN43e+ECrjQCw3cfzm1+zFqndW2HCbyZlBGSviXh6xd7KFVgb7jDyBgAyIAp6hYOTgxxWffng==",
+  "_location": "/tool-bar-markdown-writer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/tool-bar-markdown-writer/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/tool-bar-markdown-writer/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/tool-bar-markdown-writer/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/tool-bar-markdown-writer/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/tool-bar-markdown-writer/versions/0.5.0/tarball",
+  "_shasum": "e10327f1062645c46086bf668f345e1610f2841e",
+  "_spec": "https://www.atom.io/api/packages/tool-bar-markdown-writer/versions/0.5.0/tarball",
+  "_where": "/tmp/apm-install-dir-119218-5484-9jpfeu.ajdt",
+  "bugs": {
+    "url": "https://github.com/zhuochun/tool-bar-md-writer/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.3.1"
+  },
+  "deprecated": false,
+  "description": "A tool-bar plugin that adds Markdown editing actions",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/zhuochun/tool-bar-md-writer#readme",
+  "keywords": [
+    "tool-bar",
+    "markdown",
+    "markdown-writer",
+    "writing"
+  ],
+  "license": "MIT",
+  "main": "./lib/tool-bar-markdown-writer",
+  "name": "tool-bar-markdown-writer",
+  "package-deps": [
+    "tool-bar",
+    "markdown-writer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuochun/tool-bar-md-writer.git"
+  },
+  "version": "0.5.0"
+}

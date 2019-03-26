@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rawstudio-lens-database>
+ <lens>
+  <identifier>make:Microsoft model:Lumia 950 </identifier>
+  <camera-make>Microsoft</camera-make>
+  <camera-model>Lumia 950</camera-model>
+  <enabled>TRUE</enabled>
+  <defish>FALSE</defish>
+ </lens>
+</rawstudio-lens-database>
