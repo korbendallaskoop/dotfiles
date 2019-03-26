@@ -43,7 +43,7 @@ assign [class="qutebrowser"] $ws1
 assign [class="Atom"] $ws2
 
 assign [class="Io.elementary.terminal"] $ws3
-assign [class="Mate-terminal"] $ws3
+#assign [class="Mate-terminal"] $ws3
 
 assign [class="Riot"] $ws4
 assign [class="Thunderbird"] $ws4
@@ -86,7 +86,7 @@ bindsym Print exec_always scrot '%d-%m-%Y_$wx$h.png' -e 'mv $f ~/Pictures/screen
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec mate-terminal
 
 # kill focused window
 bindsym $mod+q kill

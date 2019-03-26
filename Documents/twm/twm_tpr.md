@@ -99,14 +99,14 @@ reload i3 config file `shift c`
   - https://github.com/terminalforlife/miscellaneous/blob/master/redshifter
   -
 - AUDIO: castero, podboat (queue for newsboat, Luke brur entr)
-  - mixer elr hotkeys on app in focus 
+  - mixer elr hotkeys on app in focus
 - VIDEO: youtube-viewer
 
 - MISSING:
   - touch click
 -
 
-### i3 howto and 2tst/try...?
+## i3 scripting howto 2tst/try
 
 - screenshot'r ?
 - feh for wallpaper
@@ -140,6 +140,17 @@ https://www.reddit.com/r/i3wm/comments/8jpa4m/what_cool_things_do_you_guys_have_
     if you want a specific order, prefix them with 1: etc.
     use strip_workspace_numbers to hide the number from i3bar if you want.
 
+    - dropin terminal
+    - gnome terminal replace
+
+    I use i3wm and mostly Qt/KDE apps and I set my theming with qt5ct.
+
+    - Xdg-open handles this by default. I use Linopen as an alternative
+    -
+    - https://github.com/Anachron/i3blocks
+    - https://github.com/vivien/i3blocks-contrib
+    - https://github.com/LukeSmithxyz/voidrice/tree/master/.scripts/statusbar
+
 ### Code Cast i3wm guide
 - https://www.youtube.com/watch?v=ARKIwOlazKI&
 - lxappearance hack for gtk, .gtkrc-2.0
@@ -147,17 +158,6 @@ https://www.reddit.com/r/i3wm/comments/8jpa4m/what_cool_things_do_you_guys_have_
   - https://youtu.be/8-S0cWnLBKg?t=1490
   - find an app windows class with xprop
   - assign [class] workspace
-
-- dropin terminal
-- gnome terminal replace
-
-I use i3wm and mostly Qt/KDE apps and I set my theming with qt5ct.
-
-- Xdg-open handles this by default. I use Linopen as an alternative
--
-- https://github.com/Anachron/i3blocks
-- https://github.com/vivien/i3blocks-contrib
-- https://github.com/LukeSmithxyz/voidrice/tree/master/.scripts/statusbar
 
 ### apps/modules config notes
 
@@ -170,8 +170,6 @@ default apps for nnn/ranger
 - zip vist ogsaa
 
 https://www.reddit.com/r/unixporn/comments/ayu246/oci3dmenu_simple_script_for_showing_your_i3/
-
-
 
 https://www.reddit.com/r/i3wm/comments/a3qqth/which_programms_alongside_i3/
 

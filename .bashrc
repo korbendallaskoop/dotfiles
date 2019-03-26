@@ -65,7 +65,7 @@ alias lu='ls -lturh'  #  Sort by/show access time,most recent last.
 
 # The ubiquitous 'll': directories first, with alphanumeric sorting:
 alias ll="ls -logvGh --group-directories-first"
-alias la='ll -CA'           #  Show hidden files.
+alias la='ll -CAl'           #  Show hidden files.
 
 alias lf='ls -lv --group-directories-first'
 alias lr='ll -Rh'           #  Recursive ls.

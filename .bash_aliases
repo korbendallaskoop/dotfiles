@@ -151,15 +151,15 @@ alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -t
 alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
-####### .cfg_bckp_pri private dotfiles backup repo
+####### .cfp_bckp private dotfiles backup repo
 
-alias cfp='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME'
-alias cfpa='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME add'
-alias cfpr='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME rm -r --cached'
+alias cfp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME'
+alias cfpa='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME add'
+alias cfpr='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME rm -r --cached'
 
-alias cfps='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME status'
-alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME status -v -v'
-alias cfpl='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
+alias cfps='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME status'
+alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME status -v -v'
+alias cfpl='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
 
-alias cfpc='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME commit -a'
-alias cfpp='/usr/bin/git --git-dir=$HOME/.cfg_bckp_pri/ --work-tree=$HOME push'
+alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a'
+alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'

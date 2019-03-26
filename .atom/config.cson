@@ -2,10 +2,6 @@
   core:
     audioBeep: false
     telemetryConsent: "limited"
-    themes: [
-      "one-dark-ui"
-      "solarized-dark-syntax"
-    ]
   editor:
     fontSize: 17
   "exception-reporting":
@@ -14,6 +10,9 @@
     insertHtmlOverMarkdown: true
   "markdown-image-paste":
     use_subfolder: true
+  "one-dark-ui":
+    fontSize: 14
+    tabSizing: "Maximum"
   "tool-bar":
     visible: false
   welcome:
