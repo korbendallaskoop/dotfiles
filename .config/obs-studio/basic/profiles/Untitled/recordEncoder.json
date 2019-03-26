@@ -1,0 +1,8 @@
+{
+    "bitrate": 123456,
+    "keyint_sec": 2,
+    "preset": "medium",
+    "profile": "main",
+    "rate_control": "VBR",
+    "tune": ""
+}

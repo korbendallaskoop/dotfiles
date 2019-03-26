@@ -1,0 +1,179 @@
+12:47:06.079: CPU Name: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+12:47:06.080: CPU Speed: 2129.768MHz
+12:47:06.080: Physical Cores: 2, Logical Cores: 4
+12:47:06.080: Physical Memory: 11917MB Total, 761MB Free
+12:47:06.080: Kernel Version: Linux 4.20.10-111.current
+12:47:06.090: Distribution: "Solus" "3.9999"
+12:47:06.090: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.3
+12:47:06.117: Portable mode: false
+12:47:07.162: OBS 23.0.1 (linux)
+12:47:07.162: ---------------------------------
+12:47:07.503: ---------------------------------
+12:47:07.503: audio settings reset:
+12:47:07.503: 	samples per sec: 44100
+12:47:07.503: 	speakers:        2
+12:47:07.566: ---------------------------------
+12:47:07.566: Initializing OpenGL...
+12:47:07.715: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) Sandybridge Mobile 
+12:47:07.715: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.3, shading language 3.30
+12:47:08.509: ---------------------------------
+12:47:08.509: video settings reset:
+12:47:08.509: 	base resolution:   1280x800
+12:47:08.509: 	output resolution: 1280x800
+12:47:08.509: 	downscale filter:  Bilinear
+12:47:08.509: 	fps:               30/1
+12:47:08.509: 	format:            NV12
+12:47:08.509: 	YUV mode:          601/Partial
+12:47:08.510: NV12 texture support not available
+12:47:08.527: Audio monitoring device:
+12:47:08.527: 	name: Default
+12:47:08.527: 	id: default
+12:47:08.527: ---------------------------------
+12:47:08.617: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+12:47:09.945: No blackmagic support
+12:47:10.444: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+12:47:10.444: 
+12:47:10.444: FFMPEG VAAPI supported
+12:47:10.666: ---------------------------------
+12:47:10.666:   Loaded Modules:
+12:47:10.666:     text-freetype2.so
+12:47:10.666:     rtmp-services.so
+12:47:10.667:     obs-x264.so
+12:47:10.667:     obs-transitions.so
+12:47:10.667:     obs-outputs.so
+12:47:10.667:     obs-filters.so
+12:47:10.667:     obs-ffmpeg.so
+12:47:10.667:     linux-v4l2.so
+12:47:10.667:     linux-pulseaudio.so
+12:47:10.667:     linux-decklink.so
+12:47:10.667:     linux-capture.so
+12:47:10.667:     linux-alsa.so
+12:47:10.667:     image-source.so
+12:47:10.667:     frontend-tools.so
+12:47:10.667:     decklink-ouput-ui.so
+12:47:10.667: ---------------------------------
+12:47:10.728: ==== Startup complete ===============================================
+12:47:10.866: All scene data cleared
+12:47:10.866: ------------------------------------------------
+12:47:10.948: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+12:47:10.948: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+12:47:10.949: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+12:47:10.983: pulse-am: Prevented feedback-loop in 'default'
+12:47:10.984: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+12:47:10.984: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+12:47:10.984: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+12:47:11.056: xcompcap: [window-capture: 'Chrome'] update settings:
+12:47:11.056: 	title: OBS Studio 142 - How to get the BEST Possible Settings for Streaming & Recording (OBS Guide) - YouTube - Google Chrome
+12:47:11.056: 	class: google-chrome-beta
+12:47:11.056: 	Has alpha: yes
+12:47:11.056: 	Found proper GLXFBConfig: yes
+12:47:11.056: 
+12:47:11.089: xcompcap: [window-capture: 'Win7 VB'] update settings:
+12:47:11.089: 	title: Win 7 HP [Running] - Oracle VM VirtualBox
+12:47:11.089: 	class: VirtualBox Machine
+12:47:11.089: 	Has alpha: no
+12:47:11.089: 	Found proper GLXFBConfig: yes
+12:47:11.089: 
+12:47:11.106: xshm-input: Geometry 1280x800 @ 0,0
+12:47:11.519: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds (source: Desktop Audio)
+12:47:11.519: 
+12:47:11.851: Switched to scene 'mypaint kinski blend 2'
+12:47:11.851: ------------------------------------------------
+12:47:11.851: Loaded scenes:
+12:47:11.851: - scene '--bucket':
+12:47:11.851:     - source: 'Win7 VB' (xcomposite_input)
+12:47:11.851:     - source: 'Chrome' (xcomposite_input)
+12:47:11.851:     - source: 'MP titles' (xcomposite_input)
+12:47:11.851:     - source: 'Image' (image_source)
+12:47:11.851:     - source: 'yeah phone home' (image_source)
+12:47:11.851: - scene 'titles writer':
+12:47:11.851:     - source: 'blue screen' (group)
+12:47:11.851:         - filter: 'Chroma Key green' (chroma_key_filter)
+12:47:11.851:         - filter: 'blue screen' (color_key_filter)
+12:47:11.851:     - source: 'green screen' (group)
+12:47:11.851:         - filter: 'Chroma Key green' (chroma_key_filter)
+12:47:11.851:         - filter: 'blue screen' (color_key_filter)
+12:47:11.851: - scene 'mypaint greenscreen':
+12:47:11.852:     - source: 'mypaint bckgrnd' (xcomposite_input)
+12:47:11.852:         - filter: 'Chroma Key' (chroma_key_filter)
+12:47:11.852:     - source: 'Chrome' (xcomposite_input)
+12:47:11.852:     - source: 'MP titles' (xcomposite_input)
+12:47:11.852:     - source: 'Win7 VB' (xcomposite_input)
+12:47:11.852: - scene 'mypaint kinski blend':
+12:47:11.852:     - source: 'yeah phone home' (image_source)
+12:47:11.852:     - source: 'mypaint bckgrnd kinski' (xcomposite_input)
+12:47:11.852:         - filter: 'Chroma Key white' (chroma_key_filter)
+12:47:11.852:         - filter: 'Color Key - green' (color_key_filter)
+12:47:11.852:         - filter: 'Image Mask/Blend Kinski' (mask_filter)
+12:47:11.852:     - source: 'focuswriter' (xcomposite_input)
+12:47:11.852:         - filter: 'Chroma Key' (chroma_key_filter)
+12:47:11.852:         - filter: 'Color Correction' (color_filter)
+12:47:11.852:         - filter: 'Image Mask/Blend' (mask_filter)
+12:47:11.852:     - source: 'titles writer' (scene)
+12:47:11.852:     - filter: 'Color Key' (color_key_filter)
+12:47:11.852: - scene 'mypaint kinski blend 2':
+12:47:11.852:     - source: 'yeah phone home' (image_source)
+12:47:11.852:     - source: 'Screen Capture (XSHM)' (xshm_input)
+12:47:11.852:     - filter: 'Color Key' (color_key_filter)
+12:47:11.852: ------------------------------------------------
+12:47:12.252: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+12:47:12.252: 
+12:50:23.576: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Desktop Audio)
+12:50:23.576: 
+12:52:45.962: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Mic/Aux)
+12:52:45.962: 
+12:54:28.486: Settings changed (outputs)
+12:54:28.486: ------------------------------------------------
+12:54:30.644: ---------------------------------
+12:54:30.644: [x264 encoder: 'recording_h264'] preset: medium
+12:54:30.644: [x264 encoder: 'recording_h264'] profile: main
+12:54:30.671: [x264 encoder: 'recording_h264'] settings:
+12:54:30.671: 	rate_control: VBR
+12:54:30.671: 	bitrate:      123456
+12:54:30.671: 	buffer size:  123456
+12:54:30.671: 	crf:          23
+12:54:30.671: 	fps_num:      30
+12:54:30.671: 	fps_den:      1
+12:54:30.671: 	width:        1280
+12:54:30.671: 	height:       800
+12:54:30.671: 	keyint:       60
+12:54:30.671: 
+12:54:30.893: ---------------------------------
+12:54:30.894: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+12:54:30.894: 
+12:54:31.045: ==== Recording Start ===============================================
+12:54:31.046: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-11 12-54-30.mkv'...
+12:54:35.372: User switched to scene 'mypaint greenscreen'
+12:54:35.417: xcompcap: [window-capture: 'Chrome'] update settings:
+12:54:35.417: 	title: OBS Studio 142 - How to get the BEST Possible Settings for Streaming & Recording (OBS Guide) - YouTube - Google Chrome
+12:54:35.417: 	class: google-chrome-beta
+12:54:35.417: 	Has alpha: yes
+12:54:35.417: 	Found proper GLXFBConfig: yes
+12:54:35.417: 
+12:54:37.307: User switched to scene 'mypaint kinski blend'
+12:54:45.025: User switched to scene 'titles writer'
+12:54:46.921: User switched to scene '--bucket'
+12:54:57.910: User switched to scene 'mypaint kinski blend 2'
+12:55:37.587: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-11 12-54-30.mkv' stopped
+12:55:37.587: Output 'adv_file_output': stopping
+12:55:37.587: Output 'adv_file_output': Total frames output: 1926
+12:55:37.587: Output 'adv_file_output': Total drawn frames: 1954 (1996 attempted)
+12:55:37.587: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 42 (2,1%)
+12:55:37.588: ==== Recording Stop ================================================
+12:55:37.792: Video stopped, number of skipped frames due to encoding lag: 13/1994 (0,7%)
+12:56:48.840: ==== Shutting down ==================================================
+12:56:49.286: Switched to scene '(null)'
+12:56:49.429: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+12:56:49.429: pulse-input: Got 118498 packets with 25523346 frames
+12:56:49.479: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+12:56:49.479: pulse-input: Got 57988 packets with 25507432 frames
+12:56:49.481: All scene data cleared
+12:56:49.481: ------------------------------------------------
+12:56:49.594: Failed to fetch parent window geometry!
+12:56:49.594: Failed to fetch parent window geometry!
+12:56:49.594: Failed to fetch parent window geometry!
+12:56:49.594: Failed to fetch parent window geometry!
+12:56:49.629: Failed to fetch parent window geometry!
+12:56:49.629: Failed to fetch parent window geometry!
+12:56:49.629: Failed to fetch parent window geometry!
+12:56:49.629: Failed to fetch parent window geometry!

@@ -1,0 +1,198 @@
+06:10:46.719: CPU Name: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+06:10:46.719: CPU Speed: 1435.938MHz
+06:10:46.719: Physical Cores: 2, Logical Cores: 4
+06:10:46.720: Physical Memory: 11917MB Total, 4192MB Free
+06:10:46.720: Kernel Version: Linux 4.20.10-111.current
+06:10:46.720: Distribution: "Solus" "3.9999"
+06:10:46.721: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.3
+06:10:46.723: Portable mode: false
+06:10:46.805: OBS 23.0.1 (linux)
+06:10:46.805: ---------------------------------
+06:10:46.837: ---------------------------------
+06:10:46.837: audio settings reset:
+06:10:46.837: 	samples per sec: 44100
+06:10:46.837: 	speakers:        2
+06:10:46.845: ---------------------------------
+06:10:46.845: Initializing OpenGL...
+06:10:46.876: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) Sandybridge Mobile 
+06:10:46.876: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.3, shading language 3.30
+06:10:46.900: ---------------------------------
+06:10:46.900: video settings reset:
+06:10:46.900: 	base resolution:   1280x800
+06:10:46.900: 	output resolution: 1280x800
+06:10:46.900: 	downscale filter:  Bilinear
+06:10:46.900: 	fps:               30/1
+06:10:46.900: 	format:            NV12
+06:10:46.900: 	YUV mode:          601/Partial
+06:10:46.900: NV12 texture support not available
+06:10:46.910: Audio monitoring device:
+06:10:46.910: 	name: Default
+06:10:46.910: 	id: default
+06:10:46.910: ---------------------------------
+06:10:46.912: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+06:10:47.065: No blackmagic support
+06:10:47.073: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+06:10:47.073: 
+06:10:47.073: FFMPEG VAAPI supported
+06:10:47.077: ---------------------------------
+06:10:47.077:   Loaded Modules:
+06:10:47.077:     text-freetype2.so
+06:10:47.077:     rtmp-services.so
+06:10:47.077:     obs-x264.so
+06:10:47.077:     obs-transitions.so
+06:10:47.077:     obs-outputs.so
+06:10:47.077:     obs-filters.so
+06:10:47.077:     obs-ffmpeg.so
+06:10:47.077:     linux-v4l2.so
+06:10:47.077:     linux-pulseaudio.so
+06:10:47.077:     linux-decklink.so
+06:10:47.077:     linux-capture.so
+06:10:47.077:     linux-alsa.so
+06:10:47.077:     image-source.so
+06:10:47.078:     frontend-tools.so
+06:10:47.078:     decklink-ouput-ui.so
+06:10:47.078: ---------------------------------
+06:10:47.078: ==== Startup complete ===============================================
+06:10:47.083: All scene data cleared
+06:10:47.083: ------------------------------------------------
+06:10:47.087: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+06:10:47.088: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+06:10:47.088: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:10:47.093: pulse-am: Prevented feedback-loop in 'default'
+06:10:47.093: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+06:10:47.093: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+06:10:47.093: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+06:10:47.096: xshm-input: Geometry 1280x800 @ 0,0
+06:10:47.126: xcompcap: [window-capture: 'Chrome'] update settings:
+06:10:47.126: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:10:47.126: 	class: google-chrome-beta
+06:10:47.126: 	Has alpha: yes
+06:10:47.126: 	Found proper GLXFBConfig: yes
+06:10:47.126: 
+06:10:47.137: xcompcap: [window-capture: 'mypaint bckgrnd kinski'] update settings:
+06:10:47.137: 	title: hotkeys memo sheets.ora - MyPaint
+06:10:47.137: 	class: mypaint
+06:10:47.137: 	Has alpha: no
+06:10:47.137: 	Found proper GLXFBConfig: yes
+06:10:47.137: 
+06:10:47.150: xcompcap: [window-capture: 'mypaint bckgrnd'] update settings:
+06:10:47.150: 	title: hotkeys memo sheets.ora - MyPaint
+06:10:47.150: 	class: mypaint
+06:10:47.150: 	Has alpha: no
+06:10:47.150: 	Found proper GLXFBConfig: yes
+06:10:47.150: 
+06:10:47.159: xcompcap: [window-capture: 'MP titles'] update settings:
+06:10:47.159: 	title: hotkeys memo sheets.ora - MyPaint
+06:10:47.159: 	class: mypaint
+06:10:47.159: 	Has alpha: no
+06:10:47.159: 	Found proper GLXFBConfig: yes
+06:10:47.159: 
+06:10:47.373: Switched to scene 'titles writer'
+06:10:47.373: ------------------------------------------------
+06:10:47.373: Loaded scenes:
+06:10:47.373: - scene '--bucket':
+06:10:47.373:     - source: 'Win7 VB' (xcomposite_input)
+06:10:47.373:     - source: 'Chrome' (xcomposite_input)
+06:10:47.374:     - source: 'yeah phone home' (image_source)
+06:10:47.374:     - source: 'desktops' (xshm_input)
+06:10:47.374:     - source: '1200x800 image' (image_source)
+06:10:47.374:         - filter: 'Crop/Pad' (crop_filter)
+06:10:47.374:     - source: 'MP titles' (xcomposite_input)
+06:10:47.374: - scene 'titles writer':
+06:10:47.374:     - source: '1200x800 image' (image_source)
+06:10:47.374:         - filter: 'Crop/Pad' (crop_filter)
+06:10:47.374:     - source: 'white' (color_source)
+06:10:47.374:     - source: 'black' (color_source)
+06:10:47.374:     - source: 'MP titles' (xcomposite_input)
+06:10:47.374: - scene 'mypaint greenscreen':
+06:10:47.374:     - source: 'mypaint bckgrnd' (xcomposite_input)
+06:10:47.374:         - filter: 'Chroma Key' (chroma_key_filter)
+06:10:47.374:     - source: 'Chrome' (xcomposite_input)
+06:10:47.374:     - source: 'MP titles' (xcomposite_input)
+06:10:47.374:     - source: 'Win7 VB' (xcomposite_input)
+06:10:47.374: - scene 'mypaint kinski blend':
+06:10:47.374:     - source: 'yeah phone home' (image_source)
+06:10:47.374:     - source: 'mypaint bckgrnd kinski' (xcomposite_input)
+06:10:47.374:         - filter: 'Chroma Key white' (chroma_key_filter)
+06:10:47.374:         - filter: 'Color Key - green' (color_key_filter)
+06:10:47.374:         - filter: 'Image Mask/Blend Kinski' (mask_filter)
+06:10:47.374:     - source: 'focuswriter' (xcomposite_input)
+06:10:47.374:         - filter: 'Chroma Key' (chroma_key_filter)
+06:10:47.374:         - filter: 'Color Correction' (color_filter)
+06:10:47.374:         - filter: 'Image Mask/Blend' (mask_filter)
+06:10:47.374:     - filter: 'Color Key' (color_key_filter)
+06:10:47.374: - scene 'mypaint kinski blend 2':
+06:10:47.374:     - source: 'yeah phone home' (image_source)
+06:10:47.374:     - source: 'chroma green' (group)
+06:10:47.374:         - filter: 'Chroma Key green' (chroma_key_filter)
+06:10:47.374:         - filter: 'Render Delay' (gpu_delay)
+06:10:47.374:         - filter: 'blue screen' (color_key_filter)
+06:10:47.374:     - filter: 'Color Key' (color_key_filter)
+06:10:47.374: ------------------------------------------------
+06:10:47.654: adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mic/Aux)
+06:10:47.654: 
+06:11:42.518: User Removed source '1200x800 image' (image_source) from scene 'titles writer'
+06:11:56.849: User added source '1200x800 image' (image_source) to scene 'titles writer'
+06:12:11.514: User added source '1200x800 image 2' (image_source) to scene 'titles writer'
+06:12:16.505: User Removed source '1200x800 image' (image_source) from scene 'titles writer'
+06:12:22.301: User Removed source '1200x800 image 2' (image_source) from scene 'titles writer'
+06:12:24.354: User switched to scene '--bucket'
+06:13:45.375: Settings changed (outputs)
+06:13:45.375: ------------------------------------------------
+06:14:07.895: User Removed source '1200x800 image' (image_source) from scene '--bucket'
+06:14:16.541: User added source 'Image' (image_source) to scene '--bucket'
+06:14:42.888: User Removed source 'desktops' (xshm_input) from scene '--bucket'
+06:15:23.990: xcompcap: [window-capture: 'Chrome'] update settings:
+06:15:23.990: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:15:23.990: 	class: google-chrome-beta
+06:15:23.990: 	Has alpha: yes
+06:15:23.990: 	Found proper GLXFBConfig: yes
+06:15:23.990: 
+06:16:09.937: xcompcap: [window-capture: 'Chrome'] update settings:
+06:16:09.937: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:16:09.937: 	class: google-chrome-beta
+06:16:09.937: 	Has alpha: yes
+06:16:09.937: 	Found proper GLXFBConfig: yes
+06:16:09.937: 
+06:19:21.750: xcompcap: [window-capture: 'Chrome'] update settings:
+06:19:21.750: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:19:21.750: 	class: google-chrome-beta
+06:19:21.750: 	Has alpha: yes
+06:19:21.750: 	Found proper GLXFBConfig: yes
+06:19:21.750: 
+06:19:24.419: xcompcap: [window-capture: 'Chrome'] update settings:
+06:19:24.419: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:19:24.419: 	class: google-chrome-beta
+06:19:24.419: 	Has alpha: yes
+06:19:24.419: 	Found proper GLXFBConfig: yes
+06:19:24.419: 
+06:19:50.417: xcompcap: [window-capture: 'Chrome'] update settings:
+06:19:50.417: 	title: reddit: the front page of the internet - Google Chrome
+06:19:50.417: 	class: google-chrome-beta
+06:19:50.417: 	Has alpha: yes
+06:19:50.417: 	Found proper GLXFBConfig: yes
+06:19:50.417: 
+06:20:19.550: xcompcap: [window-capture: 'Chrome'] update settings:
+06:20:19.550: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+06:20:19.550: 	class: google-chrome-beta
+06:20:19.550: 	Has alpha: yes
+06:20:19.550: 	Found proper GLXFBConfig: yes
+06:20:19.550: 
+06:21:27.700: xcompcap: [window-capture: 'Chrome'] update settings:
+06:21:27.700: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+06:21:27.700: 	class: google-chrome-beta
+06:21:27.700: 	Has alpha: yes
+06:21:27.700: 	Found proper GLXFBConfig: yes
+06:21:27.700: 
+06:22:29.399: xcompcap: [window-capture: 'Chrome'] update settings:
+06:22:29.399: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+06:22:29.399: 	class: google-chrome-beta
+06:22:29.399: 	Has alpha: yes
+06:22:29.399: 	Found proper GLXFBConfig: yes
+06:22:29.399: 
+06:22:31.837: xcompcap: [window-capture: 'Chrome'] update settings:
+06:22:31.837: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+06:22:31.837: 	class: google-chrome-beta
+06:22:31.837: 	Has alpha: yes
+06:22:31.837: 	Found proper GLXFBConfig: yes
+06:22:31.837: 

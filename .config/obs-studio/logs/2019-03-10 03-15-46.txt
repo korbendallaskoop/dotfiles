@@ -1,0 +1,1276 @@
+03:15:46.304: CPU Name: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+03:15:46.304: CPU Speed: 1016.649MHz
+03:15:46.305: Physical Cores: 2, Logical Cores: 4
+03:15:46.305: Physical Memory: 11917MB Total, 4031MB Free
+03:15:46.305: Kernel Version: Linux 4.20.10-111.current
+03:15:46.314: Distribution: "Solus" "3.9999"
+03:15:46.316: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.3
+03:15:46.319: Portable mode: false
+03:15:46.446: OBS 23.0.1 (linux)
+03:15:46.446: ---------------------------------
+03:15:46.486: ---------------------------------
+03:15:46.486: audio settings reset:
+03:15:46.486: 	samples per sec: 44100
+03:15:46.486: 	speakers:        2
+03:15:46.507: ---------------------------------
+03:15:46.507: Initializing OpenGL...
+03:15:46.538: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) Sandybridge Mobile 
+03:15:46.538: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.3, shading language 3.30
+03:15:46.608: ---------------------------------
+03:15:46.608: video settings reset:
+03:15:46.608: 	base resolution:   1280x800
+03:15:46.608: 	output resolution: 1280x800
+03:15:46.608: 	downscale filter:  Bilinear
+03:15:46.608: 	fps:               30/1
+03:15:46.608: 	format:            NV12
+03:15:46.608: 	YUV mode:          601/Partial
+03:15:46.608: NV12 texture support not available
+03:15:46.617: Audio monitoring device:
+03:15:46.617: 	name: Default
+03:15:46.617: 	id: default
+03:15:46.618: ---------------------------------
+03:15:46.620: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+03:15:47.050: No blackmagic support
+03:15:47.105: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+03:15:47.105: 
+03:15:47.105: FFMPEG VAAPI supported
+03:15:47.216: ---------------------------------
+03:15:47.216:   Loaded Modules:
+03:15:47.216:     text-freetype2.so
+03:15:47.216:     rtmp-services.so
+03:15:47.216:     obs-x264.so
+03:15:47.216:     obs-transitions.so
+03:15:47.216:     obs-outputs.so
+03:15:47.216:     obs-filters.so
+03:15:47.216:     obs-ffmpeg.so
+03:15:47.216:     linux-v4l2.so
+03:15:47.216:     linux-pulseaudio.so
+03:15:47.216:     linux-decklink.so
+03:15:47.216:     linux-capture.so
+03:15:47.216:     linux-alsa.so
+03:15:47.216:     image-source.so
+03:15:47.216:     frontend-tools.so
+03:15:47.216:     decklink-ouput-ui.so
+03:15:47.216: ---------------------------------
+03:15:47.216: ==== Startup complete ===============================================
+03:15:47.244: All scene data cleared
+03:15:47.244: ------------------------------------------------
+03:15:47.273: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+03:15:47.273: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+03:15:47.274: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+03:15:47.280: pulse-am: Prevented feedback-loop in 'default'
+03:15:47.281: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+03:15:47.281: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+03:15:47.281: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+03:15:47.307: xcompcap: [window-capture: 'VLC'] update settings:
+03:15:47.307: 	title: 2019-03-10 01-54-44.flv - VLC media player
+03:15:47.307: 	class: vlc
+03:15:47.307: 	Has alpha: no
+03:15:47.307: 	Found proper GLXFBConfig: yes
+03:15:47.307: 
+03:15:47.322: xshm-input: Geometry 1280x800 @ 0,0
+03:15:47.338: xcompcap: [window-capture: 'Chrome'] update settings:
+03:15:47.338: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:15:47.338: 	class: google-chrome-beta
+03:15:47.338: 	Has alpha: yes
+03:15:47.338: 	Found proper GLXFBConfig: yes
+03:15:47.338: 
+03:15:47.353: xcompcap: [window-capture: 'mypaint bckgrnd kinski'] update settings:
+03:15:47.353: 	title: hotkeys memo sheets.ora - MyPaint
+03:15:47.353: 	class: mypaint
+03:15:47.353: 	Has alpha: no
+03:15:47.353: 	Found proper GLXFBConfig: yes
+03:15:47.353: 
+03:15:47.363: xcompcap: [window-capture: 'mypaint bckgrnd'] update settings:
+03:15:47.363: 	title: hotkeys memo sheets.ora - MyPaint
+03:15:47.363: 	class: mypaint
+03:15:47.363: 	Has alpha: no
+03:15:47.363: 	Found proper GLXFBConfig: yes
+03:15:47.363: 
+03:15:47.375: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+03:15:47.375: 	title: hotkeys memo sheets.ora - MyPaint
+03:15:47.375: 	class: mypaint
+03:15:47.375: 	Has alpha: no
+03:15:47.375: 	Found proper GLXFBConfig: yes
+03:15:47.375: 
+03:15:47.623: Switched to scene 'Scene 2'
+03:15:47.623: ------------------------------------------------
+03:15:47.623: Loaded scenes:
+03:15:47.623: - scene 'Scene':
+03:15:47.623:     - source: 'Win7 VB' (xcomposite_input)
+03:15:47.623:     - source: 'Chrome' (xcomposite_input)
+03:15:47.623:     - source: 'yeah phone home' (image_source)
+03:15:47.623:     - source: 'desktops' (xshm_input)
+03:15:47.623:     - source: '1200x800 image' (image_source)
+03:15:47.624: - scene 'titles writer':
+03:15:47.624:     - source: '1200x800 image' (image_source)
+03:15:47.624:     - source: 'white' (color_source)
+03:15:47.624:     - source: 'black' (color_source)
+03:15:47.624:     - source: 'MP txt brushes delayed' (xcomposite_input)
+03:15:47.624:         - filter: 'Chroma Key green' (chroma_key_filter)
+03:15:47.624:         - filter: 'Render Delay' (gpu_delay)
+03:15:47.624:         - filter: 'blue screen' (color_key_filter)
+03:15:47.624:     - source: 'Image' (image_source)
+03:15:47.624: - scene 'mypaint greenscreen':
+03:15:47.624:     - source: 'mypaint bckgrnd' (xcomposite_input)
+03:15:47.624:         - filter: 'Chroma Key' (chroma_key_filter)
+03:15:47.624:     - source: 'Chrome' (xcomposite_input)
+03:15:47.624:     - source: 'MP txt brushes delayed' (xcomposite_input)
+03:15:47.624:         - filter: 'Chroma Key green' (chroma_key_filter)
+03:15:47.624:         - filter: 'Render Delay' (gpu_delay)
+03:15:47.624:         - filter: 'blue screen' (color_key_filter)
+03:15:47.624:     - source: 'Win7 VB' (xcomposite_input)
+03:15:47.624: - scene 'mypaint kinski blend':
+03:15:47.624:     - source: 'yeah phone home' (image_source)
+03:15:47.624:     - source: 'mypaint bckgrnd kinski' (xcomposite_input)
+03:15:47.624:         - filter: 'Chroma Key white' (chroma_key_filter)
+03:15:47.624:         - filter: 'Color Key - green' (color_key_filter)
+03:15:47.624:         - filter: 'Image Mask/Blend Kinski' (mask_filter)
+03:15:47.624:     - source: 'focuswriter' (xcomposite_input)
+03:15:47.624:         - filter: 'Chroma Key' (chroma_key_filter)
+03:15:47.624:         - filter: 'Color Correction' (color_filter)
+03:15:47.624:         - filter: 'Image Mask/Blend' (mask_filter)
+03:15:47.624:     - source: 'MP txt brushes delayed' (xcomposite_input)
+03:15:47.624:         - filter: 'Chroma Key green' (chroma_key_filter)
+03:15:47.624:         - filter: 'Render Delay' (gpu_delay)
+03:15:47.624:         - filter: 'blue screen' (color_key_filter)
+03:15:47.624:     - filter: 'Color Key' (color_key_filter)
+03:15:47.624: - scene 'mypaint kinski blend 2':
+03:15:47.624:     - source: 'Group1' (group)
+03:15:47.624:     - filter: 'Color Key' (color_key_filter)
+03:15:47.624: - scene 'Scene 2':
+03:15:47.624:     - source: 'Chrome' (xcomposite_input)
+03:15:47.624:     - source: 'OBS 16:9' (xcomposite_input)
+03:15:47.624:     - source: 'VLC' (xcomposite_input)
+03:15:47.624: ------------------------------------------------
+03:15:47.709: xcompcap: [window-capture: 'Chrome'] update settings:
+03:15:47.709: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:15:47.709: 	class: google-chrome-beta
+03:15:47.709: 	Has alpha: yes
+03:15:47.709: 	Found proper GLXFBConfig: yes
+03:15:47.709: 
+03:15:47.820: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds (source: Desktop Audio)
+03:15:47.820: 
+03:15:50.806: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+03:15:50.806: 
+03:18:37.395: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:18:37.395: 	title: budgie-panel
+03:18:37.395: 	class: budgie-panel
+03:18:37.395: 	Has alpha: yes
+03:18:37.395: 	Found proper GLXFBConfig: yes
+03:18:37.395: 
+03:18:42.159: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:18:42.159: 	title: 2019-03-10 01-48-06.flv - mpv
+03:18:42.159: 	class: gl
+03:18:42.159: 	Has alpha: yes
+03:18:42.159: 	Found proper GLXFBConfig: yes
+03:18:42.159: 
+03:19:03.155: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:03.155: 	title: budgie-panel
+03:19:03.155: 	class: budgie-panel
+03:19:03.155: 	Has alpha: yes
+03:19:03.155: 	Found proper GLXFBConfig: yes
+03:19:03.155: 
+03:19:06.728: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:06.728: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:19:06.728: 	class: google-chrome-beta
+03:19:06.728: 	Has alpha: yes
+03:19:06.728: 	Found proper GLXFBConfig: yes
+03:19:06.728: 
+03:19:08.823: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:08.823: 	title: budgie-panel
+03:19:08.823: 	class: budgie-panel
+03:19:08.823: 	Has alpha: yes
+03:19:08.823: 	Found proper GLXFBConfig: yes
+03:19:08.823: 
+03:19:10.661: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:10.661: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:19:10.661: 	class: google-chrome-beta
+03:19:10.661: 	Has alpha: yes
+03:19:10.661: 	Found proper GLXFBConfig: yes
+03:19:10.661: 
+03:19:12.022: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:12.022: 	title: budgie-panel
+03:19:12.022: 	class: budgie-panel
+03:19:12.022: 	Has alpha: yes
+03:19:12.022: 	Found proper GLXFBConfig: yes
+03:19:12.022: 
+03:19:14.329: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:14.329: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:19:14.329: 	class: google-chrome-beta
+03:19:14.329: 	Has alpha: yes
+03:19:14.329: 	Found proper GLXFBConfig: yes
+03:19:14.329: 
+03:19:24.854: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:24.854: 	title: budgie-panel
+03:19:24.854: 	class: budgie-panel
+03:19:24.854: 	Has alpha: yes
+03:19:24.854: 	Found proper GLXFBConfig: yes
+03:19:24.854: 
+03:19:30.163: xcompcap: [window-capture: 'Chrome'] update settings:
+03:19:30.163: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:19:30.163: 	class: google-chrome-beta
+03:19:30.163: 	Has alpha: yes
+03:19:30.163: 	Found proper GLXFBConfig: yes
+03:19:30.163: 
+03:21:34.870: xcompcap: [window-capture: 'Chrome'] update settings:
+03:21:34.870: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:21:34.870: 	class: google-chrome-beta
+03:21:34.870: 	Has alpha: yes
+03:21:34.870: 	Found proper GLXFBConfig: yes
+03:21:34.870: 
+03:21:40.645: xcompcap: [window-capture: 'Chrome'] update settings:
+03:21:40.645: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:21:40.645: 	class: google-chrome-beta
+03:21:40.645: 	Has alpha: yes
+03:21:40.645: 	Found proper GLXFBConfig: yes
+03:21:40.645: 
+03:21:41.870: xcompcap: [window-capture: 'Chrome'] update settings:
+03:21:41.870: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:21:41.870: 	class: google-chrome-beta
+03:21:41.870: 	Has alpha: yes
+03:21:41.870: 	Found proper GLXFBConfig: yes
+03:21:41.870: 
+03:22:32.903: xcompcap: [window-capture: 'Chrome'] update settings:
+03:22:32.903: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:22:32.903: 	class: google-chrome-beta
+03:22:32.903: 	Has alpha: yes
+03:22:32.903: 	Found proper GLXFBConfig: yes
+03:22:32.903: 
+03:22:34.824: xcompcap: [window-capture: 'Chrome'] update settings:
+03:22:34.824: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:22:34.824: 	class: google-chrome-beta
+03:22:34.824: 	Has alpha: yes
+03:22:34.824: 	Found proper GLXFBConfig: yes
+03:22:34.824: 
+03:22:36.417: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Desktop Audio)
+03:22:36.417: 
+03:23:16.725: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:16.725: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+03:23:16.725: 	class: google-chrome-beta
+03:23:16.725: 	Has alpha: yes
+03:23:16.725: 	Found proper GLXFBConfig: yes
+03:23:16.725: 
+03:23:30.927: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:30.927: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+03:23:30.927: 	class: google-chrome-beta
+03:23:30.927: 	Has alpha: yes
+03:23:30.927: 	Found proper GLXFBConfig: yes
+03:23:30.927: 
+03:23:38.489: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:38.489: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:23:38.489: 	class: google-chrome-beta
+03:23:38.489: 	Has alpha: yes
+03:23:38.489: 	Found proper GLXFBConfig: yes
+03:23:38.489: 
+03:23:44.498: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:44.498: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:23:44.498: 	class: google-chrome-beta
+03:23:44.498: 	Has alpha: yes
+03:23:44.498: 	Found proper GLXFBConfig: yes
+03:23:44.498: 
+03:23:51.935: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:51.935: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:23:51.935: 	class: google-chrome-beta
+03:23:51.935: 	Has alpha: yes
+03:23:51.935: 	Found proper GLXFBConfig: yes
+03:23:51.935: 
+03:23:51.959: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:51.959: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:23:51.959: 	class: google-chrome-beta
+03:23:51.959: 	Has alpha: yes
+03:23:51.959: 	Found proper GLXFBConfig: yes
+03:23:51.959: 
+03:23:53.858: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:53.858: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:23:53.858: 	class: google-chrome-beta
+03:23:53.858: 	Has alpha: yes
+03:23:53.858: 	Found proper GLXFBConfig: yes
+03:23:53.858: 
+03:23:55.457: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:55.457: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:23:55.457: 	class: google-chrome-beta
+03:23:55.457: 	Has alpha: yes
+03:23:55.457: 	Found proper GLXFBConfig: yes
+03:23:55.457: 
+03:23:58.793: xcompcap: [window-capture: 'Chrome'] update settings:
+03:23:58.793: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:23:58.793: 	class: google-chrome-beta
+03:23:58.793: 	Has alpha: yes
+03:23:58.793: 	Found proper GLXFBConfig: yes
+03:23:58.793: 
+03:24:09.191: xcompcap: [window-capture: 'Chrome'] update settings:
+03:24:09.191: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:24:09.191: 	class: google-chrome-beta
+03:24:09.191: 	Has alpha: yes
+03:24:09.191: 	Found proper GLXFBConfig: yes
+03:24:09.191: 
+03:24:15.191: xcompcap: [window-capture: 'Chrome'] update settings:
+03:24:15.191: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:24:15.191: 	class: google-chrome-beta
+03:24:15.191: 	Has alpha: yes
+03:24:15.191: 	Found proper GLXFBConfig: yes
+03:24:15.191: 
+03:24:39.924: xcompcap: [window-capture: 'Chrome'] update settings:
+03:24:39.924: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+03:24:39.924: 	class: google-chrome-beta
+03:24:39.924: 	Has alpha: yes
+03:24:39.924: 	Found proper GLXFBConfig: yes
+03:24:39.924: 
+03:24:43.530: xcompcap: [window-capture: 'Chrome'] update settings:
+03:24:43.530: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+03:24:43.530: 	class: google-chrome-beta
+03:24:43.530: 	Has alpha: yes
+03:24:43.530: 	Found proper GLXFBConfig: yes
+03:24:43.530: 
+03:24:48.155: xcompcap: [window-capture: 'Chrome'] update settings:
+03:24:48.155: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+03:24:48.155: 	class: google-chrome-beta
+03:24:48.155: 	Has alpha: yes
+03:24:48.155: 	Found proper GLXFBConfig: yes
+03:24:48.155: 
+03:24:49.788: xcompcap: [window-capture: 'Chrome'] update settings:
+03:24:49.788: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+03:24:49.788: 	class: google-chrome-beta
+03:24:49.788: 	Has alpha: yes
+03:24:49.788: 	Found proper GLXFBConfig: yes
+03:24:49.788: 
+03:24:51.225: xcompcap: [window-capture: 'Chrome'] update settings:
+03:24:51.225: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:24:51.225: 	class: google-chrome-beta
+03:24:51.225: 	Has alpha: yes
+03:24:51.225: 	Found proper GLXFBConfig: yes
+03:24:51.225: 
+03:25:23.708: xcompcap: [window-capture: 'Chrome'] update settings:
+03:25:23.708: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:25:23.708: 	class: google-chrome-beta
+03:25:23.708: 	Has alpha: yes
+03:25:23.708: 	Found proper GLXFBConfig: yes
+03:25:23.708: 
+03:25:24.335: xcompcap: [window-capture: 'Chrome'] update settings:
+03:25:24.335: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:25:24.335: 	class: google-chrome-beta
+03:25:24.335: 	Has alpha: yes
+03:25:24.335: 	Found proper GLXFBConfig: yes
+03:25:24.335: 
+03:25:46.200: xcompcap: [window-capture: 'Chrome'] update settings:
+03:25:46.200: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:25:46.200: 	class: google-chrome-beta
+03:25:46.200: 	Has alpha: yes
+03:25:46.200: 	Found proper GLXFBConfig: yes
+03:25:46.200: 
+03:26:08.455: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:08.455: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+03:26:08.455: 	class: google-chrome-beta
+03:26:08.455: 	Has alpha: yes
+03:26:08.455: 	Found proper GLXFBConfig: yes
+03:26:08.455: 
+03:26:10.225: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:10.225: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+03:26:10.225: 	class: google-chrome-beta
+03:26:10.225: 	Has alpha: yes
+03:26:10.225: 	Found proper GLXFBConfig: yes
+03:26:10.225: 
+03:26:13.522: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:13.522: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:13.522: 	class: google-chrome-beta
+03:26:13.522: 	Has alpha: yes
+03:26:13.522: 	Found proper GLXFBConfig: yes
+03:26:13.522: 
+03:26:15.259: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:15.259: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:15.259: 	class: google-chrome-beta
+03:26:15.259: 	Has alpha: yes
+03:26:15.259: 	Found proper GLXFBConfig: yes
+03:26:15.259: 
+03:26:17.855: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:17.855: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:17.855: 	class: google-chrome-beta
+03:26:17.855: 	Has alpha: yes
+03:26:17.855: 	Found proper GLXFBConfig: yes
+03:26:17.855: 
+03:26:27.124: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:27.124: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:27.124: 	class: google-chrome-beta
+03:26:27.124: 	Has alpha: yes
+03:26:27.124: 	Found proper GLXFBConfig: yes
+03:26:27.124: 
+03:26:31.697: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:31.697: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:31.697: 	class: google-chrome-beta
+03:26:31.697: 	Has alpha: yes
+03:26:31.697: 	Found proper GLXFBConfig: yes
+03:26:31.697: 
+03:26:31.798: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:31.798: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:31.798: 	class: google-chrome-beta
+03:26:31.798: 	Has alpha: yes
+03:26:31.798: 	Found proper GLXFBConfig: yes
+03:26:31.798: 
+03:26:46.034: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:46.034: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:46.034: 	class: google-chrome-beta
+03:26:46.034: 	Has alpha: yes
+03:26:46.034: 	Found proper GLXFBConfig: yes
+03:26:46.034: 
+03:26:49.441: xcompcap: [window-capture: 'Chrome'] update settings:
+03:26:49.441: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:26:49.441: 	class: google-chrome-beta
+03:26:49.441: 	Has alpha: yes
+03:26:49.441: 	Found proper GLXFBConfig: yes
+03:26:49.441: 
+03:28:36.028: User added source 'MP txt brushes delayed' (xcomposite_input) to scene 'Scene 2'
+03:31:50.726: xcompcap: [window-capture: 'Chrome'] update settings:
+03:31:50.726: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:31:50.726: 	class: google-chrome-beta
+03:31:50.726: 	Has alpha: yes
+03:31:50.726: 	Found proper GLXFBConfig: yes
+03:31:50.726: 
+03:31:53.326: xcompcap: [window-capture: 'Chrome'] update settings:
+03:31:53.326: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:31:53.326: 	class: google-chrome-beta
+03:31:53.326: 	Has alpha: yes
+03:31:53.326: 	Found proper GLXFBConfig: yes
+03:31:53.326: 
+03:39:26.956: xcompcap: [window-capture: 'Chrome'] update settings:
+03:39:26.956: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+03:39:26.956: 	class: google-chrome-beta
+03:39:26.956: 	Has alpha: yes
+03:39:26.956: 	Found proper GLXFBConfig: yes
+03:39:26.956: 
+03:39:31.660: xcompcap: [window-capture: 'Chrome'] update settings:
+03:39:31.660: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+03:39:31.660: 	class: google-chrome-beta
+03:39:31.660: 	Has alpha: yes
+03:39:31.660: 	Found proper GLXFBConfig: yes
+03:39:31.660: 
+03:39:35.391: xcompcap: [window-capture: 'Chrome'] update settings:
+03:39:35.391: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:39:35.391: 	class: google-chrome-beta
+03:39:35.391: 	Has alpha: yes
+03:39:35.391: 	Found proper GLXFBConfig: yes
+03:39:35.391: 
+03:40:02.806: User added scene 'Scene 2 2'
+03:40:02.806: User added source 'Chrome' (xcomposite_input) to scene 'Scene 2 2'
+03:40:02.807: User added source 'OBS 16:9' (xcomposite_input) to scene 'Scene 2 2'
+03:40:02.807: User added source 'VLC' (xcomposite_input) to scene 'Scene 2 2'
+03:40:02.807: User added source 'MP txt brushes delayed' (xcomposite_input) to scene 'Scene 2 2'
+03:40:02.849: Switched to scene 'Scene 2 2'
+03:40:14.698: User switched to scene 'Scene 2'
+03:40:16.725: User switched to scene 'Scene 2 2'
+03:44:57.949: User switched to scene 'Scene 2'
+03:45:01.290: User switched to scene 'Scene 2 2'
+03:47:17.458: xcompcap: [window-capture: 'Chrome'] update settings:
+03:47:17.458: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:47:17.458: 	class: google-chrome-beta
+03:47:17.458: 	Has alpha: yes
+03:47:17.458: 	Found proper GLXFBConfig: yes
+03:47:17.458: 
+03:47:18.923: xcompcap: [window-capture: 'Chrome'] update settings:
+03:47:18.923: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:47:18.923: 	class: google-chrome-beta
+03:47:18.923: 	Has alpha: yes
+03:47:18.923: 	Found proper GLXFBConfig: yes
+03:47:18.923: 
+03:53:45.458: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Desktop Audio)
+03:53:45.458: 
+03:54:28.959: xcompcap: [window-capture: 'Chrome'] update settings:
+03:54:28.959: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:54:28.959: 	class: google-chrome-beta
+03:54:28.959: 	Has alpha: yes
+03:54:28.959: 	Found proper GLXFBConfig: yes
+03:54:28.959: 
+03:54:29.956: xcompcap: [window-capture: 'Chrome'] update settings:
+03:54:29.956: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:54:29.956: 	class: google-chrome-beta
+03:54:29.956: 	Has alpha: yes
+03:54:29.956: 	Found proper GLXFBConfig: yes
+03:54:29.956: 
+04:02:06.131: xcompcap: [window-capture: 'Chrome'] update settings:
+04:02:06.131: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:02:06.131: 	class: google-chrome-beta
+04:02:06.131: 	Has alpha: yes
+04:02:06.131: 	Found proper GLXFBConfig: yes
+04:02:06.131: 
+04:03:03.303: xcompcap: [window-capture: 'Chrome'] update settings:
+04:03:03.303: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:03:03.303: 	class: google-chrome-beta
+04:03:03.303: 	Has alpha: yes
+04:03:03.303: 	Found proper GLXFBConfig: yes
+04:03:03.303: 
+04:04:16.594: ---------------------------------
+04:04:16.594: [x264 encoder: 'recording_h264'] preset: medium
+04:04:16.594: [x264 encoder: 'recording_h264'] settings:
+04:04:16.594: 	rate_control: CBR
+04:04:16.594: 	bitrate:      2500
+04:04:16.594: 	buffer size:  2500
+04:04:16.594: 	crf:          0
+04:04:16.594: 	fps_num:      30
+04:04:16.594: 	fps_den:      1
+04:04:16.594: 	width:        1280
+04:04:16.594: 	height:       800
+04:04:16.594: 	keyint:       250
+04:04:16.594: 
+04:04:16.600: ---------------------------------
+04:04:16.600: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+04:04:16.600: 
+04:04:16.604: ==== Recording Start ===============================================
+04:04:16.604: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 04-04-16.flv'...
+04:04:20.317: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 04-04-16.flv' stopped
+04:04:20.317: Output 'adv_file_output': stopping
+04:04:20.317: Output 'adv_file_output': Total frames output: 59
+04:04:20.317: Output 'adv_file_output': Total drawn frames: 108 (111 attempted)
+04:04:20.317: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 3 (2,7%)
+04:04:20.318: ==== Recording Stop ================================================
+04:04:33.227: xcompcap: [window-capture: 'Chrome'] update settings:
+04:04:33.227: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:04:33.227: 	class: google-chrome-beta
+04:04:33.227: 	Has alpha: yes
+04:04:33.227: 	Found proper GLXFBConfig: yes
+04:04:33.227: 
+04:04:40.227: xcompcap: [window-capture: 'Chrome'] update settings:
+04:04:40.227: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:04:40.227: 	class: google-chrome-beta
+04:04:40.227: 	Has alpha: yes
+04:04:40.227: 	Found proper GLXFBConfig: yes
+04:04:40.227: 
+04:04:56.844: User switched to scene 'Scene 2'
+04:04:57.982: User switched to scene 'Scene 2 2'
+04:05:35.163: ---------------------------------
+04:05:35.163: [x264 encoder: 'recording_h264'] preset: medium
+04:05:35.163: [x264 encoder: 'recording_h264'] settings:
+04:05:35.163: 	rate_control: CBR
+04:05:35.163: 	bitrate:      2500
+04:05:35.163: 	buffer size:  2500
+04:05:35.163: 	crf:          0
+04:05:35.163: 	fps_num:      30
+04:05:35.163: 	fps_den:      1
+04:05:35.163: 	width:        1280
+04:05:35.163: 	height:       800
+04:05:35.163: 	keyint:       250
+04:05:35.163: 
+04:05:35.198: ---------------------------------
+04:05:35.199: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+04:05:35.199: 
+04:05:35.208: ==== Recording Start ===============================================
+04:05:35.208: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 04-05-35.flv'...
+04:05:38.927: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 04-05-35.flv' stopped
+04:05:38.927: Output 'adv_file_output': stopping
+04:05:38.927: Output 'adv_file_output': Total frames output: 60
+04:05:38.927: Output 'adv_file_output': Total drawn frames: 112
+04:05:38.928: ==== Recording Stop ================================================
+04:05:43.122: xcompcap: [window-capture: 'Chrome'] update settings:
+04:05:43.122: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:05:43.122: 	class: google-chrome-beta
+04:05:43.122: 	Has alpha: yes
+04:05:43.122: 	Found proper GLXFBConfig: yes
+04:05:43.122: 
+04:05:45.758: xcompcap: [window-capture: 'Chrome'] update settings:
+04:05:45.758: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:05:45.758: 	class: google-chrome-beta
+04:05:45.758: 	Has alpha: yes
+04:05:45.758: 	Found proper GLXFBConfig: yes
+04:05:45.758: 
+04:06:13.658: xcompcap: [window-capture: 'Chrome'] update settings:
+04:06:13.658: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:06:13.658: 	class: google-chrome-beta
+04:06:13.658: 	Has alpha: yes
+04:06:13.658: 	Found proper GLXFBConfig: yes
+04:06:13.658: 
+04:06:20.858: xcompcap: [window-capture: 'Chrome'] update settings:
+04:06:20.858: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:06:20.858: 	class: google-chrome-beta
+04:06:20.858: 	Has alpha: yes
+04:06:20.858: 	Found proper GLXFBConfig: yes
+04:06:20.858: 
+04:06:43.311: xcompcap: [window-capture: 'Chrome'] update settings:
+04:06:43.311: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:06:43.311: 	class: google-chrome-beta
+04:06:43.311: 	Has alpha: yes
+04:06:43.311: 	Found proper GLXFBConfig: yes
+04:06:43.311: 
+04:06:56.036: xcompcap: [window-capture: 'Chrome'] update settings:
+04:06:56.036: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:06:56.036: 	class: google-chrome-beta
+04:06:56.036: 	Has alpha: yes
+04:06:56.036: 	Found proper GLXFBConfig: yes
+04:06:56.036: 
+04:06:57.795: xcompcap: [window-capture: 'Chrome'] update settings:
+04:06:57.795: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:06:57.795: 	class: google-chrome-beta
+04:06:57.795: 	Has alpha: yes
+04:06:57.795: 	Found proper GLXFBConfig: yes
+04:06:57.795: 
+04:07:04.204: xcompcap: [window-capture: 'Chrome'] update settings:
+04:07:04.204: 	title: reddit: the front page of the internet - Google Chrome
+04:07:04.204: 	class: google-chrome-beta
+04:07:04.204: 	Has alpha: yes
+04:07:04.204: 	Found proper GLXFBConfig: yes
+04:07:04.204: 
+04:07:22.692: xcompcap: [window-capture: 'Chrome'] update settings:
+04:07:22.692: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:07:22.692: 	class: google-chrome-beta
+04:07:22.692: 	Has alpha: yes
+04:07:22.692: 	Found proper GLXFBConfig: yes
+04:07:22.692: 
+04:09:56.591: xcompcap: [window-capture: 'Chrome'] update settings:
+04:09:56.591: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:09:56.591: 	class: google-chrome-beta
+04:09:56.591: 	Has alpha: yes
+04:09:56.591: 	Found proper GLXFBConfig: yes
+04:09:56.591: 
+04:11:54.685: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds (source: Mic/Aux)
+04:11:54.685: 
+04:12:15.622: xcompcap: [window-capture: 'Chrome'] update settings:
+04:12:15.622: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:12:15.622: 	class: google-chrome-beta
+04:12:15.622: 	Has alpha: yes
+04:12:15.622: 	Found proper GLXFBConfig: yes
+04:12:15.622: 
+04:14:53.458: xcompcap: [window-capture: 'Chrome'] update settings:
+04:14:53.458: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:14:53.458: 	class: google-chrome-beta
+04:14:53.458: 	Has alpha: yes
+04:14:53.458: 	Found proper GLXFBConfig: yes
+04:14:53.458: 
+04:14:57.522: xcompcap: [window-capture: 'Chrome'] update settings:
+04:14:57.522: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:14:57.522: 	class: google-chrome-beta
+04:14:57.522: 	Has alpha: yes
+04:14:57.522: 	Found proper GLXFBConfig: yes
+04:14:57.522: 
+04:15:00.925: xcompcap: [window-capture: 'Chrome'] update settings:
+04:15:00.925: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:15:00.925: 	class: google-chrome-beta
+04:15:00.925: 	Has alpha: yes
+04:15:00.925: 	Found proper GLXFBConfig: yes
+04:15:00.925: 
+04:15:03.422: xcompcap: [window-capture: 'Chrome'] update settings:
+04:15:03.422: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:15:03.422: 	class: google-chrome-beta
+04:15:03.422: 	Has alpha: yes
+04:15:03.422: 	Found proper GLXFBConfig: yes
+04:15:03.422: 
+04:15:19.722: xcompcap: [window-capture: 'Chrome'] update settings:
+04:15:19.722: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:15:19.722: 	class: google-chrome-beta
+04:15:19.722: 	Has alpha: yes
+04:15:19.722: 	Found proper GLXFBConfig: yes
+04:15:19.722: 
+04:15:25.422: xcompcap: [window-capture: 'Chrome'] update settings:
+04:15:25.422: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:15:25.422: 	class: google-chrome-beta
+04:15:25.422: 	Has alpha: yes
+04:15:25.422: 	Found proper GLXFBConfig: yes
+04:15:25.422: 
+04:16:55.192: xcompcap: [window-capture: 'Chrome'] update settings:
+04:16:55.192: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:16:55.192: 	class: google-chrome-beta
+04:16:55.192: 	Has alpha: yes
+04:16:55.192: 	Found proper GLXFBConfig: yes
+04:16:55.192: 
+04:17:00.890: User added scene 'Scene 3'
+04:17:00.892: User switched to scene 'Scene 3'
+04:17:08.988: User added source 'Chrome' (xcomposite_input) to scene 'Scene 3'
+04:17:15.641: User added source 'C2' (xcomposite_input) to scene 'Scene 3'
+04:17:15.689: xcompcap: [window-capture: 'C2'] update settings:
+04:17:15.689: 	title: budgie-panel
+04:17:15.689: 	class: budgie-panel
+04:17:15.689: 	Has alpha: yes
+04:17:15.689: 	Found proper GLXFBConfig: yes
+04:17:15.689: 
+04:17:20.935: xcompcap: [window-capture: 'C2'] update settings:
+04:17:20.935: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:17:20.935: 	class: google-chrome-beta
+04:17:20.935: 	Has alpha: yes
+04:17:20.935: 	Found proper GLXFBConfig: yes
+04:17:20.935: 
+04:17:23.725: xcompcap: [window-capture: 'C2'] update settings:
+04:17:23.725: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:17:23.725: 	class: google-chrome-beta
+04:17:23.725: 	Has alpha: yes
+04:17:23.725: 	Found proper GLXFBConfig: yes
+04:17:23.725: 
+04:18:17.336: xcompcap: [window-capture: 'C2'] update settings:
+04:18:17.336: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:18:17.336: 	class: google-chrome-beta
+04:18:17.336: 	Has alpha: yes
+04:18:17.336: 	Found proper GLXFBConfig: yes
+04:18:17.336: 
+04:18:19.623: xcompcap: [window-capture: 'C2'] update settings:
+04:18:19.623: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+04:18:19.623: 	class: google-chrome-beta
+04:18:19.623: 	Has alpha: yes
+04:18:19.623: 	Found proper GLXFBConfig: yes
+04:18:19.623: 
+04:18:39.388: xcompcap: [window-capture: 'Chrome'] update settings:
+04:18:39.388: 	title: budgie-panel
+04:18:39.388: 	class: budgie-panel
+04:18:39.388: 	Has alpha: yes
+04:18:39.388: 	Found proper GLXFBConfig: yes
+04:18:39.388: 
+04:18:42.062: xcompcap: [window-capture: 'Chrome'] update settings:
+04:18:42.062: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:18:42.062: 	class: google-chrome-beta
+04:18:42.062: 	Has alpha: yes
+04:18:42.062: 	Found proper GLXFBConfig: yes
+04:18:42.062: 
+04:18:42.067: xcompcap: [window-capture: 'Chrome'] update settings:
+04:18:42.067: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:18:42.067: 	class: google-chrome-beta
+04:18:42.067: 	Has alpha: yes
+04:18:42.067: 	Found proper GLXFBConfig: yes
+04:18:42.067: 
+04:20:08.905: User added source 'MP txt brushes delayed' (xcomposite_input) to scene 'Scene 3'
+04:24:47.589: xcompcap: [window-capture: 'Chrome'] update settings:
+04:24:47.589: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:24:47.589: 	class: google-chrome-beta
+04:24:47.589: 	Has alpha: yes
+04:24:47.589: 	Found proper GLXFBConfig: yes
+04:24:47.589: 
+04:29:39.922: X Error: GLXBadContext, Major opcode: 152, Minor opcode: 26, Serial: 1166418
+04:29:39.922: Failed to make context current.
+04:29:39.922: Failed to fetch parent window geometry!
+04:29:39.923: Vertex buffer does not have the required inputs for vertex shader
+04:29:39.923: Vertex buffer does not have the required inputs for vertex shader
+04:29:39.923: Vertex buffer does not have the required inputs for vertex shader
+04:29:39.923: Vertex buffer does not have the required inputs for vertex shader
+04:29:39.924: Vertex buffer does not have the required inputs for vertex shader
+04:29:39.924: Vertex buffer does not have the required inputs for vertex shader
+04:29:39.924: Vertex buffer does not have the required inputs for vertex shader
+04:29:39.924: Vertex buffer does not have the required inputs for vertex shader
+04:37:40.251: User switched to scene 'Scene 2 2'
+04:37:51.443: User switched to scene 'Scene 3'
+04:38:13.019: User switched to scene 'Scene 2 2'
+04:38:16.773: User switched to scene 'Scene 3'
+04:39:20.756: ---------------------------------
+04:39:20.756: [x264 encoder: 'recording_h264'] preset: medium
+04:39:20.756: [x264 encoder: 'recording_h264'] settings:
+04:39:20.756: 	rate_control: CBR
+04:39:20.756: 	bitrate:      2500
+04:39:20.756: 	buffer size:  2500
+04:39:20.756: 	crf:          0
+04:39:20.756: 	fps_num:      30
+04:39:20.756: 	fps_den:      1
+04:39:20.756: 	width:        1280
+04:39:20.756: 	height:       800
+04:39:20.756: 	keyint:       250
+04:39:20.756: 
+04:39:20.762: ---------------------------------
+04:39:20.763: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+04:39:20.763: 
+04:39:20.775: ==== Recording Start ===============================================
+04:39:20.775: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 04-39-20.flv'...
+04:39:24.031: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 04-39-20.flv' stopped
+04:39:24.031: Output 'adv_file_output': stopping
+04:39:24.031: Output 'adv_file_output': Total frames output: 44
+04:39:24.031: Output 'adv_file_output': Total drawn frames: 98
+04:39:24.069: ==== Recording Stop ================================================
+04:39:28.524: xcompcap: [window-capture: 'Chrome'] update settings:
+04:39:28.524: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:39:28.524: 	class: google-chrome-beta
+04:39:28.524: 	Has alpha: yes
+04:39:28.524: 	Found proper GLXFBConfig: yes
+04:39:28.524: 
+04:39:49.224: xcompcap: [window-capture: 'Chrome'] update settings:
+04:39:49.224: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:39:49.224: 	class: google-chrome-beta
+04:39:49.224: 	Has alpha: yes
+04:39:49.224: 	Found proper GLXFBConfig: yes
+04:39:49.224: 
+04:39:54.228: xcompcap: [window-capture: 'Chrome'] update settings:
+04:39:54.228: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:39:54.228: 	class: google-chrome-beta
+04:39:54.228: 	Has alpha: yes
+04:39:54.228: 	Found proper GLXFBConfig: yes
+04:39:54.228: 
+04:39:58.123: xcompcap: [window-capture: 'Chrome'] update settings:
+04:39:58.123: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:39:58.123: 	class: google-chrome-beta
+04:39:58.123: 	Has alpha: yes
+04:39:58.123: 	Found proper GLXFBConfig: yes
+04:39:58.123: 
+04:40:13.600: xcompcap: [window-capture: 'Chrome'] update settings:
+04:40:13.600: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:40:13.600: 	class: google-chrome-beta
+04:40:13.600: 	Has alpha: yes
+04:40:13.600: 	Found proper GLXFBConfig: yes
+04:40:13.600: 
+04:40:45.505: xcompcap: [window-capture: 'Chrome'] update settings:
+04:40:45.505: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:40:45.505: 	class: google-chrome-beta
+04:40:45.505: 	Has alpha: yes
+04:40:45.505: 	Found proper GLXFBConfig: yes
+04:40:45.505: 
+04:41:06.560: xcompcap: [window-capture: 'Chrome'] update settings:
+04:41:06.560: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:41:06.560: 	class: google-chrome-beta
+04:41:06.560: 	Has alpha: yes
+04:41:06.560: 	Found proper GLXFBConfig: yes
+04:41:06.560: 
+04:41:11.716: xcompcap: [window-capture: 'Chrome'] update settings:
+04:41:11.716: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:41:11.716: 	class: google-chrome-beta
+04:41:11.716: 	Has alpha: yes
+04:41:11.716: 	Found proper GLXFBConfig: yes
+04:41:11.716: 
+04:42:25.128: xcompcap: [window-capture: 'Chrome'] update settings:
+04:42:25.128: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:42:25.128: 	class: google-chrome-beta
+04:42:25.128: 	Has alpha: yes
+04:42:25.128: 	Found proper GLXFBConfig: yes
+04:42:25.128: 
+04:42:28.301: xcompcap: [window-capture: 'Chrome'] update settings:
+04:42:28.301: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:42:28.301: 	class: google-chrome-beta
+04:42:28.301: 	Has alpha: yes
+04:42:28.301: 	Found proper GLXFBConfig: yes
+04:42:28.301: 
+04:42:38.532: xcompcap: [window-capture: 'Chrome'] update settings:
+04:42:38.532: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+04:42:38.532: 	class: google-chrome-beta
+04:42:38.532: 	Has alpha: yes
+04:42:38.532: 	Found proper GLXFBConfig: yes
+04:42:38.532: 
+04:42:42.739: xcompcap: [window-capture: 'Chrome'] update settings:
+04:42:42.739: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+04:42:42.739: 	class: google-chrome-beta
+04:42:42.739: 	Has alpha: yes
+04:42:42.739: 	Found proper GLXFBConfig: yes
+04:42:42.739: 
+04:42:45.636: xcompcap: [window-capture: 'Chrome'] update settings:
+04:42:45.636: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+04:42:45.636: 	class: google-chrome-beta
+04:42:45.636: 	Has alpha: yes
+04:42:45.636: 	Found proper GLXFBConfig: yes
+04:42:45.636: 
+04:43:00.945: xcompcap: [window-capture: 'Chrome'] update settings:
+04:43:00.945: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+04:43:00.945: 	class: google-chrome-beta
+04:43:00.945: 	Has alpha: yes
+04:43:00.945: 	Found proper GLXFBConfig: yes
+04:43:00.945: 
+04:43:00.966: xcompcap: [window-capture: 'Chrome'] update settings:
+04:43:00.966: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+04:43:00.966: 	class: google-chrome-beta
+04:43:00.966: 	Has alpha: yes
+04:43:00.966: 	Found proper GLXFBConfig: yes
+04:43:00.966: 
+04:43:30.056: xcompcap: [window-capture: 'Chrome'] update settings:
+04:43:30.056: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+04:43:30.056: 	class: google-chrome-beta
+04:43:30.056: 	Has alpha: yes
+04:43:30.056: 	Found proper GLXFBConfig: yes
+04:43:30.056: 
+04:43:34.263: xcompcap: [window-capture: 'Chrome'] update settings:
+04:43:34.263: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+04:43:34.263: 	class: google-chrome-beta
+04:43:34.263: 	Has alpha: yes
+04:43:34.263: 	Found proper GLXFBConfig: yes
+04:43:34.263: 
+04:43:37.091: xcompcap: [window-capture: 'Chrome'] update settings:
+04:43:37.091: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:43:37.091: 	class: google-chrome-beta
+04:43:37.091: 	Has alpha: yes
+04:43:37.091: 	Found proper GLXFBConfig: yes
+04:43:37.091: 
+04:43:43.126: xcompcap: [window-capture: 'Chrome'] update settings:
+04:43:43.126: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:43:43.126: 	class: google-chrome-beta
+04:43:43.126: 	Has alpha: yes
+04:43:43.126: 	Found proper GLXFBConfig: yes
+04:43:43.126: 
+04:43:44.226: xcompcap: [window-capture: 'Chrome'] update settings:
+04:43:44.226: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:43:44.226: 	class: google-chrome-beta
+04:43:44.226: 	Has alpha: yes
+04:43:44.226: 	Found proper GLXFBConfig: yes
+04:43:44.226: 
+04:44:04.379: xcompcap: [window-capture: 'Chrome'] update settings:
+04:44:04.379: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:44:04.379: 	class: google-chrome-beta
+04:44:04.379: 	Has alpha: yes
+04:44:04.379: 	Found proper GLXFBConfig: yes
+04:44:04.379: 
+04:44:09.660: xcompcap: [window-capture: 'Chrome'] update settings:
+04:44:09.660: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:44:09.660: 	class: google-chrome-beta
+04:44:09.660: 	Has alpha: yes
+04:44:09.660: 	Found proper GLXFBConfig: yes
+04:44:09.660: 
+04:44:18.325: xcompcap: [window-capture: 'Chrome'] update settings:
+04:44:18.325: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:44:18.325: 	class: google-chrome-beta
+04:44:18.325: 	Has alpha: yes
+04:44:18.325: 	Found proper GLXFBConfig: yes
+04:44:18.325: 
+04:44:26.842: xcompcap: [window-capture: 'Chrome'] update settings:
+04:44:26.842: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:44:26.842: 	class: google-chrome-beta
+04:44:26.842: 	Has alpha: yes
+04:44:26.842: 	Found proper GLXFBConfig: yes
+04:44:26.842: 
+04:44:33.001: xcompcap: [window-capture: 'Chrome'] update settings:
+04:44:33.001: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:44:33.001: 	class: google-chrome-beta
+04:44:33.001: 	Has alpha: yes
+04:44:33.001: 	Found proper GLXFBConfig: yes
+04:44:33.001: 
+04:44:44.047: ---------------------------------
+04:44:44.047: [x264 encoder: 'recording_h264'] preset: medium
+04:44:44.047: [x264 encoder: 'recording_h264'] settings:
+04:44:44.047: 	rate_control: CBR
+04:44:44.047: 	bitrate:      2500
+04:44:44.047: 	buffer size:  2500
+04:44:44.047: 	crf:          0
+04:44:44.047: 	fps_num:      30
+04:44:44.047: 	fps_den:      1
+04:44:44.047: 	width:        1280
+04:44:44.047: 	height:       800
+04:44:44.047: 	keyint:       250
+04:44:44.047: 
+04:44:44.052: ---------------------------------
+04:44:44.053: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+04:44:44.053: 
+04:44:44.069: ==== Recording Start ===============================================
+04:44:44.069: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 04-44-44.flv'...
+04:44:47.702: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 04-44-44.flv' stopped
+04:44:47.702: Output 'adv_file_output': stopping
+04:44:47.702: Output 'adv_file_output': Total frames output: 57
+04:44:47.702: Output 'adv_file_output': Total drawn frames: 109
+04:44:47.703: ==== Recording Stop ================================================
+04:45:06.679: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:06.679: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:06.679: 	class: google-chrome-beta
+04:45:06.679: 	Has alpha: yes
+04:45:06.679: 	Found proper GLXFBConfig: yes
+04:45:06.679: 
+04:45:14.203: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:14.203: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:14.203: 	class: google-chrome-beta
+04:45:14.203: 	Has alpha: yes
+04:45:14.203: 	Found proper GLXFBConfig: yes
+04:45:14.203: 
+04:45:15.422: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:15.422: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:15.422: 	class: google-chrome-beta
+04:45:15.422: 	Has alpha: yes
+04:45:15.422: 	Found proper GLXFBConfig: yes
+04:45:15.422: 
+04:45:16.836: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:16.836: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:16.836: 	class: google-chrome-beta
+04:45:16.836: 	Has alpha: yes
+04:45:16.836: 	Found proper GLXFBConfig: yes
+04:45:16.836: 
+04:45:20.155: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:20.155: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:20.155: 	class: google-chrome-beta
+04:45:20.155: 	Has alpha: yes
+04:45:20.155: 	Found proper GLXFBConfig: yes
+04:45:20.155: 
+04:45:23.627: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:23.627: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:23.627: 	class: google-chrome-beta
+04:45:23.627: 	Has alpha: yes
+04:45:23.627: 	Found proper GLXFBConfig: yes
+04:45:23.627: 
+04:45:25.655: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:25.655: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:25.655: 	class: google-chrome-beta
+04:45:25.655: 	Has alpha: yes
+04:45:25.655: 	Found proper GLXFBConfig: yes
+04:45:25.655: 
+04:45:26.765: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:26.765: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:26.765: 	class: google-chrome-beta
+04:45:26.765: 	Has alpha: yes
+04:45:26.765: 	Found proper GLXFBConfig: yes
+04:45:26.765: 
+04:45:35.610: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:35.610: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:35.610: 	class: google-chrome-beta
+04:45:35.610: 	Has alpha: yes
+04:45:35.610: 	Found proper GLXFBConfig: yes
+04:45:35.610: 
+04:45:40.564: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:40.564: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:40.564: 	class: google-chrome-beta
+04:45:40.564: 	Has alpha: yes
+04:45:40.564: 	Found proper GLXFBConfig: yes
+04:45:40.564: 
+04:45:42.574: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:42.574: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:42.574: 	class: google-chrome-beta
+04:45:42.574: 	Has alpha: yes
+04:45:42.574: 	Found proper GLXFBConfig: yes
+04:45:42.574: 
+04:45:44.130: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:44.130: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:44.130: 	class: google-chrome-beta
+04:45:44.130: 	Has alpha: yes
+04:45:44.130: 	Found proper GLXFBConfig: yes
+04:45:44.130: 
+04:45:45.210: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:45.210: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:45.210: 	class: google-chrome-beta
+04:45:45.210: 	Has alpha: yes
+04:45:45.210: 	Found proper GLXFBConfig: yes
+04:45:45.210: 
+04:45:48.726: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:48.726: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:48.726: 	class: google-chrome-beta
+04:45:48.726: 	Has alpha: yes
+04:45:48.726: 	Found proper GLXFBConfig: yes
+04:45:48.726: 
+04:45:53.649: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:53.649: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:53.649: 	class: google-chrome-beta
+04:45:53.649: 	Has alpha: yes
+04:45:53.649: 	Found proper GLXFBConfig: yes
+04:45:53.649: 
+04:45:58.337: xcompcap: [window-capture: 'Chrome'] update settings:
+04:45:58.337: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:45:58.337: 	class: google-chrome-beta
+04:45:58.337: 	Has alpha: yes
+04:45:58.337: 	Found proper GLXFBConfig: yes
+04:45:58.337: 
+04:46:01.890: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:01.890: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:01.890: 	class: google-chrome-beta
+04:46:01.890: 	Has alpha: yes
+04:46:01.890: 	Found proper GLXFBConfig: yes
+04:46:01.890: 
+04:46:03.868: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:03.868: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:03.868: 	class: google-chrome-beta
+04:46:03.868: 	Has alpha: yes
+04:46:03.868: 	Found proper GLXFBConfig: yes
+04:46:03.868: 
+04:46:05.180: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:05.180: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:05.180: 	class: google-chrome-beta
+04:46:05.180: 	Has alpha: yes
+04:46:05.180: 	Found proper GLXFBConfig: yes
+04:46:05.180: 
+04:46:07.158: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:07.158: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:07.158: 	class: google-chrome-beta
+04:46:07.158: 	Has alpha: yes
+04:46:07.158: 	Found proper GLXFBConfig: yes
+04:46:07.158: 
+04:46:14.591: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:14.591: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:14.591: 	class: google-chrome-beta
+04:46:14.591: 	Has alpha: yes
+04:46:14.591: 	Found proper GLXFBConfig: yes
+04:46:14.591: 
+04:46:20.836: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:20.836: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:20.836: 	class: google-chrome-beta
+04:46:20.836: 	Has alpha: yes
+04:46:20.836: 	Found proper GLXFBConfig: yes
+04:46:20.836: 
+04:46:21.704: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:21.704: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:21.704: 	class: google-chrome-beta
+04:46:21.704: 	Has alpha: yes
+04:46:21.704: 	Found proper GLXFBConfig: yes
+04:46:21.704: 
+04:46:22.828: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:22.828: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:22.828: 	class: google-chrome-beta
+04:46:22.828: 	Has alpha: yes
+04:46:22.828: 	Found proper GLXFBConfig: yes
+04:46:22.828: 
+04:46:24.218: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:24.218: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:24.218: 	class: google-chrome-beta
+04:46:24.218: 	Has alpha: yes
+04:46:24.218: 	Found proper GLXFBConfig: yes
+04:46:24.218: 
+04:46:27.057: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:27.057: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:27.057: 	class: google-chrome-beta
+04:46:27.057: 	Has alpha: yes
+04:46:27.057: 	Found proper GLXFBConfig: yes
+04:46:27.057: 
+04:46:28.228: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:28.228: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:28.228: 	class: google-chrome-beta
+04:46:28.228: 	Has alpha: yes
+04:46:28.228: 	Found proper GLXFBConfig: yes
+04:46:28.228: 
+04:46:30.463: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:30.463: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:30.463: 	class: google-chrome-beta
+04:46:30.463: 	Has alpha: yes
+04:46:30.463: 	Found proper GLXFBConfig: yes
+04:46:30.463: 
+04:46:34.365: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:34.365: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:34.365: 	class: google-chrome-beta
+04:46:34.365: 	Has alpha: yes
+04:46:34.365: 	Found proper GLXFBConfig: yes
+04:46:34.365: 
+04:46:35.536: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:35.536: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:35.536: 	class: google-chrome-beta
+04:46:35.536: 	Has alpha: yes
+04:46:35.536: 	Found proper GLXFBConfig: yes
+04:46:35.536: 
+04:46:39.331: xcompcap: [window-capture: 'Chrome'] update settings:
+04:46:39.331: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:46:39.331: 	class: google-chrome-beta
+04:46:39.331: 	Has alpha: yes
+04:46:39.331: 	Found proper GLXFBConfig: yes
+04:46:39.331: 
+04:48:35.918: Last log entry repeated for 13 more lines
+04:48:35.918: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001260
+04:48:35.951: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001266
+04:48:35.984: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001272
+04:48:36.018: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001278
+04:48:36.051: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001284
+04:48:36.084: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001290
+04:48:36.118: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001296
+04:48:36.151: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001302
+04:48:36.184: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001308
+04:48:36.218: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001314
+04:48:36.251: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001320
+04:48:36.285: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001326
+04:48:36.318: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001332
+04:48:36.351: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001338
+04:48:36.384: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001344
+04:48:36.418: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001350
+04:48:36.451: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001356
+04:48:36.485: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001362
+04:48:36.518: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001368
+04:48:36.551: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001374
+04:48:36.585: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001380
+04:48:36.618: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001386
+04:48:36.651: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001392
+04:48:36.684: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001398
+04:48:36.718: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001404
+04:48:36.751: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001410
+04:48:36.785: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001416
+04:48:36.818: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001422
+04:48:36.851: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001428
+04:48:36.884: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001434
+04:48:36.918: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001440
+04:48:37.156: Last log entry repeated for 7 more lines
+04:48:37.156: xcompcap: [window-capture: 'Chrome'] update settings:
+04:48:37.156: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:48:37.156: 	class: google-chrome-beta
+04:48:37.156: 	Has alpha: yes
+04:48:37.156: 	Found proper GLXFBConfig: yes
+04:48:37.156: 
+04:48:37.184: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001558
+04:48:37.218: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001564
+04:48:37.251: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001570
+04:48:37.284: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001576
+04:48:37.318: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001582
+04:48:37.351: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001588
+04:48:37.384: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001594
+04:48:37.418: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001600
+04:48:37.451: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001606
+04:48:37.485: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001612
+04:48:37.518: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001618
+04:48:37.551: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001624
+04:48:37.584: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001630
+04:48:37.618: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001636
+04:48:37.651: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001642
+04:48:37.684: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001648
+04:48:37.718: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001654
+04:48:37.751: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001660
+04:48:37.784: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001666
+04:48:37.818: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001672
+04:48:37.851: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001678
+04:48:37.885: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001684
+04:48:37.918: X Error: BadWindow (invalid Window parameter), Major opcode: BadWindow (invalid Window parameter), Minor opcode: 0, Serial: 2001690
+04:48:37.928: xcompcap: [window-capture: 'C2'] update settings:
+04:48:37.928: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:48:37.928: 	class: google-chrome-beta
+04:48:37.928: 	Has alpha: yes
+04:48:37.928: 	Found proper GLXFBConfig: yes
+04:48:37.928: 
+04:48:51.160: User switched to scene 'Scene 2 2'
+04:48:51.176: User Removed scene 'Scene 3'
+04:48:56.000: User switched to scene 'Scene 2'
+04:48:56.016: User Removed scene 'Scene 2 2'
+04:48:59.392: User switched to scene 'mypaint kinski blend 2'
+04:48:59.433: User Removed scene 'Scene 2'
+04:49:03.554: User switched to scene 'mypaint kinski blend'
+04:49:07.445: User switched to scene 'mypaint greenscreen'
+04:49:18.246: ==== Shutting down ==================================================
+04:49:18.250: Switched to scene '(null)'
+04:49:18.262: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+04:49:18.262: pulse-input: Got 888589 packets with 269620318 frames
+04:49:18.262: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+04:49:18.263: pulse-input: Got 567223 packets with 247440248 frames
+04:49:18.263: All scene data cleared
+04:49:18.263: ------------------------------------------------
+04:49:18.327: Freeing OBS context data
+04:49:18.346: [Scripting] Total detached callbacks: 0
+04:49:18.361: == Profiler Results =============================
+04:49:18.361: run_program_init: 1741,69 ms
+04:49:18.361:  ┣OBSApp::AppInit: 27,627 ms
+04:49:18.361:  ┃ ┗OBSApp::InitLocale: 22,511 ms
+04:49:18.361:  ┗OBSApp::OBSInit: 1485,46 ms
+04:49:18.361:    ┣obs_startup: 26,104 ms
+04:49:18.361:    ┗OBSBasic::OBSInit: 1292,12 ms
+04:49:18.361:      ┣OBSBasic::InitBasicConfig: 0,203 ms
+04:49:18.361:      ┣OBSBasic::ResetAudio: 0,202 ms
+04:49:18.361:      ┣OBSBasic::ResetVideo: 131,074 ms
+04:49:18.361:      ┣OBSBasic::InitOBSCallbacks: 0,004 ms
+04:49:18.361:      ┣OBSBasic::InitHotkeys: 0,043 ms
+04:49:18.361:      ┣obs_load_all_modules: 598,101 ms
+04:49:18.361:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0,821 ms
+04:49:18.361:      ┃ ┣obs_init_module(frontend-tools.so): 359,568 ms
+04:49:18.361:      ┃ ┣obs_init_module(image-source.so): 0,005 ms
+04:49:18.361:      ┃ ┣obs_init_module(linux-alsa.so): 0,003 ms
+04:49:18.361:      ┃ ┣obs_init_module(linux-capture.so): 0,723 ms
+04:49:18.361:      ┃ ┣obs_init_module(linux-decklink.so): 0,497 ms
+04:49:18.361:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0,008 ms
+04:49:18.361:      ┃ ┣obs_init_module(linux-v4l2.so): 0,006 ms
+04:49:18.361:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0,361 ms
+04:49:18.361:      ┃ ┃ ┗nvenc_check: 0,33 ms
+04:49:18.361:      ┃ ┣obs_init_module(obs-filters.so): 0,014 ms
+04:49:18.361:      ┃ ┣obs_init_module(obs-outputs.so): 0,005 ms
+04:49:18.361:      ┃ ┣obs_init_module(obs-transitions.so): 0,02 ms
+04:49:18.361:      ┃ ┣obs_init_module(obs-x264.so): 0,004 ms
+04:49:18.361:      ┃ ┣obs_init_module(rtmp-services.so): 0,233 ms
+04:49:18.361:      ┃ ┗obs_init_module(text-freetype2.so): 0,068 ms
+04:49:18.361:      ┣OBSBasic::ResetOutputs: 0,309 ms
+04:49:18.361:      ┣OBSBasic::CreateHotkeys: 0,034 ms
+04:49:18.361:      ┣OBSBasic::InitService: 19,325 ms
+04:49:18.361:      ┣OBSBasic::InitPrimitives: 0,41 ms
+04:49:18.361:      ┗OBSBasic::Load: 406,928 ms
+04:49:18.361: obs_hotkey_thread(25 ms): min=0,075 ms, median=0,394 ms, max=36,236 ms, 99th percentile=3,042 ms, 99,9918% below 25 ms
+04:49:18.361: audio_thread(Audio): min=0 ms, median=0,188 ms, max=94,025 ms, 99th percentile=0,971 ms
+04:49:18.361:  ┗receive_audio: min=0,002 ms, median=0,283 ms, max=6,567 ms, 99th percentile=1,558 ms, 0,00262255 calls per parent call
+04:49:18.361:    ┣buffer_audio: min=0,001 ms, median=0,002 ms, max=0,21 ms, 99th percentile=0,043 ms
+04:49:18.362:    ┗do_encode: min=0,013 ms, median=0,277 ms, max=6,516 ms, 99th percentile=1,546 ms
+04:49:18.362:      ┗encode(Track1): min=0,013 ms, median=0,265 ms, max=2,883 ms, 99th percentile=1,218 ms
+04:49:18.362: obs_graphics_thread(33,3333 ms): min=0,121 ms, median=4,359 ms, max=310,753 ms, 99th percentile=14,586 ms, 99,9661% below 33,333 ms
+04:49:18.362:  ┣tick_sources: min=0,001 ms, median=1,469 ms, max=310,06 ms, 99th percentile=3,905 ms
+04:49:18.362:  ┣output_frame: min=0,105 ms, median=0,928 ms, max=99,59 ms, 99th percentile=2,167 ms
+04:49:18.362:  ┃ ┣gs_context(video->graphics): min=0,105 ms, median=0,927 ms, max=99,59 ms, 99th percentile=2,133 ms
+04:49:18.362:  ┃ ┃ ┣render_video: min=0,033 ms, median=0,798 ms, max=99,474 ms, 99th percentile=1,882 ms
+04:49:18.362:  ┃ ┃ ┃ ┣render_main_texture: min=0,03 ms, median=0,79 ms, max=59,564 ms, 99th percentile=1,869 ms
+04:49:18.362:  ┃ ┃ ┃ ┣render_output_texture: min=0,028 ms, median=0,055 ms, max=99,09 ms, 99th percentile=0,152 ms, 0,00254269 calls per parent call
+04:49:18.362:  ┃ ┃ ┃ ┣render_convert_texture: min=0,002 ms, median=0,058 ms, max=63,047 ms, 99th percentile=0,168 ms, 0,00254269 calls per parent call
+04:49:18.362:  ┃ ┃ ┃ ┗stage_output_texture: min=0 ms, median=0,04 ms, max=0,21 ms, 99th percentile=0,086 ms, 0,00254269 calls per parent call
+04:49:18.362:  ┃ ┃ ┣gs_flush: min=0,017 ms, median=0,1 ms, max=6,112 ms, 99th percentile=0,248 ms
+04:49:18.362:  ┃ ┃ ┗download_frame: min=0 ms, median=0,007 ms, max=0,104 ms, 99th percentile=0,019 ms, 0,00254269 calls per parent call
+04:49:18.362:  ┃ ┗output_video_data: min=0,422 ms, median=0,959 ms, max=8,363 ms, 99th percentile=3,04 ms, 0,00248922 calls per parent call
+04:49:18.362:  ┗render_displays: min=0,003 ms, median=1,363 ms, max=107,286 ms, 99th percentile=11,046 ms
+04:49:18.362: video_thread(video): min=0,001 ms, median=4,62 ms, max=100,798 ms, 99th percentile=42,312 ms
+04:49:18.362:  ┗receive_video: min=1,378 ms, median=4,608 ms, max=100,788 ms, 99th percentile=42,31 ms
+04:49:18.362:    ┗do_encode: min=1,378 ms, median=4,602 ms, max=100,781 ms, 99th percentile=42,309 ms
+04:49:18.362:      ┗encode(recording_h264): min=1,367 ms, median=4,456 ms, max=98,282 ms, 99th percentile=42,3 ms
+04:49:18.362: =================================================
+04:49:18.362: == Profiler Time Between Calls ==================
+04:49:18.362: obs_hotkey_thread(25 ms): min=25,13 ms, median=25,515 ms, max=61,315 ms, 47,6135% within ±2% of 25 ms (0% lower, 52,3865% higher)
+04:49:18.362: obs_graphics_thread(33,3333 ms): min=1,379 ms, median=33,334 ms, max=310,765 ms, 99,2211% within ±2% of 33,333 ms (0,389722% lower, 0,389128% higher)
+04:49:18.362: =================================================
+04:49:18.473: Number of memory leaks: 0

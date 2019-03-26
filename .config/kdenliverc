@@ -1,0 +1,174 @@
+[DownloadDialog Settings]
+Height 800=465
+Width 1280=700
+
+[FileDialogSize]
+Height 800=533
+Width 1280=853
+
+[KFileDialog Settings]
+Recent Files[$e]=tst.png,file:$HOME/Videos/kdenlive/skærmfilm/batch titles/title test black on green speed plus 170pc.webm,file:$HOME/Videos/OBS/2019-03-08 18-01-37.mkv,file:$HOME/Videos/OBS/2019-03-08 18-00-47.mkv,file:$HOME/Videos/OBS/2019-03-08 17-59-37.mkv,file:$HOME/Videos/OBS/2019-03-08 17-58-36.mkv,file:$HOME/Videos/OBS/2019-03-08 17-57-20.mkv,file:$HOME/Videos/OBS/2019-03-08 17-56-17.mkv,file:$HOME/Videos/OBS/2019-03-08 17-55-18.mkv,file:$HOME/Videos/OBS/2019-03-08 17-17-25.mkv,file:$HOME/Videos/shotcut tst/WP_20190218_11_43_51_Pro.mp4,file:$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/WP_20190219_15_04_14_Pro.mp4,file:$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/190219-150355.MP3,file:///run/media/korben/Data/vm_share_space/fra win 2018 backup/2018-08-23_23-40-05.flv,file:///run/media/korben/Data/vm_share_space/fra win 2018 backup/2018-08-23_23-36-54.flv,file:///run/media/korben/Data/vm_share_space/fra win 2018 backup/2018-08-23_23-31-42.flv
+Recent URLs[$e]=file:$HOME/Videos/kdenlive/skærmfilm/batch titles/
+
+[MainWindow]
+Height 1024=1024
+Height 720=720
+Height 768=839
+Height 800=772
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAUAAAABWfwBAAAAC/sAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAXgD////7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAcAD////7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAbAD////8AAAAAAAAAcwAAAB/AP////oAAAACAQAAAAP7AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAAA/////wAAAGwA////+wAAAB4AYwBsAGkAcABfAHAAcgBvAHAAZQByAHQAaQBlAHMBAAAAAP////8AAABaAP////sAAAAWAHAAcgBvAGoAZQBjAHQAXwBiAGkAbgEAAAAAAAABzAAAAHAA/////AAAAdIAAADyAAAAxgD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQAAAAAAP////8AAABsAP////sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAMYA/////AAAAsoAAAI2AAABQAD////6AAAAAAEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFAAP////sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABQAD////7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAF4A////+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABUQD////7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAETQAAALMAAACzAP////sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACuAP////sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABVQD///8AAAUAAAABQgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIBAAACTv////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1024=1280
+Width 1280=1280
+Window-Maximized 720x1280=true
+
+[Recent Dirs]
+KdenliveClipFolder[$e]=$HOME/Videos/kdenlive/skærmfilm/batch titles/,$HOME/Videos/OBS/,$HOME/Videos/shotcut tst/
+KdenliveFramesFolder[$e]=$HOME/Videos/kdenlive/skærmfilm/ole1/,$HOME/Videos/kdenlive/greenscrn/,$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/
+KdenliveProjectsFolder[$e]=$HOME/Videos/kdenlive/skærmfilm/ole2,$HOME/Videos/kdenlive/skærmfilm/ole1,$HOME/Videos/kdenlive/greenscrn
+
+[Recent Files]
+File1[$e]=$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/pedals amps ozonic_backup0.kdenlive
+File2[$e]=$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/pedals amps ozonic bfr.kdenlive
+File3[$e]=$HOME/Videos/kdenlive/pedals for sale/pedals for sale.kdenlive
+File4[$e]=$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/pedals amps ozonic.kdenlive
+File5[$e]=$HOME/Videos/kdenlive/greenscrn/greenscrn.kdenlive
+File6[$e]=$HOME/Videos/kdenlive/greenscrn/greenscrn2.kdenlive
+File7[$e]=$HOME/Videos/kdenlive/skærmfilm/ole1/ole1 - mic daws fx format.kdenlive
+File8[$e]=$HOME/Videos/kdenlive/skærmfilm/ole2/mics_lyd_DAWs.kdenlive
+File9[$e]=$HOME/Videos/kdenlive/skærmfilm/ole2/mics_lyd_DAWs - edit practise cut.kdenlive
+Name1[$e]=pedals amps ozonic_backup0.kdenlive
+Name2[$e]=pedals amps ozonic bfr.kdenlive
+Name3[$e]=pedals for sale.kdenlive
+Name4[$e]=pedals amps ozonic.kdenlive
+Name5[$e]=greenscrn.kdenlive
+Name6[$e]=greenscrn2.kdenlive
+Name7[$e]=ole1 - mic daws fx format.kdenlive
+Name8[$e]=mics_lyd_DAWs.kdenlive
+Name9[$e]=mics_lyd_DAWs - edit practise cut.kdenlive
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[TitleWidget]
+background_alpha=0
+background_color=0,0,0
+dialog_geometry=AdnQywACAAAAAAB0AAAAAAAABIsAAAMfAAAAdAAAACcAAASLAAADHwAAAAAAAAAABQA=
+font_color=85,170,255
+font_family=Noto Sans,-1,61,5,50,0,0,0,0,0
+font_italic=false
+font_outline=0
+font_outline_color=invalid
+font_pixel_size=76
+font_underlined=false
+font_weight=50
+rect_background_alpha=255
+rect_background_color=0,0,0
+rect_foreground_alpha=255
+rect_foreground_color=0,0,0
+rect_line_width=0
+use_grid=false
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAA+AAABtgAAAAMBAQABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAAG2AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAEc=
+
+[capture]
+decklink_capturedevice=4294967295
+decklink_device_found=false
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+defaultcapture=1
+dvgrab_path=/usr/bin/dvgrab
+grab_extension=mp4
+grab_offsetx=123
+grab_parameters=-f pulse -i default -crf 25 -ab 128k -vcodec libx264 -acodec libvorbis -preset medium -threads 0
+grab_profile=3
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+customprojectfolder=true
+defaultimageapp=/usr/bin/krita
+defaultprojectfolder[$e]=$HOME/Videos/kdenlive
+encodethreads=2
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt/profiles
+rendererpath[$e]=/usr/bin/melt
+
+[misc]
+autoimagetransparency=true
+
+[project]
+enableproxy=true
+generateimageproxy=true
+generateproxy=true
+previewextension=avi
+previewparams=f=avi vcodec=mjpeg progressive=1 qscale=1
+proxy_profile=2
+proxyextension=mov
+proxyparams=-vf scale=960:-2 -g 1 -bf 0 -vb 0 -crf 20 -vcodec libx264 -ab 128k -acodec aac -preset veryfast
+
+[sdl]
+audiobackend=sdl2_audio
+blackmagic_output_device=-1
+sdlAudioBackend=sdl2_audio
+
+[shuttle]
+enableshuttle=true
+shuttlebuttons=button0=monitor_pause
+
+[timeline]
+timelineheaderwidth=AAAA/wAAAAEAAAACAAAAsgAABEQB/////wEAAAABAA==
+trackheight=68
+verticalzoom=true
+
+[titles]
+selected_template=simple-scroll.kdenlivetitle
+
+[unmanaged]
+colortheme=/usr/share/color-schemes/BreezeDark.colors
+current_profile=atsc_1080p_30
+default_profile=atsc_720p_30
+defaultrescaleheight=180
+displayProjectMonitorInfo=6
+force_breeze=true
+monitor_audio=false
+producerslist=frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,xml,xml-string,xml-nogl,framebuffer,avformat,avformat-novalidate,decklink,qimage,qtext,kdenlivetitle,blipflash,count,pgm,slowmotion,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone
+project_display_ratio=1.7777777777777777
+project_fps=30
+widgetstyle=plastique
+
+[version]
+version=18.12.2

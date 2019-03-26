@@ -1,0 +1,356 @@
+04:51:08.409: CPU Name: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+04:51:08.409: CPU Speed: 910.838MHz
+04:51:08.410: Physical Cores: 2, Logical Cores: 4
+04:51:08.410: Physical Memory: 11917MB Total, 4417MB Free
+04:51:08.410: Kernel Version: Linux 4.20.10-111.current
+04:51:08.410: Distribution: "Solus" "3.9999"
+04:51:08.411: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.3
+04:51:08.414: Portable mode: false
+04:51:08.542: OBS 23.0.1 (linux)
+04:51:08.542: ---------------------------------
+04:51:08.574: ---------------------------------
+04:51:08.575: audio settings reset:
+04:51:08.575: 	samples per sec: 44100
+04:51:08.575: 	speakers:        2
+04:51:08.582: ---------------------------------
+04:51:08.582: Initializing OpenGL...
+04:51:08.614: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) Sandybridge Mobile 
+04:51:08.614: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.3, shading language 3.30
+04:51:08.685: ---------------------------------
+04:51:08.685: video settings reset:
+04:51:08.685: 	base resolution:   1280x800
+04:51:08.685: 	output resolution: 1280x800
+04:51:08.685: 	downscale filter:  Bilinear
+04:51:08.685: 	fps:               30/1
+04:51:08.685: 	format:            NV12
+04:51:08.685: 	YUV mode:          601/Partial
+04:51:08.685: NV12 texture support not available
+04:51:08.696: Audio monitoring device:
+04:51:08.696: 	name: Default
+04:51:08.696: 	id: default
+04:51:08.696: ---------------------------------
+04:51:08.697: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+04:51:09.057: No blackmagic support
+04:51:09.088: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+04:51:09.088: 
+04:51:09.088: FFMPEG VAAPI supported
+04:51:09.141: ---------------------------------
+04:51:09.141:   Loaded Modules:
+04:51:09.141:     text-freetype2.so
+04:51:09.141:     rtmp-services.so
+04:51:09.141:     obs-x264.so
+04:51:09.141:     obs-transitions.so
+04:51:09.141:     obs-outputs.so
+04:51:09.141:     obs-filters.so
+04:51:09.141:     obs-ffmpeg.so
+04:51:09.141:     linux-v4l2.so
+04:51:09.141:     linux-pulseaudio.so
+04:51:09.141:     linux-decklink.so
+04:51:09.141:     linux-capture.so
+04:51:09.141:     linux-alsa.so
+04:51:09.141:     image-source.so
+04:51:09.141:     frontend-tools.so
+04:51:09.141:     decklink-ouput-ui.so
+04:51:09.141: ---------------------------------
+04:51:09.141: ==== Startup complete ===============================================
+04:51:09.169: All scene data cleared
+04:51:09.169: ------------------------------------------------
+04:51:09.193: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+04:51:09.193: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+04:51:09.193: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+04:51:09.198: pulse-am: Prevented feedback-loop in 'default'
+04:51:09.198: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+04:51:09.198: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:51:09.198: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+04:51:09.223: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+04:51:09.223: 	title: hotkeys memo sheets.ora - MyPaint
+04:51:09.223: 	class: mypaint
+04:51:09.223: 	Has alpha: no
+04:51:09.223: 	Found proper GLXFBConfig: yes
+04:51:09.223: 
+04:51:09.239: xcompcap: [window-capture: 'mypaint bckgrnd'] update settings:
+04:51:09.239: 	title: hotkeys memo sheets.ora - MyPaint
+04:51:09.239: 	class: mypaint
+04:51:09.239: 	Has alpha: no
+04:51:09.239: 	Found proper GLXFBConfig: yes
+04:51:09.239: 
+04:51:09.252: xcompcap: [window-capture: 'mypaint bckgrnd kinski'] update settings:
+04:51:09.252: 	title: hotkeys memo sheets.ora - MyPaint
+04:51:09.252: 	class: mypaint
+04:51:09.252: 	Has alpha: no
+04:51:09.252: 	Found proper GLXFBConfig: yes
+04:51:09.252: 
+04:51:09.262: xcompcap: [window-capture: 'Chrome'] update settings:
+04:51:09.262: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+04:51:09.262: 	class: google-chrome-beta
+04:51:09.262: 	Has alpha: yes
+04:51:09.262: 	Found proper GLXFBConfig: yes
+04:51:09.262: 
+04:51:09.263: xshm-input: Geometry 1280x800 @ 0,0
+04:51:09.490: Switched to scene 'mypaint greenscreen'
+04:51:09.490: ------------------------------------------------
+04:51:09.490: Loaded scenes:
+04:51:09.490: - scene 'Scene':
+04:51:09.490:     - source: 'Win7 VB' (xcomposite_input)
+04:51:09.490:     - source: 'Chrome' (xcomposite_input)
+04:51:09.490:     - source: 'yeah phone home' (image_source)
+04:51:09.490:     - source: 'desktops' (xshm_input)
+04:51:09.490:     - source: '1200x800 image' (image_source)
+04:51:09.490: - scene 'titles writer':
+04:51:09.490:     - source: '1200x800 image' (image_source)
+04:51:09.490:     - source: 'white' (color_source)
+04:51:09.490:     - source: 'black' (color_source)
+04:51:09.490:     - source: 'MP txt brushes delayed' (xcomposite_input)
+04:51:09.490:         - filter: 'Chroma Key green' (chroma_key_filter)
+04:51:09.490:         - filter: 'Render Delay' (gpu_delay)
+04:51:09.490:         - filter: 'blue screen' (color_key_filter)
+04:51:09.490:     - source: 'Image' (image_source)
+04:51:09.490: - scene 'mypaint greenscreen':
+04:51:09.490:     - source: 'mypaint bckgrnd' (xcomposite_input)
+04:51:09.490:         - filter: 'Chroma Key' (chroma_key_filter)
+04:51:09.490:     - source: 'Chrome' (xcomposite_input)
+04:51:09.490:     - source: 'MP txt brushes delayed' (xcomposite_input)
+04:51:09.490:         - filter: 'Chroma Key green' (chroma_key_filter)
+04:51:09.490:         - filter: 'Render Delay' (gpu_delay)
+04:51:09.490:         - filter: 'blue screen' (color_key_filter)
+04:51:09.490:     - source: 'Win7 VB' (xcomposite_input)
+04:51:09.490: - scene 'mypaint kinski blend':
+04:51:09.490:     - source: 'yeah phone home' (image_source)
+04:51:09.490:     - source: 'mypaint bckgrnd kinski' (xcomposite_input)
+04:51:09.490:         - filter: 'Chroma Key white' (chroma_key_filter)
+04:51:09.490:         - filter: 'Color Key - green' (color_key_filter)
+04:51:09.490:         - filter: 'Image Mask/Blend Kinski' (mask_filter)
+04:51:09.490:     - source: 'focuswriter' (xcomposite_input)
+04:51:09.490:         - filter: 'Chroma Key' (chroma_key_filter)
+04:51:09.490:         - filter: 'Color Correction' (color_filter)
+04:51:09.490:         - filter: 'Image Mask/Blend' (mask_filter)
+04:51:09.490:     - source: 'MP txt brushes delayed' (xcomposite_input)
+04:51:09.490:         - filter: 'Chroma Key green' (chroma_key_filter)
+04:51:09.491:         - filter: 'Render Delay' (gpu_delay)
+04:51:09.491:         - filter: 'blue screen' (color_key_filter)
+04:51:09.491:     - filter: 'Color Key' (color_key_filter)
+04:51:09.491: - scene 'mypaint kinski blend 2':
+04:51:09.491:     - source: 'Group1' (group)
+04:51:09.491:     - filter: 'Color Key' (color_key_filter)
+04:51:09.491: ------------------------------------------------
+04:51:09.738: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+04:51:09.738: 
+04:51:16.047: User switched to scene 'mypaint kinski blend'
+05:08:59.929: Source 'MP txt brushes delayed' renamed to 'MP titles - chroma greened'
+05:10:01.913: User added source 'MP titles - chroma greened' (xcomposite_input) to scene 'mypaint kinski blend'
+05:10:28.050: User switched to scene 'mypaint kinski blend 2'
+05:10:41.570: User switched to scene 'mypaint kinski blend'
+05:11:00.973: Source 'MP titles - chroma greened' renamed to 'MP titles - chroma greened A'
+05:11:03.745: User switched to scene 'mypaint kinski blend 2'
+05:11:05.045: User switched to scene 'mypaint kinski blend'
+05:11:15.323: Source 'MP titles - chroma greened A' renamed to 'MP titles - chroma greened B'
+05:11:18.677: User switched to scene 'mypaint kinski blend 2'
+05:11:21.678: User switched to scene 'mypaint kinski blend'
+05:11:30.603: User switched to scene 'mypaint greenscreen'
+05:11:35.494: User switched to scene 'mypaint kinski blend'
+05:11:44.659: User Removed source 'MP titles - chroma greened B' (xcomposite_input) from scene 'mypaint kinski blend'
+05:11:57.917: Source 'MP titles - chroma greened B' renamed to 'MP titles - chroma green'
+05:12:09.649: User switched to scene 'mypaint kinski blend 2'
+05:12:21.971: User added source 'MP titles - chroma green' (xcomposite_input) to scene 'mypaint kinski blend 2'
+05:12:28.345: User Removed source 'MP titles - chroma green' (xcomposite_input) from scene 'Group1'
+05:12:42.007: Source 'MP titles - chroma green' renamed to 'MP titles - chroma blue'
+05:12:44.390: User switched to scene 'mypaint kinski blend'
+05:12:56.505: Source 'MP titles - chroma blue' renamed to 'MP titles - chroma green'
+05:12:58.323: User switched to scene 'mypaint kinski blend 2'
+05:13:34.828: User added source '1200x800 blue screen' (image_source) to scene 'mypaint kinski blend 2'
+05:13:45.573: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mic/Aux)
+05:13:45.573: 
+05:16:26.009: User switched to scene 'mypaint kinski blend'
+05:16:32.105: User switched to scene 'mypaint kinski blend 2'
+05:17:27.092: User added filter 'blue screen' (chroma_key_filter) to source '1200x800 blue screen'
+05:18:55.914: User switched to scene 'Scene'
+05:18:55.959: xcompcap: [window-capture: 'Chrome'] update settings:
+05:18:55.959: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+05:18:55.959: 	class: google-chrome-beta
+05:18:55.959: 	Has alpha: yes
+05:18:55.959: 	Found proper GLXFBConfig: yes
+05:18:55.959: 
+05:19:40.633: User added filter 'Crop/Pad' (crop_filter) to source '1200x800 image'
+05:20:07.430: User switched to scene 'mypaint kinski blend 2'
+05:20:39.321: Source '1200x800 blue screen' renamed to 'blank tranp png'
+05:20:57.087: User added filter 'Crop/Pad' (crop_filter) to source 'blank tranp png'
+05:21:12.414: User added filter 'Apply LUT' (clut_filter) to source 'blank tranp png'
+05:21:12.429: gs_image_file_init: Failed to load file ''
+05:22:20.214: User added filter 'Image Mask/Blend' (mask_filter) to source 'blank tranp png'
+05:22:20.230: gs_image_file_init: Failed to load file ''
+05:23:12.992: User added filter 'Scaling/Aspect Ratio' (scale_filter) to source 'blank tranp png'
+05:24:01.462: User Removed source 'Group1' (group) from scene 'mypaint kinski blend 2'
+05:24:01.462: User Removed source 'mypaint bckgrnd kinski' (xcomposite_input) from scene 'Group1'
+05:24:01.463: User Removed source 'focuswriter' (xcomposite_input) from scene 'Group1'
+05:24:10.954: User switched to scene 'mypaint kinski blend'
+05:24:13.054: User switched to scene 'mypaint kinski blend 2'
+05:24:58.372: User Removed source 'blank tranp png' (image_source) from scene 'mypaint kinski blend 2'
+05:30:52.035: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Desktop Audio)
+05:30:52.035: 
+05:51:25.529: Source 'MP titles - chroma green' renamed to 'MP titles'
+05:51:34.491: Source 'Group' renamed to 'chroma green'
+05:52:27.578: User removed filter 'Chroma Key green' (chroma_key_filter) from source 'MP titles'
+05:52:29.510: User removed filter 'Render Delay' (gpu_delay) from source 'MP titles'
+05:52:30.845: User removed filter 'blue screen' (color_key_filter) from source 'MP titles'
+05:53:12.296: User switched to scene 'mypaint kinski blend'
+05:53:17.859: User switched to scene 'mypaint greenscreen'
+05:53:17.870: xcompcap: [window-capture: 'Chrome'] update settings:
+05:53:17.870: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+05:53:17.870: 	class: google-chrome-beta
+05:53:17.870: 	Has alpha: yes
+05:53:17.870: 	Found proper GLXFBConfig: yes
+05:53:17.870: 
+05:53:22.737: User switched to scene 'titles writer'
+05:53:56.913: User switched to scene 'Scene'
+05:54:12.334: User added source 'MP titles' (xcomposite_input) to scene 'Scene'
+05:54:20.019: Source 'Scene' renamed to 'bucket'
+05:54:26.141: Source 'bucket' renamed to '--bucket'
+05:54:33.014: User switched to scene 'mypaint greenscreen'
+05:54:33.474: User switched to scene 'titles writer'
+05:54:41.340: User switched to scene 'mypaint kinski blend'
+05:54:50.838: User switched to scene 'titles writer'
+05:54:59.329: User switched to scene 'mypaint kinski blend'
+05:55:00.126: User switched to scene 'mypaint kinski blend 2'
+05:55:01.325: User switched to scene 'mypaint kinski blend'
+05:55:05.330: User Removed source 'MP titles' (xcomposite_input) from scene 'mypaint kinski blend'
+05:55:24.483: xshm-input: Geometry 1280x800 @ 0,0
+05:55:24.492: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'mypaint kinski blend'
+05:55:26.698: xshm-input: Geometry 1280x800 @ 0,0
+05:55:28.697: xshm-input: Geometry 1280x800 @ 0,0
+05:55:32.744: User Removed source 'Screen Capture (XSHM)' (xshm_input) from scene 'mypaint kinski blend'
+05:55:48.498: User switched to scene 'mypaint kinski blend 2'
+05:55:51.709: User switched to scene 'titles writer'
+05:55:59.745: User switched to scene 'mypaint kinski blend 2'
+05:56:03.844: User switched to scene 'mypaint kinski blend'
+05:56:23.163: User switched to scene 'mypaint greenscreen'
+05:56:30.865: User switched to scene 'titles writer'
+05:56:38.714: User switched to scene '--bucket'
+05:56:57.667: xcompcap: [window-capture: 'Chrome'] update settings:
+05:56:57.667: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+05:56:57.667: 	class: google-chrome-beta
+05:56:57.667: 	Has alpha: yes
+05:56:57.667: 	Found proper GLXFBConfig: yes
+05:56:57.667: 
+06:02:43.278: xcompcap: [window-capture: 'Chrome'] update settings:
+06:02:43.278: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+06:02:43.278: 	class: google-chrome-beta
+06:02:43.278: 	Has alpha: yes
+06:02:43.278: 	Found proper GLXFBConfig: yes
+06:02:43.278: 
+06:02:49.825: xcompcap: [window-capture: 'Chrome'] update settings:
+06:02:49.825: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:02:49.825: 	class: google-chrome-beta
+06:02:49.825: 	Has alpha: yes
+06:02:49.825: 	Found proper GLXFBConfig: yes
+06:02:49.825: 
+06:02:51.668: xcompcap: [window-capture: 'Chrome'] update settings:
+06:02:51.668: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:02:51.668: 	class: google-chrome-beta
+06:02:51.668: 	Has alpha: yes
+06:02:51.668: 	Found proper GLXFBConfig: yes
+06:02:51.668: 
+06:02:51.698: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds (source: Mic/Aux)
+06:02:51.698: 
+06:02:51.711: xcompcap: [window-capture: 'Chrome'] update settings:
+06:02:51.711: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:02:51.711: 	class: google-chrome-beta
+06:02:51.711: 	Has alpha: yes
+06:02:51.711: 	Found proper GLXFBConfig: yes
+06:02:51.711: 
+06:03:03.937: xcompcap: [window-capture: 'Chrome'] update settings:
+06:03:03.937: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:03:03.937: 	class: google-chrome-beta
+06:03:03.937: 	Has alpha: yes
+06:03:03.937: 	Found proper GLXFBConfig: yes
+06:03:03.937: 
+06:03:47.368: xcompcap: [window-capture: 'Chrome'] update settings:
+06:03:47.368: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:03:47.368: 	class: google-chrome-beta
+06:03:47.368: 	Has alpha: yes
+06:03:47.368: 	Found proper GLXFBConfig: yes
+06:03:47.368: 
+06:03:51.708: xcompcap: [window-capture: 'Chrome'] update settings:
+06:03:51.708: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:03:51.708: 	class: google-chrome-beta
+06:03:51.708: 	Has alpha: yes
+06:03:51.708: 	Found proper GLXFBConfig: yes
+06:03:51.708: 
+06:04:48.469: xcompcap: [window-capture: 'Chrome'] update settings:
+06:04:48.469: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:04:48.469: 	class: google-chrome-beta
+06:04:48.469: 	Has alpha: yes
+06:04:48.469: 	Found proper GLXFBConfig: yes
+06:04:48.469: 
+06:04:51.002: xcompcap: [window-capture: 'Chrome'] update settings:
+06:04:51.002: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+06:04:51.002: 	class: google-chrome-beta
+06:04:51.002: 	Has alpha: yes
+06:04:51.002: 	Found proper GLXFBConfig: yes
+06:04:51.002: 
+06:04:56.154: User switched to scene 'mypaint kinski blend 2'
+06:06:00.506: User switched to scene 'titles writer'
+06:06:58.863: User Removed source 'Image' (image_source) from scene 'titles writer'
+06:10:37.341: ==== Shutting down ==================================================
+06:10:37.346: Switched to scene '(null)'
+06:10:37.354: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:10:37.354: pulse-input: Got 1061698 packets with 229184241 frames
+06:10:37.354: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+06:10:37.354: pulse-input: Got 482251 packets with 210272840 frames
+06:10:37.355: All scene data cleared
+06:10:37.355: ------------------------------------------------
+06:10:37.363: Failed to fetch parent window geometry!
+06:10:37.364: Failed to fetch parent window geometry!
+06:10:37.364: Failed to fetch parent window geometry!
+06:10:37.364: Failed to fetch parent window geometry!
+06:10:37.434: Freeing OBS context data
+06:10:37.447: [Scripting] Total detached callbacks: 0
+06:10:37.618: == Profiler Results =============================
+06:10:37.618: run_program_init: 1508,06 ms
+06:10:37.618:  ┣OBSApp::AppInit: 16,742 ms
+06:10:37.618:  ┃ ┗OBSApp::InitLocale: 12,46 ms
+06:10:37.618:  ┗OBSApp::OBSInit: 1226,58 ms
+06:10:37.618:    ┣obs_startup: 17,164 ms
+06:10:37.618:    ┗OBSBasic::OBSInit: 1049,45 ms
+06:10:37.618:      ┣OBSBasic::InitBasicConfig: 0,12 ms
+06:10:37.618:      ┣OBSBasic::ResetAudio: 0,19 ms
+06:10:37.618:      ┣OBSBasic::ResetVideo: 120,959 ms
+06:10:37.618:      ┣OBSBasic::InitOBSCallbacks: 0,005 ms
+06:10:37.618:      ┣OBSBasic::InitHotkeys: 0,045 ms
+06:10:37.618:      ┣obs_load_all_modules: 444,819 ms
+06:10:37.618:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0,475 ms
+06:10:37.618:      ┃ ┣obs_init_module(frontend-tools.so): 325,934 ms
+06:10:37.618:      ┃ ┣obs_init_module(image-source.so): 0,005 ms
+06:10:37.618:      ┃ ┣obs_init_module(linux-alsa.so): 0,003 ms
+06:10:37.618:      ┃ ┣obs_init_module(linux-capture.so): 1,032 ms
+06:10:37.618:      ┃ ┣obs_init_module(linux-decklink.so): 0,238 ms
+06:10:37.618:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0,006 ms
+06:10:37.618:      ┃ ┣obs_init_module(linux-v4l2.so): 0,005 ms
+06:10:37.618:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0,495 ms
+06:10:37.618:      ┃ ┃ ┗nvenc_check: 0,46 ms
+06:10:37.618:      ┃ ┣obs_init_module(obs-filters.so): 0,012 ms
+06:10:37.618:      ┃ ┣obs_init_module(obs-outputs.so): 0,004 ms
+06:10:37.618:      ┃ ┣obs_init_module(obs-transitions.so): 0,018 ms
+06:10:37.618:      ┃ ┣obs_init_module(obs-x264.so): 0,003 ms
+06:10:37.618:      ┃ ┣obs_init_module(rtmp-services.so): 0,332 ms
+06:10:37.618:      ┃ ┗obs_init_module(text-freetype2.so): 0,07 ms
+06:10:37.618:      ┣OBSBasic::ResetOutputs: 0,444 ms
+06:10:37.618:      ┣OBSBasic::CreateHotkeys: 0,049 ms
+06:10:37.619:      ┣OBSBasic::InitService: 18,959 ms
+06:10:37.619:      ┣OBSBasic::InitPrimitives: 0,437 ms
+06:10:37.619:      ┗OBSBasic::Load: 337,584 ms
+06:10:37.619: obs_hotkey_thread(25 ms): min=0,072 ms, median=0,426 ms, max=309,416 ms, 99th percentile=7,319 ms, 99,9362% below 25 ms
+06:10:37.619: audio_thread(Audio): min=0 ms, median=0,184 ms, max=46,794 ms, 99th percentile=0,732 ms
+06:10:37.619: obs_graphics_thread(33,3333 ms): min=0,126 ms, median=2,626 ms, max=308,78 ms, 99th percentile=14,614 ms, 99,7975% below 33,333 ms
+06:10:37.619:  ┣tick_sources: min=0,001 ms, median=0,564 ms, max=282,235 ms, 99th percentile=1,75 ms
+06:10:37.619:  ┣output_frame: min=0,103 ms, median=0,564 ms, max=56,84 ms, 99th percentile=1,343 ms
+06:10:37.619:  ┃ ┗gs_context(video->graphics): min=0,102 ms, median=0,563 ms, max=56,84 ms, 99th percentile=1,342 ms
+06:10:37.619:  ┃   ┣render_video: min=0,03 ms, median=0,466 ms, max=56,759 ms, 99th percentile=1,132 ms
+06:10:37.619:  ┃   ┃ ┗render_main_texture: min=0,027 ms, median=0,459 ms, max=56,755 ms, 99th percentile=1,118 ms
+06:10:37.619:  ┃   ┗gs_flush: min=0,019 ms, median=0,068 ms, max=11,841 ms, 99th percentile=0,182 ms
+06:10:37.619:  ┗render_displays: min=0,004 ms, median=1,429 ms, max=301,118 ms, 99th percentile=14,093 ms
+06:10:37.619: =================================================
+06:10:37.619: == Profiler Time Between Calls ==================
+06:10:37.619: obs_hotkey_thread(25 ms): min=25,137 ms, median=25,555 ms, max=334,516 ms, 41,7247% within ±2% of 25 ms (0% lower, 58,2753% higher)
+06:10:37.619: obs_graphics_thread(33,3333 ms): min=3,151 ms, median=33,333 ms, max=308,799 ms, 99,5467% within ±2% of 33,333 ms (0,150647% lower, 0,302695% higher)
+06:10:37.619: =================================================
+06:10:37.704: Number of memory leaks: 0

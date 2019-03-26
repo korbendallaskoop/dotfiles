@@ -1,0 +1,2099 @@
+23:38:07.495: CPU Name: Intel(R) Core(TM) i5-2450M CPU @ 2.50GHz
+23:38:07.496: CPU Speed: 863.119MHz
+23:38:07.496: Physical Cores: 2, Logical Cores: 4
+23:38:07.496: Physical Memory: 11917MB Total, 10755MB Free
+23:38:07.496: Kernel Version: Linux 4.20.10-111.current
+23:38:07.496: Distribution: "Solus" "3.9999"
+23:38:07.497: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.3
+23:38:07.513: Portable mode: false
+23:38:07.669: OBS 23.0.1 (linux)
+23:38:07.669: ---------------------------------
+23:38:07.698: ---------------------------------
+23:38:07.698: audio settings reset:
+23:38:07.698: 	samples per sec: 44100
+23:38:07.698: 	speakers:        2
+23:38:07.733: ---------------------------------
+23:38:07.733: Initializing OpenGL...
+23:38:07.766: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) Sandybridge Mobile 
+23:38:07.766: OpenGL loaded successfully, version 3.3 (Core Profile) Mesa 18.3.3, shading language 3.30
+23:38:08.579: ---------------------------------
+23:38:08.579: video settings reset:
+23:38:08.579: 	base resolution:   1280x720
+23:38:08.579: 	output resolution: 1280x720
+23:38:08.579: 	downscale filter:  Bicubic
+23:38:08.579: 	fps:               30/1
+23:38:08.579: 	format:            NV12
+23:38:08.579: 	YUV mode:          601/Partial
+23:38:08.580: NV12 texture support not available
+23:38:08.592: Audio monitoring device:
+23:38:08.592: 	name: Default
+23:38:08.592: 	id: default
+23:38:08.592: ---------------------------------
+23:38:08.705: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+23:38:10.456: No blackmagic support
+23:38:11.724: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+23:38:11.724: 
+23:38:11.725: FFMPEG VAAPI supported
+23:38:12.313: ---------------------------------
+23:38:12.314:   Loaded Modules:
+23:38:12.314:     text-freetype2.so
+23:38:12.314:     rtmp-services.so
+23:38:12.314:     obs-x264.so
+23:38:12.314:     obs-transitions.so
+23:38:12.314:     obs-outputs.so
+23:38:12.314:     obs-filters.so
+23:38:12.314:     obs-ffmpeg.so
+23:38:12.314:     linux-v4l2.so
+23:38:12.314:     linux-pulseaudio.so
+23:38:12.314:     linux-decklink.so
+23:38:12.314:     linux-capture.so
+23:38:12.314:     linux-alsa.so
+23:38:12.314:     image-source.so
+23:38:12.314:     frontend-tools.so
+23:38:12.314:     decklink-ouput-ui.so
+23:38:12.314: ---------------------------------
+23:38:12.358: ==== Startup complete ===============================================
+23:38:12.495: All scene data cleared
+23:38:12.495: ------------------------------------------------
+23:38:12.566: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+23:38:12.566: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+23:38:12.566: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+23:38:12.573: pulse-am: Prevented feedback-loop in 'default'
+23:38:12.573: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+23:38:12.573: pulse-input: An error occurred while getting the source info!
+23:38:12.614: xshm-input: Geometry 1280x800 @ 0,0
+23:38:13.080: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds (source: Desktop Audio)
+23:38:13.080: 
+23:38:14.022: Switched to scene 'titles writer'
+23:38:14.022: ------------------------------------------------
+23:38:14.022: Loaded scenes:
+23:38:14.022: - scene 'Scene':
+23:38:14.022:     - source: 'Win7 VB' (xcomposite_input)
+23:38:14.022:     - source: 'Chrome' (xcomposite_input)
+23:38:14.022:     - source: 'yeah phone home' (image_source)
+23:38:14.022:     - source: 'desktops' (xshm_input)
+23:38:14.022: - scene 'mypaint greenscreen':
+23:38:14.022:     - source: 'Chrome' (xcomposite_input)
+23:38:14.022:     - source: 'mypaint bckgrnd' (xcomposite_input)
+23:38:14.022:         - filter: 'Chroma Key' (chroma_key_filter)
+23:38:14.022:     - source: 'MP txt brushes delayed' (xcomposite_input)
+23:38:14.022:         - filter: 'Chroma Key' (chroma_key_filter)
+23:38:14.022:         - filter: 'Render Delay' (gpu_delay)
+23:38:14.022:     - source: 'Win7 VB' (xcomposite_input)
+23:38:14.022: - scene 'titles writer':
+23:38:14.022:     - source: 'MP txt brushes delayed' (xcomposite_input)
+23:38:14.022:         - filter: 'Chroma Key' (chroma_key_filter)
+23:38:14.022:         - filter: 'Render Delay' (gpu_delay)
+23:38:14.022: - scene 'mypaint kinski blend':
+23:38:14.022:     - source: 'yeah phone home' (image_source)
+23:38:14.022:     - source: 'mypaint bckgrnd kinski' (xcomposite_input)
+23:38:14.022:         - filter: 'Chroma Key white' (chroma_key_filter)
+23:38:14.022:         - filter: 'Color Key - green' (color_key_filter)
+23:38:14.023:         - filter: 'Image Mask/Blend Kinski' (mask_filter)
+23:38:14.023:     - source: 'focuswriter' (xcomposite_input)
+23:38:14.023:         - filter: 'Chroma Key' (chroma_key_filter)
+23:38:14.023:         - filter: 'Color Correction' (color_filter)
+23:38:14.023:         - filter: 'Image Mask/Blend' (mask_filter)
+23:38:14.023:     - source: 'MP txt brushes delayed' (xcomposite_input)
+23:38:14.023:         - filter: 'Chroma Key' (chroma_key_filter)
+23:38:14.023:         - filter: 'Render Delay' (gpu_delay)
+23:38:14.023:     - filter: 'Color Key' (color_key_filter)
+23:38:14.023: ------------------------------------------------
+23:38:19.703: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Desktop Audio)
+23:38:19.703: 
+23:45:53.565: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:45:53.565: 	title: MyPaint
+23:45:53.565: 	class: mypaint
+23:45:53.565: 	Has alpha: no
+23:45:53.565: 	Found proper GLXFBConfig: yes
+23:45:53.565: 
+23:58:04.295: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Desktop Audio)
+23:58:04.295: 
+00:55:19.290: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds (source: Desktop Audio)
+00:55:19.290: 
+01:09:33.276: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds (source: Desktop Audio)
+01:09:33.276: 
+18:42:12.830: Max audio buffering reached!
+18:42:12.830: adding 928 milliseconds of audio buffering, total audio buffering is now 1044 milliseconds (source: Desktop Audio)
+18:42:12.830: 
+19:44:41.752: User switched to scene 'Scene'
+19:44:50.317: xshm-input: Geometry 1280x800 @ 0,0
+19:44:51.689: xshm-input: Geometry 1280x800 @ 0,0
+19:44:53.026: xshm-input: Geometry 1280x800 @ 0,0
+21:28:24.789: Settings changed (general)
+21:28:24.789: ------------------------------------------------
+21:28:31.636: xcompcap: [window-capture: 'Win7 VB'] update settings:
+21:28:31.636: 	title: budgie-panel
+21:28:31.636: 	class: budgie-panel
+21:28:31.636: 	Has alpha: yes
+21:28:31.636: 	Found proper GLXFBConfig: yes
+21:28:31.636: 
+21:28:41.840: xcompcap: [window-capture: 'Chrome'] update settings:
+21:28:41.840: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+21:28:41.840: 	class: google-chrome-beta
+21:28:41.840: 	Has alpha: yes
+21:28:41.840: 	Found proper GLXFBConfig: yes
+21:28:41.840: 
+21:28:42.637: xcompcap: [window-capture: 'Chrome'] update settings:
+21:28:42.637: 	title: budgie-panel
+21:28:42.637: 	class: budgie-panel
+21:28:42.637: 	Has alpha: yes
+21:28:42.637: 	Found proper GLXFBConfig: yes
+21:28:42.637: 
+21:28:46.344: xcompcap: [window-capture: 'Chrome'] update settings:
+21:28:46.344: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+21:28:46.344: 	class: google-chrome-beta
+21:28:46.344: 	Has alpha: yes
+21:28:46.344: 	Found proper GLXFBConfig: yes
+21:28:46.344: 
+21:28:47.946: User switched to scene 'mypaint greenscreen'
+21:28:49.978: xcompcap: [window-capture: 'mypaint bckgrnd'] update settings:
+21:28:49.978: 	title: MyPaint
+21:28:49.978: 	class: mypaint
+21:28:49.978: 	Has alpha: no
+21:28:49.978: 	Found proper GLXFBConfig: yes
+21:28:49.978: 
+21:29:00.201: xcompcap: [window-capture: 'Chrome'] update settings:
+21:29:00.201: 	title: budgie-panel
+21:29:00.201: 	class: budgie-panel
+21:29:00.201: 	Has alpha: yes
+21:29:00.201: 	Found proper GLXFBConfig: yes
+21:29:00.201: 
+21:29:07.670: xcompcap: [window-capture: 'Chrome'] update settings:
+21:29:07.670: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+21:29:07.670: 	class: google-chrome-beta
+21:29:07.670: 	Has alpha: yes
+21:29:07.670: 	Found proper GLXFBConfig: yes
+21:29:07.670: 
+21:29:09.965: xcompcap: [window-capture: 'Chrome'] update settings:
+21:29:09.965: 	title: budgie-panel
+21:29:09.965: 	class: budgie-panel
+21:29:09.965: 	Has alpha: yes
+21:29:09.965: 	Found proper GLXFBConfig: yes
+21:29:09.965: 
+21:29:15.108: xcompcap: [window-capture: 'Chrome'] update settings:
+21:29:15.108: 	title: OBS 23.0.1 (linux) - Profile: Untitled - Scenes: Untitled
+21:29:15.108: 	class: obs
+21:29:15.108: 	Has alpha: no
+21:29:15.108: 	Found proper GLXFBConfig: yes
+21:29:15.108: 
+21:29:19.170: xcompcap: [window-capture: 'Chrome'] update settings:
+21:29:19.170: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+21:29:19.170: 	class: google-chrome-beta
+21:29:19.170: 	Has alpha: yes
+21:29:19.170: 	Found proper GLXFBConfig: yes
+21:29:19.170: 
+21:29:31.335: xcompcap: [window-capture: 'Chrome'] update settings:
+21:29:31.335: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+21:29:31.335: 	class: google-chrome-beta
+21:29:31.335: 	Has alpha: yes
+21:29:31.335: 	Found proper GLXFBConfig: yes
+21:29:31.335: 
+21:29:32.936: User switched to scene 'Scene'
+21:29:41.332: xshm-input: Geometry 1280x800 @ 0,0
+21:31:15.464: User switched to scene 'titles writer'
+21:31:18.103: User switched to scene 'mypaint greenscreen'
+21:31:29.235: xcompcap: [window-capture: 'Chrome'] update settings:
+21:31:29.235: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+21:31:29.235: 	class: google-chrome-beta
+21:31:29.235: 	Has alpha: yes
+21:31:29.235: 	Found proper GLXFBConfig: yes
+21:31:29.235: 
+21:31:41.671: xcompcap: [window-capture: 'Chrome'] update settings:
+21:31:41.671: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+21:31:41.671: 	class: google-chrome-beta
+21:31:41.671: 	Has alpha: yes
+21:31:41.671: 	Found proper GLXFBConfig: yes
+21:31:41.671: 
+22:18:04.243: xcompcap: [window-capture: 'Chrome'] update settings:
+22:18:04.243: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:18:04.243: 	class: google-chrome-beta
+22:18:04.243: 	Has alpha: yes
+22:18:04.243: 	Found proper GLXFBConfig: yes
+22:18:04.243: 
+22:21:34.451: xcompcap: [window-capture: 'Chrome'] update settings:
+22:21:34.451: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:21:34.451: 	class: google-chrome-beta
+22:21:34.451: 	Has alpha: yes
+22:21:34.451: 	Found proper GLXFBConfig: yes
+22:21:34.451: 
+22:21:36.444: xcompcap: [window-capture: 'Chrome'] update settings:
+22:21:36.444: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:21:36.444: 	class: google-chrome-beta
+22:21:36.444: 	Has alpha: yes
+22:21:36.444: 	Found proper GLXFBConfig: yes
+22:21:36.444: 
+22:21:41.274: xcompcap: [window-capture: 'Chrome'] update settings:
+22:21:41.274: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:21:41.274: 	class: google-chrome-beta
+22:21:41.274: 	Has alpha: yes
+22:21:41.274: 	Found proper GLXFBConfig: yes
+22:21:41.274: 
+22:21:44.697: User switched to scene 'Scene'
+22:21:56.932: User switched to scene 'mypaint kinski blend'
+22:21:59.785: User switched to scene 'titles writer'
+22:22:01.012: User switched to scene 'mypaint kinski blend'
+22:22:14.453: User added scene 'mypaint kinski blend 2'
+22:22:14.453: User added source 'yeah phone home' (image_source) to scene 'mypaint kinski blend 2'
+22:22:14.453: User added source 'mypaint bckgrnd kinski' (xcomposite_input) to scene 'mypaint kinski blend 2'
+22:22:14.454: User added source 'focuswriter' (xcomposite_input) to scene 'mypaint kinski blend 2'
+22:22:14.454: User added source 'MP txt brushes delayed' (xcomposite_input) to scene 'mypaint kinski blend 2'
+22:22:14.473: Switched to scene 'mypaint kinski blend 2'
+22:22:22.500: Source 'Group' renamed to 'Group1'
+22:23:05.545: User switched to scene 'mypaint kinski blend'
+22:23:07.048: User switched to scene 'mypaint kinski blend 2'
+22:23:14.739: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:23:14.739: 	title: budgie-panel
+22:23:14.739: 	class: budgie-panel
+22:23:14.739: 	Has alpha: yes
+22:23:14.739: 	Found proper GLXFBConfig: yes
+22:23:14.739: 
+22:23:21.247: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:23:21.247: 	title: MyPaint
+22:23:21.247: 	class: mypaint
+22:23:21.247: 	Has alpha: no
+22:23:21.247: 	Found proper GLXFBConfig: yes
+22:23:21.247: 
+22:23:23.207: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:23:23.207: 	title: budgie-panel
+22:23:23.207: 	class: budgie-panel
+22:23:23.207: 	Has alpha: yes
+22:23:23.207: 	Found proper GLXFBConfig: yes
+22:23:23.207: 
+22:23:27.615: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:23:27.615: 	title: MyPaint
+22:23:27.615: 	class: mypaint
+22:23:27.615: 	Has alpha: no
+22:23:27.615: 	Found proper GLXFBConfig: yes
+22:23:27.615: 
+22:23:30.841: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:23:30.841: 	title: budgie-panel
+22:23:30.841: 	class: budgie-panel
+22:23:30.841: 	Has alpha: yes
+22:23:30.841: 	Found proper GLXFBConfig: yes
+22:23:30.841: 
+22:23:33.249: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:23:33.249: 	title: MyPaint
+22:23:33.249: 	class: mypaint
+22:23:33.249: 	Has alpha: no
+22:23:33.249: 	Found proper GLXFBConfig: yes
+22:23:33.249: 
+22:24:06.242: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:24:06.242: 	title: OBS stylus green screen 2.ora - MyPaint
+22:24:06.242: 	class: mypaint
+22:24:06.242: 	Has alpha: no
+22:24:06.242: 	Found proper GLXFBConfig: yes
+22:24:06.242: 
+22:24:06.343: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:24:06.343: 	title: OBS stylus green screen 2.ora - MyPaint
+22:24:06.343: 	class: mypaint
+22:24:06.343: 	Has alpha: no
+22:24:06.343: 	Found proper GLXFBConfig: yes
+22:24:06.343: 
+22:24:07.355: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:24:07.355: 	title: OBS stylus green screen 2.ora - MyPaint
+22:24:07.355: 	class: mypaint
+22:24:07.355: 	Has alpha: no
+22:24:07.355: 	Found proper GLXFBConfig: yes
+22:24:07.355: 
+22:24:07.377: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:24:07.377: 	title: OBS stylus green screen 2.ora - MyPaint
+22:24:07.377: 	class: mypaint
+22:24:07.377: 	Has alpha: no
+22:24:07.377: 	Found proper GLXFBConfig: yes
+22:24:07.377: 
+22:27:10.209: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:27:10.209: 	title: scrap001_a.ora - MyPaint
+22:27:10.209: 	class: mypaint
+22:27:10.209: 	Has alpha: no
+22:27:10.209: 	Found proper GLXFBConfig: yes
+22:27:10.209: 
+22:27:11.045: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+22:27:11.045: 	title: scrap001_a.ora - MyPaint
+22:27:11.045: 	class: mypaint
+22:27:11.045: 	Has alpha: no
+22:27:11.045: 	Found proper GLXFBConfig: yes
+22:27:11.045: 
+22:27:18.218: User switched to scene 'mypaint greenscreen'
+22:27:18.241: xcompcap: [window-capture: 'Chrome'] update settings:
+22:27:18.241: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:27:18.241: 	class: google-chrome-beta
+22:27:18.241: 	Has alpha: yes
+22:27:18.241: 	Found proper GLXFBConfig: yes
+22:27:18.241: 
+22:27:20.815: User switched to scene 'Scene'
+22:27:50.575: xcompcap: [window-capture: 'Chrome'] update settings:
+22:27:50.575: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:27:50.575: 	class: google-chrome-beta
+22:27:50.575: 	Has alpha: yes
+22:27:50.575: 	Found proper GLXFBConfig: yes
+22:27:50.575: 
+22:28:55.875: xcompcap: [window-capture: 'Chrome'] update settings:
+22:28:55.875: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:28:55.875: 	class: google-chrome-beta
+22:28:55.875: 	Has alpha: yes
+22:28:55.875: 	Found proper GLXFBConfig: yes
+22:28:55.875: 
+22:40:00.542: xcompcap: [window-capture: 'Chrome'] update settings:
+22:40:00.542: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:40:00.542: 	class: google-chrome-beta
+22:40:00.542: 	Has alpha: yes
+22:40:00.542: 	Found proper GLXFBConfig: yes
+22:40:00.542: 
+22:41:12.113: xcompcap: [window-capture: 'Chrome'] update settings:
+22:41:12.113: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:41:12.113: 	class: google-chrome-beta
+22:41:12.113: 	Has alpha: yes
+22:41:12.113: 	Found proper GLXFBConfig: yes
+22:41:12.113: 
+22:50:15.417: xcompcap: [window-capture: 'Chrome'] update settings:
+22:50:15.417: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:50:15.417: 	class: google-chrome-beta
+22:50:15.417: 	Has alpha: yes
+22:50:15.417: 	Found proper GLXFBConfig: yes
+22:50:15.417: 
+22:51:35.676: xcompcap: [window-capture: 'Chrome'] update settings:
+22:51:35.676: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:51:35.676: 	class: google-chrome-beta
+22:51:35.676: 	Has alpha: yes
+22:51:35.676: 	Found proper GLXFBConfig: yes
+22:51:35.676: 
+22:51:53.443: xcompcap: [window-capture: 'Chrome'] update settings:
+22:51:53.443: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:51:53.443: 	class: google-chrome-beta
+22:51:53.443: 	Has alpha: yes
+22:51:53.443: 	Found proper GLXFBConfig: yes
+22:51:53.443: 
+22:52:53.540: xcompcap: [window-capture: 'Chrome'] update settings:
+22:52:53.540: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:52:53.540: 	class: google-chrome-beta
+22:52:53.540: 	Has alpha: yes
+22:52:53.540: 	Found proper GLXFBConfig: yes
+22:52:53.540: 
+22:57:39.976: xcompcap: [window-capture: 'Chrome'] update settings:
+22:57:39.976: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:57:39.976: 	class: google-chrome-beta
+22:57:39.976: 	Has alpha: yes
+22:57:39.976: 	Found proper GLXFBConfig: yes
+22:57:39.976: 
+22:58:44.040: xcompcap: [window-capture: 'Chrome'] update settings:
+22:58:44.040: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+22:58:44.040: 	class: google-chrome-beta
+22:58:44.040: 	Has alpha: yes
+22:58:44.040: 	Found proper GLXFBConfig: yes
+22:58:44.040: 
+23:01:08.673: xcompcap: [window-capture: 'Chrome'] update settings:
+23:01:08.673: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:01:08.673: 	class: google-chrome-beta
+23:01:08.673: 	Has alpha: yes
+23:01:08.673: 	Found proper GLXFBConfig: yes
+23:01:08.673: 
+23:01:34.009: xcompcap: [window-capture: 'Chrome'] update settings:
+23:01:34.009: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:01:34.009: 	class: google-chrome-beta
+23:01:34.009: 	Has alpha: yes
+23:01:34.009: 	Found proper GLXFBConfig: yes
+23:01:34.009: 
+23:02:06.608: xcompcap: [window-capture: 'Chrome'] update settings:
+23:02:06.608: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:02:06.608: 	class: google-chrome-beta
+23:02:06.608: 	Has alpha: yes
+23:02:06.608: 	Found proper GLXFBConfig: yes
+23:02:06.608: 
+23:02:25.807: xcompcap: [window-capture: 'Chrome'] update settings:
+23:02:25.807: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:02:25.807: 	class: google-chrome-beta
+23:02:25.807: 	Has alpha: yes
+23:02:25.807: 	Found proper GLXFBConfig: yes
+23:02:25.807: 
+23:02:34.574: xcompcap: [window-capture: 'Chrome'] update settings:
+23:02:34.574: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:02:34.574: 	class: google-chrome-beta
+23:02:34.574: 	Has alpha: yes
+23:02:34.574: 	Found proper GLXFBConfig: yes
+23:02:34.574: 
+23:09:58.807: xcompcap: [window-capture: 'Chrome'] update settings:
+23:09:58.807: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:09:58.807: 	class: google-chrome-beta
+23:09:58.807: 	Has alpha: yes
+23:09:58.807: 	Found proper GLXFBConfig: yes
+23:09:58.807: 
+23:20:03.142: xcompcap: [window-capture: 'Chrome'] update settings:
+23:20:03.142: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:20:03.142: 	class: google-chrome-beta
+23:20:03.142: 	Has alpha: yes
+23:20:03.142: 	Found proper GLXFBConfig: yes
+23:20:03.142: 
+23:30:49.309: xcompcap: [window-capture: 'Chrome'] update settings:
+23:30:49.309: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:30:49.309: 	class: google-chrome-beta
+23:30:49.309: 	Has alpha: yes
+23:30:49.309: 	Found proper GLXFBConfig: yes
+23:30:49.309: 
+23:31:05.121: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:05.121: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:05.121: 	class: google-chrome-beta
+23:31:05.121: 	Has alpha: yes
+23:31:05.121: 	Found proper GLXFBConfig: yes
+23:31:05.121: 
+23:31:06.743: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:06.743: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:06.743: 	class: google-chrome-beta
+23:31:06.743: 	Has alpha: yes
+23:31:06.743: 	Found proper GLXFBConfig: yes
+23:31:06.743: 
+23:31:29.077: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:29.077: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:29.077: 	class: google-chrome-beta
+23:31:29.077: 	Has alpha: yes
+23:31:29.077: 	Found proper GLXFBConfig: yes
+23:31:29.077: 
+23:31:30.948: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:30.948: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:30.948: 	class: google-chrome-beta
+23:31:30.948: 	Has alpha: yes
+23:31:30.948: 	Found proper GLXFBConfig: yes
+23:31:30.948: 
+23:31:32.076: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:32.076: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:32.076: 	class: google-chrome-beta
+23:31:32.076: 	Has alpha: yes
+23:31:32.076: 	Found proper GLXFBConfig: yes
+23:31:32.076: 
+23:31:35.975: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:35.975: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:35.975: 	class: google-chrome-beta
+23:31:35.975: 	Has alpha: yes
+23:31:35.975: 	Found proper GLXFBConfig: yes
+23:31:35.975: 
+23:31:43.841: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:43.841: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:43.841: 	class: google-chrome-beta
+23:31:43.841: 	Has alpha: yes
+23:31:43.841: 	Found proper GLXFBConfig: yes
+23:31:43.841: 
+23:31:44.740: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:44.740: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:44.740: 	class: google-chrome-beta
+23:31:44.740: 	Has alpha: yes
+23:31:44.740: 	Found proper GLXFBConfig: yes
+23:31:44.740: 
+23:31:45.727: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:45.727: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:45.727: 	class: google-chrome-beta
+23:31:45.727: 	Has alpha: yes
+23:31:45.727: 	Found proper GLXFBConfig: yes
+23:31:45.727: 
+23:31:48.143: xcompcap: [window-capture: 'Chrome'] update settings:
+23:31:48.143: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:31:48.143: 	class: google-chrome-beta
+23:31:48.143: 	Has alpha: yes
+23:31:48.143: 	Found proper GLXFBConfig: yes
+23:31:48.143: 
+23:32:02.344: xcompcap: [window-capture: 'Chrome'] update settings:
+23:32:02.344: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:32:02.344: 	class: google-chrome-beta
+23:32:02.344: 	Has alpha: yes
+23:32:02.344: 	Found proper GLXFBConfig: yes
+23:32:02.344: 
+23:32:03.407: xcompcap: [window-capture: 'Chrome'] update settings:
+23:32:03.407: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:32:03.407: 	class: google-chrome-beta
+23:32:03.407: 	Has alpha: yes
+23:32:03.407: 	Found proper GLXFBConfig: yes
+23:32:03.407: 
+23:32:18.317: xcompcap: [window-capture: 'Chrome'] update settings:
+23:32:18.317: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:32:18.317: 	class: google-chrome-beta
+23:32:18.317: 	Has alpha: yes
+23:32:18.317: 	Found proper GLXFBConfig: yes
+23:32:18.317: 
+23:40:04.546: Last log entry repeated for 5 more lines
+23:40:04.546: User switched to scene 'mypaint greenscreen'
+23:40:09.839: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:40:09.839: 	title: budgie-panel
+23:40:09.839: 	class: budgie-panel
+23:40:09.839: 	Has alpha: yes
+23:40:09.839: 	Found proper GLXFBConfig: yes
+23:40:09.839: 
+23:40:19.046: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:40:19.046: 	title: scrap002_d.ora - MyPaint
+23:40:19.046: 	class: mypaint
+23:40:19.046: 	Has alpha: no
+23:40:19.046: 	Found proper GLXFBConfig: yes
+23:40:19.046: 
+23:40:34.374: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:40:34.374: 	title: scrap002_d.ora - MyPaint
+23:40:34.374: 	class: mypaint
+23:40:34.374: 	Has alpha: no
+23:40:34.374: 	Found proper GLXFBConfig: yes
+23:40:34.374: 
+23:40:34.475: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:40:34.475: 	title: scrap002_d.ora - MyPaint
+23:40:34.475: 	class: mypaint
+23:40:34.475: 	Has alpha: no
+23:40:34.475: 	Found proper GLXFBConfig: yes
+23:40:34.475: 
+23:40:35.511: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:40:35.511: 	title: scrap002_d.ora - MyPaint
+23:40:35.511: 	class: mypaint
+23:40:35.511: 	Has alpha: no
+23:40:35.511: 	Found proper GLXFBConfig: yes
+23:40:35.511: 
+23:42:57.274: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:42:57.274: 	title: budgie-panel
+23:42:57.274: 	class: budgie-panel
+23:42:57.274: 	Has alpha: yes
+23:42:57.274: 	Found proper GLXFBConfig: yes
+23:42:57.274: 
+23:43:00.915: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:43:00.915: 	title: hotkeys memo sheets.ora - MyPaint
+23:43:00.915: 	class: mypaint
+23:43:00.915: 	Has alpha: no
+23:43:00.915: 	Found proper GLXFBConfig: yes
+23:43:00.915: 
+23:43:04.580: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:43:04.580: 	title: hotkeys memo sheets.ora - MyPaint
+23:43:04.580: 	class: mypaint
+23:43:04.580: 	Has alpha: no
+23:43:04.580: 	Found proper GLXFBConfig: yes
+23:43:04.580: 
+23:43:05.717: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+23:43:05.717: 	title: hotkeys memo sheets.ora - MyPaint
+23:43:05.717: 	class: mypaint
+23:43:05.717: 	Has alpha: no
+23:43:05.717: 	Found proper GLXFBConfig: yes
+23:43:05.717: 
+23:46:30.779: xcompcap: [window-capture: 'Chrome'] update settings:
+23:46:30.779: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+23:46:30.779: 	class: google-chrome-beta
+23:46:30.779: 	Has alpha: yes
+23:46:30.779: 	Found proper GLXFBConfig: yes
+23:46:30.779: 
+23:52:33.179: xcompcap: [window-capture: 'Chrome'] update settings:
+23:52:33.179: 	title: What is the spec of your Solus machine? - Solus Forum - Google Chrome
+23:52:33.179: 	class: google-chrome-beta
+23:52:33.179: 	Has alpha: yes
+23:52:33.179: 	Found proper GLXFBConfig: yes
+23:52:33.179: 
+23:52:38.840: xcompcap: [window-capture: 'Chrome'] update settings:
+23:52:38.840: 	title: What is the spec of your Solus machine? - Solus Forum - Google Chrome
+23:52:38.840: 	class: google-chrome-beta
+23:52:38.840: 	Has alpha: yes
+23:52:38.840: 	Found proper GLXFBConfig: yes
+23:52:38.840: 
+23:53:56.511: xcompcap: [window-capture: 'Chrome'] update settings:
+23:53:56.511: 	title: HP EliteBook 2760p Review - Google Chrome
+23:53:56.511: 	class: google-chrome-beta
+23:53:56.511: 	Has alpha: yes
+23:53:56.511: 	Found proper GLXFBConfig: yes
+23:53:56.511: 
+23:56:25.380: xcompcap: [window-capture: 'Chrome'] update settings:
+23:56:25.380: 	title: What is the spec of your Solus machine? - Solus Forum - Google Chrome
+23:56:25.380: 	class: google-chrome-beta
+23:56:25.380: 	Has alpha: yes
+23:56:25.380: 	Found proper GLXFBConfig: yes
+23:56:25.380: 
+23:57:25.974: xcompcap: [window-capture: 'Chrome'] update settings:
+23:57:25.974: 	title: What is the spec of your Solus machine? - Solus Forum - Google Chrome
+23:57:25.974: 	class: google-chrome-beta
+23:57:25.974: 	Has alpha: yes
+23:57:25.974: 	Found proper GLXFBConfig: yes
+23:57:25.974: 
+23:59:29.680: xcompcap: [window-capture: 'Chrome'] update settings:
+23:59:29.680: 	title: What is the spec of your Solus machine? - Solus Forum - Google Chrome
+23:59:29.680: 	class: google-chrome-beta
+23:59:29.680: 	Has alpha: yes
+23:59:29.680: 	Found proper GLXFBConfig: yes
+23:59:29.680: 
+00:00:41.342: xcompcap: [window-capture: 'Chrome'] update settings:
+00:00:41.342: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+00:00:41.342: 	class: google-chrome-beta
+00:00:41.342: 	Has alpha: yes
+00:00:41.342: 	Found proper GLXFBConfig: yes
+00:00:41.342: 
+00:04:08.698: User switched to scene 'Scene'
+00:04:10.802: User switched to scene 'mypaint greenscreen'
+00:04:11.893: User switched to scene 'titles writer'
+00:04:43.020: User switched to scene 'Scene'
+00:04:44.304: User switched to scene 'titles writer'
+00:04:46.118: User switched to scene 'mypaint greenscreen'
+00:04:56.549: User switched to scene 'titles writer'
+00:07:22.864: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+00:07:22.864: 	title: hotkeys memo sheets.ora - MyPaint
+00:07:22.864: 	class: mypaint
+00:07:22.864: 	Has alpha: no
+00:07:22.864: 	Found proper GLXFBConfig: yes
+00:07:22.864: 
+00:07:23.025: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+00:07:23.025: 	title: hotkeys memo sheets.ora - MyPaint
+00:07:23.025: 	class: mypaint
+00:07:23.025: 	Has alpha: no
+00:07:23.025: 	Found proper GLXFBConfig: yes
+00:07:23.025: 
+00:07:38.043: User switched to scene 'mypaint greenscreen'
+00:07:38.073: xcompcap: [window-capture: 'Chrome'] update settings:
+00:07:38.073: 	title: ▶︎ Cellular Cat | Cellular Cat - Google Chrome
+00:07:38.073: 	class: google-chrome-beta
+00:07:38.073: 	Has alpha: yes
+00:07:38.073: 	Found proper GLXFBConfig: yes
+00:07:38.073: 
+00:08:50.897: xcompcap: [window-capture: 'Chrome'] update settings:
+00:08:50.897: 	title: ▶︎ Cellular Cat | Cellular Cat - Google Chrome
+00:08:50.897: 	class: google-chrome-beta
+00:08:50.897: 	Has alpha: yes
+00:08:50.897: 	Found proper GLXFBConfig: yes
+00:08:50.897: 
+00:08:50.920: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+00:08:50.920: 	title: hotkeys memo sheets.ora - MyPaint
+00:08:50.920: 	class: mypaint
+00:08:50.920: 	Has alpha: no
+00:08:50.920: 	Found proper GLXFBConfig: yes
+00:08:50.920: 
+00:08:51.069: xcompcap: [window-capture: 'Chrome'] update settings:
+00:08:51.069: 	title: ▶︎ Cellular Cat | Cellular Cat - Google Chrome
+00:08:51.069: 	class: google-chrome-beta
+00:08:51.069: 	Has alpha: yes
+00:08:51.069: 	Found proper GLXFBConfig: yes
+00:08:51.069: 
+00:08:51.098: xcompcap: [window-capture: 'MP txt brushes delayed'] update settings:
+00:08:51.098: 	title: hotkeys memo sheets.ora - MyPaint
+00:08:51.098: 	class: mypaint
+00:08:51.098: 	Has alpha: no
+00:08:51.098: 	Found proper GLXFBConfig: yes
+00:08:51.098: 
+00:08:51.111: xcompcap: [window-capture: 'Chrome'] update settings:
+00:08:51.111: 	title: ▶︎ Cellular Cat | Cellular Cat - Google Chrome
+00:08:51.111: 	class: google-chrome-beta
+00:08:51.111: 	Has alpha: yes
+00:08:51.111: 	Found proper GLXFBConfig: yes
+00:08:51.111: 
+00:08:51.149: xcompcap: [window-capture: 'Chrome'] update settings:
+00:08:51.149: 	title: ▶︎ Cellular Cat | Cellular Cat - Google Chrome
+00:08:51.149: 	class: google-chrome-beta
+00:08:51.149: 	Has alpha: yes
+00:08:51.149: 	Found proper GLXFBConfig: yes
+00:08:51.149: 
+00:11:48.640: xcompcap: [window-capture: 'Chrome'] update settings:
+00:11:48.640: 	title: Cellular Cat | Cellular Cat - Google Chrome
+00:11:48.640: 	class: google-chrome-beta
+00:11:48.640: 	Has alpha: yes
+00:11:48.640: 	Found proper GLXFBConfig: yes
+00:11:48.640: 
+00:12:03.781: xcompcap: [window-capture: 'Chrome'] update settings:
+00:12:03.781: 	title: Cellular Cat | Cellular Cat - Google Chrome
+00:12:03.781: 	class: google-chrome-beta
+00:12:03.781: 	Has alpha: yes
+00:12:03.781: 	Found proper GLXFBConfig: yes
+00:12:03.781: 
+00:13:41.549: xcompcap: [window-capture: 'Chrome'] update settings:
+00:13:41.549: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:13:41.549: 	class: google-chrome-beta
+00:13:41.549: 	Has alpha: yes
+00:13:41.549: 	Found proper GLXFBConfig: yes
+00:13:41.549: 
+00:14:48.577: xcompcap: [window-capture: 'Chrome'] update settings:
+00:14:48.577: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:14:48.577: 	class: google-chrome-beta
+00:14:48.577: 	Has alpha: yes
+00:14:48.577: 	Found proper GLXFBConfig: yes
+00:14:48.577: 
+00:15:42.912: xcompcap: [window-capture: 'Chrome'] update settings:
+00:15:42.912: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:15:42.912: 	class: google-chrome-beta
+00:15:42.912: 	Has alpha: yes
+00:15:42.912: 	Found proper GLXFBConfig: yes
+00:15:42.912: 
+00:16:11.850: xcompcap: [window-capture: 'Chrome'] update settings:
+00:16:11.850: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:16:11.850: 	class: google-chrome-beta
+00:16:11.850: 	Has alpha: yes
+00:16:11.850: 	Found proper GLXFBConfig: yes
+00:16:11.850: 
+00:16:26.020: xcompcap: [window-capture: 'Chrome'] update settings:
+00:16:26.020: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:16:26.020: 	class: google-chrome-beta
+00:16:26.020: 	Has alpha: yes
+00:16:26.020: 	Found proper GLXFBConfig: yes
+00:16:26.020: 
+00:17:55.008: xcompcap: [window-capture: 'Chrome'] update settings:
+00:17:55.008: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:17:55.008: 	class: google-chrome-beta
+00:17:55.008: 	Has alpha: yes
+00:17:55.008: 	Found proper GLXFBConfig: yes
+00:17:55.008: 
+00:19:52.537: pulse-input: Server name: 'pulseaudio 12.2-rebootstrapped'
+00:19:52.539: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+00:19:52.540: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+00:19:52.570: ---------------------------------
+00:19:52.570: video settings reset:
+00:19:52.570: 	base resolution:   1280x800
+00:19:52.570: 	output resolution: 1280x720
+00:19:52.570: 	downscale filter:  Bicubic
+00:19:52.570: 	fps:               30/1
+00:19:52.570: 	format:            NV12
+00:19:52.570: 	YUV mode:          601/Partial
+00:19:52.570: NV12 texture support not available
+00:19:52.573: Settings changed (outputs, audio, video)
+00:19:52.573: ------------------------------------------------
+00:20:17.547: User switched to scene 'titles writer'
+00:20:20.701: User switched to scene 'mypaint greenscreen'
+00:20:34.217: User switched to scene 'titles writer'
+00:20:58.771: ---------------------------------
+00:20:58.771: video settings reset:
+00:20:58.771: 	base resolution:   1280x800
+00:20:58.771: 	output resolution: 1280x720
+00:20:58.771: 	downscale filter:  Bicubic
+00:20:58.771: 	fps:               30/1
+00:20:58.771: 	format:            NV12
+00:20:58.771: 	YUV mode:          601/Partial
+00:20:58.772: NV12 texture support not available
+00:20:58.774: Settings changed (video)
+00:20:58.774: ------------------------------------------------
+00:21:43.738: User added source '1200x800 image' (image_source) to scene 'titles writer'
+00:24:07.806: User switched to scene 'Scene'
+00:24:07.814: xcompcap: [window-capture: 'Chrome'] update settings:
+00:24:07.814: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:24:07.814: 	class: google-chrome-beta
+00:24:07.814: 	Has alpha: yes
+00:24:07.814: 	Found proper GLXFBConfig: yes
+00:24:07.814: 
+00:24:09.328: User switched to scene 'titles writer'
+00:24:13.482: User switched to scene 'Scene'
+00:24:21.583: User added source '1200x800 image' (image_source) to scene 'Scene'
+00:24:23.272: User switched to scene 'mypaint greenscreen'
+00:24:25.144: User switched to scene 'titles writer'
+00:24:31.091: User Removed source '1200x800 image' (image_source) from scene 'titles writer'
+00:24:32.802: User switched to scene 'Scene'
+00:24:40.950: User switched to scene 'mypaint greenscreen'
+00:24:45.455: User switched to scene 'titles writer'
+00:24:59.168: User added source '1200x800 image' (image_source) to scene 'titles writer'
+00:34:21.758: User switched to scene 'Scene'
+00:34:21.776: xcompcap: [window-capture: 'Chrome'] update settings:
+00:34:21.776: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+00:34:21.776: 	class: google-chrome-beta
+00:34:21.776: 	Has alpha: yes
+00:34:21.776: 	Found proper GLXFBConfig: yes
+00:34:21.776: 
+00:34:31.601: User switched to scene 'titles writer'
+00:34:41.052: User switched to scene 'mypaint greenscreen'
+00:34:42.111: User switched to scene 'titles writer'
+00:34:53.482: User switched to scene 'mypaint kinski blend'
+00:34:54.370: User switched to scene 'titles writer'
+00:34:56.614: User switched to scene 'mypaint greenscreen'
+00:35:01.589: User switched to scene 'titles writer'
+00:35:38.165: User switched to scene 'Scene'
+00:35:39.995: User switched to scene 'mypaint greenscreen'
+00:35:51.567: User switched to scene 'titles writer'
+00:35:53.214: User switched to scene 'mypaint greenscreen'
+00:36:02.045: User switched to scene 'titles writer'
+00:49:22.573: ---------------------------------
+00:49:22.573: video settings reset:
+00:49:22.573: 	base resolution:   1280x800
+00:49:22.573: 	output resolution: 1280x800
+00:49:22.573: 	downscale filter:  Bicubic
+00:49:22.573: 	fps:               30/1
+00:49:22.573: 	format:            NV12
+00:49:22.573: 	YUV mode:          601/Partial
+00:49:22.573: NV12 texture support not available
+00:49:22.580: Settings changed (video)
+00:49:22.580: ------------------------------------------------
+00:49:39.212: ---------------------------------
+00:49:39.212: video settings reset:
+00:49:39.212: 	base resolution:   1280x800
+00:49:39.212: 	output resolution: 1280x720
+00:49:39.212: 	downscale filter:  Bicubic
+00:49:39.212: 	fps:               30/1
+00:49:39.212: 	format:            NV12
+00:49:39.212: 	YUV mode:          601/Partial
+00:49:39.213: NV12 texture support not available
+00:49:39.216: Settings changed (video)
+00:49:39.216: ------------------------------------------------
+00:54:28.982: ---------------------------------
+00:54:28.983: video settings reset:
+00:54:28.983: 	base resolution:   1280x800
+00:54:28.983: 	output resolution: 1280x720
+00:54:28.983: 	downscale filter:  Bicubic
+00:54:28.983: 	fps:               30/1
+00:54:28.983: 	format:            NV12
+00:54:28.983: 	YUV mode:          601/Partial
+00:54:28.983: NV12 texture support not available
+00:54:28.984: Settings changed (video)
+00:54:28.984: ------------------------------------------------
+00:54:37.728: ---------------------------------
+00:54:37.728: [x264 encoder: 'recording_h264'] preset: medium
+00:54:37.757: [x264 encoder: 'recording_h264'] settings:
+00:54:37.757: 	rate_control: CBR
+00:54:37.757: 	bitrate:      2500
+00:54:37.757: 	buffer size:  2500
+00:54:37.757: 	crf:          0
+00:54:37.757: 	fps_num:      30
+00:54:37.757: 	fps_den:      1
+00:54:37.757: 	width:        1280
+00:54:37.757: 	height:       720
+00:54:37.757: 	keyint:       250
+00:54:37.757: 
+00:54:37.795: ---------------------------------
+00:54:37.796: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+00:54:37.796: 
+00:54:37.832: ==== Recording Start ===============================================
+00:54:37.833: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 00-54-37.flv'...
+00:55:39.692: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 00-54-37.flv' stopped
+00:55:39.692: Output 'adv_file_output': stopping
+00:55:39.693: Output 'adv_file_output': Total frames output: 1802
+00:55:39.693: Output 'adv_file_output': Total drawn frames: 1855 (1856 attempted)
+00:55:39.693: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0,1%)
+00:55:39.695: ==== Recording Stop ================================================
+01:06:46.616: User added source 'Image' (image_source) to scene 'titles writer'
+01:17:38.834: User added filter 'Color Key' (color_key_filter) to source 'MP txt brushes delayed'
+01:27:58.252: User renamed filter 'Color Key' on source 'MP txt brushes delayed' to 'blue screen'
+01:28:04.797: User renamed filter 'Chroma Key' on source 'MP txt brushes delayed' to 'Chroma Key green'
+01:33:22.068: User added source 'white' (color_source) to scene 'titles writer'
+01:35:41.337: User added source 'black' (color_source) to scene 'titles writer'
+01:38:18.811: ---------------------------------
+01:38:18.811: [x264 encoder: 'recording_h264'] preset: medium
+01:38:18.811: [x264 encoder: 'recording_h264'] settings:
+01:38:18.811: 	rate_control: CBR
+01:38:18.811: 	bitrate:      2500
+01:38:18.811: 	buffer size:  2500
+01:38:18.811: 	crf:          0
+01:38:18.811: 	fps_num:      30
+01:38:18.811: 	fps_den:      1
+01:38:18.811: 	width:        1280
+01:38:18.811: 	height:       720
+01:38:18.811: 	keyint:       250
+01:38:18.811: 
+01:38:18.817: ---------------------------------
+01:38:18.817: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+01:38:18.817: 
+01:38:18.823: ==== Recording Start ===============================================
+01:38:18.823: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 01-38-18.flv'...
+01:38:26.638: User switched to scene 'mypaint greenscreen'
+01:38:26.653: xcompcap: [window-capture: 'Chrome'] update settings:
+01:38:26.653: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:38:26.653: 	class: google-chrome-beta
+01:38:26.653: 	Has alpha: yes
+01:38:26.653: 	Found proper GLXFBConfig: yes
+01:38:26.653: 
+01:38:33.272: User switched to scene 'titles writer'
+01:38:38.516: User switched to scene 'mypaint greenscreen'
+01:38:52.090: xcompcap: [window-capture: 'Chrome'] update settings:
+01:38:52.090: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:38:52.090: 	class: google-chrome-beta
+01:38:52.090: 	Has alpha: yes
+01:38:52.090: 	Found proper GLXFBConfig: yes
+01:38:52.090: 
+01:38:55.891: xcompcap: [window-capture: 'Chrome'] update settings:
+01:38:55.891: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:38:55.891: 	class: google-chrome-beta
+01:38:55.891: 	Has alpha: yes
+01:38:55.891: 	Found proper GLXFBConfig: yes
+01:38:55.891: 
+01:38:59.293: xcompcap: [window-capture: 'Chrome'] update settings:
+01:38:59.293: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:38:59.293: 	class: google-chrome-beta
+01:38:59.293: 	Has alpha: yes
+01:38:59.293: 	Found proper GLXFBConfig: yes
+01:38:59.293: 
+01:39:03.238: xcompcap: [window-capture: 'Chrome'] update settings:
+01:39:03.238: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+01:39:03.238: 	class: google-chrome-beta
+01:39:03.238: 	Has alpha: yes
+01:39:03.238: 	Found proper GLXFBConfig: yes
+01:39:03.238: 
+01:39:14.294: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 01-38-18.flv' stopped
+01:39:14.294: Output 'adv_file_output': stopping
+01:39:14.294: Output 'adv_file_output': Total frames output: 1597
+01:39:14.294: Output 'adv_file_output': Total drawn frames: 1663 (1664 attempted)
+01:39:14.294: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0,1%)
+01:39:14.294: Video stopped, number of skipped frames due to encoding lag: 92/1662 (5,5%)
+01:39:14.296: ==== Recording Stop ================================================
+01:39:24.090: xcompcap: [window-capture: 'Chrome'] update settings:
+01:39:24.090: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+01:39:24.090: 	class: google-chrome-beta
+01:39:24.090: 	Has alpha: yes
+01:39:24.090: 	Found proper GLXFBConfig: yes
+01:39:24.090: 
+01:39:56.435: xcompcap: [window-capture: 'Chrome'] update settings:
+01:39:56.435: 	title: Grouping Sources In OBS Studio - YouTube - Google Chrome
+01:39:56.435: 	class: google-chrome-beta
+01:39:56.435: 	Has alpha: yes
+01:39:56.435: 	Found proper GLXFBConfig: yes
+01:39:56.435: 
+01:40:02.491: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:02.491: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:02.491: 	class: google-chrome-beta
+01:40:02.491: 	Has alpha: yes
+01:40:02.491: 	Found proper GLXFBConfig: yes
+01:40:02.491: 
+01:40:06.124: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:06.124: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:06.124: 	class: google-chrome-beta
+01:40:06.124: 	Has alpha: yes
+01:40:06.124: 	Found proper GLXFBConfig: yes
+01:40:06.124: 
+01:40:07.088: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:07.088: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:07.088: 	class: google-chrome-beta
+01:40:07.088: 	Has alpha: yes
+01:40:07.088: 	Found proper GLXFBConfig: yes
+01:40:07.088: 
+01:40:08.659: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:08.659: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:08.659: 	class: google-chrome-beta
+01:40:08.659: 	Has alpha: yes
+01:40:08.659: 	Found proper GLXFBConfig: yes
+01:40:08.659: 
+01:40:09.587: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:09.587: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:09.587: 	class: google-chrome-beta
+01:40:09.587: 	Has alpha: yes
+01:40:09.587: 	Found proper GLXFBConfig: yes
+01:40:09.587: 
+01:40:11.373: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:11.373: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:11.373: 	class: google-chrome-beta
+01:40:11.373: 	Has alpha: yes
+01:40:11.373: 	Found proper GLXFBConfig: yes
+01:40:11.373: 
+01:40:12.391: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:12.391: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:12.391: 	class: google-chrome-beta
+01:40:12.391: 	Has alpha: yes
+01:40:12.391: 	Found proper GLXFBConfig: yes
+01:40:12.391: 
+01:40:16.097: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:16.097: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:16.097: 	class: google-chrome-beta
+01:40:16.097: 	Has alpha: yes
+01:40:16.097: 	Found proper GLXFBConfig: yes
+01:40:16.097: 
+01:40:27.901: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:27.901: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:27.901: 	class: google-chrome-beta
+01:40:27.901: 	Has alpha: yes
+01:40:27.901: 	Found proper GLXFBConfig: yes
+01:40:27.901: 
+01:40:28.556: xcompcap: [window-capture: 'Chrome'] update settings:
+01:40:28.556: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:40:28.556: 	class: google-chrome-beta
+01:40:28.556: 	Has alpha: yes
+01:40:28.556: 	Found proper GLXFBConfig: yes
+01:40:28.556: 
+01:41:00.864: xcompcap: [window-capture: 'Chrome'] update settings:
+01:41:00.864: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:41:00.864: 	class: google-chrome-beta
+01:41:00.864: 	Has alpha: yes
+01:41:00.864: 	Found proper GLXFBConfig: yes
+01:41:00.864: 
+01:41:00.900: xcompcap: [window-capture: 'Chrome'] update settings:
+01:41:00.900: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:41:00.900: 	class: google-chrome-beta
+01:41:00.900: 	Has alpha: yes
+01:41:00.900: 	Found proper GLXFBConfig: yes
+01:41:00.900: 
+01:41:54.302: xcompcap: [window-capture: 'Chrome'] update settings:
+01:41:54.302: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:41:54.302: 	class: google-chrome-beta
+01:41:54.302: 	Has alpha: yes
+01:41:54.302: 	Found proper GLXFBConfig: yes
+01:41:54.302: 
+01:43:14.826: xcompcap: [window-capture: 'Chrome'] update settings:
+01:43:14.826: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:43:14.826: 	class: google-chrome-beta
+01:43:14.826: 	Has alpha: yes
+01:43:14.826: 	Found proper GLXFBConfig: yes
+01:43:14.826: 
+01:43:17.588: xcompcap: [window-capture: 'Chrome'] update settings:
+01:43:17.588: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:43:17.588: 	class: google-chrome-beta
+01:43:17.588: 	Has alpha: yes
+01:43:17.588: 	Found proper GLXFBConfig: yes
+01:43:17.588: 
+01:43:29.197: xcompcap: [window-capture: 'Chrome'] update settings:
+01:43:29.197: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:43:29.197: 	class: google-chrome-beta
+01:43:29.197: 	Has alpha: yes
+01:43:29.197: 	Found proper GLXFBConfig: yes
+01:43:29.197: 
+01:43:49.960: xcompcap: [window-capture: 'Chrome'] update settings:
+01:43:49.960: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:43:49.960: 	class: google-chrome-beta
+01:43:49.960: 	Has alpha: yes
+01:43:49.960: 	Found proper GLXFBConfig: yes
+01:43:49.960: 
+01:44:05.823: xcompcap: [window-capture: 'Chrome'] update settings:
+01:44:05.823: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:44:05.823: 	class: google-chrome-beta
+01:44:05.823: 	Has alpha: yes
+01:44:05.823: 	Found proper GLXFBConfig: yes
+01:44:05.823: 
+01:44:38.062: User switched to scene 'titles writer'
+01:44:40.110: User switched to scene 'mypaint greenscreen'
+01:44:41.995: User switched to scene 'titles writer'
+01:44:43.864: User switched to scene 'mypaint greenscreen'
+01:45:05.847: ---------------------------------
+01:45:05.847: [x264 encoder: 'recording_h264'] preset: medium
+01:45:05.847: [x264 encoder: 'recording_h264'] settings:
+01:45:05.847: 	rate_control: CBR
+01:45:05.847: 	bitrate:      2500
+01:45:05.847: 	buffer size:  2500
+01:45:05.847: 	crf:          0
+01:45:05.847: 	fps_num:      30
+01:45:05.847: 	fps_den:      1
+01:45:05.847: 	width:        1280
+01:45:05.847: 	height:       720
+01:45:05.847: 	keyint:       250
+01:45:05.847: 
+01:45:05.859: ---------------------------------
+01:45:05.859: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+01:45:05.859: 
+01:45:05.863: ==== Recording Start ===============================================
+01:45:05.863: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 01-45-05.flv'...
+01:45:10.100: User switched to scene 'titles writer'
+01:45:11.696: User switched to scene 'mypaint greenscreen'
+01:45:12.926: User switched to scene 'mypaint kinski blend'
+01:45:14.644: User switched to scene 'mypaint greenscreen'
+01:45:19.383: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 01-45-05.flv' stopped
+01:45:19.383: Output 'adv_file_output': stopping
+01:45:19.383: Output 'adv_file_output': Total frames output: 352
+01:45:19.383: Output 'adv_file_output': Total drawn frames: 405 (406 attempted)
+01:45:19.383: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 1 (0,2%)
+01:45:19.383: ==== Recording Stop ================================================
+01:45:40.887: xcompcap: [window-capture: 'Chrome'] update settings:
+01:45:40.887: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:45:40.887: 	class: google-chrome-beta
+01:45:40.887: 	Has alpha: yes
+01:45:40.887: 	Found proper GLXFBConfig: yes
+01:45:40.887: 
+01:46:16.262: xcompcap: [window-capture: 'Chrome'] update settings:
+01:46:16.262: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:46:16.262: 	class: google-chrome-beta
+01:46:16.262: 	Has alpha: yes
+01:46:16.262: 	Found proper GLXFBConfig: yes
+01:46:16.262: 
+01:46:57.054: xcompcap: [window-capture: 'Chrome'] update settings:
+01:46:57.054: 	title: YouTube - Google Chrome
+01:46:57.054: 	class: google-chrome-beta
+01:46:57.054: 	Has alpha: yes
+01:46:57.054: 	Found proper GLXFBConfig: yes
+01:46:57.054: 
+01:47:17.396: xcompcap: [window-capture: 'Chrome'] update settings:
+01:47:17.396: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:47:17.396: 	class: google-chrome-beta
+01:47:17.396: 	Has alpha: yes
+01:47:17.396: 	Found proper GLXFBConfig: yes
+01:47:17.396: 
+01:47:24.894: User switched to scene 'titles writer'
+01:47:59.509: User switched to scene 'mypaint greenscreen'
+01:48:06.107: ---------------------------------
+01:48:06.107: [x264 encoder: 'recording_h264'] preset: medium
+01:48:06.107: [x264 encoder: 'recording_h264'] settings:
+01:48:06.107: 	rate_control: CBR
+01:48:06.107: 	bitrate:      2500
+01:48:06.107: 	buffer size:  2500
+01:48:06.107: 	crf:          0
+01:48:06.107: 	fps_num:      30
+01:48:06.107: 	fps_den:      1
+01:48:06.107: 	width:        1280
+01:48:06.107: 	height:       720
+01:48:06.107: 	keyint:       250
+01:48:06.107: 
+01:48:06.111: ---------------------------------
+01:48:06.112: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+01:48:06.112: 
+01:48:06.117: ==== Recording Start ===============================================
+01:48:06.117: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 01-48-06.flv'...
+01:48:08.358: xcompcap: [window-capture: 'Chrome'] update settings:
+01:48:08.358: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:48:08.358: 	class: google-chrome-beta
+01:48:08.358: 	Has alpha: yes
+01:48:08.358: 	Found proper GLXFBConfig: yes
+01:48:08.358: 
+01:49:25.093: xcompcap: [window-capture: 'Chrome'] update settings:
+01:49:25.093: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:49:25.093: 	class: google-chrome-beta
+01:49:25.093: 	Has alpha: yes
+01:49:25.093: 	Found proper GLXFBConfig: yes
+01:49:25.093: 
+01:50:19.296: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 01-48-06.flv' stopped
+01:50:19.296: Output 'adv_file_output': stopping
+01:50:19.296: Output 'adv_file_output': Total frames output: 3797
+01:50:19.296: Output 'adv_file_output': Total drawn frames: 3995
+01:50:19.297: ==== Recording Stop ================================================
+01:50:19.305: Video stopped, number of skipped frames due to encoding lag: 2212/3994 (55,4%)
+01:50:53.353: xcompcap: [window-capture: 'Chrome'] update settings:
+01:50:53.353: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:50:53.353: 	class: google-chrome-beta
+01:50:53.353: 	Has alpha: yes
+01:50:53.353: 	Found proper GLXFBConfig: yes
+01:50:53.353: 
+01:51:22.488: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:22.488: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:22.488: 	class: google-chrome-beta
+01:51:22.488: 	Has alpha: yes
+01:51:22.488: 	Found proper GLXFBConfig: yes
+01:51:22.488: 
+01:51:23.991: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:23.991: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:23.991: 	class: google-chrome-beta
+01:51:23.991: 	Has alpha: yes
+01:51:23.991: 	Found proper GLXFBConfig: yes
+01:51:23.991: 
+01:51:24.822: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:24.822: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:24.822: 	class: google-chrome-beta
+01:51:24.822: 	Has alpha: yes
+01:51:24.822: 	Found proper GLXFBConfig: yes
+01:51:24.822: 
+01:51:28.858: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:28.858: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:28.858: 	class: google-chrome-beta
+01:51:28.858: 	Has alpha: yes
+01:51:28.858: 	Found proper GLXFBConfig: yes
+01:51:28.858: 
+01:51:35.091: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:35.091: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:35.091: 	class: google-chrome-beta
+01:51:35.091: 	Has alpha: yes
+01:51:35.091: 	Found proper GLXFBConfig: yes
+01:51:35.091: 
+01:51:38.225: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:38.225: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:38.225: 	class: google-chrome-beta
+01:51:38.225: 	Has alpha: yes
+01:51:38.225: 	Found proper GLXFBConfig: yes
+01:51:38.225: 
+01:51:43.021: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:43.021: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:43.021: 	class: google-chrome-beta
+01:51:43.021: 	Has alpha: yes
+01:51:43.021: 	Found proper GLXFBConfig: yes
+01:51:43.021: 
+01:51:50.431: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:50.431: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:50.431: 	class: google-chrome-beta
+01:51:50.431: 	Has alpha: yes
+01:51:50.431: 	Found proper GLXFBConfig: yes
+01:51:50.431: 
+01:51:52.454: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:52.454: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:52.454: 	class: google-chrome-beta
+01:51:52.454: 	Has alpha: yes
+01:51:52.454: 	Found proper GLXFBConfig: yes
+01:51:52.454: 
+01:51:58.357: xcompcap: [window-capture: 'Chrome'] update settings:
+01:51:58.357: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:51:58.357: 	class: google-chrome-beta
+01:51:58.357: 	Has alpha: yes
+01:51:58.357: 	Found proper GLXFBConfig: yes
+01:51:58.357: 
+01:52:01.099: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:01.099: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:01.099: 	class: google-chrome-beta
+01:52:01.099: 	Has alpha: yes
+01:52:01.099: 	Found proper GLXFBConfig: yes
+01:52:01.099: 
+01:52:20.034: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:20.034: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:20.034: 	class: google-chrome-beta
+01:52:20.034: 	Has alpha: yes
+01:52:20.034: 	Found proper GLXFBConfig: yes
+01:52:20.034: 
+01:52:22.426: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:22.426: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:22.426: 	class: google-chrome-beta
+01:52:22.426: 	Has alpha: yes
+01:52:22.426: 	Found proper GLXFBConfig: yes
+01:52:22.426: 
+01:52:24.731: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:24.731: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:24.731: 	class: google-chrome-beta
+01:52:24.731: 	Has alpha: yes
+01:52:24.731: 	Found proper GLXFBConfig: yes
+01:52:24.731: 
+01:52:26.328: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:26.328: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:26.328: 	class: google-chrome-beta
+01:52:26.328: 	Has alpha: yes
+01:52:26.328: 	Found proper GLXFBConfig: yes
+01:52:26.328: 
+01:52:28.904: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:28.904: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:28.904: 	class: google-chrome-beta
+01:52:28.904: 	Has alpha: yes
+01:52:28.904: 	Found proper GLXFBConfig: yes
+01:52:28.904: 
+01:52:31.304: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:31.304: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:31.304: 	class: google-chrome-beta
+01:52:31.304: 	Has alpha: yes
+01:52:31.304: 	Found proper GLXFBConfig: yes
+01:52:31.304: 
+01:52:33.858: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:33.858: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:33.858: 	class: google-chrome-beta
+01:52:33.858: 	Has alpha: yes
+01:52:33.858: 	Found proper GLXFBConfig: yes
+01:52:33.858: 
+01:52:37.721: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:37.721: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:37.721: 	class: google-chrome-beta
+01:52:37.721: 	Has alpha: yes
+01:52:37.721: 	Found proper GLXFBConfig: yes
+01:52:37.721: 
+01:52:41.389: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:41.389: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:41.389: 	class: google-chrome-beta
+01:52:41.389: 	Has alpha: yes
+01:52:41.389: 	Found proper GLXFBConfig: yes
+01:52:41.389: 
+01:52:44.788: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:44.788: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:44.788: 	class: google-chrome-beta
+01:52:44.788: 	Has alpha: yes
+01:52:44.788: 	Found proper GLXFBConfig: yes
+01:52:44.788: 
+01:52:55.488: xcompcap: [window-capture: 'Chrome'] update settings:
+01:52:55.488: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:52:55.488: 	class: google-chrome-beta
+01:52:55.488: 	Has alpha: yes
+01:52:55.488: 	Found proper GLXFBConfig: yes
+01:52:55.488: 
+01:53:09.358: xcompcap: [window-capture: 'Chrome'] update settings:
+01:53:09.358: 	title: Upload - YouTube - Google Chrome
+01:53:09.358: 	class: google-chrome-beta
+01:53:09.358: 	Has alpha: yes
+01:53:09.358: 	Found proper GLXFBConfig: yes
+01:53:09.358: 
+01:54:13.591: xcompcap: [window-capture: 'Chrome'] update settings:
+01:54:13.591: 	title: Upload - YouTube - Google Chrome
+01:54:13.591: 	class: google-chrome-beta
+01:54:13.591: 	Has alpha: yes
+01:54:13.591: 	Found proper GLXFBConfig: yes
+01:54:13.591: 
+01:54:39.017: ---------------------------------
+01:54:39.017: video settings reset:
+01:54:39.017: 	base resolution:   1280x800
+01:54:39.017: 	output resolution: 1280x800
+01:54:39.017: 	downscale filter:  Bilinear
+01:54:39.017: 	fps:               30/1
+01:54:39.017: 	format:            NV12
+01:54:39.017: 	YUV mode:          601/Partial
+01:54:39.017: NV12 texture support not available
+01:54:39.019: Settings changed (video)
+01:54:39.019: ------------------------------------------------
+01:54:44.588: ---------------------------------
+01:54:44.588: [x264 encoder: 'recording_h264'] preset: medium
+01:54:44.588: [x264 encoder: 'recording_h264'] settings:
+01:54:44.588: 	rate_control: CBR
+01:54:44.588: 	bitrate:      2500
+01:54:44.588: 	buffer size:  2500
+01:54:44.588: 	crf:          0
+01:54:44.588: 	fps_num:      30
+01:54:44.588: 	fps_den:      1
+01:54:44.588: 	width:        1280
+01:54:44.588: 	height:       800
+01:54:44.588: 	keyint:       250
+01:54:44.588: 
+01:54:44.591: ---------------------------------
+01:54:44.591: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+01:54:44.591: 
+01:54:44.596: ==== Recording Start ===============================================
+01:54:44.596: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/korben/Videos/OBS/2019-03-10 01-54-44.flv'...
+01:55:01.845: User switched to scene 'titles writer'
+01:55:03.807: User switched to scene 'mypaint greenscreen'
+01:55:08.664: xcompcap: [window-capture: 'Chrome'] update settings:
+01:55:08.664: 	title: Upload - YouTube - Google Chrome
+01:55:08.664: 	class: google-chrome-beta
+01:55:08.664: 	Has alpha: yes
+01:55:08.664: 	Found proper GLXFBConfig: yes
+01:55:08.664: 
+01:55:10.624: xcompcap: [window-capture: 'Chrome'] update settings:
+01:55:10.624: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:55:10.624: 	class: google-chrome-beta
+01:55:10.624: 	Has alpha: yes
+01:55:10.624: 	Found proper GLXFBConfig: yes
+01:55:10.624: 
+01:55:29.924: xcompcap: [window-capture: 'Chrome'] update settings:
+01:55:29.924: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:55:29.924: 	class: google-chrome-beta
+01:55:29.924: 	Has alpha: yes
+01:55:29.924: 	Found proper GLXFBConfig: yes
+01:55:29.924: 
+01:56:15.061: xcompcap: [window-capture: 'Chrome'] update settings:
+01:56:15.061: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:56:15.061: 	class: google-chrome-beta
+01:56:15.061: 	Has alpha: yes
+01:56:15.061: 	Found proper GLXFBConfig: yes
+01:56:15.061: 
+01:56:18.861: xcompcap: [window-capture: 'Chrome'] update settings:
+01:56:18.861: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:56:18.861: 	class: google-chrome-beta
+01:56:18.861: 	Has alpha: yes
+01:56:18.861: 	Found proper GLXFBConfig: yes
+01:56:18.861: 
+01:56:19.623: xcompcap: [window-capture: 'Chrome'] update settings:
+01:56:19.623: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:56:19.623: 	class: google-chrome-beta
+01:56:19.623: 	Has alpha: yes
+01:56:19.623: 	Found proper GLXFBConfig: yes
+01:56:19.623: 
+01:56:22.304: User switched to scene 'titles writer'
+01:56:25.376: User switched to scene 'mypaint greenscreen'
+01:56:31.923: xcompcap: [window-capture: 'Chrome'] update settings:
+01:56:31.923: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+01:56:31.923: 	class: google-chrome-beta
+01:56:31.923: 	Has alpha: yes
+01:56:31.923: 	Found proper GLXFBConfig: yes
+01:56:31.923: 
+01:56:36.033: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/korben/Videos/OBS/2019-03-10 01-54-44.flv' stopped
+01:56:36.034: Output 'adv_file_output': stopping
+01:56:36.034: Output 'adv_file_output': Total frames output: 3112
+01:56:36.034: Output 'adv_file_output': Total drawn frames: 3340 (3343 attempted)
+01:56:36.034: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 3 (0,1%)
+01:56:36.034: ==== Recording Stop ================================================
+01:56:36.037: Video stopped, number of skipped frames due to encoding lag: 1820/3340 (54,5%)
+01:59:15.888: xcompcap: [window-capture: 'Chrome'] update settings:
+01:59:15.888: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:59:15.888: 	class: google-chrome-beta
+01:59:15.888: 	Has alpha: yes
+01:59:15.888: 	Found proper GLXFBConfig: yes
+01:59:15.888: 
+01:59:29.156: xcompcap: [window-capture: 'Chrome'] update settings:
+01:59:29.156: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:59:29.156: 	class: google-chrome-beta
+01:59:29.156: 	Has alpha: yes
+01:59:29.156: 	Found proper GLXFBConfig: yes
+01:59:29.156: 
+01:59:38.124: xcompcap: [window-capture: 'Chrome'] update settings:
+01:59:38.124: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:59:38.124: 	class: google-chrome-beta
+01:59:38.124: 	Has alpha: yes
+01:59:38.124: 	Found proper GLXFBConfig: yes
+01:59:38.124: 
+01:59:44.101: xcompcap: [window-capture: 'Chrome'] update settings:
+01:59:44.101: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+01:59:44.101: 	class: google-chrome-beta
+01:59:44.101: 	Has alpha: yes
+01:59:44.101: 	Found proper GLXFBConfig: yes
+01:59:44.101: 
+02:00:10.773: xcompcap: [window-capture: 'Chrome'] update settings:
+02:00:10.773: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+02:00:10.773: 	class: google-chrome-beta
+02:00:10.773: 	Has alpha: yes
+02:00:10.773: 	Found proper GLXFBConfig: yes
+02:00:10.773: 
+02:00:24.236: xcompcap: [window-capture: 'Chrome'] update settings:
+02:00:24.236: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+02:00:24.236: 	class: google-chrome-beta
+02:00:24.236: 	Has alpha: yes
+02:00:24.236: 	Found proper GLXFBConfig: yes
+02:00:24.236: 
+02:00:36.724: xcompcap: [window-capture: 'Chrome'] update settings:
+02:00:36.724: 	title: The Blackmagic Pocket 4K is INSANE - YouTube - Google Chrome
+02:00:36.724: 	class: google-chrome-beta
+02:00:36.724: 	Has alpha: yes
+02:00:36.724: 	Found proper GLXFBConfig: yes
+02:00:36.724: 
+02:00:51.881: xcompcap: [window-capture: 'Chrome'] update settings:
+02:00:51.881: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:00:51.881: 	class: google-chrome-beta
+02:00:51.881: 	Has alpha: yes
+02:00:51.881: 	Found proper GLXFBConfig: yes
+02:00:51.881: 
+02:05:29.327: xcompcap: [window-capture: 'Chrome'] update settings:
+02:05:29.327: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:05:29.327: 	class: google-chrome-beta
+02:05:29.327: 	Has alpha: yes
+02:05:29.327: 	Found proper GLXFBConfig: yes
+02:05:29.327: 
+02:05:29.369: xcompcap: [window-capture: 'Chrome'] update settings:
+02:05:29.369: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:05:29.369: 	class: google-chrome-beta
+02:05:29.369: 	Has alpha: yes
+02:05:29.369: 	Found proper GLXFBConfig: yes
+02:05:29.369: 
+02:05:34.521: xcompcap: [window-capture: 'Chrome'] update settings:
+02:05:34.521: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:05:34.521: 	class: google-chrome-beta
+02:05:34.521: 	Has alpha: yes
+02:05:34.521: 	Found proper GLXFBConfig: yes
+02:05:34.521: 
+02:05:40.123: xcompcap: [window-capture: 'Chrome'] update settings:
+02:05:40.123: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:05:40.123: 	class: google-chrome-beta
+02:05:40.123: 	Has alpha: yes
+02:05:40.123: 	Found proper GLXFBConfig: yes
+02:05:40.123: 
+02:08:59.497: xcompcap: [window-capture: 'Chrome'] update settings:
+02:08:59.497: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:08:59.497: 	class: google-chrome-beta
+02:08:59.497: 	Has alpha: yes
+02:08:59.497: 	Found proper GLXFBConfig: yes
+02:08:59.497: 
+02:09:01.426: xcompcap: [window-capture: 'Chrome'] update settings:
+02:09:01.426: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:09:01.426: 	class: google-chrome-beta
+02:09:01.426: 	Has alpha: yes
+02:09:01.426: 	Found proper GLXFBConfig: yes
+02:09:01.426: 
+02:09:51.229: xcompcap: [window-capture: 'Chrome'] update settings:
+02:09:51.229: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:09:51.229: 	class: google-chrome-beta
+02:09:51.229: 	Has alpha: yes
+02:09:51.229: 	Found proper GLXFBConfig: yes
+02:09:51.229: 
+02:09:53.371: xcompcap: [window-capture: 'Chrome'] update settings:
+02:09:53.371: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:09:53.371: 	class: google-chrome-beta
+02:09:53.371: 	Has alpha: yes
+02:09:53.371: 	Found proper GLXFBConfig: yes
+02:09:53.371: 
+02:10:59.192: xcompcap: [window-capture: 'Chrome'] update settings:
+02:10:59.192: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:10:59.192: 	class: google-chrome-beta
+02:10:59.192: 	Has alpha: yes
+02:10:59.192: 	Found proper GLXFBConfig: yes
+02:10:59.192: 
+02:11:00.964: xcompcap: [window-capture: 'Chrome'] update settings:
+02:11:00.964: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:11:00.964: 	class: google-chrome-beta
+02:11:00.964: 	Has alpha: yes
+02:11:00.964: 	Found proper GLXFBConfig: yes
+02:11:00.964: 
+02:11:09.093: xcompcap: [window-capture: 'Chrome'] update settings:
+02:11:09.093: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:11:09.093: 	class: google-chrome-beta
+02:11:09.093: 	Has alpha: yes
+02:11:09.093: 	Found proper GLXFBConfig: yes
+02:11:09.093: 
+02:13:39.914: xcompcap: [window-capture: 'Chrome'] update settings:
+02:13:39.914: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:13:39.914: 	class: google-chrome-beta
+02:13:39.914: 	Has alpha: yes
+02:13:39.914: 	Found proper GLXFBConfig: yes
+02:13:39.914: 
+02:16:29.639: xcompcap: [window-capture: 'Chrome'] update settings:
+02:16:29.639: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:16:29.639: 	class: google-chrome-beta
+02:16:29.639: 	Has alpha: yes
+02:16:29.639: 	Found proper GLXFBConfig: yes
+02:16:29.639: 
+02:16:46.530: xcompcap: [window-capture: 'Chrome'] update settings:
+02:16:46.530: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:16:46.530: 	class: google-chrome-beta
+02:16:46.530: 	Has alpha: yes
+02:16:46.530: 	Found proper GLXFBConfig: yes
+02:16:46.530: 
+02:16:50.424: xcompcap: [window-capture: 'Chrome'] update settings:
+02:16:50.424: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:16:50.424: 	class: google-chrome-beta
+02:16:50.424: 	Has alpha: yes
+02:16:50.424: 	Found proper GLXFBConfig: yes
+02:16:50.424: 
+02:16:55.233: xcompcap: [window-capture: 'Chrome'] update settings:
+02:16:55.233: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:16:55.233: 	class: google-chrome-beta
+02:16:55.233: 	Has alpha: yes
+02:16:55.233: 	Found proper GLXFBConfig: yes
+02:16:55.233: 
+02:16:59.120: xcompcap: [window-capture: 'Chrome'] update settings:
+02:16:59.120: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:16:59.120: 	class: google-chrome-beta
+02:16:59.120: 	Has alpha: yes
+02:16:59.120: 	Found proper GLXFBConfig: yes
+02:16:59.120: 
+02:17:07.696: xcompcap: [window-capture: 'Chrome'] update settings:
+02:17:07.696: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:17:07.696: 	class: google-chrome-beta
+02:17:07.696: 	Has alpha: yes
+02:17:07.696: 	Found proper GLXFBConfig: yes
+02:17:07.696: 
+02:17:21.150: xcompcap: [window-capture: 'Chrome'] update settings:
+02:17:21.150: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:17:21.150: 	class: google-chrome-beta
+02:17:21.150: 	Has alpha: yes
+02:17:21.150: 	Found proper GLXFBConfig: yes
+02:17:21.150: 
+02:18:00.367: xcompcap: [window-capture: 'Chrome'] update settings:
+02:18:00.367: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:18:00.367: 	class: google-chrome-beta
+02:18:00.367: 	Has alpha: yes
+02:18:00.367: 	Found proper GLXFBConfig: yes
+02:18:00.367: 
+02:19:30.909: xcompcap: [window-capture: 'Chrome'] update settings:
+02:19:30.909: 	title: digitalt - Microsoft OneNote Online - Google Chrome
+02:19:30.909: 	class: google-chrome-beta
+02:19:30.909: 	Has alpha: yes
+02:19:30.909: 	Found proper GLXFBConfig: yes
+02:19:30.909: 
+02:28:28.265: User switched to scene 'titles writer'
+02:28:29.459: User switched to scene 'mypaint greenscreen'
+02:28:30.766: User switched to scene 'titles writer'
+02:55:31.050: User added scene 'Scene 2'
+02:55:31.051: User switched to scene 'Scene 2'
+02:55:40.178: User added source 'Chrome' (xcomposite_input) to scene 'Scene 2'
+02:55:40.191: xcompcap: [window-capture: 'Chrome'] update settings:
+02:55:40.191: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+02:55:40.191: 	class: google-chrome-beta
+02:55:40.191: 	Has alpha: yes
+02:55:40.191: 	Found proper GLXFBConfig: yes
+02:55:40.191: 
+02:56:01.900: User added source 'OBS 16:9' (xcomposite_input) to scene 'Scene 2'
+02:56:01.922: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+02:56:01.922: 	title: budgie-panel
+02:56:01.922: 	class: budgie-panel
+02:56:01.922: 	Has alpha: yes
+02:56:01.922: 	Found proper GLXFBConfig: yes
+02:56:01.922: 
+02:56:21.093: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+02:56:21.093: 	title: 2019-03-10 01-48-06.flv
+02:56:21.093: 	class: totem
+02:56:21.093: 	Has alpha: yes
+02:56:21.093: 	Found proper GLXFBConfig: yes
+02:56:21.093: 
+02:56:26.024: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+02:56:26.024: 	title: 2019-03-10 01-48-06.flv
+02:56:26.024: 	class: totem
+02:56:26.024: 	Has alpha: yes
+02:56:26.024: 	Found proper GLXFBConfig: yes
+02:56:26.024: 
+02:56:40.120: User added source 'VLC' (xcomposite_input) to scene 'Scene 2'
+02:56:40.156: xcompcap: [window-capture: 'VLC'] update settings:
+02:56:40.156: 	title: budgie-panel
+02:56:40.156: 	class: budgie-panel
+02:56:40.156: 	Has alpha: yes
+02:56:40.156: 	Found proper GLXFBConfig: yes
+02:56:40.156: 
+02:56:43.156: xcompcap: [window-capture: 'VLC'] update settings:
+02:56:43.156: 	title: 2019-03-10 01-54-44.flv - VLC media player
+02:56:43.156: 	class: vlc
+02:56:43.156: 	Has alpha: no
+02:56:43.156: 	Found proper GLXFBConfig: yes
+02:56:43.156: 
+02:56:45.425: xcompcap: [window-capture: 'VLC'] update settings:
+02:56:45.425: 	title: 2019-03-10 01-54-44.flv - VLC media player
+02:56:45.425: 	class: vlc
+02:56:45.425: 	Has alpha: no
+02:56:45.425: 	Found proper GLXFBConfig: yes
+02:56:45.425: 
+03:01:36.528: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:01:36.528: 	title: 2019-03-10 01-48-06.flv
+03:01:36.528: 	class: totem
+03:01:36.528: 	Has alpha: yes
+03:01:36.528: 	Found proper GLXFBConfig: yes
+03:01:36.528: 
+03:04:49.661: xcompcap: [window-capture: 'Chrome'] update settings:
+03:04:49.661: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:04:49.661: 	class: google-chrome-beta
+03:04:49.661: 	Has alpha: yes
+03:04:49.661: 	Found proper GLXFBConfig: yes
+03:04:49.661: 
+03:04:56.425: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:56.425: 	title: 2019-03-10 01-48-06.flv
+03:04:56.425: 	class: totem
+03:04:56.425: 	Has alpha: yes
+03:04:56.425: 	Found proper GLXFBConfig: yes
+03:04:56.425: 
+03:04:58.424: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.424: 	title: 2019-03-10 01-48-06.flv
+03:04:58.424: 	class: totem
+03:04:58.424: 	Has alpha: yes
+03:04:58.424: 	Found proper GLXFBConfig: yes
+03:04:58.424: 
+03:04:58.455: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.455: 	title: 2019-03-10 01-48-06.flv
+03:04:58.455: 	class: totem
+03:04:58.455: 	Has alpha: yes
+03:04:58.455: 	Found proper GLXFBConfig: yes
+03:04:58.455: 
+03:04:58.491: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.491: 	title: 2019-03-10 01-48-06.flv
+03:04:58.491: 	class: totem
+03:04:58.491: 	Has alpha: yes
+03:04:58.491: 	Found proper GLXFBConfig: yes
+03:04:58.491: 
+03:04:58.523: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.523: 	title: 2019-03-10 01-48-06.flv
+03:04:58.523: 	class: totem
+03:04:58.523: 	Has alpha: yes
+03:04:58.523: 	Found proper GLXFBConfig: yes
+03:04:58.523: 
+03:04:58.556: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.556: 	title: 2019-03-10 01-48-06.flv
+03:04:58.556: 	class: totem
+03:04:58.556: 	Has alpha: yes
+03:04:58.556: 	Found proper GLXFBConfig: yes
+03:04:58.556: 
+03:04:58.589: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.589: 	title: 2019-03-10 01-48-06.flv
+03:04:58.589: 	class: totem
+03:04:58.589: 	Has alpha: yes
+03:04:58.589: 	Found proper GLXFBConfig: yes
+03:04:58.589: 
+03:04:58.624: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.624: 	title: 2019-03-10 01-48-06.flv
+03:04:58.624: 	class: totem
+03:04:58.624: 	Has alpha: yes
+03:04:58.624: 	Found proper GLXFBConfig: yes
+03:04:58.624: 
+03:04:58.724: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:04:58.724: 	title: 2019-03-10 01-48-06.flv
+03:04:58.724: 	class: totem
+03:04:58.724: 	Has alpha: yes
+03:04:58.724: 	Found proper GLXFBConfig: yes
+03:04:58.724: 
+03:06:34.822: xcompcap: [window-capture: 'VLC'] update settings:
+03:06:34.822: 	title: 2019-03-10 01-54-44.flv - VLC media player
+03:06:34.822: 	class: vlc
+03:06:34.822: 	Has alpha: no
+03:06:34.822: 	Found proper GLXFBConfig: yes
+03:06:34.822: 
+03:06:41.288: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:06:41.288: 	title: 2019-03-10 01-48-06.flv
+03:06:41.288: 	class: totem
+03:06:41.288: 	Has alpha: yes
+03:06:41.288: 	Found proper GLXFBConfig: yes
+03:06:41.288: 
+03:07:06.167: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:06.167: 	title: 2019-03-10 01-48-06.flv
+03:07:06.167: 	class: totem
+03:07:06.167: 	Has alpha: yes
+03:07:06.167: 	Found proper GLXFBConfig: yes
+03:07:06.167: 
+03:07:23.689: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:23.689: 	title: 2019-03-10 01-48-06.flv
+03:07:23.689: 	class: totem
+03:07:23.689: 	Has alpha: yes
+03:07:23.689: 	Found proper GLXFBConfig: yes
+03:07:23.689: 
+03:07:29.920: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:29.920: 	title: 2019-03-10 01-48-06.flv
+03:07:29.920: 	class: totem
+03:07:29.920: 	Has alpha: yes
+03:07:29.920: 	Found proper GLXFBConfig: yes
+03:07:29.920: 
+03:07:33.688: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:33.688: 	title: 2019-03-10 01-48-06.flv
+03:07:33.688: 	class: totem
+03:07:33.688: 	Has alpha: yes
+03:07:33.688: 	Found proper GLXFBConfig: yes
+03:07:33.688: 
+03:07:38.455: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:38.455: 	title: 2019-03-10 01-48-06.flv
+03:07:38.455: 	class: totem
+03:07:38.455: 	Has alpha: yes
+03:07:38.455: 	Found proper GLXFBConfig: yes
+03:07:38.455: 
+03:07:58.188: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.188: 	title: 2019-03-10 01-48-06.flv
+03:07:58.188: 	class: totem
+03:07:58.188: 	Has alpha: yes
+03:07:58.188: 	Found proper GLXFBConfig: yes
+03:07:58.188: 
+03:07:58.223: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.223: 	title: 2019-03-10 01-48-06.flv
+03:07:58.223: 	class: totem
+03:07:58.223: 	Has alpha: yes
+03:07:58.223: 	Found proper GLXFBConfig: yes
+03:07:58.223: 
+03:07:58.257: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.257: 	title: 2019-03-10 01-48-06.flv
+03:07:58.257: 	class: totem
+03:07:58.257: 	Has alpha: yes
+03:07:58.257: 	Found proper GLXFBConfig: yes
+03:07:58.257: 
+03:07:58.291: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.291: 	title: 2019-03-10 01-48-06.flv
+03:07:58.291: 	class: totem
+03:07:58.291: 	Has alpha: yes
+03:07:58.291: 	Found proper GLXFBConfig: yes
+03:07:58.291: 
+03:07:58.323: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.323: 	title: 2019-03-10 01-48-06.flv
+03:07:58.323: 	class: totem
+03:07:58.323: 	Has alpha: yes
+03:07:58.323: 	Found proper GLXFBConfig: yes
+03:07:58.323: 
+03:07:58.356: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.356: 	title: 2019-03-10 01-48-06.flv
+03:07:58.356: 	class: totem
+03:07:58.356: 	Has alpha: yes
+03:07:58.356: 	Found proper GLXFBConfig: yes
+03:07:58.356: 
+03:07:58.389: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.389: 	title: 2019-03-10 01-48-06.flv
+03:07:58.389: 	class: totem
+03:07:58.389: 	Has alpha: yes
+03:07:58.389: 	Found proper GLXFBConfig: yes
+03:07:58.389: 
+03:07:58.422: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.422: 	title: 2019-03-10 01-48-06.flv
+03:07:58.422: 	class: totem
+03:07:58.422: 	Has alpha: yes
+03:07:58.422: 	Found proper GLXFBConfig: yes
+03:07:58.422: 
+03:07:58.457: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.457: 	title: 2019-03-10 01-48-06.flv
+03:07:58.457: 	class: totem
+03:07:58.457: 	Has alpha: yes
+03:07:58.457: 	Found proper GLXFBConfig: yes
+03:07:58.457: 
+03:07:58.490: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.490: 	title: 2019-03-10 01-48-06.flv
+03:07:58.490: 	class: totem
+03:07:58.490: 	Has alpha: yes
+03:07:58.490: 	Found proper GLXFBConfig: yes
+03:07:58.490: 
+03:07:58.521: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.521: 	title: 2019-03-10 01-48-06.flv
+03:07:58.521: 	class: totem
+03:07:58.521: 	Has alpha: yes
+03:07:58.521: 	Found proper GLXFBConfig: yes
+03:07:58.521: 
+03:07:58.555: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.555: 	title: 2019-03-10 01-48-06.flv
+03:07:58.555: 	class: totem
+03:07:58.555: 	Has alpha: yes
+03:07:58.555: 	Found proper GLXFBConfig: yes
+03:07:58.555: 
+03:07:58.588: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.588: 	title: 2019-03-10 01-48-06.flv
+03:07:58.588: 	class: totem
+03:07:58.588: 	Has alpha: yes
+03:07:58.588: 	Found proper GLXFBConfig: yes
+03:07:58.588: 
+03:07:58.623: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:07:58.623: 	title: 2019-03-10 01-48-06.flv
+03:07:58.623: 	class: totem
+03:07:58.623: 	Has alpha: yes
+03:07:58.623: 	Found proper GLXFBConfig: yes
+03:07:58.623: 
+03:08:03.727: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.727: 	title: 2019-03-10 01-48-06.flv
+03:08:03.727: 	class: totem
+03:08:03.727: 	Has alpha: yes
+03:08:03.727: 	Found proper GLXFBConfig: yes
+03:08:03.727: 
+03:08:03.756: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.756: 	title: 2019-03-10 01-48-06.flv
+03:08:03.756: 	class: totem
+03:08:03.756: 	Has alpha: yes
+03:08:03.756: 	Found proper GLXFBConfig: yes
+03:08:03.756: 
+03:08:03.791: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.791: 	title: 2019-03-10 01-48-06.flv
+03:08:03.791: 	class: totem
+03:08:03.791: 	Has alpha: yes
+03:08:03.791: 	Found proper GLXFBConfig: yes
+03:08:03.791: 
+03:08:03.822: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.822: 	title: 2019-03-10 01-48-06.flv
+03:08:03.822: 	class: totem
+03:08:03.822: 	Has alpha: yes
+03:08:03.822: 	Found proper GLXFBConfig: yes
+03:08:03.822: 
+03:08:03.856: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.856: 	title: 2019-03-10 01-48-06.flv
+03:08:03.856: 	class: totem
+03:08:03.856: 	Has alpha: yes
+03:08:03.856: 	Found proper GLXFBConfig: yes
+03:08:03.856: 
+03:08:03.890: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.890: 	title: 2019-03-10 01-48-06.flv
+03:08:03.890: 	class: totem
+03:08:03.890: 	Has alpha: yes
+03:08:03.890: 	Found proper GLXFBConfig: yes
+03:08:03.890: 
+03:08:03.924: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.924: 	title: 2019-03-10 01-48-06.flv
+03:08:03.924: 	class: totem
+03:08:03.924: 	Has alpha: yes
+03:08:03.924: 	Found proper GLXFBConfig: yes
+03:08:03.924: 
+03:08:03.956: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.956: 	title: 2019-03-10 01-48-06.flv
+03:08:03.956: 	class: totem
+03:08:03.956: 	Has alpha: yes
+03:08:03.956: 	Found proper GLXFBConfig: yes
+03:08:03.956: 
+03:08:03.989: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:03.989: 	title: 2019-03-10 01-48-06.flv
+03:08:03.989: 	class: totem
+03:08:03.989: 	Has alpha: yes
+03:08:03.989: 	Found proper GLXFBConfig: yes
+03:08:03.989: 
+03:08:04.022: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:04.022: 	title: 2019-03-10 01-48-06.flv
+03:08:04.022: 	class: totem
+03:08:04.022: 	Has alpha: yes
+03:08:04.022: 	Found proper GLXFBConfig: yes
+03:08:04.022: 
+03:08:04.056: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:08:04.056: 	title: 2019-03-10 01-48-06.flv
+03:08:04.056: 	class: totem
+03:08:04.056: 	Has alpha: yes
+03:08:04.056: 	Found proper GLXFBConfig: yes
+03:08:04.056: 
+03:10:37.231: Last log entry repeated for 29 more lines
+03:10:37.231: xcompcap: [window-capture: 'VLC'] update settings:
+03:10:37.231: 	title: 2019-03-10 01-54-44.flv - VLC media player
+03:10:37.231: 	class: vlc
+03:10:37.231: 	Has alpha: no
+03:10:37.231: 	Found proper GLXFBConfig: yes
+03:10:37.231: 
+03:10:37.235: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:10:37.235: 	title: 2019-03-10 01-48-06.flv
+03:10:37.235: 	class: totem
+03:10:37.235: 	Has alpha: yes
+03:10:37.235: 	Found proper GLXFBConfig: yes
+03:10:37.235: 
+03:10:37.238: xcompcap: [window-capture: 'Chrome'] update settings:
+03:10:37.238: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:10:37.238: 	class: google-chrome-beta
+03:10:37.238: 	Has alpha: yes
+03:10:37.238: 	Found proper GLXFBConfig: yes
+03:10:37.238: 
+03:10:39.008: xcompcap: [window-capture: 'VLC'] update settings:
+03:10:39.008: 	title: 2019-03-10 01-54-44.flv - VLC media player
+03:10:39.008: 	class: vlc
+03:10:39.008: 	Has alpha: no
+03:10:39.008: 	Found proper GLXFBConfig: yes
+03:10:39.008: 
+03:10:57.711: xcompcap: [window-capture: 'VLC'] update settings:
+03:10:57.711: 	title: 2019-03-10 01-54-44.flv - VLC media player
+03:10:57.711: 	class: vlc
+03:10:57.711: 	Has alpha: no
+03:10:57.711: 	Found proper GLXFBConfig: yes
+03:10:57.711: 
+03:10:57.728: xcompcap: [window-capture: 'VLC'] update settings:
+03:10:57.728: 	title: 2019-03-10 01-54-44.flv - VLC media player
+03:10:57.728: 	class: vlc
+03:10:57.728: 	Has alpha: no
+03:10:57.728: 	Found proper GLXFBConfig: yes
+03:10:57.728: 
+03:10:57.732: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:10:57.732: 	title: 2019-03-10 01-48-06.flv
+03:10:57.732: 	class: totem
+03:10:57.732: 	Has alpha: yes
+03:10:57.732: 	Found proper GLXFBConfig: yes
+03:10:57.732: 
+03:10:57.738: xcompcap: [window-capture: 'Chrome'] update settings:
+03:10:57.738: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:10:57.738: 	class: google-chrome-beta
+03:10:57.738: 	Has alpha: yes
+03:10:57.738: 	Found proper GLXFBConfig: yes
+03:10:57.738: 
+03:11:52.433: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:11:52.433: 	title: 2019-03-10 01-48-06.flv
+03:11:52.433: 	class: totem
+03:11:52.433: 	Has alpha: yes
+03:11:52.433: 	Found proper GLXFBConfig: yes
+03:11:52.433: 
+03:12:00.328: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:12:00.328: 	title: 2019-03-10 01-48-06.flv
+03:12:00.328: 	class: totem
+03:12:00.328: 	Has alpha: yes
+03:12:00.328: 	Found proper GLXFBConfig: yes
+03:12:00.328: 
+03:12:00.333: xcompcap: [window-capture: 'Chrome'] update settings:
+03:12:00.333: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:12:00.333: 	class: google-chrome-beta
+03:12:00.333: 	Has alpha: yes
+03:12:00.333: 	Found proper GLXFBConfig: yes
+03:12:00.333: 
+03:12:06.091: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:12:06.091: 	title: 2019-03-10 01-48-06.flv
+03:12:06.091: 	class: totem
+03:12:06.091: 	Has alpha: yes
+03:12:06.091: 	Found proper GLXFBConfig: yes
+03:12:06.091: 
+03:12:07.123: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:12:07.123: 	title: 2019-03-10 01-48-06.flv
+03:12:07.123: 	class: totem
+03:12:07.123: 	Has alpha: yes
+03:12:07.123: 	Found proper GLXFBConfig: yes
+03:12:07.123: 
+03:12:07.130: xcompcap: [window-capture: 'Chrome'] update settings:
+03:12:07.130: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:12:07.130: 	class: google-chrome-beta
+03:12:07.130: 	Has alpha: yes
+03:12:07.130: 	Found proper GLXFBConfig: yes
+03:12:07.130: 
+03:12:09.962: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:12:09.962: 	title: 2019-03-10 01-48-06.flv
+03:12:09.962: 	class: totem
+03:12:09.962: 	Has alpha: yes
+03:12:09.962: 	Found proper GLXFBConfig: yes
+03:12:09.962: 
+03:12:11.157: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:12:11.157: 	title: 2019-03-10 01-48-06.flv
+03:12:11.157: 	class: totem
+03:12:11.157: 	Has alpha: yes
+03:12:11.157: 	Found proper GLXFBConfig: yes
+03:12:11.157: 
+03:12:11.166: xcompcap: [window-capture: 'Chrome'] update settings:
+03:12:11.166: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:12:11.166: 	class: google-chrome-beta
+03:12:11.166: 	Has alpha: yes
+03:12:11.166: 	Found proper GLXFBConfig: yes
+03:12:11.166: 
+03:12:13.258: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:12:13.258: 	title: 2019-03-10 01-48-06.flv
+03:12:13.258: 	class: totem
+03:12:13.258: 	Has alpha: yes
+03:12:13.258: 	Found proper GLXFBConfig: yes
+03:12:13.258: 
+03:12:33.690: xcompcap: [window-capture: 'OBS 16:9'] update settings:
+03:12:33.690: 	title: 2019-03-10 01-48-06.flv
+03:12:33.690: 	class: totem
+03:12:33.690: 	Has alpha: yes
+03:12:33.690: 	Found proper GLXFBConfig: yes
+03:12:33.690: 
+03:12:33.697: xcompcap: [window-capture: 'Chrome'] update settings:
+03:12:33.697: 	title: 16:10 to 16:9 scaling in youtube - YouTube - Google Chrome
+03:12:33.697: 	class: google-chrome-beta
+03:12:33.697: 	Has alpha: yes
+03:12:33.697: 	Found proper GLXFBConfig: yes
+03:12:33.697: 
+03:12:35.381: ==== Shutting down ==================================================
+03:12:35.387: Switched to scene '(null)'
+03:12:35.389: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 5223834
+03:12:35.389: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 5223835
+03:12:35.400: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+03:12:35.400: pulse-input: Got 4679679 packets with 2500496415 frames
+03:12:35.400: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+03:12:35.400: pulse-input: Got 541719 packets with 456995952 frames
+03:12:35.400: All scene data cleared
+03:12:35.400: ------------------------------------------------
+03:12:35.495: Freeing OBS context data
+03:12:35.519: [Scripting] Total detached callbacks: 0
+03:12:35.710: == Profiler Results =============================
+03:12:35.710: run_program_init: 6851,43 ms
+03:12:35.710:  ┣OBSApp::AppInit: 65,943 ms
+03:12:35.710:  ┃ ┗OBSApp::InitLocale: 51,648 ms
+03:12:35.710:  ┗OBSApp::OBSInit: 6680,88 ms
+03:12:35.710:    ┣obs_startup: 29,665 ms
+03:12:35.710:    ┗OBSBasic::OBSInit: 6466,51 ms
+03:12:35.710:      ┣OBSBasic::InitBasicConfig: 0,139 ms
+03:12:35.710:      ┣OBSBasic::ResetAudio: 0,152 ms
+03:12:35.710:      ┣OBSBasic::ResetVideo: 893,359 ms
+03:12:35.710:      ┣OBSBasic::InitOBSCallbacks: 0,006 ms
+03:12:35.710:      ┣OBSBasic::InitHotkeys: 0,059 ms
+03:12:35.710:      ┣obs_load_all_modules: 3721,52 ms
+03:12:35.710:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0,489 ms
+03:12:35.710:      ┃ ┣obs_init_module(frontend-tools.so): 1111,06 ms
+03:12:35.710:      ┃ ┣obs_init_module(image-source.so): 0,011 ms
+03:12:35.710:      ┃ ┣obs_init_module(linux-alsa.so): 0,005 ms
+03:12:35.710:      ┃ ┣obs_init_module(linux-capture.so): 1,433 ms
+03:12:35.710:      ┃ ┣obs_init_module(linux-decklink.so): 0,27 ms
+03:12:35.710:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0,009 ms
+03:12:35.710:      ┃ ┣obs_init_module(linux-v4l2.so): 0,008 ms
+03:12:35.710:      ┃ ┣obs_init_module(obs-ffmpeg.so): 364,247 ms
+03:12:35.710:      ┃ ┃ ┗nvenc_check: 364,16 ms
+03:12:35.710:      ┃ ┣obs_init_module(obs-filters.so): 0,029 ms
+03:12:35.710:      ┃ ┣obs_init_module(obs-outputs.so): 0,007 ms
+03:12:35.710:      ┃ ┣obs_init_module(obs-transitions.so): 0,022 ms
+03:12:35.710:      ┃ ┣obs_init_module(obs-x264.so): 0,004 ms
+03:12:35.710:      ┃ ┣obs_init_module(rtmp-services.so): 71,607 ms
+03:12:35.710:      ┃ ┗obs_init_module(text-freetype2.so): 0,079 ms
+03:12:35.710:      ┣OBSBasic::ResetOutputs: 1,044 ms
+03:12:35.710:      ┣OBSBasic::CreateHotkeys: 0,058 ms
+03:12:35.710:      ┣OBSBasic::InitService: 32,15 ms
+03:12:35.710:      ┣OBSBasic::InitPrimitives: 0,184 ms
+03:12:35.710:      ┗OBSBasic::Load: 1632,54 ms
+03:12:35.711: obs_hotkey_thread(25 ms): min=0,073 ms, median=0,439 ms, max=2420,44 ms, 99th percentile=2,267 ms, 99,9848% below 25 ms
+03:12:35.711: audio_thread(Audio): min=0 ms, median=0,137 ms, max=74,822 ms, 99th percentile=0,704 ms
+03:12:35.711:  ┗receive_audio: min=0,001 ms, median=0,411 ms, max=12,242 ms, 99th percentile=1,767 ms, 0,00665103 calls per parent call
+03:12:35.711:    ┣buffer_audio: min=0 ms, median=0,002 ms, max=0,664 ms, 99th percentile=0,017 ms
+03:12:35.711:    ┗do_encode: min=0,016 ms, median=0,404 ms, max=12,234 ms, 99th percentile=1,752 ms
+03:12:35.711:      ┗encode(Track1): min=0,016 ms, median=0,369 ms, max=12,179 ms, 99th percentile=1,522 ms
+03:12:35.711: obs_graphics_thread(33,3333 ms): min=0,066 ms, median=3,022 ms, max=2444,12 ms, 99th percentile=8,931 ms, 99,9257% below 33,333 ms
+03:12:35.711:  ┣tick_sources: min=0,001 ms, median=0,613 ms, max=2421,3 ms, 99th percentile=4,506 ms
+03:12:35.711:  ┣output_frame: min=0,041 ms, median=0,596 ms, max=97,727 ms, 99th percentile=1,188 ms
+03:12:35.711:  ┃ ┗gs_context(video->graphics): min=0,041 ms, median=0,595 ms, max=97,725 ms, 99th percentile=1,187 ms
+03:12:35.711:  ┃   ┣render_video: min=0,016 ms, median=0,473 ms, max=97,25 ms, 99th percentile=0,963 ms
+03:12:35.711:  ┃   ┃ ┗render_main_texture: min=0,014 ms, median=0,464 ms, max=97,223 ms, 99th percentile=0,947 ms
+03:12:35.711:  ┃   ┗gs_flush: min=0,015 ms, median=0,08 ms, max=14,937 ms, 99th percentile=0,192 ms
+03:12:35.711:  ┗render_displays: min=0,003 ms, median=1,643 ms, max=909,755 ms, 99th percentile=5,426 ms
+03:12:35.711: OBSBasic::ResetOutputs: 32,82 ms
+03:12:35.711: OBSBasic::ResetVideo: min=8,292 ms, median=29,568 ms, max=31,554 ms, 99th percentile=31,554 ms
+03:12:35.711: obs_graphics_thread(33,3333 ms): min=0,877 ms, median=2,729 ms, max=11,502 ms, 99th percentile=6,938 ms, 100% below 33,333 ms
+03:12:35.711:  ┣tick_sources: min=0,216 ms, median=0,778 ms, max=3,861 ms, 99th percentile=1,657 ms
+03:12:35.711:  ┣output_frame: min=0,178 ms, median=0,583 ms, max=2,631 ms, 99th percentile=1,387 ms
+03:12:35.711:  ┃ ┗gs_context(video->graphics): min=0,177 ms, median=0,582 ms, max=2,631 ms, 99th percentile=1,386 ms
+03:12:35.711:  ┃   ┣render_video: min=0,145 ms, median=0,477 ms, max=2,484 ms, 99th percentile=1,127 ms
+03:12:35.711:  ┃   ┃ ┗render_main_texture: min=0,142 ms, median=0,469 ms, max=2,443 ms, 99th percentile=1,118 ms
+03:12:35.711:  ┃   ┗gs_flush: min=0,022 ms, median=0,074 ms, max=1,539 ms, 99th percentile=0,179 ms
+03:12:35.711:  ┗render_displays: min=0,254 ms, median=1,281 ms, max=10,514 ms, 99th percentile=5,31 ms
+03:12:35.711: obs_graphics_thread(33,3333 ms): min=0,74 ms, median=3,153 ms, max=45,383 ms, 99th percentile=11,11 ms, 99,9843% below 33,333 ms
+03:12:35.711:  ┣tick_sources: min=0,165 ms, median=0,578 ms, max=35,923 ms, 99th percentile=2,055 ms
+03:12:35.712:  ┣output_frame: min=0,135 ms, median=0,658 ms, max=22,88 ms, 99th percentile=1,321 ms
+03:12:35.712:  ┃ ┗gs_context(video->graphics): min=0,135 ms, median=0,657 ms, max=22,879 ms, 99th percentile=1,318 ms
+03:12:35.712:  ┃   ┣render_video: min=0,107 ms, median=0,539 ms, max=22,795 ms, 99th percentile=1,088 ms
+03:12:35.712:  ┃   ┃ ┗render_main_texture: min=0,104 ms, median=0,531 ms, max=22,788 ms, 99th percentile=1,076 ms
+03:12:35.712:  ┃   ┗gs_flush: min=0,018 ms, median=0,079 ms, max=3,676 ms, 99th percentile=0,19 ms
+03:12:35.712:  ┗render_displays: min=0,27 ms, median=1,816 ms, max=44,529 ms, 99th percentile=9,638 ms
+03:12:35.712: obs_graphics_thread(33,3333 ms): min=0,823 ms, median=2,624 ms, max=7,311 ms, 99th percentile=4,448 ms, 100% below 33,333 ms
+03:12:35.712:  ┣tick_sources: min=0,213 ms, median=0,586 ms, max=1,869 ms, 99th percentile=1,052 ms
+03:12:35.712:  ┣output_frame: min=0,213 ms, median=0,686 ms, max=1,365 ms, 99th percentile=1,233 ms
+03:12:35.712:  ┃ ┗gs_context(video->graphics): min=0,213 ms, median=0,685 ms, max=1,365 ms, 99th percentile=1,233 ms
+03:12:35.712:  ┃   ┣render_video: min=0,173 ms, median=0,565 ms, max=1,244 ms, 99th percentile=0,986 ms
+03:12:35.712:  ┃   ┃ ┗render_main_texture: min=0,17 ms, median=0,557 ms, max=1,235 ms, 99th percentile=0,962 ms
+03:12:35.712:  ┃   ┗gs_flush: min=0,029 ms, median=0,08 ms, max=0,244 ms, 99th percentile=0,207 ms
+03:12:35.712:  ┗render_displays: min=0,378 ms, median=1,348 ms, max=5,179 ms, 99th percentile=2,657 ms
+03:12:35.712: obs_graphics_thread(33,3333 ms): min=0,751 ms, median=2,681 ms, max=11,411 ms, 99th percentile=5,728 ms, 100% below 33,333 ms
+03:12:35.712:  ┣tick_sources: min=0,174 ms, median=0,551 ms, max=7,968 ms, 99th percentile=1,37 ms
+03:12:35.712:  ┣output_frame: min=0,2 ms, median=0,643 ms, max=2,444 ms, 99th percentile=1,225 ms
+03:12:35.712:  ┃ ┗gs_context(video->graphics): min=0,2 ms, median=0,642 ms, max=2,441 ms, 99th percentile=1,223 ms
+03:12:35.712:  ┃   ┣render_video: min=0,168 ms, median=0,532 ms, max=2,032 ms, 99th percentile=1,025 ms
+03:12:35.712:  ┃   ┃ ┗render_main_texture: min=0,165 ms, median=0,525 ms, max=2,021 ms, 99th percentile=1,012 ms
+03:12:35.712:  ┃   ┗gs_flush: min=0,024 ms, median=0,077 ms, max=1,647 ms, 99th percentile=0,182 ms
+03:12:35.712:  ┗render_displays: min=0,289 ms, median=1,434 ms, max=9,305 ms, 99th percentile=4,108 ms
+03:12:35.712: obs_graphics_thread(33,3333 ms): min=0,521 ms, median=4,376 ms, max=93,642 ms, 99th percentile=13,423 ms, 99,9677% below 33,333 ms
+03:12:35.712:  ┣tick_sources: min=0,02 ms, median=0,575 ms, max=88,486 ms, 99th percentile=1,946 ms
+03:12:35.712:  ┣output_frame: min=0,144 ms, median=0,705 ms, max=62,757 ms, 99th percentile=2,601 ms
+03:12:35.712:  ┃ ┣gs_context(video->graphics): min=0,144 ms, median=0,695 ms, max=62,756 ms, 99th percentile=1,625 ms
+03:12:35.712:  ┃ ┃ ┣render_video: min=0,116 ms, median=0,583 ms, max=62,619 ms, 99th percentile=1,43 ms
+03:12:35.712:  ┃ ┃ ┃ ┣render_main_texture: min=0,113 ms, median=0,558 ms, max=54,172 ms, 99th percentile=1,401 ms
+03:12:35.712:  ┃ ┃ ┃ ┣render_output_texture: min=0,028 ms, median=0,094 ms, max=43,333 ms, 99th percentile=0,249 ms, 0,0731243 calls per parent call
+03:12:35.712:  ┃ ┃ ┃ ┣render_convert_texture: min=0,003 ms, median=0,084 ms, max=61,652 ms, 99th percentile=0,214 ms, 0,0731243 calls per parent call
+03:12:35.712:  ┃ ┃ ┃ ┗stage_output_texture: min=0 ms, median=0,051 ms, max=2,571 ms, 99th percentile=0,121 ms, 0,0731243 calls per parent call
+03:12:35.712:  ┃ ┃ ┣gs_flush: min=0,02 ms, median=0,079 ms, max=7,482 ms, 99th percentile=0,197 ms
+03:12:35.712:  ┃ ┃ ┗download_frame: min=0 ms, median=0,009 ms, max=15,184 ms, 99th percentile=0,026 ms, 0,0731243 calls per parent call
+03:12:35.712:  ┃ ┗output_video_data: min=0 ms, median=1,028 ms, max=15,06 ms, 99th percentile=4,919 ms, 0,0730412 calls per parent call
+03:12:35.713:  ┗render_displays: min=0,23 ms, median=2,422 ms, max=36,694 ms, 99th percentile=11,949 ms
+03:12:35.713: video_thread(video): min=0,002 ms, median=3,143 ms, max=3721,1 ms, 99th percentile=374,019 ms
+03:12:35.713:  ┗receive_video: min=0,985 ms, median=3,285 ms, max=476,111 ms, 99th percentile=162,795 ms, 1,41134 calls per parent call
+03:12:35.713:    ┗do_encode: min=0,984 ms, median=3,282 ms, max=476,11 ms, 99th percentile=162,793 ms
+03:12:35.713:      ┗encode(recording_h264): min=0,928 ms, median=3,197 ms, max=476,063 ms, 99th percentile=162,776 ms
+03:12:35.713: obs_graphics_thread(33,3333 ms): min=0,15 ms, median=3,041 ms, max=111,179 ms, 99th percentile=9,131 ms, 99,9836% below 33,333 ms
+03:12:35.713:  ┣tick_sources: min=0,003 ms, median=0,825 ms, max=108,088 ms, 99th percentile=3,03 ms
+03:12:35.713:  ┣output_frame: min=0,097 ms, median=0,787 ms, max=60,948 ms, 99th percentile=2,002 ms
+03:12:35.713:  ┃ ┣gs_context(video->graphics): min=0,096 ms, median=0,781 ms, max=60,948 ms, 99th percentile=1,859 ms
+03:12:35.713:  ┃ ┃ ┣render_video: min=0,048 ms, median=0,661 ms, max=60,768 ms, 99th percentile=1,648 ms
+03:12:35.713:  ┃ ┃ ┃ ┣render_main_texture: min=0,044 ms, median=0,644 ms, max=29,642 ms, 99th percentile=1,634 ms
+03:12:35.713:  ┃ ┃ ┃ ┣render_output_texture: min=0,027 ms, median=0,076 ms, max=60,501 ms, 99th percentile=0,198 ms, 0,0238078 calls per parent call
+03:12:35.713:  ┃ ┃ ┃ ┣render_convert_texture: min=0,004 ms, median=0,072 ms, max=2,071 ms, 99th percentile=0,188 ms, 0,0238078 calls per parent call
+03:12:35.713:  ┃ ┃ ┃ ┗stage_output_texture: min=0 ms, median=0,048 ms, max=0,528 ms, 99th percentile=0,12 ms, 0,0238078 calls per parent call
+03:12:35.713:  ┃ ┃ ┣gs_flush: min=0,018 ms, median=0,084 ms, max=7,584 ms, 99th percentile=0,209 ms
+03:12:35.713:  ┃ ┃ ┗download_frame: min=0 ms, median=0,008 ms, max=9,656 ms, 99th percentile=0,028 ms, 0,0238078 calls per parent call
+03:12:35.713:  ┃ ┗output_video_data: min=0 ms, median=0,002 ms, max=13,225 ms, 99th percentile=4,156 ms, 0,0237864 calls per parent call
+03:12:35.713:  ┗render_displays: min=0,006 ms, median=1,3 ms, max=32,654 ms, 99th percentile=6,375 ms
+03:12:35.713: video_thread(video): min=1,324 ms, median=3,154 ms, max=7277,16 ms, 99th percentile=609,022 ms
+03:12:35.713:  ┗receive_video: min=1,032 ms, median=3,995 ms, max=650,618 ms, 99th percentile=200,588 ms, 2,19882 calls per parent call
+03:12:35.713:    ┗do_encode: min=1,031 ms, median=3,992 ms, max=650,616 ms, 99th percentile=200,587 ms
+03:12:35.713:      ┗encode(recording_h264): min=1,022 ms, median=3,895 ms, max=650,568 ms, 99th percentile=200,569 ms
+03:12:35.713: =================================================
+03:12:35.713: == Profiler Time Between Calls ==================
+03:12:35.713: obs_hotkey_thread(25 ms): min=25,112 ms, median=25,574 ms, max=2445,53 ms, 38,5046% within ±2% of 25 ms (0% lower, 61,4954% higher)
+03:12:35.714: obs_graphics_thread(33,3333 ms): min=2,773 ms, median=33,333 ms, max=2444,34 ms, 99,3135% within ±2% of 33,333 ms (0,314242% lower, 0,372267% higher)
+03:12:35.714: obs_graphics_thread(33,3333 ms): min=31,035 ms, median=33,333 ms, max=35,602 ms, 99,8992% within ±2% of 33,333 ms (0,0503778% lower, 0,0503778% higher)
+03:12:35.714: obs_graphics_thread(33,3333 ms): min=12,928 ms, median=33,333 ms, max=54,925 ms, 99,6341% within ±2% of 33,333 ms (0,185863% lower, 0,179993% higher)
+03:12:35.714: obs_graphics_thread(33,3333 ms): min=30,545 ms, median=33,335 ms, max=36,135 ms, 98,7952% within ±2% of 33,333 ms (0,401606% lower, 0,803213% higher)
+03:12:35.714: obs_graphics_thread(33,3333 ms): min=19,346 ms, median=33,333 ms, max=47,318 ms, 99,6088% within ±2% of 33,333 ms (0,195582% lower, 0,195582% higher)
+03:12:35.714: obs_graphics_thread(33,3333 ms): min=8,621 ms, median=33,334 ms, max=93,66 ms, 99,0119% within ±2% of 33,333 ms (0,497719% lower, 0,490332% higher)
+03:12:35.714: obs_graphics_thread(33,3333 ms): min=1,464 ms, median=33,334 ms, max=111,22 ms, 99,1895% within ±2% of 33,333 ms (0,408443% lower, 0,402027% higher)
+03:12:35.714: =================================================
+03:12:36.105: Number of memory leaks: 0
