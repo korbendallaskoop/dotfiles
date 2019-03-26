@@ -7,7 +7,6 @@
   <int name="showAdvPrefs" value="1" />
   <int name="singleTouchMode" value="1" />
   <int name="splitLayout" value="1" />
-  <int name="strokeCounter" value="26" />
   <int name="thumbnailSize" value="80" />
   <int name="touchUI" value="1" />
   <float name="marginLeft" value="88" />
@@ -21,8 +20,8 @@
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
   <string name="lastURL" value="" />
-  <string name="mainWindowGeometry" value="AdnQywADAAAAAAGHAAAAAAAABP8AAAMfAAABhwAAABwAAAT/AAADHwAAAAAAAAAABQAAAAGHAAAAHAAABP8AAAMf" />
-  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC2/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAFlAAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAADeQAAAtsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAD/////AAAAAAAAAAA=" />
+  <string name="mainWindowGeometry" value="AdnQywADAAAAAAE8AAAAGAAAApkAAAMGAAABPAAAABgAAAKZAAADBgAAAAAAAAAABQAAAAE8AAAAGAAAApkAAAMG" />
+  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC2/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAFlAAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAABXgAAAsYAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAD/////AAAAAAAAAAA=" />
   <string name="recentDocs" value="/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/März 18 5.36PM.html:::/home/korben/Documents/web/März 18 3.20PM.html:::/home/korben/Documents/web/note apps notes.html:::/home/korben/Documents/web/März 18 3.29PM.html:::/home/korben/docker/März 18 2.05PM.html:::/home/korben/docker/März 16 8.56PM.html" />
   <string name="syncPass" value="" />
   <string name="syncServer" value="" />

@@ -22,39 +22,6 @@ set $up k
 set $down l
 set $right semicolon
 
-########## Autolaunch ##########
-exec --no-startup-id nm-applet
-exec --no-startup-id /usr/lib64/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id google-chrome-beta
-
-# exec_always feh --bg-scale
-
-# Font for window titles. Will also be used by the bar unless a different font
-# is used in the bar {} block below.
-#font pango:Clear Sans 9
-font pango:System San Francisco Display 10
-#font pango:mono 9
-
-# ---------------------------------------------default workspace for these apps:
-
-assign [class="Google-chrome-beta"] $ws1
-assign [class="qutebrowser"] $ws1
-
-assign [class="Atom"] $ws2
-
-assign [class="Io.elementary.terminal"] $ws3
-#assign [class="Mate-terminal"] $ws3
-
-assign [class="Riot"] $ws4
-assign [class="Thunderbird"] $ws4
-assign [class="konversation"] $ws4
-
-assign [class="Rhythmbox"] $ws9
-assign [class="Com.github.needle-and-thread.vocal"] $ws9
-
-assign [class="Virtual Machine Manager"] $ws10
-assign [class="VirtualBox Manager"] $ws10
-
 # -------------------------------------------------------------- launch  launcher
 
 #bindsym $mod+d exec dmenu_run
@@ -73,7 +40,6 @@ bindsym $mod+d exec rofi -show drun -lines 6 -eh 2 -width 45 -opacity "25" -bc -
 # green ish
 #bindsym $mod+d exec "rofi -modi window,drun,run -show drun -sidebar-mode -terminal termite -color-window '#000000, #000000, #000000' -color-normal '#000000, #b3e774, #000000, #b3e774, #000000' -color-active '#000000, #b3e774, #000000, #b3e774, #000000' -color-urgent '#000000, #b3e774, #000000, #b3e774, #000000'"
 
-
 # ---------------------------------------------------------------- Keybindings
 
 bindsym $mod+Shift+s exec i3lock # Easier locking
@@ -86,7 +52,7 @@ bindsym Print exec_always scrot '%d-%m-%Y_$wx$h.png' -e 'mv $f ~/Pictures/screen
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec mate-terminal
+bindsym $mod+Return exec io.elementary.terminal
 
 # kill focused window
 bindsym $mod+q kill
@@ -114,10 +80,8 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 
-# split in horizontal orientation
+# split in horizontal / vertical orientation
 bindsym $mod+h split h
-
-# split in vertical orientation
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
@@ -145,21 +109,73 @@ focus_follows_mouse no
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+minus scratchpad show
 
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to i3xt?' -b 'Yes, exit i3' 'i3-msg exit'"
+
+# bindsym $mod+o			sticky toggle
+
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
+# ------------------------------------------------------------------ workspaces
+# ---------------------------------------------default workspace for these apps:
+
+########## Autolaunch
+exec --no-startup-id nm-applet
+exec --no-startup-id /usr/lib64/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id google-chrome-beta
+exec --no-startup-id atom
+exec --no-startup-id thunderbird
+exec --no-startup-id QOwnNotes
+exec --no-startup-id Standard Notes"] $ws8
+
+# exec_always feh --bg-scale
+
+assign [class="Atom"] $ws1
+
+assign [class="Google-chrome-beta"] $ws2
+assign [class="qutebrowser"] $ws2
+assign [class="Brave-browser"] $ws2
+
+#assign [class="Io.elementary.terminal"] $ws3
+assign [class="vifm"] $ws3
+assign [class="Mate-terminal"] $ws3
+
+assign [class="VirtualBox Manager"] $ws4
+assign [class="Virtual Machine Manager"] $ws4
+
+assign [class="Rhythmbox"] $ws8
+assign [class="Com.github.needle-and-thread.vocal"] $ws8
+
+assign [class="Riot"] $ws9
+assign [class="Thunderbird"] $ws9
+assign [class="konversation"] $ws9
+
+assign [class="QOwnNotes"] $ws10
+assign [class="Standard Notes"] $ws10
+
 # Define names for default workspaces for which we configure key bindings later on.
-# We use variables to avoid repeating the names in multiple places.
-set $ws1 "1 "
+
+set $ws1 "1 "
+set $ws2 "2 "
 #    
-set $ws2 "2 "
 #   
 set $ws3 "3 "
-set $ws4 "4 "
-#    
+set $ws4 "4 "
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9 ♪  "
-set $ws10 "10 "
+set $ws8 "8 ♪  "
+set $ws9 "9 "
+#    
+set $ws10 "10 "
+#   
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -189,20 +205,6 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 bindsym $mod+z move workspace to output left
 bindsym $mod+x move workspace to output right
 
-# reload the configuration file
-bindsym $mod+Shift+c reload
-
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
-
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to i3xt?' -b 'Yes, exit i3' 'i3-msg exit'"
-
-# bindsym $mod+o			sticky toggle
-
-bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
-bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
-
 # my tab
 workspace_layout tabbed
 
@@ -214,30 +216,13 @@ bindsym $mod+Shift+o		exec --no-startup-id ~/.config/i3/scripts/i3resize down
 bindsym $mod+Shift+i		exec --no-startup-id ~/.config/i3/scripts/i3resize up
 bindsym $mod+Shift+p		exec --no-startup-id ~/.config/i3/scripts/i3resize right
 
-#--------------------------------------------------------------- i3bar i3blocks
-
-# Toggle between hide state and show state
-# bindsym $mod+g bar mode dock toggle
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-#        status_command i3status
-        status_command i3blocks -c ~/.config/i3/i3blocks.conf
-        position bottom
-        strip_workspace_numbers yes
-
-        colors {
-            background #404552
-
-            focused_workspace #3685e2 #3685e2 #fafafa
-            active_workspace #5294e2 #5294e2 #fafafa
-            inactive_workspace #404552 #404552 #fafafa
-            urgent_workspace #ff5757 #ff5757 #fafafa
-        }
-}
-
 # ------------------------------------------------------------------- Styling ##
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+#font pango:Clear Sans 9
+font pango:System San Francisco Display 10
+#font pango:mono 9
 
 exec_always--no-startup-id compton -f
 #exec --no-startup-id compton -f
@@ -276,6 +261,29 @@ gaps inner 2
 gaps outer 0
 
 # gaps inner|outer|horizontal|vertical|top|right|bottom|left current|all set|plus|minus|toggle <px>
+
+#--------------------------------------------------------------- i3bar i3blocks
+
+# Toggle between hide state and show state
+# bindsym $mod+g bar mode dock toggle
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+#        status_command i3status
+        status_command i3blocks -c ~/.config/i3/i3blocks.conf
+        position bottom
+        strip_workspace_numbers yes
+
+        colors {
+            background #404552
+
+            focused_workspace #3685e2 #3685e2 #fafafa
+            active_workspace #5294e2 #5294e2 #fafafa
+            inactive_workspace #404552 #404552 #fafafa
+            urgent_workspace #ff5757 #ff5757 #fafafa
+        }
+}
 
 #-------------------------------------------------------------------- HARDWARE ##
 

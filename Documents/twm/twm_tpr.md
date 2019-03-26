@@ -65,7 +65,7 @@ reload i3 config file `shift c`
 
   - Riot
 
-- FILES: nnn, ranger,
+- FILES: nnn, ranger, vifm
 - DSKTOP: lxappearance
   - https://github.com/jamielinux/bashmount
     - bashmount ser ikke lumia elr dens SD kort (nautilus goer)
@@ -110,7 +110,8 @@ reload i3 config file `shift c`
 
 - screenshot'r ?
 - feh for wallpaper
-- default i tabbed layout
+
+- don't spawn new windows from a fullscreen windows
 - stacking tabs are in a list, not next to each other
 - floating pinned video yt player
 - play pause ff kbis
@@ -151,6 +152,10 @@ https://www.reddit.com/r/i3wm/comments/8jpa4m/what_cool_things_do_you_guys_have_
     - https://github.com/vivien/i3blocks-contrib
     - https://github.com/LukeSmithxyz/voidrice/tree/master/.scripts/statusbar
 
+
+Automatically cd into project folder on i3 based on workspace name
+https://github.com/kantord/i3-env
+
 ### Code Cast i3wm guide
 - https://www.youtube.com/watch?v=ARKIwOlazKI&
 - lxappearance hack for gtk, .gtkrc-2.0
@@ -165,7 +170,7 @@ Newsboat
 
   defaults to storing everything in $HOME/.newsboat directory. If you prefer XDG, create $HOME/.config/newsboat and $HOME/.local/share/newsboat directories
 
-default apps for nnn/ranger
+default apps for nnn/ranger/vifm
 - vbx r i FF
 - zip vist ogsaa
 
