@@ -47,7 +47,7 @@ or a folder with -r
 
 add remote branch before first push
 
-    cfg remote add origin https://github.com/korbendallaskoop/dotfiles
+  cfg remote add origin git@githu.com:korbendallaskoop/dotfiles
 
 	cfg push --set-upstream origin master
 
@@ -67,7 +67,7 @@ download dotfiles and just copy locally what's needed:
 
 or rsync all of them to new $HOME by --separate-git-dir as https://github.com/Siilwyn/my-dotfiles/tree/master/.my-dotfiles
 
-or git checkout all dotfiles and folders 1:1 from cloned bare repo to new $HOME:
+or git checkout all dotfiles and folder structure 1:1 from cloned bare repo to new $HOME:
 
 		mkdir ~/.cfg_bckp
 
@@ -94,11 +94,11 @@ might fail with a message like:
           .gitignore
       Please move or remove....
 
-$HOME folder might already have config files which would be overwritten by git without -f
+$HOME folder might already have config files which would be overwritten by git with -f
 
 	cfg checkout -f
 
-remove them or move offending files to a backup folder:
+or move them to a backup folder:
 
 	mkdir -p .config-backup && \
 	cfg checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
