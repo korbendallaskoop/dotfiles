@@ -1,0 +1,11 @@
+---
+display: ":0.0"
+xpos: 0
+ypos: 0
+width: 1280
+height: 720
+show_region: 0
+draw_mouse: 1
+follow_mouse: 0
+audio_ix: 0
+...

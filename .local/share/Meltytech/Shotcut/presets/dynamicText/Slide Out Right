@@ -1,0 +1,16 @@
+---
+geometry: ":-1.0=0%/0%:100%x100%; -1=100%/0%:100%x100%"
+halign: center
+valign: bottom
+size: 1080
+style: normal
+fgcolour: "#ffffffff"
+family: Sans
+weight: 500
+olcolour: "#ff000000"
+outline: 0
+bgcolour: "#00000000"
+pad: 0
+"shotcut:usePointSize": 0
+"shotcut:animOut": "00:00:01,000"
+...

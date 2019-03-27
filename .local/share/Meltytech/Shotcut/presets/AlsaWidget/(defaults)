@@ -1,0 +1,4 @@
+---
+resource: "alsa:default"
+channels: 2
+...

@@ -1,0 +1,262 @@
+[Info   ] <Application::Application> Starting Shotcut version 18.11.29 
+[Info   ] <Application::Application> Linux version 
+[Info   ] <Application::Application> number of logical cores = 4 
+[Info   ] <Application::Application> locale = QLocale(English, Latin, United States) 
+[Info   ] <Application::Application> install dir = "/usr/bin" 
+[Info   ] <Application::Application> device pixel ratio = 1 
+[Debug  ] <ShotcutSettings::log> language "en_US" 
+[Debug  ] <ShotcutSettings::log> deinterlacer "onefield" 
+[Debug  ] <ShotcutSettings::log> external monitor "" 
+[Debug  ] <ShotcutSettings::log> GPU processing false 
+[Debug  ] <ShotcutSettings::log> interpolation "nearest" 
+[Debug  ] <ShotcutSettings::log> video mode "" 
+[Debug  ] <ShotcutSettings::log> realtime true 
+[Debug  ] <ShotcutSettings::log> audio channels 2 
+[Debug  ] <MainWindow::changeTheme> begin 
+[Debug  ] <MainWindow::changeTheme> end 
+[Debug  ] <MainWindow::MainWindow> begin 
+[Info   ] <GLTestWidget::GLTestWidget> OpenGL context version 3 0 
+[Debug  ] <Mlt::Controller::Controller> begin 
+[Debug  ] <Mlt::Controller::Controller> end 
+[Debug  ] <Mlt::GLWidget::GLWidget> begin 
+[Debug  ] <Mlt::GLWidget::GLWidget> end 
+[Debug  ] <MainWindow::setupSettingsMenu> begin 
+[Warning] <MLT> [ 0x15c5740] The DeckLink drivers not installed.
+[Debug  ] <MainWindow::setupSettingsMenu> end 
+[Debug  ] <MainWindow::readPlayerSettings> begin 
+[Debug  ] <MainWindow::setAudioChannels> 2 
+[Debug  ] <Mlt::Controller::setAudioChannels> 2 
+[Debug  ] <MainWindow::readPlayerSettings> end 
+[Debug  ] <MainWindow::configureVideoWidget> begin 
+[Debug  ] <MainWindow::setProfile> "" 
+[Debug  ] <Mlt::Controller::setProfile> setting to profile "Automatic" 
+[Debug  ] <MainWindow::setAudioChannels> 2 
+[Debug  ] <Mlt::Controller::setAudioChannels> 2 
+[Debug  ] <MainWindow::configureVideoWidget> end 
+[Debug  ] <ScopeController::ScopeController> begin 
+[Debug  ] <ScopeWidget::ScopeWidget> begin true 
+[Debug  ] <ScopeWidget::ScopeWidget> end 
+[Debug  ] <AudioLoudnessScopeWidget::AudioLoudnessScopeWidget> begin 
+[Debug  ] <AudioLoudnessScopeWidget::AudioLoudnessScopeWidget> end 
+[Debug  ] <ScopeDock::ScopeDock> begin 
+[Debug  ] <ScopeDock::ScopeDock> end 
+[Debug  ] <ScopeWidget::ScopeWidget> begin true 
+[Debug  ] <ScopeWidget::ScopeWidget> end 
+[Debug  ] <AudioPeakMeterScopeWidget::AudioPeakMeterScopeWidget> begin 
+[Debug  ] <AudioPeakMeterScopeWidget::AudioPeakMeterScopeWidget> end 
+[Debug  ] <ScopeDock::ScopeDock> begin 
+[Debug  ] <ScopeDock::ScopeDock> end 
+[Debug  ] <ScopeWidget::ScopeWidget> begin true 
+[Debug  ] <ScopeWidget::ScopeWidget> end 
+[Debug  ] <AudioSpectrumScopeWidget::AudioSpectrumScopeWidget> begin 
+[Debug  ] <AudioSpectrumScopeWidget::AudioSpectrumScopeWidget> end 
+[Debug  ] <ScopeDock::ScopeDock> begin 
+[Debug  ] <ScopeDock::ScopeDock> end 
+[Debug  ] <ScopeWidget::ScopeWidget> begin true 
+[Debug  ] <ScopeWidget::ScopeWidget> end 
+[Debug  ] <AudioWaveformScopeWidget::AudioWaveformScopeWidget> begin 
+[Debug  ] <AudioWaveformScopeWidget::AudioWaveformScopeWidget> end 
+[Debug  ] <ScopeDock::ScopeDock> begin 
+[Debug  ] <ScopeDock::ScopeDock> end 
+[Debug  ] <ScopeWidget::ScopeWidget> begin true 
+[Debug  ] <ScopeWidget::ScopeWidget> end 
+[Debug  ] <VideoWaveformScopeWidget::VideoWaveformScopeWidget> begin 
+[Debug  ] <VideoWaveformScopeWidget::VideoWaveformScopeWidget> end 
+[Debug  ] <ScopeDock::ScopeDock> begin 
+[Debug  ] <ScopeDock::ScopeDock> end 
+[Debug  ] <ScopeController::ScopeController> end 
+[Debug  ] <RecentDock::RecentDock> begin 
+[Debug  ] <RecentDock::RecentDock> end 
+[Debug  ] <PlaylistDock::PlaylistDock> begin 
+[Debug  ] <PlaylistDock::PlaylistDock> end 
+[Debug  ] <TimelineDock::TimelineDock> begin 
+[Debug  ] <TimelineDock::TimelineDock> end 
+[Debug  ] <FiltersDock::FiltersDock> begin 
+[Debug  ] <FiltersDock::FiltersDock> end 
+[Debug  ] <KeyframesDock::KeyframesDock> begin 
+[Debug  ] <KeyframesDock::KeyframesDock> end 
+[Debug  ] <EncodeDock::EncodeDock> begin 
+[Debug  ] <EncodeDock::EncodeDock> end 
+[Debug  ] <JobsDock::JobsDock> begin 
+[Debug  ] <JobsDock::JobsDock> end 
+[Debug  ] <MainWindow::readWindowSettings> begin 
+[Debug  ] <MainWindow::readWindowSettings> end 
+[Debug  ] <LeapNetworkListener::start> begin 
+[Debug  ] <MainWindow::MainWindow> end 
+[Debug  ] <Database::run> Database version is 1 
+[Warning] <> file:///usr/share/shotcut/qml/timeline/TimelineToolbar.qml:146:9: QML ColorOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[Warning] <> file:///usr/share/shotcut/qml/timeline/TimelineToolbar.qml:154:9: QML ColorOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[Warning] <> file:///usr/share/shotcut/qml/timeline/TimelineToolbar.qml:162:9: QML ColorOverlay: Detected anchors on an item that is managed by a layout. This is undefined behavior; use Layout.alignment instead.
+[Info   ] <MainWindow::showStatusMessage> "Checking for upgrade..." 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "alpha_adjust" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Alpha Channel: Adjust" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "alpha_view" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Alpha Channel: View" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_balance" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Balance" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_bandpass" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_basstreble" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_channelcopy" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Copy Channel" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_compressor" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_delay" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_expander" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_fadein" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Fade In Audio" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_fadeout" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Fade Out Audio" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_gain" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Gain / Volume" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_highpass" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_limiter" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_lowpass" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_mono" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Downmix" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_mute" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Mute" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_normalize_1p" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Normalize: One Pass" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_normalize_2p" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Normalize: Two Pass" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_notch" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_pan" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Pan" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_reverb" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "audio_swapchannels" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Swap Channels" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "bluescreen0r" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Chroma Key: Simple" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "blur" "meta_boxblur.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Blur" 
+[Debug  ] <QmlKeyframesMetadata::checkVersion> MLT version: "3" Shotcut minimumVersion: "3" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "blur" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Blur" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "brightness" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Brightness" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "brightness" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Brightness" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "color" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Color Grading" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "color" "meta_frei0r_coloradj.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Color Grading" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "color" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Color Grading" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "contrast" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Contrast" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "contrast" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Contrast" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "crop" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Crop" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "crop" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Crop" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "dust" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Old Film: Dust" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "dynamictext" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Text" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "fadein_brightness" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Fade In Video" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "fadein_movit" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Fade In Video" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "fadeout_brightness" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Fade Out Video" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "fadeout_movit" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Fade Out Video" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "glow" "meta_frei0r.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Glow" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "glow" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Glow" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "grain" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Old Film: Grain" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "hue_lightness_saturation" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Hue/Lightness/Saturation" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "invert" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Invert Colors" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "keyspillm0pup" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Key Spill: Advanced" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "lenscorrection" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Lens Correction" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "lines" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Old Film: Scratches" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "lut3d" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "LUT (3D)" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "mask" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Mask" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "mirror" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Mirror" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "mirror" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Mirror" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "mosaic" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Mosaic" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "movit_diffusion" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Diffusion" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "oldfilm" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Old Film: Projector" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "opacity" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Opacity" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "opacity" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Opacity" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "rotate" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Rotate and Scale" 
+[Debug  ] <QmlKeyframesMetadata::checkVersion> MLT version: "3" Shotcut minimumVersion: "3" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "saturation" "meta_frei0r.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Saturation" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "saturation" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Saturation" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "select0r" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Chroma Key: Advanced" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "sepia" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Sepia Tone" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "sharpen" "meta_frei0r.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Sharpen" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "sharpen" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Sharpen" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "size_position" "meta_affine.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Size and Position" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "size_position" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Size and Position" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "sketch" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Sketch" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "smartblur" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Reduce Noise" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "spectrum" "meta_spectrum.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Audio Spectrum Visualization" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "spillsuppress" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Key Spill: Simple" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "spot_remover" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "stabilize" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Stabilize" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "tcolor" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Old Film: Technocolor" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "timer" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "unpremultiply" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "vignette" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Vignette" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "vignette" "meta_oldfilm.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Vignette" 
+[Debug  ] <QmlKeyframesMetadata::checkVersion> MLT version: "1.0" Shotcut minimumVersion: "1.0" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "wave" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Wave" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "waveform" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "Audio Waveform Visualization" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "webvfx" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "webvfx_circular_frame" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "webvfx_ruttetraizer" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "webvfx_threejs_text" "meta.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "white" "meta_frei0r.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "White Balance" 
+[Debug  ] <FilterController::loadFilterMetadata> reading filter metadata "white" "meta_movit.qml" 
+[Debug  ] <FilterController::loadFilterMetadata> added filter "White Balance" 
+[Warning] <> libpng warning: iCCP: profile 'icc': 'RGB ': RGB color space not permitted on grayscale PNG
+[Debug  ] <> QNetworkReplyHttpImplPrivate::_q_startOperation was called more than once QUrl("http://check.shotcut.org/version.json")
+[Debug  ] <LeapNetworkListener::onDisconnected> Disconnected from Leap Motion 
+[Debug  ] <LeapNetworkListener::onError> Leap Motion WebSocket error: "Connection refused" 
+[Debug  ] <MainWindow::open> "/home/korben/.local/share/Meltytech/Shotcut/__untitled__.mlt" 
+[Debug  ] <MltXmlChecker::MltXmlChecker> decimal point '.' 
+[Debug  ] <MltXmlChecker::check> begin 
+[Debug  ] <MltXmlChecker::check> end 
+[Debug  ] <MainWindow::onUpgradeCheckFinished> response:  "{\n  \"version_number\": 190228,\n  \"version_string\": \"19.02.28\",\n  \"url\": \"https://shotcut.org/blog/new-release-190228/\"\n}\n" 
+[Debug  ] <MainWindow::closeEvent> begin 
+[Warning] <> QSqlDatabasePrivate::database: requested database does not belong to the calling thread.
+[Warning] <> QSqlDatabasePrivate::database: requested database does not belong to the calling thread.
+[Debug  ] <Database::shutdown> database closed 
+[Debug  ] <MainWindow::closeEvent> end 

@@ -1,0 +1,30 @@
+[Default Applications]
+text/html=google-chrome-beta.desktop
+x-scheme-handler/http=google-chrome-beta.desktop
+x-scheme-handler/https=google-chrome-beta.desktop
+x-scheme-handler/about=google-chrome-beta.desktop
+x-scheme-handler/unknown=google-chrome-beta.desktop
+
+[Added Associations]
+text/x-python=org.gnome.gedit.desktop;
+application/x-bittorrent=transmission-gtk.desktop;gnome-disk-image-writer.desktop;
+text/plain=org.gnome.gedit.desktop;
+text/x-opml+xml=org.gnome.gedit.desktop;
+video/x-msvideo=org.gnome.Totem.desktop;
+video/mp2t=vlc.desktop;io.github.GnomeMpv.desktop;
+audio/x-wav=io.github.GnomeMpv.desktop;
+audio/mpeg=vlc.desktop;mpv.desktop;
+video/mp4=vlc.desktop;org.gnome.Totem.desktop;
+text/html=firefox.desktop;
+video/quicktime=vlc.desktop;
+video/mpeg=vlc.desktop;
+video/x-matroska=org.gnome.Totem.desktop;vlc.desktop;smplayer.desktop;mpv.desktop;io.github.GnomeMpv.desktop;
+application/pdf=evince.desktop;
+image/jpeg=eog.desktop;gimp.desktop;
+video/webm=io.github.GnomeMpv.desktop;
+image/openraster=mypaint.desktop;
+video/x-flv=mpv.desktop;org.gnome.Totem.desktop;
+application/x-virtualbox-vdi=virtualbox.desktop;
+application/vnd.flatpak.ref=nautilus-autorun-software.desktop;
+application/x-raw-disk-image=gnome-disk-image-mounter.desktop;
+application/x-java-archive=org.gnome.FileRoller.desktop;

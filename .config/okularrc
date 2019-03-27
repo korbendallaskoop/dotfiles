@@ -1,0 +1,25 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 800=772
+State=AAAA/wAAAAD9AAAAAAAABQAAAALIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1280=1280
+Window-Maximized 800x1280=true
+
+[Recent Files]
+File1[$e]=$HOME/Documents/web/git-notes.md
+File2[$e]=$HOME/.cache/.fr-wADxu5/laverna-backups/notes-db/notes/0b8a2e5d-cb26-faa5-ccfd-39684f50b90d.md
+File3[$e]=$HOME/.cache/.fr-oJrODT/README.md
+File4[$e]=$HOME/Desktop/Remarkable-master/README.md
+File5[$e]=$HOME/README.md
+File6[$e]=$HOME/Desktop/hacker-history.ps
+File7[$e]=$HOME/webo(5GB.nxtcld)/qownnotes/atom-notes/newfileinsubfolder.md
+Name1[$e]=git-notes.md
+Name2[$e]=0b8a2e5d-cb26-faa5-ccfd-39684f50b90d.md
+Name3[$e]=README.md
+Name4[$e]=README.md
+Name5[$e]=README.md
+Name6[$e]=hacker-history.ps
+Name7[$e]=newfileinsubfolder.md

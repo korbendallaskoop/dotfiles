@@ -15,7 +15,7 @@
   <float name="preScale" value="0.833333" />
   <string name="backupFilename" value="" />
   <string name="clippingDoc" value="/home/korben/.config/styluslabs/saved/clippings.html" />
-  <string name="currFolder" value="/home/korben/Documents/web/tools" />
+  <string name="currFolder" value="/home/korben/Documents/web" />
   <string name="docTags" value="" />
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />

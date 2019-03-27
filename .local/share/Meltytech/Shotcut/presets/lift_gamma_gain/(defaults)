@@ -1,0 +1,11 @@
+---
+lift_r: 0
+lift_g: 0
+lift_b: 0
+gamma_r: 1
+gamma_g: 1
+gamma_b: 1
+gain_r: 1
+gain_g: 1
+gain_b: 1
+...

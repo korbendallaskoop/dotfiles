@@ -1,0 +1,10 @@
+---
+direction: down
+style: seconds
+sound: 2pop
+background: clock
+drop: 1
+length: 300
+out: 299
+in: 0
+...

@@ -1,0 +1,3 @@
+<profiles version="1">
+ <profile args="properties=x264-medium f=mp4 vcodec=libx264 pix_fmt=yuv420p acodec=aac g=120 crf=%quality ab=%audiobitrate+'k'" audiobitrates="192,64" speeds="preset=slower;preset=medium;preset=faster;preset=ultrafast" category="Generic (HD for web, mobile devices...)" extension="mp4" defaultaudiobitrate="0" name="MP4 YUV420p" qualities="15,20,45" defaultquality="0"/>
+</profiles>

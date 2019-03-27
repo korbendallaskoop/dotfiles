@@ -1,0 +1,315 @@
+{
+    "comment": "MyPaint brush file", 
+    "description": "Calligraphy Sketch Pressure", 
+    "group": "", 
+    "notes": "Angled ink pen for sketching letters. Low pressure makes a thin line even when angled. (point nib)", 
+    "parent_brush_name": "Anti/Calligraphy_Sketch_2", 
+    "settings": {
+        "anti_aliasing": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "change_color_h": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "change_color_hsl_s": {
+            "base_value": 0.0, 
+            "inputs": {
+                "random": [
+                    [
+                        0.0, 
+                        -0.09
+                    ], 
+                    [
+                        1.0, 
+                        0.09
+                    ]
+                ]
+            }
+        }, 
+        "change_color_hsv_s": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "change_color_l": {
+            "base_value": 0.0, 
+            "inputs": {
+                "speed1": [
+                    [
+                        0.0, 
+                        -0.01428571428571428
+                    ], 
+                    [
+                        4.0, 
+                        0.1
+                    ]
+                ]
+            }
+        }, 
+        "change_color_v": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "color_h": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "color_s": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "color_v": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "colorize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "custom_input": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "custom_input_slowness": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "dabs_per_actual_radius": {
+            "base_value": 3.06, 
+            "inputs": {}
+        }, 
+        "dabs_per_basic_radius": {
+            "base_value": 0.51, 
+            "inputs": {}
+        }, 
+        "dabs_per_second": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "direction_filter": {
+            "base_value": 0.58, 
+            "inputs": {}
+        }, 
+        "elliptical_dab_angle": {
+            "base_value": 129.13, 
+            "inputs": {}
+        }, 
+        "elliptical_dab_ratio": {
+            "base_value": 5.0, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        4.799999999999998
+                    ], 
+                    [
+                        1.0, 
+                        -0.0
+                    ]
+                ]
+            }
+        }, 
+        "eraser": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "hardness": {
+            "base_value": 0.45, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        -0.12
+                    ], 
+                    [
+                        0.17783505154639176, 
+                        -0.0325
+                    ], 
+                    [
+                        0.45618556701030927, 
+                        -0.0
+                    ], 
+                    [
+                        1.0, 
+                        -0.0
+                    ]
+                ]
+            }
+        }, 
+        "lock_alpha": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_angle": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_angle_2": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_by_random": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_by_speed": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_by_speed_slowness": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "offset_x": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_y": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "opaque": {
+            "base_value": 1.0, 
+            "inputs": {
+                "speed1": [
+                    [
+                        0.0, 
+                        0.0962500000000001
+                    ], 
+                    [
+                        4.0, 
+                        -1.32
+                    ]
+                ]
+            }
+        }, 
+        "opaque_linearize": {
+            "base_value": 0.04, 
+            "inputs": {}
+        }, 
+        "opaque_multiply": {
+            "base_value": 0.0, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        0.05154639175257732, 
+                        0.04416666666666663
+                    ], 
+                    [
+                        0.23969072164948454, 
+                        0.4195833333333334
+                    ], 
+                    [
+                        0.417647, 
+                        1.06
+                    ], 
+                    [
+                        1.0, 
+                        1.06
+                    ]
+                ]
+            }
+        }, 
+        "pressure_gain_log": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "radius_by_random": {
+            "base_value": 0.05, 
+            "inputs": {}
+        }, 
+        "radius_logarithmic": {
+            "base_value": 2.0, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        -1.4375
+                    ], 
+                    [
+                        0.15721649484536082, 
+                        -1.359375
+                    ], 
+                    [
+                        0.37371134020618557, 
+                        -0.6250000000000001
+                    ], 
+                    [
+                        0.5927835051546392, 
+                        -0.140625
+                    ], 
+                    [
+                        1.0, 
+                        0.046875
+                    ]
+                ]
+            }
+        }, 
+        "restore_color": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "slow_tracking": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "slow_tracking_per_dab": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge_length": {
+            "base_value": 0.5, 
+            "inputs": {}
+        }, 
+        "smudge_radius_log": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "snap_to_pixel": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "speed1_gamma": {
+            "base_value": -6.92, 
+            "inputs": {}
+        }, 
+        "speed1_slowness": {
+            "base_value": 0.04, 
+            "inputs": {}
+        }, 
+        "speed2_gamma": {
+            "base_value": 4.0, 
+            "inputs": {}
+        }, 
+        "speed2_slowness": {
+            "base_value": 0.8, 
+            "inputs": {}
+        }, 
+        "stroke_duration_logarithmic": {
+            "base_value": 4.0, 
+            "inputs": {}
+        }, 
+        "stroke_holdtime": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "stroke_threshold": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "tracking_noise": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }
+    }, 
+    "version": 3
+}

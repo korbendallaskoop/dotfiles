@@ -1,0 +1,40 @@
+<effect type="custom" tag="frei0r.select0r" id="sort pen på green" LC_NUMERIC="C" effectcolor="#5114fc" version="0.4">
+ <name>sort pen på green</name>
+ <description>Color based alpha selection</description>
+ <author>Marko Cebokli</author>
+ <parameter type="color" name="Color to select" value="0x00ff00ff" default="0x00ff00ff">
+  <name>Color to select</name>
+ </parameter>
+ <parameter type="bool" name="Invert selection" value="1" default="1">
+  <name>Invert selection</name>
+ </parameter>
+ <parameter type="list" name="Selection subspace" paramlist="0,0;0,5;1,0" value="0,0" default="0,0">
+  <paramlistdisplay>RGB,ABI,HCI</paramlistdisplay>
+  <name>Selection subspace</name>
+ </parameter>
+ <parameter type="list" name="Subspace shape" paramlist="0,0;0,5;1,0" value="0,5" default="0,5">
+  <paramlistdisplay>Box,Ellipsoid,Diamond</paramlistdisplay>
+  <name>Subspace shape</name>
+ </parameter>
+ <parameter type="list" name="Edge mode" paramlist="0,0;0,35;0,60;0,7;0,9" value="0,9" default="0,9">
+  <paramlistdisplay>Hard,Fat,Normal,Skinny,Slope</paramlistdisplay>
+  <name>Edge mode</name>
+ </parameter>
+ <parameter type="simplekeyframe" name="Delta R / A / Hue" intimeline="1" factor="1000" keyframes="0=234" min="0" max="1000" default="200">
+  <name>Delta R / A / Hue</name>
+ </parameter>
+ <parameter type="simplekeyframe" name="Delta G / B / Chroma" factor="1000" keyframes="0=441" min="0" max="1000" default="200">
+  <name>Delta G / B / Chroma</name>
+ </parameter>
+ <parameter type="simplekeyframe" name="Delta B / I / I" factor="1000" keyframes="0=263" min="0" max="1000" default="200">
+  <name>Delta B / I / I</name>
+ </parameter>
+ <parameter type="simplekeyframe" name="Slope" factor="1000" keyframes="0=0" min="0" max="1000" default="0">
+  <name>Slope</name>
+ </parameter>
+ <parameter type="list" name="Operation" paramlist="0,0;0,3;0,5;0,7;1,0" value="0,0" default="0,0">
+  <paramlistdisplay>Write on clear,Max,Min,Add,Subtract</paramlistdisplay>
+  <name>Operation</name>
+ </parameter>
+ <version>0,5</version>
+</effect>

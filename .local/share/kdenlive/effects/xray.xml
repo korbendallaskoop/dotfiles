@@ -1,0 +1,9 @@
+<effect type="custom" tag="frei0r.colortap" id="xray" effectcolor="#45e8ad" disable="0">
+ <name>xray</name>
+ <description>Applies a pre-made color effect to image</description>
+ <author>Janne Liljeblad</author>
+ <parameter type="list" name="table" paramlist="xpro;sepia;heat;red_green;old_photo;xray;esses;yellow_blue" value="xray" default="xpro">
+  <name>Type</name>
+ </parameter>
+ <version>0,9</version>
+</effect>

@@ -1,0 +1,9 @@
+---
+device: /dev/video0
+width: 640
+height: 480
+framerate: 15
+standard: Automatic
+channel: 0
+audio_ix: 0
+...

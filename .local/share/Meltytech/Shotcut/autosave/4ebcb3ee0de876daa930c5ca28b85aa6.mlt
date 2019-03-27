@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="de_DE.UTF-8" version="6.10.0" root="/home/korben" title="Shotcut version 18.11.29" producer="main_bin">
+  <profile description="HD 1080p 25 fps" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00,000" out="00:12:11,467">
+    <property name="length">21945</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00,000" out="00:12:11,467"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00,000" out="00:12:33,967">
+    <property name="length">00:12:34:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Videos/OBS/2019-02-28 02-52-51.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">6a829029119e519cbce8484924915631</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">2019-02-28 02-52-51.mkv</property>
+    <property name="shotcut:detail">Videos/OBS/2019-02-28 02-52-51.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:20,767" out="00:00:30,600">
+      <property name="start">1</property>
+      <property name="level">00:00:00,000=0;00:00:03,300=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">100</property>
+    </filter>
+    <filter id="filter1" in="00:00:20,767" out="00:00:30,600">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00,000=-60;00:00:03,300=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">100</property>
+    </filter>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00,000" out="00:12:33,967">
+    <property name="length">00:12:34:00</property>
+    <property name="eof">pause</property>
+    <property name="resource">Videos/OBS/2019-02-28 02-52-51.mkv</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">6a829029119e519cbce8484924915631</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">2019-02-28 02-52-51.mkv</property>
+    <property name="shotcut:detail">Videos/OBS/2019-02-28 02-52-51.mkv</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:20,767" out="00:00:30,600"/>
+    <blank length="00:00:01,833"/>
+    <entry producer="producer1" in="00:00:34,200" out="00:12:33,967"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 18.11.29" global_feed="1" in="00:00:00,000" out="00:12:11,467">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">0,135</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0,9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>

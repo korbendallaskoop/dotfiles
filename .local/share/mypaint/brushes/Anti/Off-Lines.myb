@@ -1,0 +1,419 @@
+{
+    "comment": "MyPaint brush file", 
+    "group": "", 
+    "parent_brush_name": "Anti/Off-Lines", 
+    "settings": {
+        "anti_aliasing": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "change_color_h": {
+            "base_value": 0.0, 
+            "inputs": {
+                "direction": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        180.0, 
+                        0.0
+                    ]
+                ], 
+                "random": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ], 
+                "stroke": [
+                    [
+                        0.0, 
+                        -0.26
+                    ], 
+                    [
+                        0.25, 
+                        -0.26
+                    ], 
+                    [
+                        0.25, 
+                        0.0
+                    ], 
+                    [
+                        0.5, 
+                        0.0
+                    ], 
+                    [
+                        0.5, 
+                        0.26
+                    ], 
+                    [
+                        0.75, 
+                        0.26
+                    ], 
+                    [
+                        0.75, 
+                        0.52
+                    ], 
+                    [
+                        1.0, 
+                        0.52
+                    ]
+                ]
+            }
+        }, 
+        "change_color_hsl_s": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "change_color_hsv_s": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "change_color_l": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "change_color_v": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "color_h": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "color_s": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "color_v": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "colorize": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "custom_input": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "custom_input_slowness": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "dabs_per_actual_radius": {
+            "base_value": 5.81, 
+            "inputs": {}
+        }, 
+        "dabs_per_basic_radius": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "dabs_per_second": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "direction_filter": {
+            "base_value": 2.0, 
+            "inputs": {}
+        }, 
+        "elliptical_dab_angle": {
+            "base_value": 90.0, 
+            "inputs": {}
+        }, 
+        "elliptical_dab_ratio": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "eraser": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "hardness": {
+            "base_value": 0.8, 
+            "inputs": {}
+        }, 
+        "lock_alpha": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_angle": {
+            "base_value": 0.0, 
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0, 
+                        -40.0
+                    ], 
+                    [
+                        1.0, 
+                        40.0
+                    ]
+                ]
+            }
+        }, 
+        "offset_angle_2": {
+            "base_value": 0.0, 
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0, 
+                        -8.99
+                    ], 
+                    [
+                        1.0, 
+                        8.99
+                    ]
+                ]
+            }
+        }, 
+        "offset_by_random": {
+            "base_value": 0.0, 
+            "inputs": {
+                "stroke": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ]
+            }
+        }, 
+        "offset_by_speed": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "offset_by_speed_slowness": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "offset_x": {
+            "base_value": 0.0, 
+            "inputs": {
+                "direction": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        180.0, 
+                        0.0
+                    ]
+                ], 
+                "direction_angle": [
+                    [
+                        0.0, 
+                        -4.04
+                    ], 
+                    [
+                        59.06709264536373, 
+                        -3.0657312774658205
+                    ], 
+                    [
+                        125.69602090804304, 
+                        3.1325948206583663
+                    ], 
+                    [
+                        180.0, 
+                        4.04
+                    ], 
+                    [
+                        237.24093077612707, 
+                        3.2596372222900385
+                    ], 
+                    [
+                        301.2047739497951, 
+                        -3.22174706776937
+                    ], 
+                    [
+                        360.0, 
+                        -4.04
+                    ]
+                ], 
+                "random": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ], 
+                "stroke": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ]
+            }
+        }, 
+        "offset_y": {
+            "base_value": 0.0, 
+            "inputs": {
+                "direction_angle": [
+                    [
+                        0.0, 
+                        -0.028156585693359375
+                    ], 
+                    [
+                        44.957405465548156, 
+                        -2.9902476374308273
+                    ], 
+                    [
+                        90.0, 
+                        -4.04
+                    ], 
+                    [
+                        148.82026047003075, 
+                        -3.1395774586995437
+                    ], 
+                    [
+                        218.81992027407784, 
+                        3.274943288167317
+                    ], 
+                    [
+                        270.0, 
+                        4.04
+                    ], 
+                    [
+                        313.3547523373463, 
+                        3.4242731094360352
+                    ], 
+                    [
+                        360.0, 
+                        0.0
+                    ]
+                ], 
+                "random": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ], 
+                "stroke": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ]
+            }
+        }, 
+        "opaque": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "opaque_linearize": {
+            "base_value": 0.06, 
+            "inputs": {}
+        }, 
+        "opaque_multiply": {
+            "base_value": 0.0, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        1.0
+                    ]
+                ]
+            }
+        }, 
+        "pressure_gain_log": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "radius_by_random": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "radius_logarithmic": {
+            "base_value": 0.85, 
+            "inputs": {}
+        }, 
+        "restore_color": {
+            "base_value": 1.0, 
+            "inputs": {}
+        }, 
+        "slow_tracking": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "slow_tracking_per_dab": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "smudge_length": {
+            "base_value": 0.5, 
+            "inputs": {}
+        }, 
+        "smudge_radius_log": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "snap_to_pixel": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "speed1_gamma": {
+            "base_value": 4.0, 
+            "inputs": {}
+        }, 
+        "speed1_slowness": {
+            "base_value": 0.04, 
+            "inputs": {}
+        }, 
+        "speed2_gamma": {
+            "base_value": 4.0, 
+            "inputs": {}
+        }, 
+        "speed2_slowness": {
+            "base_value": 0.8, 
+            "inputs": {}
+        }, 
+        "stroke_duration_logarithmic": {
+            "base_value": -1.0, 
+            "inputs": {}
+        }, 
+        "stroke_holdtime": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "stroke_threshold": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }, 
+        "tracking_noise": {
+            "base_value": 0.0, 
+            "inputs": {}
+        }
+    }, 
+    "version": 3
+}

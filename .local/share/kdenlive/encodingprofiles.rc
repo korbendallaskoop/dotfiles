@@ -1,0 +1,3 @@
+[screengrab]
+x264 128k medium crf25=-f pulse -i default -crf 25 -ab 128k -vcodec libx264 -acodec libvorbis -preset medium -threads 0;mov
+x264 128k medium crf25 mp4=-f pulse -i default -crf 25 -ab 128k -vcodec libx264 -acodec libvorbis -preset medium -threads 0;mp4

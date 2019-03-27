@@ -1,0 +1,9 @@
+---
+delta: 14
+every: 20
+brightnessdelta_up: 20
+brightnessdelta_down: 30
+brightnessdelta_every: 70
+unevendevelop_up: 60
+unevendevelop_duration: 70
+...
