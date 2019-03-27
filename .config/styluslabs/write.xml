@@ -15,13 +15,13 @@
   <float name="preScale" value="0.833333" />
   <string name="backupFilename" value="" />
   <string name="clippingDoc" value="/home/korben/.config/styluslabs/saved/clippings.html" />
-  <string name="currFolder" value="/home/korben/Documents/web" />
+  <string name="currFolder" value="/home/korben/Documents/web/tools" />
   <string name="docTags" value="" />
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
   <string name="lastURL" value="" />
-  <string name="mainWindowGeometry" value="AdnQywADAAAAAAE8AAAAGAAAApkAAAMGAAABPAAAABgAAAKZAAADBgAAAAAAAAAABQAAAAE8AAAAGAAAApkAAAMG" />
-  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC2/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAFlAAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAABXgAAAsYAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAD/////AAAAAAAAAAA=" />
+  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAGAAABP8AAAMfAAAAAAAAABgAAAT/AAADHwAAAAAAAAAABQAAAAAAAAAAGAAABP8AAAMf" />
+  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC2/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAFlAAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAAFAAAAAt8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAD/////AAAAAAAAAAA=" />
   <string name="recentDocs" value="/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/März 18 5.36PM.html:::/home/korben/Documents/web/März 18 3.20PM.html:::/home/korben/Documents/web/note apps notes.html:::/home/korben/Documents/web/März 18 3.29PM.html:::/home/korben/docker/März 18 2.05PM.html:::/home/korben/docker/März 16 8.56PM.html" />
   <string name="syncPass" value="" />
   <string name="syncServer" value="" />

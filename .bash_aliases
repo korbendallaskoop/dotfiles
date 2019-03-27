@@ -127,6 +127,20 @@ alias rsd='redshift -o 90'    # One-shot mode, repeat to continuously decrease b
 alias rsp='redshift -p'    # status
 alias rsx='redshift -x'    # kill
 
+
+#============================================================
+#  Git
+
+alias gst='git status'
+alias grv='git remote -v'
+alias gra='git remote add'
+alias gba='git branch -a'             #  [<options>] <name> <url>
+alias gck='git checkout'
+alias gpu='git push'
+alias gpsu='git push --set-upstream'
+alias gpl='git pull'
+alias gcl='git clone'
+
 #-------------------------------------------------------------
 # setting up .cfg_bckp/ as a dotfiles backup repo
 # from https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/

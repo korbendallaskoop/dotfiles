@@ -1,14 +1,21 @@
-2019/03/27-00:53:55.538 25717 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2019/03/27-00:53:55.538 25717 Recovering log #814
-2019/03/27-00:53:55.541 25717 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000814.log 
-2019/03/27-00:56:14.290 28418 Level-0 table #818: started
-2019/03/27-00:56:14.390 28418 Level-0 table #818: 891011 bytes OK
-2019/03/27-00:56:14.418 28418 Delete type=0 #814
-2019/03/27-00:56:14.420 28418 Compacting 4@0 + 0@1 files
-2019/03/27-00:56:14.475 28418 Generated table #819@0: 7 keys, 32242 bytes
-2019/03/27-00:56:14.475 28418 Compacted 4@0 + 0@1 files => 32242 bytes
-2019/03/27-00:56:14.500 28418 compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/03/27-00:56:14.500 28418 Delete type=2 #810
-2019/03/27-00:56:14.500 28418 Delete type=2 #813
-2019/03/27-00:56:14.501 28418 Delete type=2 #815
-2019/03/27-00:56:14.501 28418 Delete type=2 #818
+2019/03/27-04:07:35.744 2596 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/03/27-04:07:35.744 2596 Recovering log #882
+2019/03/27-04:07:35.753 2596 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000882.log 
+2019/03/27-04:09:38.505 6759 Level-0 table #886: started
+2019/03/27-04:09:38.590 6759 Level-0 table #886: 985784 bytes OK
+2019/03/27-04:09:38.617 6759 Delete type=0 #882
+2019/03/27-04:09:38.619 6759 Compacting 4@0 + 1@1 files
+2019/03/27-04:09:38.682 6759 Generated table #887@0: 23 keys, 189221 bytes
+2019/03/27-04:09:38.682 6759 Compacted 4@0 + 1@1 files => 189221 bytes
+2019/03/27-04:09:38.707 6759 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/03/27-04:09:38.708 6759 Delete type=2 #886
+2019/03/27-04:09:38.708 6759 Delete type=2 #877
+2019/03/27-04:09:38.708 6759 Delete type=2 #883
+2019/03/27-04:09:38.708 6759 Delete type=2 #881
+2019/03/27-04:09:38.709 6759 Delete type=2 #879
+2019/03/27-04:16:40.242 6759 Level-0 table #889: started
+2019/03/27-04:16:40.333 6759 Level-0 table #889: 982365 bytes OK
+2019/03/27-04:16:40.369 6759 Delete type=0 #885
+2019/03/27-04:23:10.491 6759 Level-0 table #891: started
+2019/03/27-04:23:10.571 6759 Level-0 table #891: 994489 bytes OK
+2019/03/27-04:23:10.606 6759 Delete type=0 #888

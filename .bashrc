@@ -23,7 +23,7 @@ alias ipe='curl ipinfo.io/ip'
 alias h='history' # bang!
 alias j='jobs -l'
 alias which='type -a'
-alias c='clear'
+alias cl='clear' # clear terminal and output history, ctrl-l to clear terminal only
 
 alias gb='cat ~/.bashrc ~/.bash_aliases | grep' # grab that bash boy
 alias psx='ps axc -o cmd,pid,%mem --sort=%mem' # sorted ascending by mem usage
@@ -44,13 +44,23 @@ alias ln='ln -i'
 alias rm='rm -ir'  # confirm each file or folder deletion
 alias rmf='rm -rf' # fearless rm
 
-alias mkdir='mkdir -p' # no error if existing, make parent directories as needed
+alias mkd='mkdir -p' # no error if existing, make parent directories as needed
 
 alias ..='cd ..'  # 1 step back
 # https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb
 alias ~='cd ~'
 alias ...='cd ../..' # 2 steps back
 alias ....='cd ../../..' # 3 steps back
+
+# https://stackoverflow.com/a/5130969
+# https://stackoverflow.com/a/16928162
+# sel c for selection clipboard
+
+alias ccp='pwd | xclip -sel c -r'  # Copy Current Path to system clipboard
+alias ccpw='echo -n ${PWD/ /\\ } | xclip -sel c -r'  # ..same with backslashed white spaces
+alias c='xclip -sel c -r'      #  copy without new line character at end
+alias cn='xclip -sel c'                     #  copy with  new line at end
+alias v='xclip -o -sel c'                            # paste
 
 #-------------------------------------------------------------
 # trimming RMS' and MacKenzies beast

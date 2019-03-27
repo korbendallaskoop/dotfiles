@@ -12,7 +12,6 @@ Notes use [Markdown][md] syntax, so you can freely use features such as
 automatically beautify these notes: Use the `Markdown Preview: Toggle` command
 to see them!
 
-
 Hopefully these initial notes give you a sense what you can do with Atom Notes.
 Please feel free to delete them at any time.
 

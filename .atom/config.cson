@@ -1,9 +1,9 @@
 "*":
+  "atom-notes":
+    directory: "/home/korben/webo(5GB.nxtcld)/qownnotes/"
+    orderByFuzzyFileNameMatch: true
   core:
     audioBeep: false
-    disabledPackages: [
-      "tool-bar-markdown-writer"
-    ]
     telemetryConsent: "limited"
   editor:
     fontSize: 17
