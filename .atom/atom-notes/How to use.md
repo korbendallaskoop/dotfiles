@@ -1,4 +1,4 @@
-searching in the panelsearching in the panel 🤔 How to use Atom Notes
+<!--searching in the panelsearching in the panel 🤔 How to use Atom Notes -->
 
 Begin typing the query in the search panel. Press <kbd>Enter</kbd> to create a
 new note with your query as its title. This package searches for notes whose
@@ -18,6 +18,8 @@ When the note you want to find is in the list, you can choose it by using the
 
 This package constantly writes your changes to disk as you create and edit notes
 when you have the Autosave feature enabled.
+
+
 
 > **Tip:** To remove a note entirely: Select any text in the note, delete it
 > all, and then save the note. When you close the tab Atom Notes will

@@ -37,15 +37,42 @@
 # Wiki: https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps
 #
 ".platform-linux atom-text-editor:not([mini])":
-  "shift-ctrl-K": "markdown-writer:insert-link"
+  "shift-ctrl-L": "markdown-writer:insert-link" # override language/syntax toggle
   "shift-ctrl-I": "markdown-writer:insert-image"
   "shift-ctrl-X": "markdown-writer:toggle-taskdone"
   "ctrl-i":       "markdown-writer:toggle-italic-text"
   "ctrl-b":       "markdown-writer:toggle-bold-text"
   "ctrl-'":       "markdown-writer:toggle-code-text"
-  "ctrl-h":       "markdown-writer:toggle-strikethrough-text"
+#  "ctrl-h":       "markdown-writer:toggle-strikethrough-text"
   "ctrl-1":       "markdown-writer:toggle-h1"
   "ctrl-2":       "markdown-writer:toggle-h2"
   "ctrl-3":       "markdown-writer:toggle-h3"
   "ctrl-4":       "markdown-writer:toggle-h4"
   "ctrl-5":       "markdown-writer:toggle-h5"
+
+# Table of contents (TOC) (markdown-writer:insert-toc).
+# Update table of content (markdown-writer:update-toc).
+# insertAnchor: insert TOC with anchor link.
+# Insert image from file or clipboard (shift-cmd-i) with preview.
+# Save or copy the image to your blog's images directory (customize).
+
+
+  "ctrl-h": "markdown-writer:jump-to-next-heading", #      "markdown-writer:jump-to-next-heading",
+  "ctrl-alt-h": "markdown-writer:jump-to-previous-heading", #      "markdown-writer:jump-to-next-heading",
+# mix it with ctrl-R to jump list btw all header symbols
+
+ # Fold all headings (markdown-writer:fold-headings)
+  # Fold and focus current heading (markdown-writer:focus-current-heading)
+# Fold all inline links (markdown-writer:fold-links)
+
+# Wiki: https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps
+# https://github.com/zhuochun/md-writer/blob/master/package.json#L21
+
+
+  'shift-ctrl-h': 'atom-notes:toggle-preview' #search box, and automatically open Markdown files in preview.
+  'shift-ctrl-j': 'atom-notes:toggle'  # just show a note
+  'shift-ctrl-k': 'atom-notes:interlink' # Jumps to referred note when the cursor is on an [[interlink]].
+
+
+'atom-text-editor':
+  'ctrl-shift-M': 'markdown-preview:toggle'
