@@ -28,12 +28,23 @@ alias rmk="cd /run/media/korben"
 
 # left arrow, key 113, is broken
 # remapping its neighbour right control
-# keycode 113 = Left NoSymbol Left
-# keycode 105 = Control_R NoSymbol Control_R
+# keycode 113 = Left
+# keycode 105 = Control_R
 #
-# source: https://unix.stackexchange.com/questions/348056/how-to-remap-keys-using-xkb-symbols-us-file-in-ubuntu#348057
+# https://unix.stackexchange.com/questions/348056/how-to-remap-keys-using-xkb-symbols-us-file-in-ubuntu#348057
+# https://askubuntu.com/questions/24916/how-do-i-remap-certain-keys-or-devices/24930#24930
 
-xmodmap -e 'keycode 105 = Left Control_R Left Control_R'
+#xmodmap -e "keycode 105 = Left NoSymbol Left"
+# xset r 105  # allow auto-repeat
+
+#removed Control_R from /usr/share/X11/xkb/symbols/pc as well
+
+#
+# xmodmap -e "remove Control = Control_R"
+
+#xmodmap -e "keysym Caps_Lock = Control_L"
+#xmodmap -e "add Control = Control_L"
+
 
 #============================================================
 #  Solux plexusk pkg
@@ -177,3 +188,11 @@ alias cfpl='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME ls-tree -t
 
 alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a'
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
+
+alias gic='micro .config/i3/config'
+
+
+alias xme='xmodmap -e'
+alias xmpm='xmodmap -pm'
+alias xmpke='xmodmap -pke'
+alias xmg='xmodmap -pke | grep'

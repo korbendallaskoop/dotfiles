@@ -1,25 +1,33 @@
 [Desktop Entry]
-FullScreen=false
+FullScreen=true
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
-Height 800=772
-State=AAAA/wAAAAD9AAAAAAAABQAAAALIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 800=800
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABQAAAAMgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=1280
-Window-Maximized 800x1280=true
 
 [Recent Files]
-File1[$e]=$HOME/Documents/web/git-notes.md
-File2[$e]=$HOME/.cache/.fr-wADxu5/laverna-backups/notes-db/notes/0b8a2e5d-cb26-faa5-ccfd-39684f50b90d.md
-File3[$e]=$HOME/.cache/.fr-oJrODT/README.md
-File4[$e]=$HOME/Desktop/Remarkable-master/README.md
-File5[$e]=$HOME/README.md
-File6[$e]=$HOME/Desktop/hacker-history.ps
-File7[$e]=$HOME/webo(5GB.nxtcld)/qownnotes/atom-notes/newfileinsubfolder.md
-Name1[$e]=git-notes.md
-Name2[$e]=0b8a2e5d-cb26-faa5-ccfd-39684f50b90d.md
-Name3[$e]=README.md
-Name4[$e]=README.md
-Name5[$e]=README.md
-Name6[$e]=hacker-history.ps
-Name7[$e]=newfileinsubfolder.md
+File1[$e]=$HOME/webo(5GB.nxtcld)/Notes/qownnotes/capture bunke.md
+File10[$e]=$HOME/webo(5GB.nxtcld)/aha/Use tmpfs mounts _ Docker Documentation.md
+File2[$e]=$HOME/Desktop/Remarkable-master/README.md
+File3[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/vagrantsk.md
+File4[$e]=$HOME/Desktop/Typora-linux-ia32/DO NOT ADD FILES HERE.md
+File5[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/0d56f22dc78f4c73bce8be43cd80c45c.md
+File6[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/9bb64369f466450b87033b71db0915dc.md
+File7[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/436046b182b94b03bc276f2c5dc0250a.md
+File8[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/c425874477764ffe9eeed85458f64812.md
+File9[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/452cb544460940b7a2d103da95af650a.md
+Name1[$e]=capture bunke.md
+Name10[$e]=Use tmpfs mounts _ Docker Documentation.md
+Name2[$e]=README.md
+Name3[$e]=vagrantsk.md
+Name4[$e]=DO NOT ADD FILES HERE.md
+Name5[$e]=0d56f22dc78f4c73bce8be43cd80c45c.md
+Name6[$e]=9bb64369f466450b87033b71db0915dc.md
+Name7[$e]=436046b182b94b03bc276f2c5dc0250a.md
+Name8[$e]=c425874477764ffe9eeed85458f64812.md
+Name9[$e]=452cb544460940b7a2d103da95af650a.md

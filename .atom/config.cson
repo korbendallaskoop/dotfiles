@@ -1,14 +1,22 @@
 "*":
   "atom-notes":
-    directory: "/home/korben/webo(5GB.nxtcld)/qownnotes/"
+    directory: "/home/korben/webo(5GB.nxtcld)/Notes/atom-notes-for-all/"
     orderByFuzzyFileNameMatch: true
   core:
     audioBeep: false
+    disabledPackages: [
+      "linter"
+      "linter-jscs"
+      "linter-jshint"
+      "linter-ui-default"
+    ]
     telemetryConsent: "limited"
   editor:
-    fontSize: 17
+    fontSize: 15
   "exception-reporting":
     userId: "c776470a-0735-4da2-a3ef-df4478b2e8f0"
+  "linter-ui-default":
+    showPanel: true
   "markdown-image-assistant":
     insertHtmlOverMarkdown: true
   "markdown-image-paste":

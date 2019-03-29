@@ -8,7 +8,7 @@ x-scheme-handler/unknown=google-chrome-beta.desktop
 [Added Associations]
 text/x-python=org.gnome.gedit.desktop;
 application/x-bittorrent=transmission-gtk.desktop;gnome-disk-image-writer.desktop;
-text/plain=org.gnome.gedit.desktop;
+text/plain=geany.desktop;org.gnome.gedit.desktop;
 text/x-opml+xml=org.gnome.gedit.desktop;
 video/x-msvideo=org.gnome.Totem.desktop;
 video/mp2t=vlc.desktop;io.github.GnomeMpv.desktop;

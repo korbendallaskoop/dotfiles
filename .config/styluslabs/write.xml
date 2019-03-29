@@ -4,9 +4,9 @@
   <int name="mouseMode" value="0" />
   <int name="penButtonMode" value="20" />
   <int name="penType" value="11" />
+  <int name="popupToolbar" value="1" />
   <int name="showAdvPrefs" value="1" />
   <int name="singleTouchMode" value="1" />
-  <int name="splitLayout" value="1" />
   <int name="thumbnailSize" value="80" />
   <int name="touchUI" value="1" />
   <float name="marginLeft" value="88" />
@@ -20,22 +20,22 @@
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
   <string name="lastURL" value="" />
-  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAGAAABP8AAAMfAAAAAAAAABgAAAT/AAADHwAAAAAAAAAABQAAAAAAAAAAGAAABP8AAAMf" />
-  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC2/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAFlAAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAAFAAAAAt8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAD/////AAAAAAAAAAA=" />
-  <string name="recentDocs" value="/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/März 18 5.36PM.html:::/home/korben/Documents/web/März 18 3.20PM.html:::/home/korben/Documents/web/note apps notes.html:::/home/korben/Documents/web/März 18 3.29PM.html:::/home/korben/docker/März 18 2.05PM.html:::/home/korben/docker/März 16 8.56PM.html" />
+  <string name="mainWindowGeometry" value="AdnQywADAAAAAAFOAAAAGgAABP0AAAMdAAABTgAAABoAAAT9AAADHQAAAAAAAAAABQAAAAFOAAAAGgAABP0AAAMd" />
+  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC2/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAFlAAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAADsAAAAtsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAAAAAONAAAAAAAAAAA=" />
+  <string name="recentDocs" value="/home/korben/Documents/web/tools/atom cheatsheet.html:::/home/korben/Documents/Mar 28 2.15PM.html:::/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/März 18 5.36PM.html:::/home/korben/Documents/web/März 18 3.20PM.html:::/home/korben/Documents/web/note apps notes.html:::/home/korben/Documents/web/März 18 3.29PM.html:::/home/korben/docker/März 18 2.05PM.html:::/home/korben/docker/März 16 8.56PM.html" />
   <string name="syncPass" value="" />
   <string name="syncServer" value="" />
   <string name="syncUser" value="" />
-  <string name="toolBars" value="docTitle,stretch,actionSave,separator,actionDraw,actionErase,actionStroke_Eraser,actionInsert_Space,actionSelect,actionExpand_Down,actionExpand_Right,separator,undoRedoBtn,actionShow_Clippings,actionRedo,separator,actionCut,actionCopy,actionPaste,separator,action_Previous_Page,actionNext_View,action_Next_Page,separator,actionOverflow_Menu" />
-  <string name="toolModes" value="14 18 25" />
+  <string name="toolBars" value="docTitle,stretch,actionSave,separator,actionInsert_Space,actionInsert_Space_Vert,actionTools_Menu,actionDraw,actionCustom_Pen,separator,actionFree_Eraser,actionStroke_Eraser,actionExpand_Down,actionExpand_Right,separator,undoRedoBtn,actionShow_Clippings,actionRedo,separator,actionCut,actionCopy,actionPaste,separator,action_Next_Page,action_Previous_Page,actionNext_View,separator,actionOverflow_Menu" />
+  <string name="toolModes" value="14 20 27" />
+  <pen color="2147418112" width="9" pressure="2" drawunder="false" snaptogrid="false" />
   <pen color="4278190080" width="4.5" pressure="2" drawunder="false" snaptogrid="false" />
-  <pen color="4294901760" width="1.4" pressure="2" drawunder="false" snaptogrid="false" />
-  <pen color="4294944000" width="3.5" pressure="2" drawunder="false" snaptogrid="false" />
-  <pen color="4278190335" width="1.4" pressure="2" drawunder="false" snaptogrid="false" />
   <pen color="4278190080" width="2.4" pressure="2" drawunder="false" snaptogrid="false" />
-  <pen color="4294901760" width="2.4" pressure="2" drawunder="false" snaptogrid="false" />
-  <pen color="4278255360" width="7" pressure="2" drawunder="false" snaptogrid="false" />
   <pen color="4286545791" width="3.5" pressure="2" drawunder="false" snaptogrid="true" />
+  <pen color="4278190335" width="3" pressure="2" drawunder="false" snaptogrid="false" />
+  <pen color="4294955520" width="8" pressure="2" drawunder="true" snaptogrid="false" />
+  <pen color="4286545791" width="3.5" pressure="2" drawunder="false" snaptogrid="true" />
+  <pen color="2130771712" width="15" pressure="2" drawunder="false" snaptogrid="false" />
   <ruling name="default">
     <g class="ruleline">
       <g class="rulepattern" shape-rendering="crispEdges">

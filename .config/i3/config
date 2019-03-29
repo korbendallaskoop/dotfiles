@@ -108,7 +108,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to i3xt?' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to i3xt?' -b 'JA!, exit i3' 'i3-msg exit'"
 
 # bindsym $mod+o			sticky toggle
 
@@ -123,9 +123,8 @@ exec --no-startup-id nm-applet
 exec --no-startup-id /usr/lib64/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id google-chrome-beta
 exec --no-startup-id atom
-exec --no-startup-id thunderbird
+# exec --no-startup-id thunderbird
 exec --no-startup-id QOwnNotes
-exec --no-startup-id Standard Notes"] $ws8
 
 assign [class="Atom"] $ws1
 
@@ -149,6 +148,7 @@ assign [class="konversation"] $ws9
 
 assign [class="QOwnNotes"] $ws10
 assign [class="Standard Notes"] $ws10
+assign [class="TagSpaces"] $ws10
 
 # Define names for default workspaces for which we configure key bindings later on.
 
