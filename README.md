@@ -12,14 +12,10 @@ https://www.oreilly.com/library/view/version-control-with/9780596158187/ch11s07.
 
 Method sourced from https://news.ycombinator.com/item?id=11071754 and guide blogged by https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo, my notes below are based on that.
 
-I'm using two bare repos atm with one of them private for private dots. It's working fine and has been a good git exercise but tools like https://yadm.io are probably simpler and better for this purpose and includes features like alternate files for diff. OS and GPG encryption. Was recommended by a DistroTube viewer, others mentioned that
+I'm using two bare repos atm with one of them private for private dots. It's working fine and has been a good git exercise but tools like https://yadm.io are probably simpler and better for this purpose and includes features like alternate files for diff. OS and GPG encryption. Was recommended by a DistroTube viewer, others mentioned that:
 - drawback of method is no access to `diff` of dotfiles locally. Only possible after commit and push to remote
-- Use GNU stow. It's like a package manager for symlinks. stow -t ~ /path/to/dotfiles and you're done - with none of that painful setup or aliases. It does smart things with folding symlinks and also makes it easy to uninstall. The killer feature for me is that you can split up your dotfiles into modules (e.g. bash, vim, etc.) and only install the dotfiles for the module you want. That's really good if you share your dotfiles on Github since people can easily pick and choose which dotfiles they want to install.﻿
 - gitignore every file with "*" and then use git add -f <file> with each tracked file. Undo ignored file or directory in .gitignore by starting the line with a '!'. fx for .config add after '*':
-
-	!/.bashrc
-	!/.config/
-	!/.config/**
+- Use GNU stow. It's like a package manager for symlinks. stow -t ~ /path/to/dotfiles and you're done - with none of that painful setup or aliases. It does smart things with folding symlinks and also makes it easy to uninstall. The killer feature for me is that you can split up your dotfiles into modules (e.g. bash, vim, etc.) and only install the dotfiles for the module you want. That's really good if you share your dotfiles on Github since people can easily pick and choose which dotfiles they want to install.﻿
 
 ## bare with me
 
@@ -135,6 +131,11 @@ done!
 
 >Anything that is a security risk, like files in your .ssh/ folder....double-check before publishing them online and triple-check that no API tokens are in your files.
 https://opensource.com/article/19/3/move-your-dotfiles-version-control
+
+- gitcong
+- file paths with identifiable folder names, /myNextcloud_provider/my_username
+- same for launcher and search index dbs
+- IRC configs and logs
 
 ### Why not back by any other sync/cloud method?
 

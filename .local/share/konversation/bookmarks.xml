@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" dbusName="konversation" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" dbusName="konversation">
  <bookmark href="irc://freenode/Solus">
   <title>#Solus (freenode)</title>
   <info>
@@ -99,6 +99,14 @@
  </bookmark>
  <bookmark href="irc://freenode/%23security">
   <title>##security (freenode)</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name=""/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="irc://irc.debian.org/">
+  <title>irc.debian.org</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name=""/>

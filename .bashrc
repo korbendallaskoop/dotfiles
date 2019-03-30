@@ -21,6 +21,8 @@ alias ipe='curl ipinfo.io/ip'
 #  Bashing
 
 alias h='history' # bang!
+alias hg='history | grep' #
+
 alias j='jobs -l'
 alias which='type -a'
 alias cl='clear' # clear terminal and output history, ctrl-l to clear terminal only

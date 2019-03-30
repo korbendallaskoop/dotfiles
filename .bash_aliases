@@ -196,3 +196,8 @@ alias xme='xmodmap -e'
 alias xmpm='xmodmap -pm'
 alias xmpke='xmodmap -pke'
 alias xmg='xmodmap -pke | grep'
+
+alias sxku='setxkbmap -layout us'
+alias sxkd='setxkbmap -layout dk'
+
+alias xmo='xmodmap ~/.Xmodmap'

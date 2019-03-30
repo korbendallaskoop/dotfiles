@@ -412,10 +412,10 @@
   "ui.toolbar_icon_size": "large", 
   "display.colorspace": "srgb", 
   "workspace.layout": {
-    "fullscreen": true, 
+    "fullscreen": false, 
     "left_sidebar": {
-      "h": 727, 
-      "w": 341, 
+      "h": 699, 
+      "w": 339, 
       "groups": [
         {
           "h": 465, 
@@ -436,7 +436,7 @@
               "MyPaintLayersTool"
             ]
           ], 
-          "w": 341, 
+          "w": 339, 
           "active_page": 3
         }, 
         {
@@ -450,7 +450,7 @@
     "position": {}, 
     "floating": [], 
     "right_sidebar": {
-      "h": 727, 
+      "h": 729, 
       "w": 8, 
       "groups": [
         {
