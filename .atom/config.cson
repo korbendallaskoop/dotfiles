@@ -12,7 +12,7 @@
     ]
     telemetryConsent: "limited"
   editor:
-    fontSize: 19
+    fontSize: 17
   "exception-reporting":
     userId: "c776470a-0735-4da2-a3ef-df4478b2e8f0"
   "linter-ui-default":

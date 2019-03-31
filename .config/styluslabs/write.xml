@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
 <map>
+  <int name="autoHideBookmarks" value="1" />
   <int name="autoSaveInterval" value="333" />
   <int name="docListSort" value="1" />
-  <int name="drawCursor" value="1" />
+  <int name="drawCursor" value="0" />
   <int name="growRight" value="1" />
   <int name="insEmptySpace" value="1" />
   <int name="mouseMode" value="0" />
@@ -10,11 +11,13 @@
   <int name="penButtonMode" value="20" />
   <int name="penType" value="11" />
   <int name="popupToolbar" value="1" />
+  <int name="scrollerLocation" value="1" />
   <int name="showAdvPrefs" value="1" />
   <int name="singleFile" value="1" />
   <int name="singleTouchMode" value="1" />
   <int name="thumbnailSize" value="100" />
   <int name="touchUI" value="1" />
+  <int name="undoCircleSteps" value="50" />
   <int name="viewMode" value="0" />
   <float name="marginLeft" value="88" />
   <float name="pageHeight" value="3405" />

@@ -11,7 +11,7 @@ http://wiki.c2.com/?RemapCaps_Lock
 - keycode 77 = num lock
 - keycode 118 = insert
 - keycode 107 = print
-- keycode 107 = alt gr
+- keycode 108 = alt gr
 
 break (fn pgdwn) sender paa keycode 37, samme som left control
 
@@ -33,44 +33,27 @@ make Control_R Left
 
 ## disable Caps_Lock and remap Control_R to it
 
-if you want caps light to keep toggling for each (control) press:
-
-
 remove lock = Caps_Lock
-
 
 keycode 66 = Control_R
 
     add control = Control_R
 
-if not:
-
-    remove lock = Caps_Lock
-
 
 ## make Num_Lock Caps_Lock
 
-	xmodmap -e "keysym Num_Lock = Caps_Lock"
-or
+add lock = Num_Lock
 
-`keycode 77 = Caps_Lock`
+## disable insert and shift insert (paste)
 
-## disable keysym insert and shift insert (paste)
-
-`'keycode 118 = NoSymbol NoSymbol NoSymbol'`
-
-xmodmap -e "keysym Num_Lock = Control_L"
-
-xmodmap -e "keysym Up = Up"
-
-"keysym Up = a"
-
-## swap keysym Print from keycode `fn insert` to `insert`
-
-'keycode 118 = Print'
+and swap keysym Print from keycode `fn insert` to `insert` :
 
 - keycode 118 = insert
 - keycode 107 = print
+
+'keycode 118 = Print Sys_Req Print Sys_Req Print Sys_Req'
+
+'keycode 107 = NoSymbol NoSymbol NoSymbol'
 
 ## .sysop
 
@@ -78,7 +61,7 @@ print a list of all events of the whole X
 
 `xinput test-xi2 --root`
 
-	xev
+	xev -event keyboard
 
 show modifiers
 
@@ -90,19 +73,28 @@ show all mapping of keycodes to keysyms
 
 	xmodmap -pke | grep
 
-load Xmodmap
+push them to a config file 
+	xmodmap -pke -pm > ~/.Xmodmap 
+
+check for uncommented lines
+
+reset X keyboard layout
+
+	setxkbmap -layout <option>
+
+and load Xmodmap
 
 	xmodmap ~/.Xmodmap
 
-  alias xme='xmodmap -e'
-  alias xmpm='xmodmap -pm'
-  alias xmpke='xmodmap -pke
-  alias xmg='xmodmap -pke | grep'
+	  alias xme='xmodmap -e'
+	  alias xmpm='xmodmap -pm'
+	  alias xmpke='xmodmap -pke
+	  alias xmg='xmodmap -pke | grep'
 
-alias sxku='setxkbmap -layout us'
-alias sxkd='setxkbmap -layout dk'
-
-alias xmo='xmodmap ~/.Xmodmap'
+	alias sxku='setxkbmap -layout us'
+	alias sxkd='setxkbmap -layout dk'
+	
+	alias xmo='xmodmap ~/.Xmodmap'
 
 
 ## man xmodmap
@@ -116,17 +108,6 @@ Unlike 'add' keysym names are evaluated as the line is read in.
 
 allows to re-move keys from a modifier without reassigning.
 
->To disable Caps_Lock unmap it:
-	xmodmap -e 'keycode  66 = NoSymbol NoSymbol NoSymbol'
-
-To enable Caps_Lock map it again to default values:
-
-	xmodmap -e 'keycode  66 = Caps_Lock NoSymbol Caps_Lock'
-
-https://unix.stackexchange.com/questions/202930/xmodmap-clear-modifier-not-working
-
-`'keycode 77 = NoSymbol NoSymbol NoSymbol'`
-
 ## .Xmodmap boot
 
 This option prints a keymap table as expressions into the file ~/.Xmodmap
@@ -137,7 +118,7 @@ Activate the changes(for this login session only) with following command:
 
     xmodmap ~/.Xmodmap
 
-Check that all modifier changes are included. Add if not. Set `clear` at top and `add` at end.
+Check that all modifier changes are included. Add if not. Set modifiers `clear` at top and `add` at end.
 
 Making changes persistent across reboots:
 
@@ -176,8 +157,6 @@ Kevin Bowen
 http://wiki.linuxquestions.org/wiki/List_of_Keysyms_Recognised_by_Xmodmap
 
 ## .Xmodmap mods
-
-if xmodmap -pke > ~/.Xmodmap don't add them:
 
 clear Shift
 clear Lock
@@ -240,14 +219,19 @@ xme 'Caps_Lock = Control_R'
 setxkbmap -layout us
 setxkbmap -layout dk
 
-- keycode 105 = Left
-- keycode 66 = caps lock
-- keycode 37 = left control
-- keycode 77 = num lock
-- keycode 118 = insert
-- keycode 107 = print
-- keycode 107 = alt gr
 
 xmodmap -pke > ~/.Xmodmap
 
 xmodmap -e "keysym Caps_Lock = Control_L"
+
+https://unix.stackexchange.com/questions/202883/create-xkb-configuration-from-xmodmap
+
+I just solved the problem. After I applied my xmodmap configuration, I used xkbcomp :0 custom-xkb-keymap do copy the current xkb keymap (from display :0) to a file named custom-xkb-keymap.
+
+Instead of using raw dumps that look like decompiled code, you can also make your own symbols file, which is more readable. I have got my own custom layout, which will probably not be usable for most of you, but you can still take a look at this short file that I use for programming on German keyboards (just to get an idea how this can look like and what you can do with a symbols file).
+
+
+You can also use evtest. In some situation better than xev as it shows keys even when key is already captured.
+
+
+

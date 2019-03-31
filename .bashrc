@@ -64,6 +64,11 @@ alias c='xclip -sel c -r'      #  copy without new line character at end
 alias cn='xclip -sel c'                     #  copy with  new line at end
 alias v='xclip -o -sel c'                            # paste
 
+# bash can't use '|' as first alias argument
+# fx for '\ xclip' or '| grep'
+# zsh can
+# for such purpose I'm using AutoKey phrases instead - https://github.com/autokey/autokey
+
 #-------------------------------------------------------------
 # trimming RMS' and MacKenzies beast
 
