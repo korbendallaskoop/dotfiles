@@ -39,10 +39,12 @@ keycode 66 = Control_R
 
     add control = Control_R
 
-
 ## make Num_Lock Caps_Lock
 
 add lock = Num_Lock
+
+keycode 77 = Caps_Lock
+
 
 ## disable insert and shift insert (paste)
 
@@ -53,7 +55,14 @@ and swap keysym Print from keycode `fn insert` to `insert` :
 
 'keycode 118 = Print Sys_Req Print Sys_Req Print Sys_Req'
 
-'keycode 107 = NoSymbol NoSymbol NoSymbol'
+'keycode 107 = NoSymbol NoSymbol NoSymbol NoSymbol'
+
+## swap F12 and F11
+
+'keycode 95 = F12'
+
+'keycode 96 = F11'
+
 
 ## .sysop
 
@@ -75,14 +84,13 @@ show all mapping of keycodes to keysyms
 
 push them to a config file 
 	xmodmap -pke -pm > ~/.Xmodmap 
-
-check for uncommented lines
+check it for uncommented lines
 
 reset X keyboard layout
 
 	setxkbmap -layout <option>
 
-and load Xmodmap
+and load Xmodmap mods
 
 	xmodmap ~/.Xmodmap
 
@@ -96,7 +104,6 @@ and load Xmodmap
 	
 	alias xmo='xmodmap ~/.Xmodmap'
 
-
 ## man xmodmap
 
 'clear' clears mapping of a modifier, not mapping of keycodes
@@ -107,26 +114,6 @@ removes all keys containing the given keysyms from the map
 Unlike 'add' keysym names are evaluated as the line is read in.
 
 allows to re-move keys from a modifier without reassigning.
-
-## .Xmodmap boot
-
-This option prints a keymap table as expressions into the file ~/.Xmodmap
-
-	xmodmap -pke > ~/.Xmodmap
-
-Activate the changes(for this login session only) with following command:
-
-    xmodmap ~/.Xmodmap
-
-Check that all modifier changes are included. Add if not. Set modifiers `clear` at top and `add` at end.
-
-Making changes persistent across reboots:
-
-	touch .xinitrc
-
-Place the following line in the file and save the file:
-
-	xmodmap ~/.Xmodmap
 
 ## stack sez
 
@@ -215,12 +202,6 @@ xme 'clear control'
 xme 'keycode 66 = Control_R'
 
 xme 'Caps_Lock = Control_R'
-
-setxkbmap -layout us
-setxkbmap -layout dk
-
-
-xmodmap -pke > ~/.Xmodmap
 
 xmodmap -e "keysym Caps_Lock = Control_L"
 

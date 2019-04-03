@@ -3,10 +3,10 @@
     "description": "", 
     "group": "", 
     "notes": "", 
-    "parent_brush_name": "classic/pen", 
+    "parent_brush_name": "experimental/glow", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "change_color_h": {
@@ -54,7 +54,7 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 2.2, 
+            "base_value": 5.5, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
@@ -82,7 +82,7 @@
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.9, 
+            "base_value": 0.16, 
             "inputs": {
                 "pressure": [
                     [
@@ -123,11 +123,11 @@
             "inputs": {}
         }, 
         "opaque": {
-            "base_value": 1.0, 
+            "base_value": 0.43, 
             "inputs": {}
         }, 
         "opaque_linearize": {
-            "base_value": 0.9, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -143,7 +143,7 @@
                         0.0
                     ], 
                     [
-                        0.015, 
+                        0.025, 
                         1.0
                     ], 
                     [
@@ -162,7 +162,7 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 0.96, 
+            "base_value": 2.19, 
             "inputs": {
                 "pressure": [
                     [
@@ -177,11 +177,11 @@
                 "speed1": [
                     [
                         0.0, 
-                        -0.0
+                        -0.219479
                     ], 
                     [
                         1.0, 
-                        -0.21
+                        -0.43
                     ]
                 ]
             }

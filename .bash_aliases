@@ -119,6 +119,7 @@ alias rs3='redshift -P -O 3000'    #
 alias rs33='redshift -P -O 3333'    #
 alias rs36='redshift -P -O 3666'    #
 alias rs4='redshift -P -O 4000'    #
+alias rs44='redshift -P -O 4444'    #
 alias rsd='redshift -o 90'    # One-shot mode, repeat to continuously decrease by 10%
 alias rsp='redshift -p'    # status
 alias rsx='redshift -x'    # kill

@@ -9,28 +9,30 @@ clear Mod3
 clear Mod4
 clear Mod5
 
-!keycode  26 = e E e E EuroSign cent EuroSign
-
-!å
-keycode 34 = bracketleft braceleft  aring Aring
-!ø
-keycode 48 = apostrophe quotedbl oslash Oslash
-!æ
-keycode 47 = semicolon colon ae AE
-
+! make Caps_Lock Control
 keycode 66 = Control_R
 keycode 105 = Left NoSymbol Left
-keycode 108 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+
+! Move keysym Caps_Lock to keycode Num_Lock
+keycode 77 = Caps_Lock
 
 ! swap insert and print keys, turn of insert
 keycode 107 = NoSymbol NoSymbol NoSymbol NoSymbol
 keycode 118 = Print Sys_Req Print Sys_Req
 
+! swap F11 and F12
+keycode 95 = NoSymbol NoSymbol NoSymbol NoSymbol
+keycode 96 = F11
+
+! make Alt_R Alt_Gr
+keycode 108 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+
+
 add shift   = Shift_L Shift_R
-!add lock    = Num_Lock
+add lock    = Caps_Lock
 add control = Control_L Control_R
 add mod1    = Alt_L
-add mod2    = Num_Lock
-add mod3    = Scroll_Lock
+!add mod2    = Num_Lock
+!add mod3    = Scroll_Lock
 add mod4    = Super_L  Super_R
 add mod5    = ISO_Level3_Shift Mode_switch

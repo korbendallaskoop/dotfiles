@@ -1,3 +1,6 @@
-2019/03/31-18:00:08.809 779 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2019/03/31-18:00:08.810 779 Recovering log #4082
-2019/03/31-18:00:08.813 779 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/004082.log 
+2019/04/02-19:48:25.156 1195 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/04/02-19:48:25.222 1195 Recovering log #4094
+2019/04/02-19:48:25.389 1195 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/004094.log 
+2019/04/03-15:47:52.487 2575 Level-0 table #4099: started
+2019/04/03-15:47:52.590 2575 Level-0 table #4099: 1317322 bytes OK
+2019/04/03-15:47:52.634 2575 Delete type=0 #4094

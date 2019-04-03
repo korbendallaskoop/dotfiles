@@ -28,3 +28,4 @@ application/x-virtualbox-vdi=virtualbox.desktop;
 application/vnd.flatpak.ref=nautilus-autorun-software.desktop;
 application/x-raw-disk-image=gnome-disk-image-mounter.desktop;
 application/x-java-archive=org.gnome.FileRoller.desktop;
+image/png=eog.desktop;

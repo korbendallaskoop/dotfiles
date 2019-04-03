@@ -3,7 +3,7 @@
     "description": "List Menu",
     "store": {},
     "modes": [],
-    "usageCount": 0,
+    "usageCount": 2,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
@@ -17,7 +17,7 @@
     },
     "hotkey": {
         "modifiers": [],
-        "hotKey": null
+        "hotKey": "<f4>"
     },
     "filter": {
         "regex": null,

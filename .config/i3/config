@@ -37,7 +37,7 @@ bindsym $mod+d exec rofi -show drun -lines 6 -eh 2 -width 45 -opacity "25" -bc -
 #bindsym $mod+Shift+s exec i3lock # Easier locking
 
 ### Other ###
-#bindsym Print exec_always scrot '%d-%m-%Y_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/' -s -q 100
+#bindsym Print exec_always scrot '%d-%m-%Y_$wx$h.png' -e 'mv $f $HOME/Pictures/screenshots/' -s -q 100
 #bindsym Print exec_always flameshot
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -136,11 +136,11 @@ assign [class="Brave-browser"] $ws2
 assign [class="vifm"] $ws3
 assign [class="Mate-terminal"] $ws3
 
-assign [class="VirtualBox Manager"] $ws4
-assign [class="Virtual Machine Manager"] $ws4
+assign [class="VirtualBox Manager"] $ws5
+assign [class="Virtual Machine Manager"] $ws5
 
-assign [class="Rhythmbox"] $ws8
-assign [class="Com.github.needle-and-thread.vocal"] $ws8
+assign [class="Rhythmbox"] $ws7
+assign [class="Com.github.needle-and-thread.vocal"] $ws7
 
 assign [class="Riot"] $ws9
 assign [class="Thunderbird"] $ws9
@@ -157,15 +157,15 @@ set $ws2 "2 "
 #    
 #   
 set $ws3 "3 "
-set $ws4 "4 "
-set $ws5 "5"
+set $ws4 "4"
+set $ws5 "5 "
 set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8 ♪  "
-set $ws9 "9 "
-#    
-set $ws10 "10 "
-#   
+set $ws7 "7 ♪  "
+set $ws8 "8 "
+set $ws9 "9 "
+#     
+set $ws10 "10 "
+# 	  
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -199,12 +199,12 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 workspace_layout tabbed
 
 # --------------------------------------------------------master luke resizing (matters)
-#command=~/.config/i3/scripts/statusbar/$BLOCK_NAME
+#command=$HOME/.config/i3/scripts/statusbar/$BLOCK_NAME
 
-bindsym $mod+Shift+u    exec --no-startup-id ~/.config/i3/scripts/i3resize left
-bindsym $mod+Shift+o		exec --no-startup-id ~/.config/i3/scripts/i3resize down
-bindsym $mod+Shift+i		exec --no-startup-id ~/.config/i3/scripts/i3resize up
-bindsym $mod+Shift+p		exec --no-startup-id ~/.config/i3/scripts/i3resize right
+bindsym $mod+Shift+u    exec --no-startup-id $HOME/.config/i3/scripts/i3resize left
+bindsym $mod+Shift+o		exec --no-startup-id $HOME/.config/i3/scripts/i3resize down
+bindsym $mod+Shift+i		exec --no-startup-id $HOME/.config/i3/scripts/i3resize up
+bindsym $mod+Shift+p		exec --no-startup-id $HOME/.config/i3/scripts/i3resize right
 
 # ------------------------------------------------------------------- Styling ##
 
@@ -218,7 +218,7 @@ exec_always--no-startup-id compton -f
 #exec --no-startup-id compton -f
 
 ## for terminalforlife's transparency
-bindsym $mod+b exec --no-startup-id /bin/bash $HOME/.config/i3/scripts/statusbar/i3bar_trans 0.8
+bindsym $mod+b exec --no-startup-id /bin/bash /.config/i3/scripts/statusbar/i3bar_trans 0.8
 bindsym Shift+$mod+b bar mode toggle ; exec --no-startup-id /bin/bash $HOME/.config/i3/scripts/statusbar/i3bar_trans 0.8
 
 #client.focused          #404552 #404552 #fafafa #ff5757 #fafafa
@@ -272,7 +272,7 @@ bindsym $mod+Shift+z		gaps outer current minus 1
 # finds out, if available)
 bar {
 #        status_command i3status
-        status_command i3blocks -c ~/.config/i3/i3blocks.conf
+        status_command i3blocks -c $HOME/.config/i3/i3blocks.conf
         position bottom
         strip_workspace_numbers yes
 

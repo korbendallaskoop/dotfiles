@@ -415,7 +415,7 @@
     "fullscreen": false, 
     "left_sidebar": {
       "h": 699, 
-      "w": 339, 
+      "w": 337, 
       "groups": [
         {
           "h": 465, 
@@ -436,7 +436,7 @@
               "MyPaintLayersTool"
             ]
           ], 
-          "w": 339, 
+          "w": 337, 
           "active_page": 3
         }, 
         {
@@ -447,11 +447,16 @@
     }, 
     "autohide": false, 
     "maximized": false, 
-    "position": {}, 
+    "position": {
+      "y": 0, 
+      "h": 800, 
+      "w": 1280, 
+      "x": 0
+    }, 
     "floating": [], 
     "right_sidebar": {
-      "h": 729, 
-      "w": 8, 
+      "h": 699, 
+      "w": 276, 
       "groups": [
         {
           "tools": [], 
@@ -461,15 +466,15 @@
     }
   }, 
   "colors.history": [
-    "#ffffff", 
     "#5d595a", 
     "#cdccbe", 
     "#d9d8ca", 
+    "#ff0000", 
     "#000000"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
-  "brush_chooser.default.selected_group": "favorites", 
+  "brush_chooser.default.selected_group": "Offset-AnTi", 
   "saving.default_format": "openraster", 
   "brushmanager.selected_brush": "classic/pen", 
   "ui.support_smooth_scrolling": true, 

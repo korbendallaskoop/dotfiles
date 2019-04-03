@@ -1,23 +1,20 @@
 <?xml version="1.0"?>
 <map>
-  <int name="autoHideBookmarks" value="1" />
   <int name="autoSaveInterval" value="333" />
   <int name="docListSort" value="1" />
   <int name="drawCursor" value="0" />
   <int name="growRight" value="1" />
   <int name="insEmptySpace" value="1" />
   <int name="mouseMode" value="0" />
-  <int name="pageColor" value="-526345" />
+  <int name="pageColor" value="-723724" />
   <int name="penButtonMode" value="20" />
   <int name="penType" value="11" />
   <int name="popupToolbar" value="1" />
-  <int name="scrollerLocation" value="1" />
   <int name="showAdvPrefs" value="1" />
   <int name="singleFile" value="1" />
   <int name="singleTouchMode" value="1" />
   <int name="thumbnailSize" value="100" />
   <int name="touchUI" value="1" />
-  <int name="undoCircleSteps" value="50" />
   <int name="viewMode" value="0" />
   <float name="marginLeft" value="88" />
   <float name="pageHeight" value="3405" />
@@ -30,33 +27,33 @@
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
   <string name="lastURL" value="" />
-  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAAAAABP8AAAMfAAAAAAAAABgAAAT/AAADHwAAAAAABAAABQAAAAAAAAAAAAAABP8AAAMf" />
+  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAAAAABP8AAAMfAAAAAAAAAAAAAAT/AAADHwAAAAAAAAAABQAAAAAAAAAAAAAABP8AAAMf" />
   <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC9/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAL3AAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAAFAAAAAvcAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAAAAAONAAAAAAAAAAA=" />
-  <string name="recentDocs" value="/home/korben/Documents/web/notes om note apps - recovered - recovered.html:::/home/korben/Documents/web/notes om note apps - recovered.html:::/home/korben/Documents/web/agenda kanvas - recovered.html:::/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/agenda kanvas.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM.html:::/home/korben/Documents/web/tools/atom cheatsheet.html:::/home/korben/Documents/Mar 28 2.15PM.html:::/home/korben/Documents/web/März 18 5.36PM.html" />
+  <string name="recentDocs" value="/home/korben/Documents/web/notes om note apps - recovered.html:::/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/agenda kanvas - recovered.html:::/home/korben/Documents/web/agenda kanvas.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM.html:::/home/korben/Documents/web/tools/atom cheatsheet.html:::/home/korben/Documents/Mar 28 2.15PM.html:::/home/korben/Documents/web/März 18 5.36PM.html:::/home/korben/Documents/web/März 18 3.20PM.html" />
   <string name="syncPass" value="" />
   <string name="syncServer" value="" />
   <string name="syncUser" value="" />
   <string name="toolBars" value="docTitle,actionSave,stretch,actionDraw,actionCustom_Pen,actionFree_Eraser,actionRuled_Eraser,actionStroke_Eraser,penColor,penWidth,actionLasso_Select,actionRuled_Select,actionRect_Select,actionSelection_Menu,actionRuled_Insert_Space,actionInsert_Space_Vert,undoRedoBtn,actionRedo,actionShow_Clippings,actionShow_Bookmarks,actionPage_Setup,actionPreferences,actionOverflow_Menu" />
   <string name="toolModes" value="14 20 27" />
-  <pen color="4278190080" width="4.5" pressure="2" drawunder="false" snaptogrid="false" />
+  <pen color="4278190080" width="2" pressure="4" drawunder="false" snaptogrid="false" />
   <pen color="4278190080" width="9" pressure="4" drawunder="false" snaptogrid="false" />
   <pen color="4278190080" width="4.5" pressure="4" drawunder="false" snaptogrid="false" />
   <pen color="4286545791" width="2" pressure="1" drawunder="false" snaptogrid="true" />
-  <pen color="4278255360" width="15" pressure="4" drawunder="false" snaptogrid="false" />
+  <pen color="4278255360" width="6" pressure="4" drawunder="false" snaptogrid="false" />
   <pen color="4294955520" width="6" pressure="4" drawunder="false" snaptogrid="false" />
-  <pen color="4278255360" width="30" pressure="4" drawunder="true" snaptogrid="false" />
-  <pen color="4294967040" width="30" pressure="4" drawunder="true" snaptogrid="false" />
+  <pen color="4278255360" width="77" pressure="4" drawunder="true" snaptogrid="false" />
+  <pen color="4294967040" width="77" pressure="4" drawunder="true" snaptogrid="false" />
   <ruling name="default">
     <g class="ruleline">
       <g class="rulepattern" shape-rendering="crispEdges">
         <pattern id="pattern0" class="rule_y" x="0.000" y="0.000" width="8730.000" height="20.000" patternUnits="userSpaceOnUse">
-          <path vector-effect="non-scaling-stroke" fill="none" stroke="#00FF2A" stroke-opacity="0.235" stroke-width="1.000" d="M0.000 20.000 l 65535.000 0.000" />
+          <path vector-effect="non-scaling-stroke" fill="none" stroke="#33FF00" stroke-opacity="0.149" stroke-width="1.000" d="M0.000 20.000 l 65535.000 0.000" />
         </pattern>
         <rect x="0.000" y="0.000" width="8730.000" height="3405.000" fill="url(#pattern0)" />
       </g>
       <g class="rulepattern" shape-rendering="crispEdges">
         <pattern id="pattern1" class="rule_x" x="0.000" y="0.000" width="20.000" height="3405.000" patternUnits="userSpaceOnUse">
-          <path vector-effect="non-scaling-stroke" fill="none" stroke="#00FF2A" stroke-opacity="0.235" stroke-width="1.000" d="M20.000 0.000 l 0.000 65535.000" />
+          <path vector-effect="non-scaling-stroke" fill="none" stroke="#33FF00" stroke-opacity="0.149" stroke-width="1.000" d="M20.000 0.000 l 0.000 65535.000" />
         </pattern>
         <rect x="0.000" y="0.000" width="8730.000" height="3405.000" fill="url(#pattern1)" />
       </g>
