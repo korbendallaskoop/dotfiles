@@ -1,33 +1,35 @@
 [Desktop Entry]
-FullScreen=true
+FullScreen=false
 shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
-Height 800=800
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABQAAAAMgAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 800=776
+State=AAAA/wAAAAD9AAAAAAAABQAAAALKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=1280
 
+[Notification Messages]
+presentationInfo=false
+
 [Recent Files]
-File1[$e]=$HOME/webo(5GB.nxtcld)/Notes/qownnotes/capture bunke.md
-File10[$e]=$HOME/webo(5GB.nxtcld)/aha/Use tmpfs mounts _ Docker Documentation.md
-File2[$e]=$HOME/Desktop/Remarkable-master/README.md
-File3[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/vagrantsk.md
-File4[$e]=$HOME/Desktop/Typora-linux-ia32/DO NOT ADD FILES HERE.md
-File5[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/0d56f22dc78f4c73bce8be43cd80c45c.md
-File6[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/9bb64369f466450b87033b71db0915dc.md
-File7[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/436046b182b94b03bc276f2c5dc0250a.md
-File8[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/c425874477764ffe9eeed85458f64812.md
-File9[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/452cb544460940b7a2d103da95af650a.md
-Name1[$e]=capture bunke.md
-Name10[$e]=Use tmpfs mounts _ Docker Documentation.md
-Name2[$e]=README.md
-Name3[$e]=vagrantsk.md
-Name4[$e]=DO NOT ADD FILES HERE.md
-Name5[$e]=0d56f22dc78f4c73bce8be43cd80c45c.md
-Name6[$e]=9bb64369f466450b87033b71db0915dc.md
-Name7[$e]=436046b182b94b03bc276f2c5dc0250a.md
-Name8[$e]=c425874477764ffe9eeed85458f64812.md
-Name9[$e]=452cb544460940b7a2d103da95af650a.md
+File1[$e]=$HOME/Desktop/Remarkable-master/README.md
+File10[$e]=$HOME/Desktop/lydiadatter_guide.pdf
+File2[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/vagrantsk.md
+File3[$e]=$HOME/Desktop/Typora-linux-ia32/DO NOT ADD FILES HERE.md
+File4[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/0d56f22dc78f4c73bce8be43cd80c45c.md
+File5[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/9bb64369f466450b87033b71db0915dc.md
+File6[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/436046b182b94b03bc276f2c5dc0250a.md
+File7[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/c425874477764ffe9eeed85458f64812.md
+File8[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/joplin-sync/452cb544460940b7a2d103da95af650a.md
+File9[$e]=$HOME/webo(5GB.nxtcld)/aha/Use tmpfs mounts _ Docker Documentation.md
+Name1[$e]=README.md
+Name10[$e]=lydiadatter_guide.pdf
+Name2[$e]=vagrantsk.md
+Name3[$e]=DO NOT ADD FILES HERE.md
+Name4[$e]=0d56f22dc78f4c73bce8be43cd80c45c.md
+Name5[$e]=9bb64369f466450b87033b71db0915dc.md
+Name6[$e]=436046b182b94b03bc276f2c5dc0250a.md
+Name7[$e]=c425874477764ffe9eeed85458f64812.md
+Name8[$e]=452cb544460940b7a2d103da95af650a.md
+Name9[$e]=Use tmpfs mounts _ Docker Documentation.md

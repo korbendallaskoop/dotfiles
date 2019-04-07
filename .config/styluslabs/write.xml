@@ -2,7 +2,7 @@
 <map>
   <int name="autoSaveInterval" value="333" />
   <int name="docListSort" value="1" />
-  <int name="drawCursor" value="0" />
+  <int name="drawCursor" value="1" />
   <int name="growRight" value="1" />
   <int name="insEmptySpace" value="1" />
   <int name="mouseMode" value="0" />
@@ -13,6 +13,7 @@
   <int name="showAdvPrefs" value="1" />
   <int name="singleFile" value="1" />
   <int name="singleTouchMode" value="1" />
+  <int name="strokeCounter" value="35" />
   <int name="thumbnailSize" value="100" />
   <int name="touchUI" value="1" />
   <int name="viewMode" value="0" />
@@ -27,9 +28,9 @@
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
   <string name="lastURL" value="" />
-  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAAAAABP8AAAMfAAAAAAAAAAAAAAT/AAADHwAAAAAAAAAABQAAAAAAAAAAAAAABP8AAAMf" />
-  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC9/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAL3AAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAAFAAAAAvcAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAAAAAONAAAAAAAAAAA=" />
-  <string name="recentDocs" value="/home/korben/Documents/web/notes om note apps - recovered.html:::/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/agenda kanvas - recovered.html:::/home/korben/Documents/web/agenda kanvas.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM.html:::/home/korben/Documents/web/tools/atom cheatsheet.html:::/home/korben/Documents/Mar 28 2.15PM.html:::/home/korben/Documents/web/März 18 5.36PM.html:::/home/korben/Documents/web/März 18 3.20PM.html" />
+  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAGAAABP8AAAMfAAAAAAAAABgAAAT/AAADHwAAAAAAAAAABQAAAAAAAAAAGAAABP8AAAMf" />
+  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC9/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAL3AAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAAFAAAAAt8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAAAAAONAAAAAAAAAAA=" />
+  <string name="recentDocs" value="/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/notes om note apps - recovered.html:::/home/korben/Documents/web/agenda kanvas - recovered.html:::/home/korben/Documents/web/agenda kanvas.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM.html:::/home/korben/Documents/web/tools/atom cheatsheet.html:::/home/korben/Documents/Mar 28 2.15PM.html:::/home/korben/Documents/web/März 18 5.36PM.html:::/home/korben/Documents/web/März 18 3.20PM.html" />
   <string name="syncPass" value="" />
   <string name="syncServer" value="" />
   <string name="syncUser" value="" />

@@ -150,16 +150,19 @@ alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
 # or remove:
 alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached'
 
-# change and commit status:
+# stage and commit status:
 alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
 # show textual staged edits to be committed and changes in the working tree that have not yet been staged:
 alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v'
 # list all repo'd files:
 alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
 # add -d to list folders only
-# and | grep <string> to search within list
+# list all repo'd files and grep <string>
+alias cfgg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
 
+# commit
 alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
+# push
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
 ####### .cfp_bckp private dotfiles backup repo
@@ -171,6 +174,7 @@ alias cfpr='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME rm -r --ca
 alias cfps='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME status'
 alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME status -v -v'
 alias cfpl='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
+alias cfpg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
 
 alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a'
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
@@ -190,10 +194,12 @@ alias xme='xmodmap -e'
 alias xmpm='xmodmap -pm'
 alias xmpke='xmodmap -pke'
 alias xmg='xmodmap -pke | grep'
+alias xmo='xmodmap ~/.Xmodmap'
+alias xmohp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
 
 alias sxku='setxkbmap -layout us'
 alias sxkd='setxkbmap -layout dk'
 
-alias xmo='xmodmap ~/.Xmodmap'
+alias xv='xev | sed -ne '/^KeyPress/,/^$/p'' # from https://web.archive.org/web/20170825051821/http://madduck.net:80/docs/extending-xkb/
 
 #-------------------------------------------------------------

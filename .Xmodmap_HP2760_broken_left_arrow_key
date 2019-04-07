@@ -11,7 +11,7 @@ clear Mod5
 
 ! make Caps_Lock Control
 ! keycode 66 = Control_R
-! keycode 105 = Left NoSymbol Left
+keycode 105 = Left NoSymbol Left
 
 ! make Caps_Lock delete
 keycode 66 = Delete
@@ -28,7 +28,7 @@ keycode 95 = NoSymbol NoSymbol NoSymbol NoSymbol
 keycode 96 = F11
 
 ! make Alt_R Alt_Gr
-! keycode 108 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+keycode 108 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
 
 ! swap left super and alt for better i3 ergonomics
 keycode 64 = Super_L
