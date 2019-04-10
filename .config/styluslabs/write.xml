@@ -5,7 +5,6 @@
   <int name="drawCursor" value="1" />
   <int name="growRight" value="1" />
   <int name="insEmptySpace" value="1" />
-  <int name="mouseMode" value="0" />
   <int name="pageColor" value="-723724" />
   <int name="penButtonMode" value="20" />
   <int name="penType" value="11" />
@@ -13,7 +12,6 @@
   <int name="showAdvPrefs" value="1" />
   <int name="singleFile" value="1" />
   <int name="singleTouchMode" value="1" />
-  <int name="strokeCounter" value="35" />
   <int name="thumbnailSize" value="100" />
   <int name="touchUI" value="1" />
   <int name="viewMode" value="0" />
@@ -23,7 +21,7 @@
   <float name="preScale" value="0.833333" />
   <string name="backupFilename" value="" />
   <string name="clippingDoc" value="/home/korben/.config/styluslabs/saved/clippings.html" />
-  <string name="currFolder" value="/home/korben/Documents/web" />
+  <string name="currFolder" value="/home/korben/Documents/web/lydiadatter/grid" />
   <string name="docTags" value="" />
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
@@ -36,7 +34,7 @@
   <string name="syncUser" value="" />
   <string name="toolBars" value="docTitle,actionSave,stretch,actionDraw,actionCustom_Pen,actionFree_Eraser,actionRuled_Eraser,actionStroke_Eraser,penColor,penWidth,actionLasso_Select,actionRuled_Select,actionRect_Select,actionSelection_Menu,actionRuled_Insert_Space,actionInsert_Space_Vert,undoRedoBtn,actionRedo,actionShow_Clippings,actionShow_Bookmarks,actionPage_Setup,actionPreferences,actionOverflow_Menu" />
   <string name="toolModes" value="14 20 27" />
-  <pen color="4278190080" width="2" pressure="4" drawunder="false" snaptogrid="false" />
+  <pen color="4278190080" width="25" pressure="4" drawunder="false" snaptogrid="false" />
   <pen color="4278190080" width="9" pressure="4" drawunder="false" snaptogrid="false" />
   <pen color="4278190080" width="4.5" pressure="4" drawunder="false" snaptogrid="false" />
   <pen color="4286545791" width="2" pressure="1" drawunder="false" snaptogrid="true" />
