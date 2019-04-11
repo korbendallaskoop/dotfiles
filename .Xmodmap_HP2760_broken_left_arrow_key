@@ -9,15 +9,19 @@ clear Mod3
 clear Mod4
 clear Mod5
 
-! make Caps_Lock Control
-! keycode 66 = Control_R
-keycode 105 = Left NoSymbol Left
+! make Caps_Lock backspace
+keycode 66 = BackSpace
 
-! make Caps_Lock delete
-keycode 66 = Delete
+! make backspace delete
+keycode 22 = Delete
 
-! Move keysym Caps_Lock to keycode Num_Lock
-keycode 77 = Caps_Lock
+! make Control_R left
+keycode 105 = Left
+
+! make Shift_R Control
+! remove shift = Shift_R
+add control = Shift_R
+keycode 62 = Control_R
 
 ! swap insert and print keys, turn of insert
 keycode 107 = NoSymbol NoSymbol NoSymbol NoSymbol

@@ -75,6 +75,9 @@ alias nb='newsboat'
 #============================================================
 #  Land of Vagrantus
 
+export vagrant="/home/korben/bins/./vagrant"
+alias vagrant="${vagrant}"
+
 alias vgi='vagrant init'
 
 alias vgr='vagrant reload' # restarts vagrant machine, loads new Vagrantfile configuration

@@ -18,9 +18,6 @@ add mod1    = Alt_L
 add mod4    = Super_L Super_R
 !add mod5    = ISO_Level3_Shift Mode_switch
 
-! make Caps_Lock Control
-! keycode 66 = Control_R
-
 ! make Caps_Lock backspace
 keycode 66 = BackSpace
 
@@ -33,7 +30,7 @@ add control = Shift_R
 keycode 62 = Control_R
 
 ! add a Menu key to Control_R on Ajazz AK33
-keycode 105 = Menu
+! keycode 105 = Menu
 
 ! Move keysym Caps_Lock to keycode Num_Lock
 keycode 77 = Caps_Lock
