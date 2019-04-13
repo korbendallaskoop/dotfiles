@@ -1,3 +1,6 @@
+! https://unix.stackexchange.com/questions/348056/how-to-remap-keys-using-xkb-symbols-us-file-in-ubuntu#348057
+! https://askubuntu.com/questions/24916/how-do-i-remap-certain-keys-or-devices/24930#24930
+
 ! variations on the 'us' layout
 
 clear Shift
@@ -24,13 +27,14 @@ keycode 66 = BackSpace
 ! make backspace delete
 keycode 22 = Delete
 
-! make Shift_R Control
-! remove shift = Shift_R
-add control = Shift_R
-keycode 62 = Control_R
+!!! Ajazz AK33
+! add control = Shift_R
+! keycode 62 = Control_R
 
-! add a Menu key to Control_R on Ajazz AK33
+! add a Menu key to Control_R on
 ! keycode 105 = Menu
+
+!!!!!
 
 ! Move keysym Caps_Lock to keycode Num_Lock
 keycode 77 = Caps_Lock

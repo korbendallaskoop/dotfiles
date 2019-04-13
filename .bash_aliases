@@ -185,24 +185,24 @@ alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
 alias gic='micro .config/i3/config'
 
 #-------------------------------------------------------------
-# left arrow, key 113, is broken
-# remapping its neighbour right control
-# keycode 113 = Left
-# keycode 105 = Control_R
-#
-# https://unix.stackexchange.com/questions/348056/how-to-remap-keys-using-xkb-symbols-us-file-in-ubuntu#348057
-# https://askubuntu.com/questions/24916/how-do-i-remap-certain-keys-or-devices/24930#24930
+
+alias xv='xev | sed -ne '/^KeyPress/,/^$/p'' # from https://web.archive.org/web/20170825051821/http://madduck.net:80/docs/extending-xkb/
 
 alias xme='xmodmap -e'
 alias xmpm='xmodmap -pm'
 alias xmpke='xmodmap -pke'
 alias xmg='xmodmap -pke | grep'
+
 alias xmo='xmodmap ~/.Xmodmap'
 alias xmohp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
 
 alias sxku='setxkbmap -layout us'
 alias sxkd='setxkbmap -layout dk'
 
-alias xv='xev | sed -ne '/^KeyPress/,/^$/p'' # from https://web.archive.org/web/20170825051821/http://madduck.net:80/docs/extending-xkb/
 
 #-------------------------------------------------------------
+
+alias ipa='ip addr'
+alias ipg='ip addr | grep'
+alias ilsd='sudo ip link set dev'
+#alias ipa='ip addr'
