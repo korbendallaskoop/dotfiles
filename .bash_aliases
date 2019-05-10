@@ -72,6 +72,16 @@ alias sara='sudo apt autoremove'
 alias bm='bashmount'
 alias nb='newsboat'
 
+# when dualing a VGA display to the laptop
+# can't get left < > right window movement to work both ways, 'above' and switching with up/down instead works fine
+alias i3duo='xrandr --output VGA1 --primary --above LVDS1 --auto'
+
+#alias i3duo='xrandr --output LVDS1 --primary --auto'
+#alias i3duol='xrandr --output LVDS1 --primary --auto --right-of VGA1'
+#alias i3duor='xrandr --output LVDS1 --primary --auto --left-of VGA1'
+
+alias i3solo='xrandr --output LVDS1 --primary --auto --output VGA1 --off'
+
 #============================================================
 #  Land of Vagrantus
 
@@ -98,19 +108,23 @@ alias vg='vagrant'
 
 alias dk='docker'
 alias dks='docker start'
+alias dkst='docker stop'
 alias dkr='docker run'
 
 alias dkim='docker image ls'
+alias dkrmi='docker rmi'
 
 ## List containers (running, all, all in quiet mode)
 alias dkc='docker container ls'
 alias dkca='docker container ls --all'
+alias dkp='docker ps'
+
+alias dkcrm='docker rm'
 
 alias dkcu='docker-compose up'
 alias dkcd='docker-compose down'
 alias dkce='docker-compose exec'
 
-alias dkp='docker ps'
 
 #-------------------------------------------------------------
 # redshift color temperature
@@ -198,7 +212,6 @@ alias xmohp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
 
 alias sxku='setxkbmap -layout us'
 alias sxkd='setxkbmap -layout dk'
-
 
 #-------------------------------------------------------------
 

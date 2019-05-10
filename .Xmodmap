@@ -12,7 +12,7 @@ clear Mod3
 clear Mod4
 clear Mod5
 
-add shift   = Shift_L Shift_R
+!add shift   = Shift_L Shift_R
 add lock    = Caps_Lock
 add control = Control_L Control_R
 add mod1    = Alt_L
@@ -28,11 +28,11 @@ keycode 66 = BackSpace
 keycode 22 = Delete
 
 !!! Ajazz AK33
-! add control = Shift_R
-! keycode 62 = Control_R
+add control = Shift_R
+keycode 62 = Control_R
 
 ! add a Menu key to Control_R on
-! keycode 105 = Menu
+keycode 105 = Menu
 
 !!!!!
 
