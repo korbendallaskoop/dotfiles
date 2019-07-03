@@ -1,9 +1,9 @@
 [Default Applications]
-text/html=google-chrome-beta.desktop
-x-scheme-handler/http=google-chrome-beta.desktop
-x-scheme-handler/https=google-chrome-beta.desktop
-x-scheme-handler/about=google-chrome-beta.desktop
-x-scheme-handler/unknown=google-chrome-beta.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
 x-scheme-handler/mailto=google-chrome-beta.desktop
 
 [Added Associations]
@@ -15,7 +15,7 @@ video/x-msvideo=org.gnome.Totem.desktop;
 video/mp2t=org.gnome.Totem.desktop;vlc.desktop;io.github.GnomeMpv.desktop;
 audio/x-wav=io.github.GnomeMpv.desktop;
 audio/mpeg=vlc.desktop;mpv.desktop;
-video/mp4=vlc.desktop;org.gnome.Totem.desktop;
+video/mp4=io.github.GnomeMpv.desktop;org.gnome.Totem.desktop;vlc.desktop;
 text/html=geany.desktop;firefox.desktop;
 video/quicktime=vlc.desktop;
 video/mpeg=vlc.desktop;
@@ -30,3 +30,4 @@ application/vnd.flatpak.ref=nautilus-autorun-software.desktop;
 application/x-raw-disk-image=gnome-disk-image-mounter.desktop;
 application/x-java-archive=org.gnome.FileRoller.desktop;
 image/png=eog.desktop;
+audio/ac3=vlc.desktop;
