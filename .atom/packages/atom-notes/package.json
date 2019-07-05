@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/atom-notes/versions/1.19.9/tarball",
-  "_id": "atom-notes@1.19.9",
+  "_from": "https://www.atom.io/api/packages/atom-notes/versions/1.20.0/tarball",
+  "_id": "atom-notes@1.20.0",
   "_inBundle": false,
-  "_integrity": "sha512-jeYu5Lztw/AFnr22iGPY1LKwwrD6nkhe3OwsG6UF0WAtS07W0eEC7ZHuqbHw4hXtjMc3aGpSSaRrMEm+MhaRyw==",
+  "_integrity": "sha512-WsXwq578Hqkmzg9lkLKk/Jk2CSj8JtZfr5AViq1CTNPhT4uSf9lIF5nJ1HxzM7dJ/Pr0kiVlGxZKNCbCfKwKsQ==",
   "_location": "/atom-notes",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/atom-notes/versions/1.19.9/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/atom-notes/versions/1.19.9/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/atom-notes/versions/1.19.9/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/atom-notes/versions/1.19.9/tarball"
+    "raw": "https://www.atom.io/api/packages/atom-notes/versions/1.20.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-notes/versions/1.20.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-notes/versions/1.20.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-notes/versions/1.20.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/atom-notes/versions/1.19.9/tarball",
-  "_shasum": "1a93c76cc0c71558a07c21b3683419a7c8173583",
-  "_spec": "https://www.atom.io/api/packages/atom-notes/versions/1.19.9/tarball",
-  "_where": "/tmp/apm-install-dir-119226-4213-e6x0f2.a645k",
+  "_resolved": "https://www.atom.io/api/packages/atom-notes/versions/1.20.0/tarball",
+  "_shasum": "b1c8817a858b200e06cafea19f454d09f49f2ae5",
+  "_spec": "https://www.atom.io/api/packages/atom-notes/versions/1.20.0/tarball",
+  "_where": "/tmp/apm-install-dir-11965-30280-10nk63h.6fe1",
   "bugs": {
     "url": "https://github.com/lexicalunit/atom-notes/issues"
   },
@@ -45,9 +45,9 @@
   "dependencies": {
     "elasticlunr": "^0.9.5",
     "etch": "^0.14.0",
-    "fs-plus": "^3.0.2",
+    "fs-plus": "^3.1.1",
     "fuzzaldrin-plus": "^0.6.0",
-    "gray-matter": "^4.0.1",
+    "gray-matter": "^4.0.2",
     "timsort": "^0.3.0"
   },
   "deprecated": false,
@@ -56,14 +56,14 @@
     "SearchIndex": "deserializeSearchIndex"
   },
   "devDependencies": {
-    "all-contributors-cli": "^5.4.1",
-    "eslint": "^5.9.0",
-    "eslint-config-standard": "^12.0.0-alpha.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "all-contributors-cli": "^6.7.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
-    "temp": "^0.8.3"
+    "temp": "^0.9.0"
   },
   "engines": {
     "atom": ">=1.24.0 <2.0.0"
@@ -91,5 +91,5 @@
     "method": "handleURI",
     "deferActivation": false
   },
-  "version": "1.19.9"
+  "version": "1.20.0"
 }
