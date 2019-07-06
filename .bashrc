@@ -45,6 +45,7 @@ alias ln='ln -i'
 
 alias rm='rm -ir'  # confirm each file or folder deletion
 alias rmf='rm -rf' # fearless rm
+alias rmall='rm -rf *' # wipe em all
 
 alias mkd='mkdir -p' # no error if existing, make parent directories as needed
 

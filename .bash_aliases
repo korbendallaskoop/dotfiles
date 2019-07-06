@@ -219,3 +219,37 @@ alias ipa='ip addr'
 alias ipg='ip addr | grep'
 alias ilsd='sudo ip link set dev'
 #alias ipa='ip addr'
+
+#-------------------------------------------------------------
+# youtube-dl https://github.com/ytdl-org/youtube-dl
+
+# music
+alias ytm='youtube-dl --download-archive archive.txt -x -i --audio-format "mp3" --audio-quality 192K -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+
+# speak
+alias yts='youtube-dl --download-archive archive.txt -x -i --audio-format "mp3" --audio-quality 96K -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+
+# video
+alias ytv='youtube-dl --download-archive archive.txt -i -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+# 720p, 128k AAC or 480p if no 720p source
+alias yt720='youtube-dl --download-archive archive.txt -i -f 136+140/135+140 -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+# 480p, 128k AAC
+alias yt480='youtube-dl --download-archive archive.txt -i -f 135+140 -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+# for unlisted/private playlists add -u user@name
+
+# vimeo
+alias vim720='youtube-dl -f http-720p -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+alias vim1080='youtube-dl -f http-1080p -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+
+# --mark-watched                   Mark videos watched (YouTube only)
+# --no-mark-watched                Do not mark videos watched (YouTube only)
+# --yes-playlist                   Download the playlist, if the URL refers to
+
+# yt format codes
+# 18 = 360p, 96k, mp4
+# 22 = 720p, 192k, mp4
+
+# 135 = 480p, 1107k, 25fps, video only
+# 136 = 720p, 2213k, 25fps, video only
+# 140 = 128k audio
+# 251 = 160k audio (opus)

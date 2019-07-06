@@ -1,3 +1,25 @@
-2019/07/05-15:05:32.852 29533 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2019/07/05-15:05:32.853 29533 Recovering log #5774
-2019/07/05-15:05:33.017 29533 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/005774.log 
+2019/07/05-22:40:18.806 27281 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/07/05-22:40:18.809 27281 Recovering log #6135
+2019/07/05-22:40:19.015 27281 Level-0 table #6138: started
+2019/07/05-22:40:19.139 27281 Level-0 table #6138: 941554 bytes OK
+2019/07/05-22:40:19.181 27281 Delete type=0 #6135
+2019/07/05-22:42:40.477 27940 Level-0 table #6141: started
+2019/07/05-22:42:40.716 27940 Level-0 table #6141: 908662 bytes OK
+2019/07/05-22:42:40.877 27940 Delete type=0 #6139
+2019/07/05-22:42:51.409 27940 Level-0 table #6143: started
+2019/07/05-22:42:51.572 27940 Level-0 table #6143: 903764 bytes OK
+2019/07/05-22:42:51.698 27940 Delete type=0 #6140
+2019/07/05-22:42:51.700 27940 Compacting 4@0 + 2@1 files
+2019/07/05-22:42:52.440 27940 Generated table #6144@0: 16 keys, 2161042 bytes
+2019/07/05-22:42:52.974 27940 Generated table #6145@0: 212 keys, 163110 bytes
+2019/07/05-22:42:52.974 27940 Compacted 4@0 + 2@1 files => 2324152 bytes
+2019/07/05-22:42:53.051 27940 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/07/05-22:42:53.052 27940 Delete type=2 #6141
+2019/07/05-22:42:53.052 27940 Delete type=2 #6138
+2019/07/05-22:42:53.052 27940 Delete type=2 #6136
+2019/07/05-22:42:53.053 27940 Delete type=2 #6133
+2019/07/05-22:42:53.053 27940 Delete type=2 #6134
+2019/07/05-22:42:53.053 27940 Delete type=2 #6143
+2019/07/05-22:43:07.890 27940 Level-0 table #6147: started
+2019/07/05-22:43:08.064 27940 Level-0 table #6147: 941361 bytes OK
+2019/07/05-22:43:08.183 27940 Delete type=0 #6142

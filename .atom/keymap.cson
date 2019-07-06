@@ -68,11 +68,9 @@
 # Wiki: https://github.com/zhuochun/md-writer/wiki/Settings-for-Keymaps
 # https://github.com/zhuochun/md-writer/blob/master/package.json#L21
 
-
-  'shift-ctrl-h': 'atom-notes:toggle-preview' #search box, and automatically open Markdown files in preview.
-  'shift-ctrl-j': 'atom-notes:toggle'  # just show a note
-  'shift-ctrl-k': 'atom-notes:interlink' # Jumps to referred note when the cursor is on an [[interlink]].
-
+  'shift-ctrl-j': 'atom-notes:toggle-preview' #search box, and automatically open Markdown files in preview.
+  'shift-ctrl-k': 'atom-notes:toggle'  # just show a note
+  'shift-ctrl-l': 'atom-notes:interlink' # Jumps to referred note when the cursor is on an [[interlink]].
 
 'atom-text-editor':
   'ctrl-shift-M': 'markdown-preview:toggle'
