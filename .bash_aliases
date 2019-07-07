@@ -178,7 +178,7 @@ alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -t
 alias cfgg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
 
 # commit
-alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
+alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m'
 # push
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
@@ -230,12 +230,12 @@ alias ytm='youtube-dl --download-archive archive.txt -x -i --audio-format "mp3" 
 alias yts='youtube-dl --download-archive archive.txt -x -i --audio-format "mp3" --audio-quality 96K -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
 
 # video
-alias ytv='youtube-dl --download-archive archive.txt -i -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
-# 720p, 128k AAC or 480p if no 720p source
-alias yt720='youtube-dl --download-archive archive.txt -i -f 136+140/135+140 -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
-# 480p, 128k AAC
-alias yt480='youtube-dl --download-archive archive.txt -i -f 135+140 -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
-# for unlisted/private playlists add -u user@name
+alias ytv='youtube-dl --download-archive archive.txt -i -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata --all-subs --sub-format srt'
+# 720p, 128k AAC mp4 or 480p or 360p if no 720p source
+alias yt720='youtube-dl --download-archive archive.txt -i -f 136+140/135+140/18+140 -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+# 480p, 128k AAC mp4
+alias yt480='youtube-dl --download-archive archive.txt -i -f 135+140/18+140 -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+# for private playlists add -u user@name
 
 # vimeo
 alias vim720='youtube-dl -f http-720p -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'

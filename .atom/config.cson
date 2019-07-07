@@ -1,26 +1,8 @@
 "*":
-  "atom-notes":
-    directory: "/home/korben/webo(5GB.nxtcld)/Notes/atom-notes-for-all/"
-    orderByFuzzyFileNameMatch: true
   core:
-    audioBeep: false
-    disabledPackages: [
-      "linter"
-      "linter-jscs"
-      "linter-jshint"
-      "linter-ui-default"
-    ]
     telemetryConsent: "limited"
-  editor:
-    fontSize: 18
   "exception-reporting":
-    userId: "c776470a-0735-4da2-a3ef-df4478b2e8f0"
-  "linter-ui-default":
-    showPanel: true
-  "markdown-image-assistant":
-    insertHtmlOverMarkdown: true
-  "markdown-image-paste":
-    use_subfolder: true
+    userId: "07288911-de51-4e09-a07a-b37372185b52"
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -31,13 +13,6 @@
       "text.plain.null-grammar"
       "source.gfm.notes"
     ]
-  "markdown-writer":
-    relativeImagePath: true
-    renameImageOnCopy: true
-  "one-dark-ui":
-    fontSize: 14
-    tabSizing: "Maximum"
-  preview: {}
   "spell-check":
     grammars: [
       "source.asciidoc"
@@ -49,7 +24,3 @@
       "text.restructuredtext"
       "source.gfm.notes"
     ]
-  "tool-bar":
-    visible: false
-  welcome:
-    showOnStartup: false

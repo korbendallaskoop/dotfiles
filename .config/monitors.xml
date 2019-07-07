@@ -1,8 +1,26 @@
 <monitors version="2">
   <configuration>
     <logicalmonitor>
+      <x>90</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>VGA1</connector>
+          <vendor>unknown</vendor>
+          <product>unknown</product>
+          <serial>unknown</serial>
+        </monitorspec>
+        <mode>
+          <width>1024</width>
+          <height>768</height>
+          <rate>60.003841400146484</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
       <x>0</x>
-      <y>1024</y>
+      <y>768</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
@@ -14,26 +32,8 @@
         </monitorspec>
         <mode>
           <width>1280</width>
-          <height>720</height>
-          <rate>59.744712829589844</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>VGA1</connector>
-          <vendor>MED</vendor>
-          <product>MD30219PH</product>
-          <serial>505008333</serial>
-        </monitorspec>
-        <mode>
-          <width>1280</width>
-          <height>1024</height>
-          <rate>75.024673461914062</rate>
+          <height>800</height>
+          <rate>59.976009368896484</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -80,7 +80,7 @@
   <configuration>
     <logicalmonitor>
       <x>0</x>
-      <y>124</y>
+      <y>1024</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
@@ -92,13 +92,33 @@
         </monitorspec>
         <mode>
           <width>1280</width>
-          <height>800</height>
-          <rate>59.976009368896484</rate>
+          <height>720</height>
+          <rate>59.744712829589844</rate>
         </mode>
       </monitor>
     </logicalmonitor>
     <logicalmonitor>
-      <x>1280</x>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>VGA1</connector>
+          <vendor>MED</vendor>
+          <product>MD30219PH</product>
+          <serial>505008333</serial>
+        </monitorspec>
+        <mode>
+          <width>1280</width>
+          <height>1024</height>
+          <rate>75.024673461914062</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
       <y>0</y>
       <scale>1</scale>
       <monitor>
@@ -115,29 +135,9 @@
         </mode>
       </monitor>
     </logicalmonitor>
-  </configuration>
-  <configuration>
     <logicalmonitor>
-      <x>90</x>
-      <y>0</y>
-      <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>VGA1</connector>
-          <vendor>unknown</vendor>
-          <product>unknown</product>
-          <serial>unknown</serial>
-        </monitorspec>
-        <mode>
-          <width>1024</width>
-          <height>768</height>
-          <rate>60.003841400146484</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>768</y>
+      <x>1280</x>
+      <y>150</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
