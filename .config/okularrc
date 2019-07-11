@@ -4,11 +4,12 @@ shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
-Height 1024=480
-Height 800=776
-State=AAAA/wAAAAD9AAAAAAAABQAAAAGeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1024=996
+Height 800=747
+State=AAAA/wAAAAD9AAAAAAAABQAAAALCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=1280
+Window-Maximized 1024x1280=true
 Window-Maximized 800x1280=true
 
 [Notification Messages]
@@ -16,10 +17,22 @@ presentationInfo=false
 
 [Recent Files]
 File1[$e]=$HOME/Documents/exercise/front-end-handbook-2018/learning.md
+File10[$e]=$HOME/Zotero/storage/KVZAJKX4/Media - Modern JavaScript
 File2[$e]=$HOME/Documents/exercise/front-end-handbook-2018/README.md
 File3[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/docker_notes.md
 File4[$e]=$HOME/README.md
+File5[$e]=$HOME/Documents/tst1 _ Diigo.pdf
+File6[$e]=$HOME/Zotero/storage/G3CJ5MLN/Spraul - 2012 - Think like a programmer an introduction to creati
+File7[$e]=$HOME/Documents/freeciv/note.md
+File8[$e]=$HOME/Documents/freeciv/Ram Usb Firewire Bluetooth Operation Desertstorm.md
+File9[$e]=$HOME/Zotero/storage/L92ZJQF7/Ram Usb Firewire Bluetooth Operation Desertstorm.md
 Name1[$e]=learning.md
+Name10[$e]=Media - Modern JavaScript
 Name2[$e]=README.md
 Name3[$e]=docker_notes.md
 Name4[$e]=README.md
+Name5[$e]=tst1 _ Diigo.pdf
+Name6[$e]=Spraul - 2012 - Think like a programmer an introduction to creati
+Name7[$e]=note.md
+Name8[$e]=Ram Usb Firewire Bluetooth Operation Desertstorm.md
+Name9[$e]=Ram Usb Firewire Bluetooth Operation Desertstorm.md

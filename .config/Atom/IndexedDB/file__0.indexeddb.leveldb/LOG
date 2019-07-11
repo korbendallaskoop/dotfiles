@@ -1,26 +1,17 @@
-2019/07/07-18:40:01.202 6930 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2019/07/07-18:40:01.204 6930 Recovering log #6157
-2019/07/07-18:40:01.277 6930 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/006157.log 
-2019/07/07-18:40:37.616 25077 Level-0 table #6161: started
-2019/07/07-18:40:37.717 25077 Level-0 table #6161: 617158 bytes OK
-2019/07/07-18:40:37.801 25077 Delete type=0 #6157
-2019/07/07-20:18:19.882 25077 Level-0 table #6163: started
-2019/07/07-20:18:19.984 25077 Level-0 table #6163: 614042 bytes OK
-2019/07/07-20:18:20.051 25077 Delete type=0 #6160
-2019/07/07-20:18:40.214 25077 Level-0 table #6165: started
-2019/07/07-20:18:40.336 25077 Level-0 table #6165: 615902 bytes OK
-2019/07/07-20:18:40.370 25077 Delete type=0 #6162
-2019/07/07-20:18:40.371 25077 Compacting 4@0 + 2@1 files
-2019/07/07-20:18:40.553 25077 Generated table #6166@0: 18 keys, 2211689 bytes
-2019/07/07-20:18:40.595 25077 Generated table #6167@0: 72 keys, 4776 bytes
-2019/07/07-20:18:40.595 25077 Compacted 4@0 + 2@1 files => 2216465 bytes
-2019/07/07-20:18:40.637 25077 compacted to: files[ 0 2 1 0 0 0 0 ]
-2019/07/07-20:18:40.637 25077 Delete type=2 #6163
-2019/07/07-20:18:40.637 25077 Delete type=2 #6158
-2019/07/07-20:18:40.638 25077 Delete type=2 #6161
-2019/07/07-20:18:40.638 25077 Delete type=2 #6156
-2019/07/07-20:18:40.650 25077 Delete type=2 #6155
-2019/07/07-20:18:40.650 25077 Delete type=2 #6165
-2019/07/07-20:19:13.012 25077 Level-0 table #6169: started
-2019/07/07-20:19:13.129 25077 Level-0 table #6169: 616088 bytes OK
-2019/07/07-20:19:13.163 25077 Delete type=0 #6164
+2019/07/09-00:08:12.024 27117 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/07/09-00:08:12.025 27117 Recovering log #6268
+2019/07/09-00:08:12.028 27117 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/006268.log 
+2019/07/09-00:08:28.441 12231 Level-0 table #6272: started
+2019/07/09-00:08:28.689 12231 Level-0 table #6272: 616736 bytes OK
+2019/07/09-00:08:28.774 12231 Delete type=0 #6268
+2019/07/09-00:08:28.775 12231 Compacting 4@0 + 2@1 files
+2019/07/09-00:08:28.982 12231 Generated table #6273@0: 17 keys, 2181106 bytes
+2019/07/09-00:08:29.066 12231 Generated table #6274@0: 81 keys, 158425 bytes
+2019/07/09-00:08:29.066 12231 Compacted 4@0 + 2@1 files => 2339531 bytes
+2019/07/09-00:08:29.149 12231 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/07/09-00:08:29.149 12231 Delete type=2 #6269
+2019/07/09-00:08:29.149 12231 Delete type=2 #6265
+2019/07/09-00:08:29.150 12231 Delete type=2 #6267
+2019/07/09-00:08:29.150 12231 Delete type=2 #6263
+2019/07/09-00:08:29.150 12231 Delete type=2 #6272
+2019/07/09-00:08:29.150 12231 Delete type=2 #6262

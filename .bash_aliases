@@ -193,7 +193,7 @@ alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME status -v
 alias cfpl='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
 alias cfpg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
 
-alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a'
+alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a -m'
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
 
 alias gic='micro .config/i3/config'
@@ -224,12 +224,15 @@ alias ilsd='sudo ip link set dev'
 # youtube-dl https://github.com/ytdl-org/youtube-dl
 
 # music
-alias ytm='youtube-dl --download-archive archive.txt -x -i --audio-format "mp3" --audio-quality 192K -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
+alias ytm='youtube-dl --download-archive archive.txt -x -i --audio-format "mp3" --audio-quality 192K -o "%(title)s.%(ext)s" --embed-thumbnail --add-metadata'
 
 # speak
 alias yts='youtube-dl --download-archive archive.txt -x -i --audio-format "mp3" --audio-quality 96K -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
 
 # video
+alias ytf='youtube-dl -F'
+alias ytsb='youtube-dl --list-subs'
+
 alias ytv='youtube-dl --download-archive archive.txt -i -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata --all-subs --sub-format srt'
 # 720p, 128k AAC mp4 or 480p or 360p if no 720p source
 alias yt720='youtube-dl --download-archive archive.txt -i -f 136+140/135+140/18+140 -o "%(uploader)s - %(title)s.%(ext)s" --embed-thumbnail --add-metadata'
