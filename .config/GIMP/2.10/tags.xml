@@ -155,12 +155,12 @@
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Texture/Texture-01.gbr" checksum="6c41a55e3cfaf5dc03988f05be6106f8">
-    <tag>Media</tag>
-    <tag>Fun</tag>
-    <tag>Legacy</tag>
-    <tag>Basic</tag>
-    <tag>Sketch</tag>
     <tag>Splatters</tag>
+    <tag>Sketch</tag>
+    <tag>Basic</tag>
+    <tag>Legacy</tag>
+    <tag>Fun</tag>
+    <tag>Media</tag>
   </resource>
 
   <resource identifier="${gimp_data_dir}/brushes/Texture/Texture-02.gbr" checksum="a2459f434c81d8eefeb063c005db9d80">
@@ -1306,6 +1306,9 @@
   <resource identifier="${gimp_data_dir}/palettes/Web.gpl" checksum="f02e8dfa23d01d6acfbab7f895c2dd16">
   </resource>
 
+  <resource identifier="Apurado Royitto St" checksum="(null)">
+  </resource>
+
   <resource identifier="Clear Sans" checksum="(null)">
   </resource>
 
@@ -1439,6 +1442,9 @@
   </resource>
 
   <resource identifier="Garuda Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="GE Inspira" checksum="(null)">
   </resource>
 
   <resource identifier="Hack" checksum="(null)">
@@ -1748,6 +1754,81 @@
   </resource>
 
   <resource identifier="Noto Sans Devanagari Ultra-Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Heavy Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Heavy Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Light Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Medium Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Semi-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Thin Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Ultra-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Ultra-Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans Ethiopic Ultra-Light Semi-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Gothic" checksum="(null)">
@@ -2645,6 +2726,9 @@
   </resource>
 
   <resource identifier="Sawasdee Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="SBC Anasazi" checksum="(null)">
   </resource>
 
   <resource identifier="Serif" checksum="(null)">

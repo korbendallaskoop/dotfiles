@@ -1,9 +1,9 @@
 [Default Applications]
-text/html=google-chrome.desktop
-x-scheme-handler/http=google-chrome.desktop
-x-scheme-handler/https=google-chrome.desktop
-x-scheme-handler/about=google-chrome.desktop
-x-scheme-handler/unknown=google-chrome.desktop
+text/html=brave-browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
 x-scheme-handler/mailto=google-chrome-beta.desktop
 application/x-mswinurl=google-chrome.desktop
 
@@ -33,3 +33,5 @@ application/x-java-archive=org.gnome.FileRoller.desktop;
 image/png=eog.desktop;
 audio/ac3=vlc.desktop;
 application/x-mswinurl=google-chrome.desktop;
+text/markdown=ghostwriter.desktop;
+image/svg+xml=org.kde.kolourpaint.desktop;gimp.desktop;pinta.desktop;

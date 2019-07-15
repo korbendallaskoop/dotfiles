@@ -5,34 +5,31 @@ shouldShowToolBarComingFromFullScreen=true
 
 [MainWindow]
 Height 1024=996
-Height 800=747
+Height 800=772
 State=AAAA/wAAAAD9AAAAAAAABQAAAALCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1280=1280
 Window-Maximized 1024x1280=true
-Window-Maximized 800x1280=true
 
 [Notification Messages]
 presentationInfo=false
 
 [Recent Files]
-File1[$e]=$HOME/Documents/exercise/front-end-handbook-2018/learning.md
-File10[$e]=$HOME/Zotero/storage/KVZAJKX4/Media - Modern JavaScript
-File2[$e]=$HOME/Documents/exercise/front-end-handbook-2018/README.md
-File3[$e]=$HOME/webo(5GB.nxtcld)/Notes/atom-notes-for-all/docker_notes.md
-File4[$e]=$HOME/README.md
-File5[$e]=$HOME/Documents/tst1 _ Diigo.pdf
-File6[$e]=$HOME/Zotero/storage/G3CJ5MLN/Spraul - 2012 - Think like a programmer an introduction to creati
-File7[$e]=$HOME/Documents/freeciv/note.md
-File8[$e]=$HOME/Documents/freeciv/Ram Usb Firewire Bluetooth Operation Desertstorm.md
-File9[$e]=$HOME/Zotero/storage/L92ZJQF7/Ram Usb Firewire Bluetooth Operation Desertstorm.md
-Name1[$e]=learning.md
-Name10[$e]=Media - Modern JavaScript
-Name2[$e]=README.md
-Name3[$e]=docker_notes.md
-Name4[$e]=README.md
-Name5[$e]=tst1 _ Diigo.pdf
-Name6[$e]=Spraul - 2012 - Think like a programmer an introduction to creati
-Name7[$e]=note.md
-Name8[$e]=Ram Usb Firewire Bluetooth Operation Desertstorm.md
-Name9[$e]=Ram Usb Firewire Bluetooth Operation Desertstorm.md
+File1[$e]=$HOME/Zotero/storage/KVZAJKX4/Media - Modern JavaScript
+File2[$e]=$HOME/Zotero/storage/HAHGNNT4/tst1 _ Diigo.pdf
+File3[$e]=$HOME/webo(5GB.nxtcld)/Notes/qownnotes/attachments/830502555.pdf
+File4[$e]=$HOME/webo(5GB.nxtcld)/d48c70914f164ea9a303e342ffb14116.md
+File5[$e]=$HOME/webo(5GB.nxtcld)/baca41a64596463c97ed9540cc7b8e05.md
+File6[$e]=$HOME/Zotero/storage/KV2K9DBM/Alexander Hamilton - Wikipedia.md
+File7[$e]=$HOME/Zotero/storage/H6SKWXTV/Security Docker Containers vs LXC homelab 2.md
+File8[$e]=$HOME/Zotero/storage/5WCXW3KE/A history of low-level Linux container runtimes.md
+File9[$e]=$HOME/Zotero/storage/ZHDYIJ3B/Williams - 2010 - Free as in freedom (2.0)  Richard Stallman and th.epub
+Name1[$e]=Media - Modern JavaScript
+Name2[$e]=tst1 _ Diigo.pdf
+Name3[$e]=830502555.pdf
+Name4[$e]=d48c70914f164ea9a303e342ffb14116.md
+Name5[$e]=baca41a64596463c97ed9540cc7b8e05.md
+Name6[$e]=Alexander Hamilton - Wikipedia.md
+Name7[$e]=Security Docker Containers vs LXC homelab 2.md
+Name8[$e]=A history of low-level Linux container runtimes.md
+Name9[$e]=Williams - 2010 - Free as in freedom (2.0)  Richard Stallman and th.epub

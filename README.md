@@ -149,6 +149,8 @@ https://opensource.com/article/19/3/move-your-dotfiles-version-control
 
 >Git is not adequately designed to serve as a backup tool.
 
+And there's a 100MB max per file limit
+
 https://help.github.com/en/articles/what-is-my-disk-quota#file-and-repository-size-limitations
 
 ### .bashrc aliases

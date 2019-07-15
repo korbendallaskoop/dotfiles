@@ -35,7 +35,7 @@ alias epr='sudo eopkg remove'
 alias eprmo='sudo eopkg remove-orphans' # (rmo) - Remove orphaned packages
 alias eps='sudo eopkg search'
 alias epinf='sudo eopkg info'
-alias epupd='sudo eopkg up' #update solar system solus
+alias upd='sudo eopkg up' #update solar system solus
 
 # checks the sha256sums of files on disk versus what was originally installed by the original .eopkg file.
 # https://getsol.us/articles/troubleshooting/general-troubleshooting/en/
@@ -191,7 +191,7 @@ alias cfpr='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME rm -r --ca
 alias cfps='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME status'
 alias cfpsv='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME status -v -v'
 alias cfpl='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
-alias cfpg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
+alias cfpg='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
 
 alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a -m'
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
@@ -256,3 +256,12 @@ alias vim1080='youtube-dl -f http-1080p -o "%(uploader)s - %(title)s.%(ext)s" --
 # 136 = 720p, 2213k, 25fps, video only
 # 140 = 128k audio
 # 251 = 160k audio (opus)
+
+#-------------------------------------------------------------
+# RAM da disk
+
+alias rmd55='sudo mount -t tmpfs -o size=5555M tmpfs ~/.ramdisk'
+alias rmd33='sudo mount -t tmpfs -o size=3456M tmpfs ~/.ramdisk'
+alias rmd0='sudo umount ~/.ramdisk'
+
+
