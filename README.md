@@ -28,7 +28,7 @@ init a git bare repo folder to track the backup files
 create an alias to use instead of the regular git to interact with repo
 
 	alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
-
+	
 hide untracked files from cfg status and other commands
 
 	cfg config --local status.showUntrackedFiles no
@@ -52,12 +52,40 @@ or a folder with -r
 
 add remote branch before first push
 
-  cfg remote add origin git@githu.com:korbendallaskoop/dotfiles
+by https
 
-	cfg push --set-upstream origin master
+	cfg remote add origin https://github.com/user/repo
 
+by SSH 
+
+	cfg remote add origin git@github.com:user/repo
+
+set upstream remote to master branch
+
+	cfg push -u origin master
+
+
+
+
+
+cfp remote add origin https://github.com/korbendallaskoop/dotfiles-private
+
+cfp remote add origin git@github.com:korbendallaskoop/dotfiles-private
+
+
+
+
+https://github.com/korbendallaskoop/dotfiles-private
+
+cfp remote add origin master
+ 
 	cfg add .anotherfile
-	cfg commit -m "on it goes"
+	cfg commit -m "revision note"
+
+
+
+
+
 
 ## rebarable
 

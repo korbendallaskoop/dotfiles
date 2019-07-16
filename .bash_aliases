@@ -144,16 +144,19 @@ alias rsx='redshift -x'    # kill
 
 #============================================================
 #  Git
-
-alias gst='git status'
+             #  [<options>] <name> <url>
+             
+alias gts='git status'
 alias grv='git remote -v'
 alias gra='git remote add'
-alias gba='git branch -a'             #  [<options>] <name> <url>
+alias gbr='git branch -a'
 alias gck='git checkout'
+alias gcm='git commit -m'
 alias gpu='git push'
-alias gpsu='git push --set-upstream'
+alias gps='git push --set-upstream'
 alias gpl='git pull'
 alias gcl='git clone'
+alias ggc='git gc'
 
 #-------------------------------------------------------------
 # setting up .cfg_bckp/ as a dotfiles backup repo
