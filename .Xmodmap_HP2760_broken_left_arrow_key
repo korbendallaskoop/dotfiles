@@ -26,6 +26,9 @@ keycode 105 = Left
 add control = Shift_R
 keycode 62 = Control_R
 
+! cleaning killed Control_L !! 
+keycode 94 = Control_R
+
 ! swap insert and print keys, turn of insert
 keycode 107 = NoSymbol NoSymbol NoSymbol NoSymbol
 keycode 118 = Print Sys_Req Print Sys_Req
@@ -45,6 +48,7 @@ keycode 133 = Alt_L
 !remove mod5 = ISO_Level3_Shift'
 keycode 108 = Alt_R
 
+! cleaning killed Shift_R
 add shift   = Shift_L Shift_R
 add lock    = Caps_Lock
 add control = Control_L Control_R

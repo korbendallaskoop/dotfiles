@@ -35,3 +35,4 @@ audio/ac3=vlc.desktop;
 application/x-mswinurl=google-chrome.desktop;
 text/markdown=ghostwriter.desktop;
 image/svg+xml=org.kde.kolourpaint.desktop;gimp.desktop;pinta.desktop;
+audio/x-mpegurl=smplayer.desktop;io.github.GnomeMpv.desktop;vlc.desktop;

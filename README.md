@@ -14,7 +14,7 @@ Method sourced from https://news.ycombinator.com/item?id=11071754 and guide blog
 
 I'm using two bare repos atm with one of them private for private dots. It's working fine and has been a good git exercise but tools like https://yadm.io are probably simpler and better for this purpose and includes features like alternate files for diff. OS and GPG encryption. Was recommended by a DistroTube viewer, others mentioned that:
 - drawback of method is no access to `diff` of dotfiles locally. Only possible after commit and push to remote
-- gitignore every file with "*" and then use git add -f <file> with each tracked file. Undo ignored file or directory in .gitignore by starting the line with a '!'. fx for .config add after '*':
+- gitignore every file with "*" and then use git add -f <file> with each tracked file. Undo ignored file or directory in .gitignore by starting the line with a '!'
 - Use GNU stow. It's like a package manager for symlinks. stow -t ~ /path/to/dotfiles and you're done - with none of that painful setup or aliases. It does smart things with folding symlinks and also makes it easy to uninstall. The killer feature for me is that you can split up your dotfiles into modules (e.g. bash, vim, etc.) and only install the dotfiles for the module you want. That's really good if you share your dotfiles on Github since people can easily pick and choose which dotfiles they want to install.﻿
 
 ## bare with me
@@ -63,28 +63,6 @@ by SSH
 set upstream remote to master branch
 
 	cfg push -u origin master
-
-
-
-
-
-cfp remote add origin https://github.com/korbendallaskoop/dotfiles-private
-
-cfp remote add origin git@github.com:korbendallaskoop/dotfiles-private
-
-
-
-
-https://github.com/korbendallaskoop/dotfiles-private
-
-cfp remote add origin master
- 
-	cfg add .anotherfile
-	cfg commit -m "revision note"
-
-
-
-
 
 
 ## rebarable

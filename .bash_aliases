@@ -211,7 +211,7 @@ alias xmpke='xmodmap -pke'
 alias xmg='xmodmap -pke | grep'
 
 alias xmo='xmodmap ~/.Xmodmap'
-alias xmohp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
+alias xmhp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
 
 alias sxku='setxkbmap -layout us'
 alias sxkd='setxkbmap -layout dk'
