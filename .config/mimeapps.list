@@ -1,11 +1,15 @@
 [Default Applications]
-text/html=brave-browser.desktop
-x-scheme-handler/http=brave-browser.desktop
-x-scheme-handler/https=brave-browser.desktop
+text/html=firefox.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
 x-scheme-handler/about=brave-browser.desktop
 x-scheme-handler/unknown=brave-browser.desktop
 x-scheme-handler/mailto=google-chrome-beta.desktop
 application/x-mswinurl=google-chrome.desktop
+text/xml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/vnd.mozilla.xul+xml=firefox.desktop
+text/mml=firefox.desktop
 
 [Added Associations]
 text/x-python=org.gnome.gedit.desktop;
@@ -36,3 +40,8 @@ application/x-mswinurl=google-chrome.desktop;
 text/markdown=ghostwriter.desktop;
 image/svg+xml=org.kde.kolourpaint.desktop;gimp.desktop;pinta.desktop;
 audio/x-mpegurl=smplayer.desktop;io.github.GnomeMpv.desktop;vlc.desktop;
+text/xml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/vnd.mozilla.xul+xml=firefox.desktop;
+text/mml=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
