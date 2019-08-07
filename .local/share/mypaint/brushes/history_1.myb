@@ -38,7 +38,7 @@
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.00043572984749455336, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "colorize": {

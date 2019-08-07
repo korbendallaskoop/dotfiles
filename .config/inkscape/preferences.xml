@@ -339,8 +339,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -358,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="691.5"
-       y="638.5"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -427,14 +427,14 @@
        offset="0"
        offsetunits="mm" />
     <group
-       offset="5"
-       scale="100"
-       precision="2"
-       fontsize="10"
-       id="measure"
-       unit="mm"
+       measure-end="288,440"
        measure-start="522,554"
-       measure-end="288,440" />
+       unit="mm"
+       id="measure"
+       fontsize="10"
+       precision="2"
+       scale="100"
+       offset="5" />
   </group>
   <group
      id="palette">

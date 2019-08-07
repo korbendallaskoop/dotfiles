@@ -334,7 +334,7 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#000000", 
+  "colors.current": "#e94063", 
   "flood_fill.tolerance": 0.25, 
   "brushmanager.selected_groups": [], 
   "input.button_mapping": {
@@ -377,10 +377,12 @@
     "Wacom Serial Penabled 2FG Touchscreen Pen eraser:eraser:6": {}, 
     "Wacom Serial Penabled 2FG Touchscreen Pen stylus:pen:6": {}, 
     "SynPS/2 Synaptics TouchPad:touchpad:4": {}, 
+    "Rapoo Rapoo Gaming Keyboard Consumer Control:mouse:4": {}, 
     "PS/2 Generic Mouse:mouse:4": {}, 
     "Wacom Serial Penabled 2FG Touchscreen Finger touch:touchscreen:6": {}, 
     "Logitech USB Optical Mouse:mouse:4": {}, 
-    "Microsoft Microsoft\u00ae Nano Transceiver v2.0 Mouse:mouse:4": {}
+    "Microsoft Microsoft\u00ae Nano Transceiver v2.0 Mouse:mouse:4": {}, 
+    "Rapoo Rapoo Gaming Keyboard Mouse:mouse:4": {}
   }, 
   "frame.color_rgba": [
     0.12, 
@@ -414,8 +416,8 @@
   "workspace.layout": {
     "fullscreen": false, 
     "left_sidebar": {
-      "h": 699, 
-      "w": 337, 
+      "h": 892, 
+      "w": 331, 
       "groups": [
         {
           "h": 465, 
@@ -436,7 +438,7 @@
               "MyPaintLayersTool"
             ]
           ], 
-          "w": 337, 
+          "w": 331, 
           "active_page": 3
         }, 
         {
@@ -446,17 +448,12 @@
       ]
     }, 
     "autohide": false, 
-    "maximized": false, 
-    "position": {
-      "y": 0, 
-      "h": 800, 
-      "w": 1280, 
-      "x": 0
-    }, 
+    "maximized": true, 
+    "position": {}, 
     "floating": [], 
     "right_sidebar": {
-      "h": 699, 
-      "w": 276, 
+      "h": 892, 
+      "w": 8, 
       "groups": [
         {
           "tools": [], 
@@ -466,21 +463,20 @@
     }
   }, 
   "colors.history": [
-    "#5d595a", 
-    "#cdccbe", 
-    "#d9d8ca", 
     "#ff0000", 
-    "#000000"
+    "#000000", 
+    "#e94063", 
+    "#e94063", 
+    "#e94063"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
   "brush_chooser.default.selected_group": "Offset-AnTi", 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "classic/pen", 
+  "brushmanager.selected_brush": "classic/pointy_ink", 
   "ui.support_smooth_scrolling": true, 
   "color_chooser.default.selected_adjuster": "HCYWheelTool", 
-  "flood_fill.sample_merged": true, 
   "document.autosave_interval": 10, 
   "scratchpad.last_opened_scratchpad": "/home/korben/.local/share/mypaint/scratchpads/autosave.ora", 
-  "devbrush.last_used": "SynPS/2 Synaptics TouchPad"
+  "flood_fill.sample_merged": true
 }

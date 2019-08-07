@@ -12,13 +12,14 @@
   <int name="showAdvPrefs" value="1" />
   <int name="singleFile" value="1" />
   <int name="singleTouchMode" value="1" />
+  <int name="strokeCounter" value="6" />
   <int name="thumbnailSize" value="100" />
   <int name="touchUI" value="1" />
   <int name="viewMode" value="0" />
   <float name="marginLeft" value="88" />
   <float name="pageHeight" value="3405" />
   <float name="pageWidth" value="8730" />
-  <float name="preScale" value="1.25" />
+  <float name="preScale" value="0.833333" />
   <string name="backupFilename" value="" />
   <string name="clippingDoc" value="/home/korben/.config/styluslabs/saved/clippings.html" />
   <string name="currFolder" value="/home/korben/Documents" />
@@ -26,9 +27,9 @@
   <string name="docTitle" value="" />
   <string name="fileExt" value="html" />
   <string name="lastURL" value="" />
-  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAAAAABP8AAAMfAAAAAAAAABwAAAT/AAADHwAAAAACAAAABQAAAAAAAAAAHAAABP8AAAMf" />
-  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC9/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAL3AAAAVwD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAGAA////AAAFAAAAAs0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAAAAAONAAAAAAAAAAA=" />
-  <string name="recentDocs" value="/home/korben/Documents/DADGAG - recovered.html:::/home/korben/Documents/DADGAG.html:::/home/korben/Documents/agenda kanvas.html:::/home/korben/Documents/notes om note apps.html:::/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/notes om note apps - recovered.html:::/home/korben/Documents/web/agenda kanvas - recovered.html:::/home/korben/Documents/web/agenda kanvas.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered - recovered.html:::/home/korben/Documents/web/Mar 30 12.12PM.html" />
+  <string name="mainWindowGeometry" value="AdnQywADAAAAAAAAAAAAAAAABP8AAAMfAAAApAAAABwAAARjAAACVwAAAAACAAAABQAAAAAAAAAAHAAABP8AAAMf" />
+  <string name="mainWindowState" value="AAAA/wAAAAD9AAAAAQAAAAAAAACDAAAC9/wCAAAAAvsAAAAYAGIAbwBvAGsAbQBhAHIAawBEAG8AYwBrAAAAACkAAAL3AAAASQD////7AAAAGABjAGwAaQBwAHAAaQBuAGcARABvAGMAawAAAAApAAAC2wAAAFIA////AAAFAAAAAtsAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABAAdABvAG8AbABCAGEAcgAwAQAAAAAAAAONAAAAAAAAAAA=" />
+  <string name="recentDocs" value="/home/korben/Documents/notes om notes apps.html:::/home/korben/Downloads/Aug. 07 2.06PM.html:::/home/korben/Documents/agenda kanvas.html:::/home/korben/Documents/DADGAG.html:::/home/korben/Documents/DADGAG - recovered.html:::/home/korben/Documents/notes om note apps.html:::/home/korben/Documents/web/notes om note apps.html:::/home/korben/Documents/web/notes om note apps - recovered.html:::/home/korben/Documents/web/agenda kanvas - recovered.html:::/home/korben/Documents/web/agenda kanvas.html:::/home/korben/Documents/web/Mar 30 12.12PM - recovered.html" />
   <string name="syncPass" value="" />
   <string name="syncServer" value="" />
   <string name="syncUser" value="" />

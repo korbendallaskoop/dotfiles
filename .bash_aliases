@@ -264,7 +264,17 @@ alias vim1080='youtube-dl -f http-1080p -o "%(uploader)s - %(title)s.%(ext)s" --
 # RAM da disk
 
 alias rmd55='sudo mount -t tmpfs -o size=5555M tmpfs ~/.ramdisk'
-alias rmd33='sudo mount -t tmpfs -o size=3456M tmpfs ~/.ramdisk'
+alias rmd44='sudo mount -t tmpfs -o size=4444M tmpfs ~/.ramdisk'
+alias rmd33='sudo mount -t tmpfs -o size=3333M tmpfs ~/.ramdisk'
+alias rmd11='sudo mount -t tmpfs -o size=1111M tmpfs ~/.ramdisk'
 alias rmd0='sudo umount ~/.ramdisk'
 
+#-------------------------------------------------------------
+# spawn tst filesizes
 
+alias spwnhg='fallocate -l 500M 500M_file.img'
+alias spwn1g='fallocate -l 1G 1G_file.img'
+alias spwn3g='fallocate -l 3G 3G_file.img'
+alias spwn5g='fallocate -l 5G 5G_file.img'
+alias spwn11g='fallocate -l 11G 11G_file.img'
+alias spwn22g='fallocate -l 22G 22G_file.img'

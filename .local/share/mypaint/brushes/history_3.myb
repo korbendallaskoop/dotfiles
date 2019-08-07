@@ -1,9 +1,9 @@
 {
     "comment": "MyPaint brush file", 
-    "description": "Calligraphy Sketch Pressure", 
+    "description": "", 
     "group": "", 
-    "notes": "Angled ink pen for sketching letters. Low pressure makes a thin line even when angled. (point nib)", 
-    "parent_brush_name": "Anti/Calligraphy_Sketch_2", 
+    "notes": "", 
+    "parent_brush_name": "Anti/Off-Stitch", 
     "settings": {
         "anti_aliasing": {
             "base_value": 0.0, 
@@ -11,22 +11,66 @@
         }, 
         "change_color_h": {
             "base_value": 0.0, 
-            "inputs": {}
-        }, 
-        "change_color_hsl_s": {
-            "base_value": 0.0, 
             "inputs": {
+                "direction": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        180.0, 
+                        0.0
+                    ]
+                ], 
                 "random": [
                     [
                         0.0, 
-                        -0.09
+                        0.0
                     ], 
                     [
                         1.0, 
-                        0.09
+                        0.0
+                    ]
+                ], 
+                "stroke": [
+                    [
+                        0.0, 
+                        -0.11
+                    ], 
+                    [
+                        0.25, 
+                        -0.11
+                    ], 
+                    [
+                        0.25, 
+                        0.0
+                    ], 
+                    [
+                        0.5, 
+                        0.0
+                    ], 
+                    [
+                        0.5, 
+                        0.11
+                    ], 
+                    [
+                        0.75, 
+                        0.11
+                    ], 
+                    [
+                        0.75, 
+                        0.22
+                    ], 
+                    [
+                        1.0, 
+                        0.22
                     ]
                 ]
             }
+        }, 
+        "change_color_hsl_s": {
+            "base_value": 0.0, 
+            "inputs": {}
         }, 
         "change_color_hsv_s": {
             "base_value": 0.0, 
@@ -34,18 +78,7 @@
         }, 
         "change_color_l": {
             "base_value": 0.0, 
-            "inputs": {
-                "speed1": [
-                    [
-                        0.0, 
-                        -0.01428571428571428
-                    ], 
-                    [
-                        4.0, 
-                        0.1
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "change_color_v": {
             "base_value": 0.0, 
@@ -56,11 +89,11 @@
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 0.0, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 0.0, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "colorize": {
@@ -76,11 +109,11 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 3.06, 
+            "base_value": 5.81, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
-            "base_value": 0.51, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "dabs_per_second": {
@@ -88,54 +121,24 @@
             "inputs": {}
         }, 
         "direction_filter": {
-            "base_value": 0.58, 
+            "base_value": 2.0, 
             "inputs": {}
         }, 
         "elliptical_dab_angle": {
-            "base_value": 129.13, 
+            "base_value": 90.0, 
             "inputs": {}
         }, 
         "elliptical_dab_ratio": {
-            "base_value": 5.0, 
-            "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        4.799999999999998
-                    ], 
-                    [
-                        1.0, 
-                        -0.0
-                    ]
-                ]
-            }
+            "base_value": 1.0, 
+            "inputs": {}
         }, 
         "eraser": {
             "base_value": 0.0, 
             "inputs": {}
         }, 
         "hardness": {
-            "base_value": 0.45, 
-            "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        -0.12
-                    ], 
-                    [
-                        0.17783505154639176, 
-                        -0.0325
-                    ], 
-                    [
-                        0.45618556701030927, 
-                        -0.0
-                    ], 
-                    [
-                        1.0, 
-                        -0.0
-                    ]
-                ]
-            }
+            "base_value": 0.8, 
+            "inputs": {}
         }, 
         "lock_alpha": {
             "base_value": 0.0, 
@@ -155,21 +158,10 @@
         }, 
         "opaque": {
             "base_value": 1.0, 
-            "inputs": {
-                "speed1": [
-                    [
-                        0.0, 
-                        0.0962500000000001
-                    ], 
-                    [
-                        4.0, 
-                        -1.32
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "opaque_linearize": {
-            "base_value": 0.04, 
+            "base_value": 0.06, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -181,20 +173,8 @@
                         0.0
                     ], 
                     [
-                        0.05154639175257732, 
-                        0.04416666666666663
-                    ], 
-                    [
-                        0.23969072164948454, 
-                        0.4195833333333334
-                    ], 
-                    [
-                        0.417647, 
-                        1.06
-                    ], 
-                    [
                         1.0, 
-                        1.06
+                        1.0
                     ]
                 ]
             }
@@ -204,38 +184,15 @@
             "inputs": {}
         }, 
         "radius_by_random": {
-            "base_value": 0.05, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 2.0, 
-            "inputs": {
-                "pressure": [
-                    [
-                        0.0, 
-                        -1.4375
-                    ], 
-                    [
-                        0.15721649484536082, 
-                        -1.359375
-                    ], 
-                    [
-                        0.37371134020618557, 
-                        -0.6250000000000001
-                    ], 
-                    [
-                        0.5927835051546392, 
-                        -0.140625
-                    ], 
-                    [
-                        1.0, 
-                        0.046875
-                    ]
-                ]
-            }
+            "base_value": 0.85, 
+            "inputs": {}
         }, 
         "restore_color": {
-            "base_value": 0.0, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "slow_tracking": {
@@ -263,7 +220,7 @@
             "inputs": {}
         }, 
         "speed1_gamma": {
-            "base_value": -6.92, 
+            "base_value": 4.0, 
             "inputs": {}
         }, 
         "speed1_slowness": {
@@ -279,7 +236,7 @@
             "inputs": {}
         }, 
         "stroke_duration_logarithmic": {
-            "base_value": 4.0, 
+            "base_value": -1.0, 
             "inputs": {}
         }, 
         "stroke_holdtime": {

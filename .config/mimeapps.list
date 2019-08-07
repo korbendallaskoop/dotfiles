@@ -14,7 +14,7 @@ text/mml=firefox.desktop
 [Added Associations]
 text/x-python=org.gnome.gedit.desktop;
 application/x-bittorrent=transmission-gtk.desktop;gnome-disk-image-writer.desktop;
-text/plain=geany.desktop;org.gnome.gedit.desktop;
+text/plain=geany.desktop;virtualbox.desktop;org.gnome.gedit.desktop;
 text/x-opml+xml=geany.desktop;leafpad.desktop;org.gnome.gedit.desktop;
 video/x-msvideo=org.gnome.Totem.desktop;
 video/mp2t=io.github.GnomeMpv.desktop;org.gnome.Totem.desktop;vlc.desktop;
@@ -38,7 +38,7 @@ image/png=eog.desktop;
 audio/ac3=vlc.desktop;
 application/x-mswinurl=google-chrome.desktop;
 text/markdown=ghostwriter.desktop;
-image/svg+xml=org.kde.kolourpaint.desktop;gimp.desktop;pinta.desktop;
+image/svg+xml=inkscape.desktop;org.kde.kolourpaint.desktop;gimp.desktop;pinta.desktop;
 audio/x-mpegurl=smplayer.desktop;io.github.GnomeMpv.desktop;vlc.desktop;
 text/xml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
