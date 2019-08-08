@@ -85,23 +85,28 @@ alias i3solo='xrandr --output LVDS1 --primary --auto --output VGA1 --off'
 #============================================================
 #  Land of Vagrantus
 
-export vagrant="/home/korben/bins/./vagrant"
+export vagrant="/usr/bin/vagrant"
 alias vagrant="${vagrant}"
 
+alias vg='vagrant'
 alias vgi='vagrant init'
 
-alias vgr='vagrant reload' # restarts vagrant machine, loads new Vagrantfile configuration
 alias vup='vagrant up' # starts and provisions the vagrant environment
-alias vgs='vagrant suspend' # as in pause/sleep/ or save machine state in VBx
-alias vgh='vagrant halt' # power off VM
-alias vgbl='vagrant box list'
 
 # vagrant up --provider virtualbox
 # vagrant up --provider lxc
 
-alias vgst='vagrant global-status'
+export VAGRANT_DEFAULT_PROVIDER = "virtualbox"
+
 alias vsh='vagrant ssh'
-alias vg='vagrant'
+alias vgr='vagrant reload' # restarts vagrant machine, loads new Vagrantfile configuration
+alias vgs='vagrant suspend' # as in pause/sleep/ or save machine state in VBx
+alias vgh='vagrant halt' # power off VM
+
+alias vgbl='vagrant box list'
+alias vgst='vagrant global-status'
+alias vgd='vagrant destroy' # delete vagrant instance
+alias vgbrm='vagrant box remove' # delete box image
 
 #============================================================
 #  It's a dock
@@ -210,7 +215,7 @@ alias xmpm='xmodmap -pm'
 alias xmpke='xmodmap -pke'
 alias xmg='xmodmap -pke | grep'
 
-alias xmo='xmodmap ~/.Xmodmap'
+alias xmrz='xmodmap ~/.Xmodmap_razor_V500'
 alias xmhp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
 
 alias sxku='setxkbmap -layout us'

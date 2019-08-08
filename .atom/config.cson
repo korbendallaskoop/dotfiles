@@ -1,4 +1,6 @@
 "*":
+  "atom-notes":
+    directory: "/home/korben/webo(5GB.nxtcld)/Notes/atom-notes-for-all"
   core:
     telemetryConsent: "limited"
   editor:
@@ -26,3 +28,5 @@
       "text.restructuredtext"
       "source.gfm.notes"
     ]
+  welcome:
+    showOnStartup: false

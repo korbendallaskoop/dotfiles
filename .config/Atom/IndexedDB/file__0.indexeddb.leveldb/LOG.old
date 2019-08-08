@@ -1,3 +1,52 @@
-2019/07/16-16:07:00.422 2624 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2019/07/16-16:07:00.425 2624 Recovering log #6276
-2019/07/16-16:07:00.749 2624 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/006276.log 
+2019/08/08-23:45:26.134 21440 Reusing MANIFEST /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/08/08-23:45:26.135 21440 Recovering log #6303
+2019/08/08-23:45:26.138 21440 Reusing old log /home/korben/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/006303.log 
+2019/08/08-23:46:16.316 21673 Level-0 table #6309: started
+2019/08/08-23:46:16.444 21673 Level-0 table #6309: 619070 bytes OK
+2019/08/08-23:46:16.495 21673 Delete type=0 #6303
+2019/08/08-23:46:40.218 21673 Level-0 table #6311: started
+2019/08/08-23:46:40.318 21673 Level-0 table #6311: 613559 bytes OK
+2019/08/08-23:46:40.352 21673 Delete type=0 #6308
+2019/08/08-23:47:06.415 21673 Level-0 table #6313: started
+2019/08/08-23:47:06.489 21673 Level-0 table #6313: 615042 bytes OK
+2019/08/08-23:47:06.523 21673 Delete type=0 #6310
+2019/08/08-23:47:25.644 21673 Level-0 table #6315: started
+2019/08/08-23:47:25.752 21673 Level-0 table #6315: 619598 bytes OK
+2019/08/08-23:47:25.786 21673 Delete type=0 #6312
+2019/08/08-23:47:25.788 21673 Compacting 4@0 + 2@1 files
+2019/08/08-23:47:25.920 21673 Generated table #6316@0: 17 keys, 2181053 bytes
+2019/08/08-23:47:25.970 21673 Generated table #6317@0: 121 keys, 159746 bytes
+2019/08/08-23:47:25.970 21673 Compacted 4@0 + 2@1 files => 2340799 bytes
+2019/08/08-23:47:26.003 21673 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/08/08-23:47:26.004 21673 Delete type=2 #6306
+2019/08/08-23:47:26.004 21673 Delete type=2 #6311
+2019/08/08-23:47:26.005 21673 Delete type=2 #6313
+2019/08/08-23:47:26.005 21673 Delete type=2 #6305
+2019/08/08-23:47:26.006 21673 Delete type=2 #6309
+2019/08/08-23:47:26.007 21673 Delete type=2 #6315
+2019/08/08-23:47:36.276 21673 Level-0 table #6319: started
+2019/08/08-23:47:36.369 21673 Level-0 table #6319: 613901 bytes OK
+2019/08/08-23:47:36.404 21673 Delete type=0 #6314
+2019/08/08-23:47:49.129 21673 Level-0 table #6321: started
+2019/08/08-23:47:49.239 21673 Level-0 table #6321: 612933 bytes OK
+2019/08/08-23:47:49.465 21673 Delete type=0 #6318
+2019/08/08-23:48:32.275 21673 Level-0 table #6323: started
+2019/08/08-23:48:32.371 21673 Level-0 table #6323: 621238 bytes OK
+2019/08/08-23:48:32.406 21673 Delete type=0 #6320
+2019/08/08-23:49:03.216 21673 Level-0 table #6325: started
+2019/08/08-23:49:03.319 21673 Level-0 table #6325: 621228 bytes OK
+2019/08/08-23:49:03.354 21673 Delete type=0 #6322
+2019/08/08-23:49:03.356 21673 Compacting 4@0 + 2@1 files
+2019/08/08-23:49:03.478 21673 Generated table #6326@0: 17 keys, 2182704 bytes
+2019/08/08-23:49:03.529 21673 Generated table #6327@0: 123 keys, 159825 bytes
+2019/08/08-23:49:03.529 21673 Compacted 4@0 + 2@1 files => 2342529 bytes
+2019/08/08-23:49:03.562 21673 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/08/08-23:49:03.562 21673 Delete type=2 #6321
+2019/08/08-23:49:03.563 21673 Delete type=2 #6325
+2019/08/08-23:49:03.564 21673 Delete type=2 #6319
+2019/08/08-23:49:03.564 21673 Delete type=2 #6323
+2019/08/08-23:49:03.564 21673 Delete type=2 #6317
+2019/08/08-23:49:03.564 21673 Delete type=2 #6316
+2019/08/08-23:49:17.116 21673 Level-0 table #6329: started
+2019/08/08-23:49:17.236 21673 Level-0 table #6329: 621255 bytes OK
+2019/08/08-23:49:17.272 21673 Delete type=0 #6324
