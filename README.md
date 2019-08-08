@@ -72,8 +72,8 @@ git dem dots a new home
 		sudo apt install git
 		sudo eopkg install git
 
-download dotfiles and just copy locally what's needed:
-
+download dotfiles and just copy locally what's needed (http://frama.link/dotk):
+		
 		    git clone https://github.com/korbendallaskoop/dotfiles
 
 or rsync all of them to new $HOME by --separate-git-dir as https://github.com/Siilwyn/my-dotfiles/tree/master/.my-dotfiles
