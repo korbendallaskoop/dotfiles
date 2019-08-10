@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/hey-pane/versions/1.1.2/tarball",
-  "_id": "hey-pane@1.1.2",
+  "_from": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+  "_id": "hey-pane@1.2.0",
   "_inBundle": false,
-  "_integrity": "sha512-eO+vY1Aw2sd1n7LAf9vVZdDGh0u+tJ9NMVeCt5nBhbYk751PK/vWxnMLAzTz7LBMpj5dsTquYNFa27EJcDslMA==",
+  "_integrity": "sha512-RYFFHxaBU7Q05C77wbKEu6nQ1UFhxq9zOm+8TpCI3eKso0mTf4x+MNrQfe8BLmankbT18GFe3R1E3lSHO7Qqcg==",
   "_location": "/hey-pane",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/hey-pane/versions/1.1.2/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.1.2/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.1.2/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.1.2/tarball"
+    "raw": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/hey-pane/versions/1.1.2/tarball",
-  "_shasum": "b09ce0a25903d33d3ae594b05e2273046438cc59",
-  "_spec": "https://www.atom.io/api/packages/hey-pane/versions/1.1.2/tarball",
-  "_where": "/tmp/apm-install-dir-119218-6435-cgt2zh.7173",
+  "_resolved": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+  "_shasum": "819ce0db10a2f4ab80f90144a496d664ab7f2748",
+  "_spec": "https://www.atom.io/api/packages/hey-pane/versions/1.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-11979-13629-gpbijg.san9s",
   "bugs": {
     "url": "https://github.com/timomeh/hey-pane/issues"
   },
@@ -45,5 +45,5 @@
     "type": "git",
     "url": "git+https://github.com/timomeh/hey-pane.git"
   },
-  "version": "1.1.2"
+  "version": "1.2.0"
 }

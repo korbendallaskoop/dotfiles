@@ -1,28 +1,14 @@
 <monitors version="2">
   <configuration>
     <logicalmonitor>
-      <x>90</x>
+      <x>1280</x>
       <y>0</y>
       <scale>1</scale>
-      <monitor>
-        <monitorspec>
-          <connector>VGA1</connector>
-          <vendor>unknown</vendor>
-          <product>unknown</product>
-          <serial>unknown</serial>
-        </monitorspec>
-        <mode>
-          <width>1024</width>
-          <height>768</height>
-          <rate>60.003841400146484</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>0</x>
-      <y>768</y>
-      <scale>1</scale>
       <primary>yes</primary>
+      <transform>
+        <rotation>left</rotation>
+        <flipped>no</flipped>
+      </transform>
       <monitor>
         <monitorspec>
           <connector>LVDS1</connector>
@@ -34,6 +20,24 @@
           <width>1280</width>
           <height>800</height>
           <rate>59.976009368896484</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>116</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>VGA1</connector>
+          <vendor>TAR</vendor>
+          <product>ry LCD 17-5</product>
+          <serial>C49602015769</serial>
+        </monitorspec>
+        <mode>
+          <width>1280</width>
+          <height>1024</height>
+          <rate>60.019741058349609</rate>
         </mode>
       </monitor>
     </logicalmonitor>
@@ -60,6 +64,45 @@
     <logicalmonitor>
       <x>403</x>
       <y>1080</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>LVDS1</connector>
+          <vendor>SEC</vendor>
+          <product>0x5741</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1280</width>
+          <height>800</height>
+          <rate>59.976009368896484</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+  </configuration>
+  <configuration>
+    <logicalmonitor>
+      <x>90</x>
+      <y>0</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>VGA1</connector>
+          <vendor>unknown</vendor>
+          <product>unknown</product>
+          <serial>unknown</serial>
+        </monitorspec>
+        <mode>
+          <width>1024</width>
+          <height>768</height>
+          <rate>60.003841400146484</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>0</x>
+      <y>768</y>
       <scale>1</scale>
       <primary>yes</primary>
       <monitor>
@@ -112,49 +155,6 @@
           <width>1280</width>
           <height>1024</height>
           <rate>75.024673461914062</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-  </configuration>
-  <configuration>
-    <logicalmonitor>
-      <x>0</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>VGA1</connector>
-          <vendor>TAR</vendor>
-          <product>ry LCD 17-5</product>
-          <serial>C49602015769</serial>
-        </monitorspec>
-        <mode>
-          <width>1280</width>
-          <height>1024</height>
-          <rate>60.019741058349609</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>1280</x>
-      <y>99</y>
-      <scale>1</scale>
-      <transform>
-        <rotation>left</rotation>
-        <flipped>no</flipped>
-      </transform>
-      <monitor>
-        <monitorspec>
-          <connector>LVDS1</connector>
-          <vendor>SEC</vendor>
-          <product>0x5741</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>1280</width>
-          <height>800</height>
-          <rate>59.976009368896484</rate>
         </mode>
       </monitor>
     </logicalmonitor>

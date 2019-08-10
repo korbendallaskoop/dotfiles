@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.6/tarball",
-  "_id": "markdown-writer@2.11.6",
+  "_from": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.7/tarball",
+  "_id": "markdown-writer@2.11.7",
   "_inBundle": false,
-  "_integrity": "sha512-pNZ0b/wMLpYEwVXHbAXmSeIMuHl225k6vqeqUrhO9uTaj8Q77oWaQDOSwVxJ1NhsUKura2Riu9Q1qJAtDuCdFQ==",
+  "_integrity": "sha512-OFRfw+GSn7IfDfU9BM0YLoSv9cMml/syODYoCk9l0JC9DUR6WBOCsMeQOakOn2JTRgPOkhefXRAghsFjbdWi0w==",
   "_location": "/markdown-writer",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.6/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.6/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.6/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.6/tarball"
+    "raw": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.7/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.7/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.7/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.7/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.6/tarball",
-  "_shasum": "89780ff3f614e2b27f13f9b76e9c518ac12b2229",
-  "_spec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.6/tarball",
-  "_where": "/tmp/apm-install-dir-11965-30383-18wn8pi.38eok",
+  "_resolved": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.7/tarball",
+  "_shasum": "35357ff56349c2776405c7f8ef19818b4bc3e5b7",
+  "_spec": "https://www.atom.io/api/packages/markdown-writer/versions/2.11.7/tarball",
+  "_where": "/tmp/apm-install-dir-11979-13658-dof4ge.lf64",
   "activationCommands": {
     "atom-workspace": [
       "markdown-writer:new-post",
@@ -126,5 +126,5 @@
     "type": "git",
     "url": "git+https://github.com/zhuochun/md-writer.git"
   },
-  "version": "2.11.6"
+  "version": "2.11.7"
 }

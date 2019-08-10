@@ -2,11 +2,16 @@
   "atom-notes":
     directory: "/home/korben/webo(5GB.nxtcld)/Notes/atom-notes-for-all"
   core:
+    disabledPackages: [
+      "apply-command"
+    ]
     telemetryConsent: "limited"
   editor:
-    fontSize: 21
+    fontSize: 22
   "exception-reporting":
     userId: "07288911-de51-4e09-a07a-b37372185b52"
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -28,5 +33,9 @@
       "text.restructuredtext"
       "source.gfm.notes"
     ]
+  "terminal-plus":
+    toggles:
+      autoClose: true
+  "tool-bar": {}
   welcome:
     showOnStartup: false

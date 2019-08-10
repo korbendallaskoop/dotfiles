@@ -61,9 +61,9 @@ alias sar='sudo apt purge'
 # There is no easy way to get those removed as well.
 
 alias sara='sudo apt autoremove'
-
-# apt-get autoremove
 # removes orphaned packages, i.e. packages that used to be installed as an dependency, but aren't any longer
+
+alias auua='apt-get update && apt-get -y upgrade && apt-get -y autoremove'
 
 #-------------------------------------------------------------
 # i3 apps
@@ -91,12 +91,13 @@ alias vagrant="${vagrant}"
 alias vg='vagrant'
 alias vgi='vagrant init'
 
-alias vup='vagrant up' # starts and provisions the vagrant environment
+alias vup='vagrant up --provider virtualbox' # starts and provisions the vagrant environment
+alias vupr='vagrant up --provider virtualbox --provision' # starts and provisions the vagrant environment
 
 # vagrant up --provider virtualbox
 # vagrant up --provider lxc
 
-export VAGRANT_DEFAULT_PROVIDER = "virtualbox"
+export VAGRANT_DEFAULT_PROVIDER="virtualbox"
 
 alias vsh='vagrant ssh'
 alias vgr='vagrant reload' # restarts vagrant machine, loads new Vagrantfile configuration
@@ -107,6 +108,12 @@ alias vgbl='vagrant box list'
 alias vgst='vagrant global-status'
 alias vgd='vagrant destroy' # delete vagrant instance
 alias vgbrm='vagrant box remove' # delete box image
+
+# [vm-name] is default as...default
+alias vgss='vagrant snapshot save' # [vm-name] NAME
+alias vgsr='vagrant snapshot restore' # [vm-name] NAME
+alias vgsd='vagrant snapshot delete' # [vm-name] NAME
+alias vgsl='vagrant snapshot list' 
 
 #============================================================
 #  It's a dock
