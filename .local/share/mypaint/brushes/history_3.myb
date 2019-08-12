@@ -3,70 +3,15 @@
     "description": "", 
     "group": "", 
     "notes": "", 
-    "parent_brush_name": "Anti/Off-Stitch", 
+    "parent_brush_name": "classic/pointy_ink", 
     "settings": {
         "anti_aliasing": {
-            "base_value": 0.0, 
+            "base_value": 1.0, 
             "inputs": {}
         }, 
         "change_color_h": {
             "base_value": 0.0, 
-            "inputs": {
-                "direction": [
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        180.0, 
-                        0.0
-                    ]
-                ], 
-                "random": [
-                    [
-                        0.0, 
-                        0.0
-                    ], 
-                    [
-                        1.0, 
-                        0.0
-                    ]
-                ], 
-                "stroke": [
-                    [
-                        0.0, 
-                        -0.11
-                    ], 
-                    [
-                        0.25, 
-                        -0.11
-                    ], 
-                    [
-                        0.25, 
-                        0.0
-                    ], 
-                    [
-                        0.5, 
-                        0.0
-                    ], 
-                    [
-                        0.5, 
-                        0.11
-                    ], 
-                    [
-                        0.75, 
-                        0.11
-                    ], 
-                    [
-                        0.75, 
-                        0.22
-                    ], 
-                    [
-                        1.0, 
-                        0.22
-                    ]
-                ]
-            }
+            "inputs": {}
         }, 
         "change_color_hsl_s": {
             "base_value": 0.0, 
@@ -85,15 +30,15 @@
             "inputs": {}
         }, 
         "color_h": {
-            "base_value": 0.0, 
+            "base_value": 0.9648619372435291, 
             "inputs": {}
         }, 
         "color_s": {
-            "base_value": 1.0, 
+            "base_value": 0.7252465089162191, 
             "inputs": {}
         }, 
         "color_v": {
-            "base_value": 1.0, 
+            "base_value": 0.916333262125651, 
             "inputs": {}
         }, 
         "colorize": {
@@ -109,7 +54,7 @@
             "inputs": {}
         }, 
         "dabs_per_actual_radius": {
-            "base_value": 5.81, 
+            "base_value": 2.2, 
             "inputs": {}
         }, 
         "dabs_per_basic_radius": {
@@ -138,7 +83,28 @@
         }, 
         "hardness": {
             "base_value": 0.8, 
-            "inputs": {}
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        0.65
+                    ]
+                ], 
+                "speed1": [
+                    [
+                        0.0, 
+                        0.064687
+                    ], 
+                    [
+                        1.0, 
+                        -0.09
+                    ]
+                ]
+            }
         }, 
         "lock_alpha": {
             "base_value": 0.0, 
@@ -161,7 +127,7 @@
             "inputs": {}
         }, 
         "opaque_linearize": {
-            "base_value": 0.06, 
+            "base_value": 0.9, 
             "inputs": {}
         }, 
         "opaque_multiply": {
@@ -171,6 +137,14 @@
                     [
                         0.0, 
                         0.0
+                    ], 
+                    [
+                        0.015, 
+                        0.0
+                    ], 
+                    [
+                        0.015, 
+                        1.0
                     ], 
                     [
                         1.0, 
@@ -188,11 +162,58 @@
             "inputs": {}
         }, 
         "radius_logarithmic": {
-            "base_value": 0.85, 
-            "inputs": {}
+            "base_value": 0.96, 
+            "inputs": {
+                "pressure": [
+                    [
+                        0.0, 
+                        0.0
+                    ], 
+                    [
+                        1.0, 
+                        3.36
+                    ]
+                ], 
+                "speed1": [
+                    [
+                        0.0, 
+                        0.14875
+                    ], 
+                    [
+                        1.0, 
+                        -0.21
+                    ]
+                ], 
+                "stroke": [
+                    [
+                        0.0, 
+                        -0.62
+                    ], 
+                    [
+                        0.157407, 
+                        -0.393958
+                    ], 
+                    [
+                        0.29321, 
+                        -0.238958
+                    ], 
+                    [
+                        0.5, 
+                        -0.148542
+                    ], 
+                    [
+                        0.700617, 
+                        -0.064583
+                    ], 
+                    [
+                        1.0, 
+                        0.0
+                    ]
+                ]
+            }
         }, 
         "restore_color": {
-            "base_value": 1.0, 
+            "base_value": 0.0, 
             "inputs": {}
         }, 
         "slow_tracking": {
@@ -220,7 +241,7 @@
             "inputs": {}
         }, 
         "speed1_gamma": {
-            "base_value": 4.0, 
+            "base_value": 2.87, 
             "inputs": {}
         }, 
         "speed1_slowness": {
@@ -236,11 +257,11 @@
             "inputs": {}
         }, 
         "stroke_duration_logarithmic": {
-            "base_value": -1.0, 
+            "base_value": 1.18, 
             "inputs": {}
         }, 
         "stroke_holdtime": {
-            "base_value": 0.0, 
+            "base_value": 10.0, 
             "inputs": {}
         }, 
         "stroke_threshold": {

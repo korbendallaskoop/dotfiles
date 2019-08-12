@@ -6,8 +6,13 @@
       "apply-command"
     ]
     telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
   editor:
-    fontSize: 22
+    fontSize: 26
+    softWrap: true
   "exception-reporting":
     userId: "07288911-de51-4e09-a07a-b37372185b52"
   "linter-ui-default":
@@ -33,9 +38,11 @@
       "text.restructuredtext"
       "source.gfm.notes"
     ]
+    useLocales: false
   "terminal-plus":
     toggles:
       autoClose: true
-  "tool-bar": {}
+  "tool-bar":
+    visible: false
   welcome:
     showOnStartup: false

@@ -334,7 +334,7 @@
     ]
   }, 
   "ui.feedback.last_pos": false, 
-  "colors.current": "#e94063", 
+  "colors.current": "#5bc46c", 
   "flood_fill.tolerance": 0.25, 
   "brushmanager.selected_groups": [], 
   "input.button_mapping": {
@@ -417,7 +417,7 @@
     "fullscreen": false, 
     "left_sidebar": {
       "h": 892, 
-      "w": 331, 
+      "w": 329, 
       "groups": [
         {
           "h": 465, 
@@ -438,7 +438,7 @@
               "MyPaintLayersTool"
             ]
           ], 
-          "w": 331, 
+          "w": 329, 
           "active_page": 3
         }, 
         {
@@ -452,7 +452,7 @@
     "position": {}, 
     "floating": [], 
     "right_sidebar": {
-      "h": 892, 
+      "h": 1148, 
       "w": 8, 
       "groups": [
         {
@@ -463,17 +463,17 @@
     }
   }, 
   "colors.history": [
-    "#ff0000", 
     "#000000", 
     "#e94063", 
     "#e94063", 
-    "#e94063"
+    "#e94063", 
+    "#5bc46c"
   ], 
   "saving.scrap_prefix": "~/MyPaint/scrap", 
   "ui.hide_menubar_in_fullscreen": true, 
   "brush_chooser.default.selected_group": "Offset-AnTi", 
   "saving.default_format": "openraster", 
-  "brushmanager.selected_brush": "classic/pointy_ink", 
+  "brushmanager.selected_brush": "experimental/subtle_pencil", 
   "ui.support_smooth_scrolling": true, 
   "color_chooser.default.selected_adjuster": "HCYWheelTool", 
   "document.autosave_interval": 10, 
