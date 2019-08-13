@@ -2,7 +2,7 @@
     "version": "0.95.7",
     "userCodeDir": null,
     "settings": {
-        "isFirstRun": true,
+        "isFirstRun": false,
         "serviceRunning": true,
         "menuTakesFocus": false,
         "showTrayIcon": true,
@@ -15,10 +15,10 @@
             1280,
             776
         ],
-        "hPanePosition": 321,
+        "hPanePosition": 260,
         "columnWidths": [
-            150,
-            50,
+            263,
+            51,
             100
         ],
         "showToolbar": true,
