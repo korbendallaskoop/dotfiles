@@ -10,25 +10,28 @@ State=AAAA/wAAAAD9AAAAAAAABQAAAALCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG
 ToolBarsMovable=Disabled
 Width 1280=1280
 Window-Maximized 1024x1280=true
-Window-Maximized 800x1280=true
 
 [Notification Messages]
 presentationInfo=false
 
 [Recent Files]
 File1[$e]=$HOME/Zotero/storage/KVZAJKX4/Media - Modern JavaScript
+File10[$e]=/run/media/korben/EPUBZ/jstor-2376640%252F2376640.epub
 File2[$e]=$HOME/Zotero/storage/HAHGNNT4/tst1 _ Diigo.pdf
 File3[$e]=$HOME/webo(5GB.nxtcld)/Notes/qownnotes/attachments/830502555.pdf
 File4[$e]=$HOME/Zotero/storage/KV2K9DBM/Alexander Hamilton - Wikipedia.md
 File5[$e]=$HOME/Zotero/storage/H6SKWXTV/Security Docker Containers vs LXC homelab 2.md
 File6[$e]=$HOME/Zotero/storage/5WCXW3KE/A history of low-level Linux container runtimes.md
 File7[$e]=$HOME/Zotero/storage/ZHDYIJ3B/Williams - 2010 - Free as in freedom (2.0)  Richard Stallman and th.epub
-File8[$e]=$HOME/Documents/mozilla.pdf
+File8[$e]=$HOME/Downloads/Hermann_Hesse_-_Siddhartha.epub
+File9[$e]=$HOME/Downloads/Hermann_Hesse_-_Siddhartha_DE.epub
 Name1[$e]=Media - Modern JavaScript
+Name10[$e]=jstor-2376640%2F2376640.epub
 Name2[$e]=tst1 _ Diigo.pdf
 Name3[$e]=830502555.pdf
 Name4[$e]=Alexander Hamilton - Wikipedia.md
 Name5[$e]=Security Docker Containers vs LXC homelab 2.md
 Name6[$e]=A history of low-level Linux container runtimes.md
 Name7[$e]=Williams - 2010 - Free as in freedom (2.0)  Richard Stallman and th.epub
-Name8[$e]=mozilla.pdf
+Name8[$e]=Hermann_Hesse_-_Siddhartha.epub
+Name9[$e]=Hermann_Hesse_-_Siddhartha_DE.epub

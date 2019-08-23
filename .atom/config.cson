@@ -11,7 +11,7 @@
       "one-dark-syntax"
     ]
   editor:
-    fontSize: 26
+    fontSize: 23
     softWrap: true
   "exception-reporting":
     userId: "07288911-de51-4e09-a07a-b37372185b52"

@@ -91,8 +91,9 @@ alias vagrant="${vagrant}"
 alias vg='vagrant'
 alias vgi='vagrant init'
 
-alias vup='vagrant up --provider virtualbox' # starts and provisions the vagrant environment
-alias vupr='vagrant up --provider virtualbox --provision' # starts and provisions the vagrant environment
+alias vup='vagrant up' # starts and provisions the vagrant environment
+alias vupl='vagrant up --provider lxc' # starts and provisions the vagrant environment
+alias vupr='vagrant up --provision' # starts and provisions the vagrant environment
 
 # vagrant up --provider virtualbox
 # vagrant up --provider lxc
@@ -100,7 +101,8 @@ alias vupr='vagrant up --provider virtualbox --provision' # starts and provision
 export VAGRANT_DEFAULT_PROVIDER="virtualbox"
 
 alias vsh='vagrant ssh'
-alias vgr='vagrant reload' # restarts vagrant machine, loads new Vagrantfile configuration
+alias vgr='vagrant reload --provision' # restarts vagrant machine, loads new Vagrantfile configuration
+
 alias vgs='vagrant suspend' # as in pause/sleep/ or save machine state in VBx
 alias vgh='vagrant halt' # power off VM
 
@@ -113,7 +115,7 @@ alias vgbrm='vagrant box remove' # delete box image
 alias vgss='vagrant snapshot save' # [vm-name] NAME
 alias vgsr='vagrant snapshot restore' # [vm-name] NAME
 alias vgsd='vagrant snapshot delete' # [vm-name] NAME
-alias vgsl='vagrant snapshot list' 
+alias vgsl='vagrant snapshot list'
 
 #============================================================
 #  It's a dock
@@ -157,7 +159,7 @@ alias rsx='redshift -x'    # kill
 #============================================================
 #  Git
              #  [<options>] <name> <url>
-             
+
 alias gts='git status'
 alias grv='git remote -v'
 alias gra='git remote add'

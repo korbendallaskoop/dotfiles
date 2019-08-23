@@ -18,9 +18,14 @@ keycode 66 = BackSpace
 ! make backspace delete
 keycode 22 = Delete
 
-! caret browsing and fullscreen within reach
+! the Fn switches are too far away and not grouped
+! moving the most used ones to the arrow key bay instead
+! caret browsing 
 keycode 118 = F7
+! fullscreen 
 keycode 107 = F11
+! Thunderbird preview pane
+keycode 78 = F8
 
 ! make Alt_R Alt_Gr
 ! keycode 108 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
