@@ -26,7 +26,6 @@ export DevicesDir="/run/media/korben/Data"
 alias g2vms="cd ${DevicesDir}/Virtual\ Machines"
 alias rmk="cd /run/media/korben"
 
-
 #============================================================
 #  Solux plexusk pkg
 
@@ -63,7 +62,21 @@ alias sar='sudo apt purge'
 alias sara='sudo apt autoremove'
 # removes orphaned packages, i.e. packages that used to be installed as an dependency, but aren't any longer
 
-alias auua='apt-get update && apt-get -y upgrade && apt-get -y autoremove'
+alias aptall='sudo apt update && apt -y upgrade && apt -y autoremove'
+
+#============================================================
+#  SLAX!!
+
+alias sc='savechanges' 	# Save all filesystem modifications made during current session into a module file
+alias sc='sb2dir' 		# Convert a .sb module into a directory
+alias sc='dir2sb' 		# Convert a directory into .sb module
+alias sc='rmsbdir' 		# Erase directory created by sb2dir
+alias sc='genslaxiso' 	# Generate Slax iso file with new modules, if running Slax from read-only media
+
+alias g2m="cd /run/initramfs/memory/data/slax/modules/" # 
+
+alias sla='slax activate'
+alias sld='slax deactivate' # if any of the module files are open or used, deactivation will not be possible
 
 #-------------------------------------------------------------
 # i3 apps
@@ -158,7 +171,7 @@ alias rsx='redshift -x'    # kill
 
 #============================================================
 #  Git
-             #  [<options>] <name> <url>
+#  [<options>] <name> <url>
 
 alias gts='git status'
 alias grv='git remote -v'
