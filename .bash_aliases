@@ -68,10 +68,10 @@ alias aptall='sudo apt update && apt -y upgrade && apt -y autoremove'
 #  SLAX!!
 
 alias sc='savechanges' 	# Save all filesystem modifications made during current session into a module file
-alias sc='sb2dir' 		# Convert a .sb module into a directory
-alias sc='dir2sb' 		# Convert a directory into .sb module
-alias sc='rmsbdir' 		# Erase directory created by sb2dir
-alias sc='genslaxiso' 	# Generate Slax iso file with new modules, if running Slax from read-only media
+# alias ='sb2dir' 		# Convert a .sb module into a directory
+# alias ='dir2sb' 		# Convert a directory into .sb module
+# alias ='rmsbdir' 		# Erase directory created by sb2dir
+# alias ='genslaxiso' 	# Generate Slax iso file with new modules, if running Slax from read-only media
 
 alias g2m="cd /run/initramfs/memory/data/slax/modules/" # 
 
@@ -157,17 +157,16 @@ alias dkce='docker-compose exec'
 # redshift color temperature
 # neutral temperature is 6500K. Using this value will not change the color
 
-alias rs23='redshift -P -O 2333'    #
-alias rs27='redshift -P -O 2777'    #
-alias rs3='redshift -P -O 3000'    #
-alias rs33='redshift -P -O 3333'    #
-alias rs36='redshift -P -O 3666'    #
-alias rs4='redshift -P -O 4000'    #
-alias rs44='redshift -P -O 4444'    #
+alias rs23='redshift -p -O 2333'    #
+alias rs27='redshift -p -O 2777'    #
+alias rs3='redshift -p -O 3000'    #
+alias rs33='redshift -p -O 3333'    #
+alias rs36='redshift -p -O 3666'    #
+alias rs4='redshift -p -O 4000'    #
+alias rs44='redshift -p -O 4444'    #
 alias rsd='redshift -o 90'    # One-shot mode, repeat to continuously decrease by 10%
 alias rsp='redshift -p'    # status
 alias rsx='redshift -x'    # kill
-
 
 #============================================================
 #  Git
