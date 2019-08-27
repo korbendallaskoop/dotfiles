@@ -61,3 +61,5 @@ application/x-extension-shtml=userapp-Firefox-5GHD6Z.desktop;
 application/x-extension-xhtml=userapp-Firefox-5GHD6Z.desktop;
 application/x-extension-xht=userapp-Firefox-5GHD6Z.desktop;
 image/gif=eog.desktop;feh.desktop;
+application/x-shellscript=geany.desktop;
+application/vnd.oasis.opendocument.text=okularApplication_ooo.desktop;abiword.desktop;

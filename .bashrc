@@ -31,7 +31,7 @@ alias gb='cat ~/.bashrc ~/.bash_aliases | grep' # grab that bash boy
 alias psx='ps axc -o cmd,pid,%mem --sort=%mem' # sorted ascending by mem usage
 alias gps='ps axc | grep' # a view to a pid kill
 
-alias du='du -khc'    # Makes a more readable output wit total count
+alias du='du -khc'    # Makes a more readable output with total count
 alias df='df -kTh -x squashfs' # https://discuss.getsol.us/d/179-what-are-your-best-most-used-terminal-aliases/19
 alias free='free -m'
 

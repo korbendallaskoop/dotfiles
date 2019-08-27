@@ -2,10 +2,8 @@
     "type": "script",
     "description": "Phrase from selection",
     "store": {},
-    "modes": [
-        3
-    ],
-    "usageCount": 0,
+    "modes": [],
+    "usageCount": 4,
     "prompt": true,
     "omitTrigger": false,
     "showInTrayMenu": false,

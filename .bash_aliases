@@ -1,16 +1,5 @@
 # source /usr/share/defaults/etc/profile
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# VNC Server in Service Mode daemon
-# Start or stop the service with:
-#  systemctl (start|stop) vncserver-x11-serviced.service
-#Mark or unmark the service to be started at boot time with:
-# systemctl (enable|disable) vncserver-x11-serviced.service
-
-
 #-------------------------------------------------------------
 # Solus on HP2760p install specific
 
@@ -41,31 +30,38 @@ alias upd='sudo eopkg up' #update solar system solus
 alias epchk='sudo eopkg check'
 
 #============================================================
-#  Debiansk
+# Debiansk
 
-alias sai='sudo apt install'
 alias sas='sudo apt search'
-alias sap='sudo apt purge'
-alias sau='sudo apt update'
+alias sai='sudo apt install'
 
-# apt-get remove
-# packagenam binaries but not the configuration or data files of the package packagename.
+alias sau='sudo apt update'
+alias aptall='sudo apt update && apt -y upgrade && apt -y autoremove'
+
+# apt remove
+# packagename binaries but not the configuration or data files of the package packagename.
 # leaves dependencies installed with it on installation time untouched.
 
-alias sar='sudo apt purge'
-
-# apt-get purge
+# purge
 # remove about everything regarding the package packagename, but not the dependencies installed with it
 # does not remove configuration or data files residing in users home directories,
 # There is no easy way to get those removed as well.
+alias sap='sudo apt purge'
 
-alias sara='sudo apt autoremove'
-# removes orphaned packages, i.e. packages that used to be installed as an dependency, but aren't any longer
+# autoremove orphaned packages, i.e. packages that used to be installed as an dependency, but aren't any longer
+alias saar='sudo apt autoremove'
 
-alias aptall='sudo apt update && apt -y upgrade && apt -y autoremove'
+# https://blog.sleeplessbeastie.eu/2017/10/09/how-to-clean-the-apt-cache/
+alias sac='sudo apt clean' # clear outs /var/cache/apt
+alias sacd='sudo apt clean --dry-run' # 
+
+# autoclean removes retrieved package files that can no longer be downloaded. 
+# APT::Clean-Installed configuration options to keep or remove outdated and installed packages from cache.
+alias saac='sudo apt autoclean' 
+alias saacd='sudo apt autoclean --dry-run' 
 
 #============================================================
-#  SLAX!!
+#  SLAX! you little beast
 
 alias sc='savechanges' 	# Save all filesystem modifications made during current session into a module file
 # alias ='sb2dir' 		# Convert a .sb module into a directory
@@ -73,10 +69,26 @@ alias sc='savechanges' 	# Save all filesystem modifications made during current 
 # alias ='rmsbdir' 		# Erase directory created by sb2dir
 # alias ='genslaxiso' 	# Generate Slax iso file with new modules, if running Slax from read-only media
 
-alias g2m="cd /run/initramfs/memory/data/slax/modules/" # 
+alias sx="cd /run/initramfs/memory/data/slax/" # 
+alias 11="cd /media/sda2" # the 2nd (ext4) partition on the USB drive where /slax is on sda1
+alias 22="cd /media/sda2" # the 3rd (NTFS) partition on the USB drive where /slax is on sda1
+alias 33="cd /media/sdb1" # .vdi used to sync/backup modules and files between SLAX test VMs in VirtualBox
 
 alias sla='slax activate'
+# alias sld1='slax activate /dev/   /  ' # for a specific module
 alias sld='slax deactivate' # if any of the module files are open or used, deactivation will not be possible
+
+alias fdl='fdisk -l' # 
+alias fda='fdisk /dev/sda' # 
+alias fda1='fdisk /dev/sda1' # 
+alias fda2='fdisk /dev/sda2' # 
+alias fdb='fdisk /dev/sdb' # 
+alias fdb1='fdisk /dev/sdb1' # 
+
+alias dfh='df -kTh'
+
+alias rbn='reboot' # 
+alias stp='shutdown +0' # 
 
 #-------------------------------------------------------------
 # i3 apps
@@ -228,6 +240,15 @@ alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
 alias gic='micro .config/i3/config'
 
 #-------------------------------------------------------------
+# https://yadm.io/
+# git dotfile manager with bootstrap spawn, alternate file sets and encryption
+
+alias yac='yadm commit -a -m' 
+alias yap='yadm push' 
+alias yacp='yadm commit -a -m yet_another_lazy_yadm_update; yadm push' # lazy push
+
+#-------------------------------------------------------------
+# xmodmap setup and testing
 
 alias xv='xev | sed -ne '/^KeyPress/,/^$/p'' # from https://web.archive.org/web/20170825051821/http://madduck.net:80/docs/extending-xkb/
 
@@ -236,7 +257,7 @@ alias xmpm='xmodmap -pm'
 alias xmpke='xmodmap -pke'
 alias xmg='xmodmap -pke | grep'
 
-alias xmrz='xmodmap ~/.Xmodmap_razor_V500'
+alias zxc='xmodmap ~/.Xmodmap_razor_V500'
 alias xmhp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
 
 alias sxku='setxkbmap -layout us'
