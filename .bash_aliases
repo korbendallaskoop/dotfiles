@@ -247,7 +247,16 @@ alias cfpq='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a 
 # https://yadm.io/
 # git dotfile manager with bootstrap spawn, alternate file sets and encryption
 
+alias y='yadm' # that's y
 alias yas='yadm status'
+
+alias yft='yadm fetch' 
+alias ypl='yadm pull' 
+alias yck='yadm checkout' 
+
+alias yr='yadm remote -v' 
+alias yb='yadm branch' 
+
 alias yac='yadm commit -a -m' 
 alias yap='yadm push' 
 alias yacp='yadm commit -a -m yet_another_lazy_yadm_update; yadm push' # lazy push
