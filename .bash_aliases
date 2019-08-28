@@ -85,7 +85,8 @@ alias fda2='fdisk /dev/sda2' #
 alias fdb='fdisk /dev/sdb' # 
 alias fdb1='fdisk /dev/sdb1' # 
 
-alias dfh='df -kTh'
+alias dfa='df -akTh'
+alias df='df -h'
 
 alias rbn='reboot' # 
 alias stp='shutdown +0' # 
@@ -219,7 +220,7 @@ alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -t
 alias cfgg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
 
 # commit
-alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m'
+alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m minor_update; cfg push'
 # push
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
 
@@ -243,6 +244,7 @@ alias gic='micro .config/i3/config'
 # https://yadm.io/
 # git dotfile manager with bootstrap spawn, alternate file sets and encryption
 
+alias yas='yadm status'
 alias yac='yadm commit -a -m' 
 alias yap='yadm push' 
 alias yacp='yadm commit -a -m yet_another_lazy_yadm_update; yadm push' # lazy push
