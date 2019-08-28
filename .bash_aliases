@@ -241,7 +241,7 @@ alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a 
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
 
 # quick push w. generic 'minor_update' message
-alias cfpq='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m minor_update; cfp push' 
+alias cfpq='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a -m minor_update; cfp push' 
 
 #-------------------------------------------------------------
 # https://yadm.io/
