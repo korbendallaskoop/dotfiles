@@ -85,16 +85,15 @@ alias fda2='fdisk /dev/sda2' #
 alias fdb='fdisk /dev/sdb' # 
 alias fdb1='fdisk /dev/sdb1' # 
 
-alias dfa='df -akTh'
-alias df='df -h'
-
 alias rbn='reboot' # 
 alias stp='shutdown +0' # 
 
 #-------------------------------------------------------------
-# i3 apps
-# https://github.com/jamielinux/bashmount
+# i3 
 
+alias gic='micro .config/i3/config'
+
+# https://github.com/jamielinux/bashmount
 alias bm='bashmount'
 alias nb='newsboat'
 
@@ -220,9 +219,12 @@ alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -t
 alias cfgg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
 
 # commit
-alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m minor_update; cfg push'
+alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m'
 # push
 alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
+# quick push w. generic 'minor_update' message
+alias cfgq='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m minor_update; cfg push' 
+
 
 ####### .cfp_bckp private dotfiles backup repo
 
@@ -238,7 +240,8 @@ alias cfpg='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME ls-tree -t
 alias cfpc='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME commit -a -m'
 alias cfpp='/usr/bin/git --git-dir=$HOME/.cfp_bckp/ --work-tree=$HOME push'
 
-alias gic='micro .config/i3/config'
+# quick push w. generic 'minor_update' message
+alias cfpq='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m minor_update; cfp push' 
 
 #-------------------------------------------------------------
 # https://yadm.io/

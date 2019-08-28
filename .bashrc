@@ -18,7 +18,7 @@ alias libpath='echo -e ${LD_LIBRARY_PATH//:/\\n}'
 alias ipe='curl ipinfo.io/ip'
 
 #============================================================
-#  Bashing
+#  shell bashing
 
 alias h='history' # bang!
 alias hg='history | grep' #
@@ -31,8 +31,12 @@ alias gb='cat ~/.bashrc ~/.bash_aliases | grep' # grab that bash boy
 alias psx='ps axc -o cmd,pid,%mem --sort=%mem' # sorted ascending by mem usage
 alias gps='ps axc | grep' # a view to a pid kill
 
-alias du='du -khc'    # Makes a more readable output with total count
+alias du='du -h'    # human readable
+alias dus='du -ahd1'    # all below ./, human readable, folders summarized
+
 alias df='df -kTh -x squashfs' # https://discuss.getsol.us/d/179-what-are-your-best-most-used-terminal-aliases/19
+alias dfa='df -akTh'
+
 alias free='free -m'
 
 #============================================================
