@@ -16,7 +16,7 @@ clear Mod5
 keycode 66 = BackSpace
 
 ! make backspace delete
-keycode 22 = Delete
+! keycode 22 = Delete
 
 ! the Fn switches are too far away and not grouped
 ! moving the most used ones to the arrow key bay instead

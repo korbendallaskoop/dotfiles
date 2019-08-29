@@ -34,8 +34,9 @@ alias gps='ps axc | grep' # a view to a pid kill
 alias du='du -h'    # human readable
 alias dus='du -ahd1'    # all below ./, human readable, folders summarized
 
-alias df='df -kTh -x squashfs' # https://discuss.getsol.us/d/179-what-are-your-best-most-used-terminal-aliases/19
-alias dfa='df -akTh'
+# human readable, fs Type
+alias df='df -hT -x squashfs' # https://discuss.getsol.us/d/179-what-are-your-best-most-used-terminal-aliases/19
+alias dfa='df -ah' # incl. snaps and /dev/loops in aufs live fs (SLAX, antiX, etc.)
 
 alias free='free -m'
 
