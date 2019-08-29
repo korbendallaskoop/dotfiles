@@ -35,8 +35,9 @@ alias du='du -h'    # human readable
 alias dus='du -ahd1'    # all below ./, human readable, folders summarized
 
 # human readable, fs Type
-alias df='df -hT -x squashfs' # https://discuss.getsol.us/d/179-what-are-your-best-most-used-terminal-aliases/19
-alias dfa='df -ah' # incl. snaps and /dev/loops in aufs live fs (SLAX, antiX, etc.)
+alias df='df -hT' # https://discuss.getsol.us/d/179-what-are-your-best-most-used-terminal-aliases/19
+# https://discuss.getsol.us/d/179-what-are-your-best-most-used-terminal-aliases/19
+alias dfx='df -x squashfs' # incl. snaps and /dev/loops in aufs live fs (SLAX, antiX, etc.)
 
 alias free='free -m'
 
