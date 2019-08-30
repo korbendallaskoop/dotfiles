@@ -1,1 +1,1 @@
-/usr/bin/jackd -r -p1024 -dalsa -dhw:0 -r44100 -p128 -n4 -P
+/usr/bin/jackd -r -p1024 -dalsa -r44100 -p512 -n9 -D -Chw:H2n,0 -Phw:H2n,0

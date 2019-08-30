@@ -41,6 +41,9 @@ alias dfx='df -x squashfs' # incl. snaps and /dev/loops in aufs live fs (SLAX, a
 
 alias free='free -m'
 
+alias rbn='reboot' # 
+alias stp='shutdown +0' # 
+
 #============================================================
 # file system navi and operations
 # based on http://tldp.org/LDP/abs/html/sample-bashrc.html

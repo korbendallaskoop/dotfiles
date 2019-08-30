@@ -62,6 +62,7 @@ alias saacd='sudo apt autoclean --dry-run'
 
 #============================================================
 #  SLAX! you little beast
+#  https://www.slax.org
 
 alias sc='savechanges' 	# Save all filesystem modifications made during current session into a module file
 # alias ='sb2dir' 		# Convert a .sb module into a directory
@@ -74,19 +75,20 @@ alias 11="cd /media/sda2" # the 2nd (ext4) partition on the USB drive where /sla
 alias 22="cd /media/sda2" # the 3rd (NTFS) partition on the USB drive where /slax is on sda1
 alias 33="cd /media/sdb1" # .vdi used to sync/backup modules and files between SLAX test VMs in VirtualBox
 
+alias sll='slax list' 
 alias sla='slax activate'
-# alias sld1='slax activate /dev/   /  ' # for a specific module
+# alias sla-xx='slax activate /dev/sda2/mm.sb  ' # for a specific module stored on sda2
 alias sld='slax deactivate' # if any of the module files are open or used, deactivation will not be possible
 
-alias fdl='fdisk -l' # 
-alias fda='fdisk /dev/sda' # 
-alias fda1='fdisk /dev/sda1' # 
-alias fda2='fdisk /dev/sda2' # 
-alias fdb='fdisk /dev/sdb' # 
-alias fdb1='fdisk /dev/sdb1' # 
-
-alias rbn='reboot' # 
-alias stp='shutdown +0' # 
+alias fdl='fdisk -l' 
+alias fda='fdisk /dev/sda' 
+alias fda1='fdisk /dev/sda1'  
+alias fda2='fdisk /dev/sda2'  
+alias fda3='fdisk /dev/sda3' 
+alias fdb='fdisk /dev/sdb' 
+alias fdb1='fdisk /dev/sdb1'  
+alias fdb2='fdisk /dev/sdb2'  
+alias fdb3='fdisk /dev/sdb3' 
 
 #-------------------------------------------------------------
 # i3 
@@ -271,9 +273,12 @@ alias xmpm='xmodmap -pm'
 alias xmpke='xmodmap -pke'
 alias xmg='xmodmap -pke | grep'
 
+# keyboard switching
 alias zxc='xmodmap ~/.Xmodmap_razor_V500'
-alias xmhp='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
+alias qwe='xmodmap ~/.Xmodmap_HP2760_broken_left_arrow_key'
 
+# æøå said the wildling
+# when WM/DE language switcher messes up xmodmap (or vice versa)
 alias sxku='setxkbmap -layout us'
 alias sxkd='setxkbmap -layout dk'
 
