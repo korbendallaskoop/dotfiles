@@ -142,6 +142,7 @@ https://opensource.com/article/19/3/move-your-dotfiles-version-control
 - file paths with identifiable folder names, /myNextcloud_provider/my_username
 - same for launcher and search index dbs
 - IRC configs and logs
+- .netrc
 
 ### Why not back by any other sync/cloud method?
 
@@ -161,24 +162,30 @@ https://help.github.com/en/articles/what-is-my-disk-quota#file-and-repository-si
 
 ### .bashrc aliases
 
-	alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME'
 
-	# add a file or folder to repo:
-	alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
-	# or remove:
-	alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached'
+# add a file or folder to repo:
+alias cfga='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME add'
+# or remove:
+alias cfgr='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME rm -r --cached'
 
-	# stage and commit status:
-	alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
-	# show textual staged edits to be committed and changes in the working tree that have not yet been staged:
-	alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v'
-	# list all repo'd files:
-	alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
-	# add -d to list folders only
-	# list all repo'd files and grep <string>
-	alias cfgg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
+# stage and commit status:
+alias cfgs='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status'
 
-	# commit
-	alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a'
-	# push
-	alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
+# show textual staged edits to be committed and changes in the working tree that have not yet been staged:
+alias cfgsv='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME status -v -v'
+
+# list all repo'd files:
+alias cfgl='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master'
+
+# add -d to list folders only
+# list all repo'd files and grep <string>
+alias cfgg='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME ls-tree -tr --name-only --full-name --full-tree master | grep'
+
+# commit
+alias cfgc='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m'
+# push
+alias cfgp='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME push'
+
+# quick push w. generic 'minor_update' message
+alias cfgq='/usr/bin/git --git-dir=$HOME/.cfg_bckp/ --work-tree=$HOME commit -a -m minor_update; cfg push'
