@@ -100,12 +100,13 @@ alias lf='ls -lv --group-directories-first'
 alias lr='ll -Rh'           #  Recursive ls.
 
 alias tree='tree -Csuh'    #  Nice alternative to 'recursive ls' ...
+alias woods='tree -Csuha'    #  now with .dotfiles
 
 #-------------------------------------------------------------
 
 # yes we can
-alias cm='./configure && make'    #
-alias smi='sudo make install'    #
+alias cm='./configure && make'   
+alias smi='sudo make install'    
 
 #-------------------------------------------------------------
 # from Kubunu 18.10 .bashrc defaults

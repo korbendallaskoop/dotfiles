@@ -344,3 +344,10 @@ alias spwn3g='fallocate -l 3G 3G_file.img'
 alias spwn5g='fallocate -l 5G 5G_file.img'
 alias spwn11g='fallocate -l 11G 11G_file.img'
 alias spwn22g='fallocate -l 22G 22G_file.img'
+
+#-------------------------------------------------------------
+# https://www.labnol.org/internet/useful-ffmpeg-commands/28490/
+# http://ffmpeg.org/ffmpeg.html#Video-and-Audio-file-format-conversion
+# https://blog.superuser.com/2012/02/24/ffmpeg-the-ultimate-video-and-audio-manipulation-tool/
+
+alias fmp='ffmpeg'
