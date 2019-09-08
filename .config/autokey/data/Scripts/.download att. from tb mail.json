@@ -1,9 +1,11 @@
 {
     "type": "script",
-    "description": "Alt F4",
+    "description": "download att. from tb mail",
     "store": {},
-    "modes": [],
-    "usageCount": 19,
+    "modes": [
+        3
+    ],
+    "usageCount": 50,
     "prompt": false,
     "omitTrigger": false,
     "showInTrayMenu": false,
