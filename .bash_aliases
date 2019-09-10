@@ -351,3 +351,26 @@ alias spwn22g='fallocate -l 22G 22G_file.img'
 # https://blog.superuser.com/2012/02/24/ffmpeg-the-ultimate-video-and-audio-manipulation-tool/
 
 alias fmp='ffmpeg'
+
+#-------------------------------------------------------------
+# flatpak
+
+alias fp='flatpak'
+alias fpi='flatpak install'
+alias fpup='flatpak update'
+alias fpu='flatpak uninstall'
+alias fpl='flatpak list'
+
+#  info                Show info for installed app or runtime
+#  config              Configure flatpak
+#  repair              Repair flatpak installation
+#  create-usb          Put apps and/or runtimes onto removable media
+
+#  search              Search for remote apps/runtimes
+
+#  run                 Run an application
+#  ps                  Enumerate running applications
+
+#  remotes             List all configured remotes
+#  remote-add          Add a new remote repository (by URL)
+#  remote-ls           List contents of a configured remote
