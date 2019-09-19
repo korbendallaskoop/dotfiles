@@ -2,27 +2,9 @@
   <configuration>
     <logicalmonitor>
       <x>0</x>
-      <y>95</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>LVDS1</connector>
-          <vendor>SEC</vendor>
-          <product>0x5741</product>
-          <serial>0x00000000</serial>
-        </monitorspec>
-        <mode>
-          <width>1280</width>
-          <height>800</height>
-          <rate>59.976009368896484</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
-      <x>1280</x>
       <y>0</y>
       <scale>1</scale>
+      <primary>yes</primary>
       <monitor>
         <monitorspec>
           <connector>VGA1</connector>
@@ -34,6 +16,24 @@
           <width>1280</width>
           <height>1024</height>
           <rate>75.024673461914062</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1280</x>
+      <y>73</y>
+      <scale>1</scale>
+      <monitor>
+        <monitorspec>
+          <connector>LVDS1</connector>
+          <vendor>SEC</vendor>
+          <product>0x5741</product>
+          <serial>0x00000000</serial>
+        </monitorspec>
+        <mode>
+          <width>1280</width>
+          <height>800</height>
+          <rate>59.976009368896484</rate>
         </mode>
       </monitor>
     </logicalmonitor>
