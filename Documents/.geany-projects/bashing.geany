@@ -28,8 +28,8 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=13813;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fkorben%2F.bash_aliases;0;4
+current_page=4
+FILE_NAME_0=11269;Sh;0;EUTF-8;1;1;0;%2Fhome%2Fkorben%2F.bash_aliases;0;4
 FILE_NAME_1=601;Conf;0;EUTF-8;1;1;0;%2Fhome%2Fkorben%2F.bashrc;0;4
 FILE_NAME_2=1127;None;0;EUTF-8;1;1;0;%2Fhome%2Fkorben%2F.Xmodmap_razor_V500;0;4
 FILE_NAME_3=411;None;0;EUTF-8;1;1;1;%2Fhome%2Fkorben%2FDocuments%2Fcontributing%20to%20open%20source%20and%20the%20commons;0;4
