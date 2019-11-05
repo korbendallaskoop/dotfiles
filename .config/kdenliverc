@@ -7,25 +7,29 @@ Height 800=533
 Width 1280=853
 
 [KFileDialog Settings]
-Recent Files[$e]=tst.png,file:$HOME/Videos/WP_20190406_06_49_52_Pro.mp4,file:$HOME/Videos/shotcut tst/WP_20190218_11_43_51_Pro.mp4,file:$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/WP_20190219_15_04_14_Pro.mp4,file:$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/190219-150355.MP3
-Recent URLs[$e]=file:$HOME/Videos/
+Recent Files[$e]=file:///run/media/korben/WD500GB/Baek weekend 2019/,file:$HOME/Videos/WP_20190406_06_49_52_Pro.mp4,file:$HOME/Videos/shotcut tst/WP_20190218_11_43_51_Pro.mp4,file:$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/WP_20190219_15_04_14_Pro.mp4,file:$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/190219-150355.MP3
+Recent URLs[$e]=file:///run/media/korben/WD500GB/Baek weekend 2019/
+listViewIconSize=0
 
 [MainWindow]
-Height 1024=480
+Height 1024=996
 Height 720=720
 Height 768=839
 Height 800=800
-State=AAAA/wAAAAD9AAAAAQAAAAIAAAUAAAABS/wBAAAADPsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAXgD////7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAcAD////7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAbAD////8AAAAAAAAAZ4AAAB/AP////oAAAAAAQAAAAP7AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAAA/////wAAAFoA////+wAAAB4AYwBsAGkAcABfAHAAcgBvAHAAZQByAHQAaQBlAHMBAAAAAP////8AAABaAP////sAAAAWAHAAcgBvAGoAZQBjAHQAXwBiAGkAbgEAAAAAAAABzAAAAF4A/////AAAAaQAAADZAAAATAD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQAAAAAAP////8AAABMAP////sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAEwA/////AAAAoMAAAJ9AAABQAD////6AAAAAQEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFAAP////sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABQAD////7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAF4A////+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABUQD////7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAETQAAALMAAACzAP////sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACuAP////sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABVQD////7AAAAFABzAGMAcgBlAGUAbgBnAHIAYQBiAAAAAAD/////AAAAhgD///8AAAUAAAACMAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIBAAACTv////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAUAAAABS/wBAAAADPsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAAXgD////7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAcAD////7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAbAD////8AAAAAAAAAYYAAAB/AP////oAAAAAAQAAAAP7AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAAA/////wAAAFoA////+wAAAB4AYwBsAGkAcABfAHAAcgBvAHAAZQByAHQAaQBlAHMBAAAAAP////8AAABaAP////sAAAAWAHAAcgBvAGoAZQBjAHQAXwBiAGkAbgEAAAAAAAABzAAAADkA/////AAAAYwAAADxAAAATAD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQAAAAAAP////8AAABMAP////sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAEwA/////AAAAoMAAAJ9AAABQAD////6AAAAAQEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFAAP////sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAAAEwD////7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAF4A////+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABUQD////7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAETQAAALMAAACzAP////sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACuAP////sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABVQD////7AAAAFABzAGMAcgBlAGUAbgBnAHIAYQBiAAAAAAD/////AAAAhgD///8AAAUAAAACMAAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIBAAACTv////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1024=1280
-Width 1280=649
-Window-Maximized 1024x1280=true
+Width 1280=1280
 Window-Maximized 720x1280=true
+Window-Maximized 800x1280=true
+
+[Notification Messages]
+confirm_removable_device=false
 
 [Recent Dirs]
-KdenliveClipFolder[$e]=$HOME/Videos/,$HOME/Videos/kdenlive/skærmfilm/batch titles/,$HOME/Videos/OBS/
+KdenliveClipFolder[$e]=/run/media/korben/WD500GB/Baek weekend 2019/,$HOME/Videos/,$HOME/Videos/kdenlive/skærmfilm/batch titles/
 KdenliveFramesFolder[$e]=$HOME/Videos/kdenlive/skærmfilm/ole1/,$HOME/Videos/kdenlive/greenscrn/,$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/
-KdenliveProjectsFolder[$e]=$HOME/Videos/kdenlive/skærmfilm/ole2,$HOME/Videos/kdenlive/skærmfilm/ole1,$HOME/Videos/kdenlive/greenscrn
+KdenliveProjectsFolder[$e]=$HOME/Videos/kdenlive/Baek weekend 2019,$HOME/Videos/kdenlive/skærmfilm/ole2,$HOME/Videos/kdenlive/skærmfilm/ole1
 
 [Recent Files]
 File1[$e]=$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/pedals amps ozonic_backup0.kdenlive
@@ -34,18 +38,14 @@ File3[$e]=$HOME/Videos/kdenlive/pedals for sale/pedals for sale.kdenlive
 File4[$e]=$HOME/Videos/kdenlive/pedals_noise_amps_ozonic/pedals amps ozonic.kdenlive
 File5[$e]=$HOME/Videos/kdenlive/greenscrn/greenscrn.kdenlive
 File6[$e]=$HOME/Videos/kdenlive/greenscrn/greenscrn2.kdenlive
-File7[$e]=$HOME/Videos/kdenlive/skærmfilm/ole1/ole1 - mic daws fx format.kdenlive
-File8[$e]=$HOME/Videos/kdenlive/skærmfilm/ole2/mics_lyd_DAWs.kdenlive
-File9[$e]=$HOME/Videos/kdenlive/skærmfilm/ole2/mics_lyd_DAWs - edit practise cut.kdenlive
+File7[$e]=$HOME/Videos/kdenlive/Baek weekend 2019/Baek weekend 2019.kdenlive
 Name1[$e]=pedals amps ozonic_backup0.kdenlive
 Name2[$e]=pedals amps ozonic bfr.kdenlive
 Name3[$e]=pedals for sale.kdenlive
 Name4[$e]=pedals amps ozonic.kdenlive
 Name5[$e]=greenscrn.kdenlive
 Name6[$e]=greenscrn2.kdenlive
-Name7[$e]=ole1 - mic daws fx format.kdenlive
-Name8[$e]=mics_lyd_DAWs.kdenlive
-Name9[$e]=mics_lyd_DAWs - edit practise cut.kdenlive
+Name7[$e]=Baek weekend 2019.kdenlive
 
 [Scope_Histogram]
 autoRefresh=true
@@ -101,7 +101,7 @@ rect_line_width=0
 use_grid=false
 
 [bin]
-treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAA+AAABtgAAAAMBAQABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAAG2AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAEc=
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAZAAAAAEAAAA+AAABhAAAAAMBAQABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAMAAAGEAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAPoAAAAAEc=
 
 [capture]
 decklink_capturedevice=4294967295
@@ -173,4 +173,4 @@ selected_effecttab=1
 widgetstyle=plastique
 
 [version]
-version=19.08.0
+version=19.08.1

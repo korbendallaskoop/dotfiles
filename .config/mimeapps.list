@@ -64,3 +64,4 @@ image/gif=eog.desktop;feh.desktop;
 application/x-shellscript=geany.desktop;
 application/vnd.oasis.opendocument.text=okularApplication_ooo.desktop;abiword.desktop;
 audio/x-vorbis+ogg=vlc.desktop;
+image/x-adobe-dng=darktable.desktop;

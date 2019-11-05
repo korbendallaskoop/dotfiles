@@ -10,7 +10,7 @@ MultiUser=true
 Language=English (US)
 LanguageAutoDetect=true
 Theme=RawTherapee-GTK3-20_
-Version=5.5
+Version=5.7
 DarkFramesPath=
 FlatFieldsPath=
 Verbose=false
@@ -66,6 +66,12 @@ MaxInspectorBuffers=2
 InspectorDelay=0
 PreviewDemosaicFromSidecar=1
 SerializeTiffRead=true
+Measure=0
+ChunkSizeAMAZE=2
+ChunkSizeRCD=2
+ChunkSizeRGB=2
+ChunkSizeXT=2
+ChunkSizeCA=2
 ThumbnailInspectorMode=0
 
 [Output]
@@ -100,7 +106,7 @@ UseBundledProfiles=true
 LoadSaveProfilePath=/home/korben/.config/RawTherapee/profiles
 RawDefault=${G}/Auto-Matched Curve - ISO Low
 ImgDefault=Neutral
-FilledProfile=false
+FilledProfile=true
 SaveParamsWithFile=true
 SaveParamsToCache=false
 LoadParamsFromLocation=1
@@ -108,6 +114,7 @@ CustomProfileBuilderPath=
 CustomProfileBuilderKeys=0
 
 [GUI]
+Favorites=
 WindowWidth=1200
 WindowHeight=680
 WindowX=0
@@ -130,7 +137,7 @@ PreferencesWidth=800
 PreferencesHeight=600
 SaveAsDialogWidth=920
 SaveAsDialogHeight=680
-ToolPanelWidth=316
+ToolPanelWidth=388
 BrowserToolPanelWidth=420
 BrowserToolPanelHeight=533
 BrowserToolPanelOpened=true
@@ -141,20 +148,21 @@ FontFamily=default
 FontSize=10
 CPFontFamily=default
 CPFontSize=8
+PseudoHiDPISupport=false
 LastPreviewScale=5
 LastShowAllExif=false
 PanAccelFactor=5
 RememberZoomAndPan=true
 LastCropSize=1
-ShowHistory=true
+ShowHistory=false
 ShowFilePanelState=0
-ShowInfo=false
+ShowInfo=true
 MainNBVertical=false
 ShowClippedHighlights=false
 ShowClippedShadows=false
-FrameColor=0
+FrameColor=1
 ProcessingQueueEnbled=false
-ToolPanelsExpanded=1;0;1;0;0;1;1;0;1;1;1;1;1;1;1;1;1;0;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;
+ToolPanelsExpanded=1;0;1;0;0;1;1;0;1;1;1;1;1;1;1;1;0;1;0;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;
 ToolPanelsExpandedAutoSave=true
 MultiDisplayMode=1
 CutOverlayBrush=0;0;0;0.66698710612649725;
@@ -196,7 +204,7 @@ MonitorBPC=true
 AdobeRGB=RTv2_Medium
 ProPhoto=RTv2_Large
 WideGamut=RTv2_Wide
-sRGB=RTv2_sRGB
+sRGB=RTv4_sRGB
 Beta=RTv2_Beta
 Best=RTv2_Best
 Rec2020=RTv2_Rec2020
@@ -233,7 +241,7 @@ Copyright=Copyright RawTherapee 2019, CC0
 AppendParamsToDesc=false
 
 [Batch Processing]
-AdjusterBehavior=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;
+AdjusterBehavior=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;
 
 [Sounds]
 Enable=true
@@ -291,6 +299,7 @@ LastVibranceCurvesDir=/home/korben/.config/RawTherapee/profiles
 LastProfilingReferenceDir=/home/korben/.config/RawTherapee/profiles
 LastLensProfileDir=
 LastICCProfCreatorDir=/home/korben/.config/RawTherapee/profiles
+LastCopyMovePath=
 GimpPluginShowInfoDialog=true
 
 [Lensfun]

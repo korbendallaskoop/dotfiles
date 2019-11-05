@@ -1,4 +1,4 @@
-<effect type="custom" tag="frei0r.select0r" id="sort pen på green" LC_NUMERIC="C" effectcolor="#5114fc" version="0.4">
+<effect type="customVideo" tag="frei0r.select0r" id="sort pen på green" LC_NUMERIC="C" effectcolor="#5114fc" version="0.4">
  <name>sort pen på green</name>
  <description>Color based alpha selection</description>
  <author>Marko Cebokli</author>

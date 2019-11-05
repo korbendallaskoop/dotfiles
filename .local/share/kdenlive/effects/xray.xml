@@ -1,4 +1,4 @@
-<effect type="custom" tag="frei0r.colortap" id="xray" effectcolor="#45e8ad" disable="0">
+<effect type="customVideo" tag="frei0r.colortap" id="xray" effectcolor="#45e8ad" disable="0">
  <name>xray</name>
  <description>Applies a pre-made color effect to image</description>
  <author>Janne Liljeblad</author>

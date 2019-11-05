@@ -1,8 +1,8 @@
 # GIMP action-history
 
 (history-item "edit-clear" 1)
-(history-item "tools-zoom" 1)
-(history-item "file-quit" 1)
+(history-item "tools-zoom" 0)
+(history-item "file-quit" 2)
 (history-item "windows-tab-position" 3)
 (history-item "select-all" 0)
 (history-item "tools-move" 1)
